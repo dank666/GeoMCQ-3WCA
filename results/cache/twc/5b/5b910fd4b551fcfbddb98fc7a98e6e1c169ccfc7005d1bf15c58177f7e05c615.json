@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-040",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：洋流可以加快污染海域的净化速度，但同时也会扩大污染范围，这体现了地理环境的（）\n\n待判断的选项：\nA. 独立性\nB. 差异性\nC. 整体性\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 洋流：上位：海水运动；特征：大规模海水流动、方向相对稳定、沿一定路径运动；成因：盛行风、密度差异、地转偏向力、陆地形状；影响：调节全球热量、影响气候、影响渔场分布、影响航海；分布：各大洋\n- 污染：上位：环境问题；特征：有害物质进入环境、危害人体健康、破坏生态平衡；成因：人类活动排放污染物、工业过度排放；影响：环境质量下降、生态系统破坏\n- 海域：上位：海洋区域；特征：国家管辖范围、资源丰富、法律地位明确；成因：国际法规定、国家主权；影响：维护国家海洋权益、资源开发与管理；分布：中国海域\n- 净化：上位：环境自净；特征：降解污染物、恢复环境；成因：物理作用、化学作用、生物作用；影响：改善环境质量、维持生态平衡；分布：湿地、森林、水体\n- 扩大污染范围：上位：环境污染影响；特征：污染面积增大、污染程度加重、影响范围扩展；成因：污染物排放、水体流动、大气扩散、人类活动；影响：生态破坏、经济损失、健康危害\n- 地理环境：上位：自然环境、人文环境；特征：整体性、差异性、区域性、动态性；成因：地球圈层相互作用、人类活动影响；影响：影响人类活动、提供物质基础；分布：全球、区域\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 体现了地理环境中的对立统一性\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 506,
+  "total_tokens": 524,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 506
+ },
+ "created": 1792772510
+}

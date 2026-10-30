@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:geomcq-multiple-HY-023",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n水质型短缺是指水资源总量充足，但因污染导致水质变差，无法正常利用，下列说法正确的有（）\n\nOptions:\nA. 主要由工业废水、生活污水排放导致\nB. 可通过污水处理、加强环保监管缓解\nC. 我国东部沿海部分地区存在水质型缺水\n\nInstructions:\n1. One or more options may be correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "ABC",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 139,
+  "total_tokens": 140,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 139
+ },
+ "created": 1792774439
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-053",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：青藏高原上分布着众多雪山和冰川，这些冰川是我国许多大河的发源地，如长江、黄河、澜沧江等，结合冰川的形成条件，青藏高原冰川广布的主要原因是（ ）\n\n待判断的选项：\nA. 海拔高，气温低，积雪不易融化\nB. 降水多，积雪堆积\nC. 纬度高，气温低\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 青藏高原：上位：高原；特征：平均海拔4000米以上、面积最大高原、冰川广布；成因：印度洋板块与亚欧板块碰撞；影响：影响亚洲气候、大河发源地；分布：中国西南部、亚洲中部\n- 冰川水：上位：陆地水体；特征：固态水、淡水主体、更新慢；成因：降水积累、低温环境；影响：重要淡水资源、影响河流补给；分布：南极、格陵兰、青藏高原\n- 大河：上位：河流；特征：流程长、流域面积广、水量丰富；影响：提供水源、航运便利、塑造平原；分布：中国、埃及、巴西\n- 长江：上位：河流、水系；特征：中国第一长河、水量丰富、水能蕴藏量大、航运价值高；成因：青藏高原隆起、降水丰富；影响：塑造长江中下游平原、提供水资源、发展内河航运；分布：青藏高原、四川盆地、长江中下游平原\n- 黄河：上位：河流；特征：含沙量大、地上河、凌汛；成因：流经黄土高原、降水集中；影响：水土流失、泥沙淤积；分布：黄土高原、华北平原\n- 广布：上位：空间分布特征；特征：分布范围广、相对均匀；成因：自然条件适宜、扩散能力强；影响：资源总量大、利用便利\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成青藏高原冰川广布的主要原因\n2. 符合冰川形成的地理条件\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 511,
+  "total_tokens": 538,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 511
+ },
+ "created": 1792769330
+}

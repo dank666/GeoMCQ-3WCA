@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-CL-017",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n气旋（低压系统）控制下，空气上升，易形成阴雨天气，下列属于气旋控制下的天气现象有（）\n\nOptions:\nA. 大风\nB. 暴雨\nC. 晴朗干燥\n\nInstructions:\n1. At least two options are correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nAB",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 116,
+  "total_tokens": 118,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771794
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-SV-046",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n下列关于荒漠植被生态功能的说法，正确的有（）\n\nOptions:\nA. 虽然植被稀疏，但能固定沙丘，减少沙漠扩张\nB. 荒漠植被无任何生态价值，可全部清除\nC. 能吸收少量水分，减缓土壤蒸发，改善局部微环境\n\nInstructions:\n1. At least two options are correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nAC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 132,
+  "total_tokens": 134,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771844
+}

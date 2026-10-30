@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-047",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流的流域分界线主要是山脉，山脉的走向决定了流域的范围，东西走向的山脉会成为南北方向河流的流域分界线，南北走向的山脉会成为东西方向河流的流域分界线，某山脉是东西走向，位于我国中部，成为我国南方和北方河流的流域分界线，结合山脉走向和流域分界线的关系，该山脉是（ ）\n\n待判断的选项：\nA. 太行山\nB. 昆仑山\nC. 秦岭\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是东西走向的山脉\n2. 位于我国中部\n3. 成为我国南方和北方河流的流域分界线\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n    \"A\": [\"否\", \"否\", \"否\"],\n    \"B\": [\"否\", \"否\", \"否\"],\n    \"C\": [\"是\", \"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 237,
+  "total_tokens": 278,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772253
+}

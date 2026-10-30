@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-088",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地质时期与现代，地貌形成共同作用是（）\n\n待判断的选项：\nA. 内力作用\nB. 人类活动主导\nC. 外力作用\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地质：上位：地球科学、自然地理；特征：研究地球物质、研究地质作用、时间尺度大；成因：地球内动力、地球外动力；影响：认识地球演化、指导资源勘探、防治地质灾害；分布：地壳、岩石圈、地表\n- 地貌发育：上位：地质作用过程、地表形态演变；特征：长期性、阶段性、内外力共同作用；成因：地壳运动、流水侵蚀、风化作用；影响：形成地貌类型、改变地表形态、影响自然环境；分布：河流流域、喀斯特地区、干旱区\n- 内力作用：上位：地质作用；特征：能量来自地球内部、使地表高低起伏、作用缓慢而持久；成因：地球内能释放、放射性元素衰变；影响：形成山脉盆地、塑造地表形态、引发地震火山；分布：板块交界带、造山带、裂谷带\n- 人类活动：上位：人地关系；特征：有目的性、受自然条件影响、改造自然环境、具有地域性；成因：人类需求、社会发展；影响：改变自然环境、形成人文景观、产生环境问题\n- 外力作用：上位：地质作用；特征：来自地球外部、主要是太阳能和重力能、使地表趋于平缓；成因：太阳辐射能、重力能；影响：塑造地表形态、削高填低；分布：地表\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是地质时期与现代地貌形成的共同作用\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 453,
+  "total_tokens": 471,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 453
+ },
+ "created": 1792769648
+}

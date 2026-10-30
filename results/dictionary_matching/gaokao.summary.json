@@ -1,0 +1,39 @@
+{
+ "split": "gaokao",
+ "params": {
+  "theta": 0.25,
+  "max_objects": 16,
+  "base_threshold": 0.3,
+  "premise_match": 0.6,
+  "pct_conf": 0.8,
+  "pct_supp": 0.8,
+  "pct_strength": 0.9,
+  "relax": 0.7,
+  "min_rules": 3,
+  "min_multi": 2
+ },
+ "dictionary_entries": 7685,
+ "results": {
+  "all": {
+   "acc": 25.71,
+   "jaccard": 25.71,
+   "n": 245
+  },
+  "format:statement_combo": {
+   "acc": 22.22,
+   "jaccard": 22.22,
+   "n": 36
+  },
+  "type:single": {
+   "acc": 25.71,
+   "jaccard": 25.71,
+   "n": 245
+  },
+  "_diagnostics": {
+   "fallback_rate": 0.3143,
+   "relaxed_rate": 0.6327,
+   "mean_rules": 3.39,
+   "mean_objects": 9.15
+  }
+ }
+}

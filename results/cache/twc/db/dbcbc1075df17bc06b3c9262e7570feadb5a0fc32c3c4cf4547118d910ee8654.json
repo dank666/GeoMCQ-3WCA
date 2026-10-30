@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-047",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n河流的流域分界线主要是山脉，山脉的走向决定了流域的范围，东西走向的山脉会成为南北方向河流的流域分界线，南北走向的山脉会成为东西方向河流的流域分界线，某山脉是东西走向，位于我国中部，成为我国南方和北方河流的流域分界线，结合山脉走向和流域分界线的关系，该山脉是（ ）\n\nOptions:\nA. 太行山\nB. 昆仑山\nC. 秦岭\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 154,
+  "total_tokens": 156,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771663
+}

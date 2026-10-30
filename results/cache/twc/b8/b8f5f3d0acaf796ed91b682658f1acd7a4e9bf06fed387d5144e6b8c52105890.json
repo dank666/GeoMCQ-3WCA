@@ -1,0 +1,50 @@
+{
+ "tag": "DIRECT:agieval-193",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n“一带一路”是互惠双赢之路，它对密切我国与沿线国家之间的经济贸易联系意义重大。与俄罗斯的合作有利于我国 ( ) ①引进大量民间资本 ②输入大量剩余劳动力③进口大量油气资源 ④拓宽产品的销售市场\n\nOptions:\nA. ①②\nB. ②③\nC. ③④\nD. ①④\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "C",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 157,
+  "total_tokens": 158,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 157
+ },
+ "created": 1792771488
+}

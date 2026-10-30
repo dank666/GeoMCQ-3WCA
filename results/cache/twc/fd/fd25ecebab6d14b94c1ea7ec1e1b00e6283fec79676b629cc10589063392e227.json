@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-GPP-082",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n有利于雾形成的条件是（）\n\nOptions:\nA. 近地面空气冷却\nB. 风力强劲\nC. 水汽充足\n\nInstructions:\n1. One or more options may be correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nAC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 98,
+  "total_tokens": 100,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771715
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-040",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：人类活动中，围湖造田会减少湖泊面积，降低湖泊的调蓄能力，导致河流流量季节变化增大，洪涝灾害加剧，某地区近年来大量围湖造田，湖泊面积大幅减少，结合围湖造田的影响，该地区河流的变化是（ ）\n\n待判断的选项：\nA. 流量季节变化增大、洪涝加剧\nB. 流量季节变化减小、洪涝减少\nC. 含沙量减小、水质变好\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 人类活动：上位：人地关系；特征：有目的性、受自然条件影响、改造自然环境、具有地域性；成因：人类需求、社会发展；影响：改变自然环境、形成人文景观、产生环境问题\n- 围湖造田：上位：人类活动、土地利用方式；特征：侵占水域、改变湿地用途、增加耕地；成因：人多地少、粮食需求、政策鼓励；影响：湖泊面积缩小、调蓄洪水能力下降、生物多样性减少；分布：洞庭湖平原、鄱阳湖平原、江汉平原\n- 湖泊：上位：水体、地表水；特征：封闭性、流动性差、生态功能；成因：地壳运动、冰川作用、火山活动；影响：调节径流、维持生物多样性、提供水资源；分布：长江中下游、青藏高原、五大湖\n- 调蓄：上位：水文调节、径流控制；特征：丰枯调节、削峰补枯、蓄洪滞涝；成因：降水季节变化、径流不均；影响：防洪抗旱、稳定供水、改善生态；分布：长江流域、黄河流域、珠江流域\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 流量：上位：水文要素；特征：单位时间水量、季节变化；成因：降水、流域面积；影响：水资源量、洪涝灾害；分布：河流、水库\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是围湖造田导致该地区河流确实发生的变化\n2. 符合围湖造田降低调蓄能力的地理原理\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 588,
+  "total_tokens": 615,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 588
+ },
+ "created": 1792769025
+}

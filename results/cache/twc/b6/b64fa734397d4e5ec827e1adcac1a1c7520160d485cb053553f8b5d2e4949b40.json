@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-025",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：褶皱构造中，叙述正确的是（）\n\n待判断的选项：\nA. 断层属于褶皱\nB. 向斜岩层向下弯\nC. 背斜岩层向上拱\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 褶皱：上位：地质构造；特征：岩层弯曲变形、岩层连续、常成山脉；成因：地壳水平挤压、岩层受力变形；影响：形成山脉、影响地貌、储存油气；分布：喜马拉雅山、阿尔卑斯山、安第斯山\n- 断层：上位：地质构造；特征：岩层断裂、位移明显、线状分布；成因：地壳运动、应力作用；影响：形成断层谷、形成断块山、诱发地震；分布：东非大裂谷、华山、庐山\n- 向斜：上位：褶皱构造；特征：岩层向下弯曲、中心岩层新、两翼岩层老、常成谷地；成因：水平挤压；影响：地形倒置、储水构造；分布：褶皱山区\n- 岩层：上位：岩石、地质构造；特征：层状结构、地质历史记录、产状变化；成因：沉积作用、岩浆活动、变质作用；影响：地质构造、矿产资源、地下水储存；分布：沉积盆地、山区、平原\n- 背斜：上位：地质构造；特征：岩层向上拱起、中心老两翼新、常成山岭、顶部易侵蚀；成因：地壳运动、岩层挤压；影响：形成储油构造、影响隧道选址、形成背斜谷；分布：褶皱山区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于褶皱构造的叙述符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 461,
+  "total_tokens": 479,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 461
+ },
+ "created": 1792769563
+}

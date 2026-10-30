@@ -1,0 +1,50 @@
+{
+ "tag": "DIRECT:geomcq-single-TG-033",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n地形的五种基本类型各有不同的海拔和起伏特征，结合五种地形的核心定义和特征，下列地形中，地表起伏最小且海拔最低，适合大规模农业种植和城市建设的是（ ）\n\nOptions:\nA. 丘陵\nB. 山地\nC. 平原\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "C",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 128,
+  "total_tokens": 129,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 128
+ },
+ "created": 1792771291
+}

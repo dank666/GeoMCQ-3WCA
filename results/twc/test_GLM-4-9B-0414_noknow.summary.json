@@ -1,0 +1,70 @@
+{
+ "split": "test",
+ "model": "THUDM/GLM-4-9B-0414",
+ "params": {
+  "knowledge": false,
+  "max_knowledge": 6,
+  "min_multi": 2,
+  "defer": true,
+  "three_valued": true,
+  "max_conditions": 6
+ },
+ "dcr": null,
+ "results": {
+  "all": {
+   "acc": 89.27,
+   "jaccard": 93.61,
+   "n": 960
+  },
+  "domain:CL": {
+   "acc": 80.0,
+   "jaccard": 88.75,
+   "n": 160
+  },
+  "domain:GPP": {
+   "acc": 91.25,
+   "jaccard": 93.54,
+   "n": 160
+  },
+  "domain:HEG": {
+   "acc": 90.62,
+   "jaccard": 96.25,
+   "n": 160
+  },
+  "domain:HY": {
+   "acc": 90.0,
+   "jaccard": 95.21,
+   "n": 160
+  },
+  "domain:SV": {
+   "acc": 92.5,
+   "jaccard": 95.62,
+   "n": 160
+  },
+  "domain:TG": {
+   "acc": 91.25,
+   "jaccard": 92.29,
+   "n": 160
+  },
+  "type:multiple": {
+   "acc": 84.79,
+   "jaccard": 93.47,
+   "n": 480
+  },
+  "type:single": {
+   "acc": 93.75,
+   "jaccard": 93.75,
+   "n": 480
+  },
+  "_diagnostics": {
+   "deferred_rate": 0.1615,
+   "acc_context": 90.81,
+   "mean_calls": 2.161,
+   "mean_prompt_tokens": 484.4,
+   "mean_completion_tokens": 46.7,
+   "mean_conditions": 1.52,
+   "undetermined_rate": 0.0586,
+   "mean_dcr_terms": 0.0
+  }
+ }
+}

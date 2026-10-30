@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-001",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：人口自然增长率等于出生率减去死亡率，当出生率长期高于死亡率时，人口总量最可能出现的变化是：\n\n待判断的选项：\nA. 持续增长\nB. 保持不变\nC. 持续减少\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 人口自然增长：上位：人口增长；特征：由出生死亡决定、具有阶段差异、受社会经济影响；成因：出生率变化、死亡率变化、生产力发展；影响：改变人口数量、影响人口结构、影响资源环境\n- 出生率：上位：人口自然变动指标；特征：一定时期出生人数比、通常用千分率、反映生育水平；成因：生育政策、经济发展水平、婚育观念；影响：影响人口增长、影响年龄结构\n- 死亡率：上位：人口统计指标；特征：一定时期、单位人口、死亡人数比值；成因：医疗水平、年龄结构、环境条件；影响：反映人口健康、影响人口增长\n- 人口规模：上位：人口特征；特征：数量特征、受自然增长和迁移影响、区域差异大；成因：出生率、死亡率、迁移率；影响：影响资源环境、影响经济发展、影响城市化；分布：中国、印度、美国\n- 变迁：上位：地理过程；特征：动态性、长期性、阶段性；成因：自然因素、人为因素；影响：地理格局改变、人地关系调整\n- 持续增长：上位：人口增长；特征：长期性、增长趋势；成因：高出生率、低死亡率；影响：人口压力、资源紧张\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 人口总量最可能出现增长\n2. 是人口自然增长率长期为正的结果\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 497,
+  "total_tokens": 524,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 497
+ },
+ "created": 1792772564
+}

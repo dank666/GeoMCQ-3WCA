@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-064",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：水资源的人均占有量主要受人口和水资源总量影响，水资源总量多、人口少的地区，人均水资源占有量多；水资源总量少、人口多的地区，人均水资源占有量少，某地区水资源总量丰富，但人口众多，结合人均水资源的影响因素，该地区的人均水资源占有量是（ ）\n\n待判断的选项：\nA. 人均占有量多\nB. 人均占有量少\nC. 人均占有量适中\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 水资源：上位：自然资源；特征：可再生性、时空分布不均、有限性、多用性；成因：水循环作用、降水补给；影响：支撑生产生活、维持生态平衡；分布：长江流域、黄河流域、华北平原\n- 占有量：上位：资源评价、人均指标、人口与资源关系；特征：水资源占有量、耕地占有量、计算方式、区域差异\n- 人口：上位：地理要素；特征：社会属性、数量与质量统一、时空变化；成因：自然因素、社会经济因素；影响：影响资源环境、影响经济发展\n- 水资源总量：上位：水资源特征；特征：动态性、可再生性、区域差异大；成因：降水补给、冰川融水、地下水补给；影响：决定区域供水能力、影响工农业布局、制约经济发展；分布：中国、巴西、俄罗斯、加拿大\n- 人口众多：上位：人口特征；特征：人口基数大、增长速度快、年龄结构年轻；成因：高出生率、死亡率下降、人口惯性；影响：资源压力大、环境压力大、就业压力大；分布：中国、印度、东南亚\n- 影响因素：上位：地理因素；特征：多样性、综合性；成因：地理环境复杂性；影响：导致地理现象变化\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是结合人均水资源影响因素得出的结论\n2. 符合水资源总量丰富但人口众多的情境\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"是\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 510,
+  "total_tokens": 537,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 510
+ },
+ "created": 1792769056
+}

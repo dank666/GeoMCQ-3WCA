@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:常住人口||17f54ef77c58",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“常住人口”编写一个词典条目，供符号推理系统使用。\n\n题干：与2014年相比，2015年上海市的常住人口减少了10.41万人，外来常住人口更是减少了14.77万人，这是近20年首次出现的人口负增长．调查发现减少的外来常住人口主要流向上海周边的中小城市．上海市已制定“十三五”期间人口增长由数量型向质量型转变的策略．据此完成4～6题．今后，上海市引进产业从业人员将主要分布在()\n选项：\nA. 资源密集型产业\nB. 劳动密集型产业\nC. 资金密集型产业\nD. 知识密集型产业\n\n词典中已有条目的示例：\n{\"term\": \"上海市\", \"category\": \"PLACE\", \"parent_level\": \"直辖市；城市；地理位置优越；政策支持\", \"child_level\": \"国际经济中心；长江三角洲核心城市；人口密集\"}\n{\"term\": \"产业\", \"category\": \"INDUSTRY\", \"parent_level\": \"经济活动；社会分工；生产力发展\", \"child_level\": \"第一产业；第二产业；第三产业；生产物质产品；提供劳务服务；具有地域分布\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"POPCITY\", \"parent_level\": \"人口统计指标；户籍人口对比；区域人口规模\", \"child_level\": \"实际居住半年以上；包含外来常住人口；反映人口流动\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 52,
+  "prompt_tokens": 534,
+  "total_tokens": 586,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 534
+ },
+ "created": 1792770648
+}

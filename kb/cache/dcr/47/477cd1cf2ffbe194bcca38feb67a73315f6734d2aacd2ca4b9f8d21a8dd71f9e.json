@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:热岛||76b381f74a70",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“热岛”编写一个词典条目，供符号推理系统使用。\n\n题干：热岛效应使城区比郊区()\n选项：\nA. 风速更大\nB. 气温高\nC. 上升气流更强\n\n词典中已有条目的示例：\n{\"term\": \"热岛效应\", \"category\": \"ATMOS\", \"parent_level\": \"城市气候效应；大气热力现象；城市人为热排放；下垫面性质改变\", \"child_level\": \"城市热岛；郊区热岛；城市气温高于郊区；形成热岛环流；强度昼夜差异\"}\n{\"term\": \"城区\", \"category\": \"POPCITY\", \"parent_level\": \"城市地域；聚落；人口集聚；经济发展\", \"child_level\": \"中心商务区；住宅区；工业区；人口密集；建筑密集；功能多样\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"ATMOS\", \"parent_level\": \"城市气候效应；大气热力现象；城市人为热排放；下垫面性质改变\", \"child_level\": \"城市气温高于郊区；形成热岛环流；强度昼夜差异\", \"confidence\": 1.0}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 60,
+  "prompt_tokens": 442,
+  "total_tokens": 502,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792767844
+}

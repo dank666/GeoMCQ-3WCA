@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:agieval-196",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n我国人口生育政策调整与下列人口数据变化关系密切的是()\r\n①老年人口数量增加 ②劳动人口比重降低③人口死亡率升高 ④人口迁移数量增加\n\nOptions:\nA. ①②\nB. ②③\nC. ③④\nD. ①④\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nA",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 114,
+  "total_tokens": 116,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771784
+}

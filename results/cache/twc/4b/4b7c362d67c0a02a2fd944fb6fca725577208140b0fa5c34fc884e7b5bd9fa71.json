@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-050",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地下水过量开采，会使地下水位下降，形成地下水漏斗区，进一步可能引发（）\n\n待判断的选项：\nA. 地面沉降、海水入侵\nB. 地震、火山喷发\nC. 地下水位上升、土壤沼泽化\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地下水：上位：陆地水体、水资源；特征：埋藏地下、水量稳定、水质较好、更新缓慢；成因：降水下渗、地表水补给、岩层储水；影响：提供饮用水、农业灌溉、维持生态、引发地面沉降；分布：华北平原、河西走廊、喀斯特地区\n- 过量：上位：数量特征、程度描述；特征：超出合理范围、导致资源环境问题；成因：人类活动强度大、管理不当；影响：资源枯竭、环境污染、生态破坏\n- 地下水位：上位：水文要素；特征：埋藏深度、季节变化、动态变化；成因：降水补给、蒸发排泄、人类开采；影响：土壤盐碱化、地面沉降、植被生长；分布：华北平原、长江三角洲、干旱内陆盆地\n- 地面沉降：上位：地质灾害、环境地质问题；特征：缓慢发展、影响范围广、不可逆性；成因：地下水超采、地下矿产开采、地壳运动；影响：建筑物开裂、海水入侵、防洪能力下降；分布：华北平原、长江三角洲、汾渭盆地\n- 海水入侵：上位：环境问题；特征：地下咸淡水界面移动、地下水咸化、土壤盐渍化；成因：过量开采地下水、海平面上升、河流入海水量减少；影响：地下水水质恶化、土壤盐碱化、影响工农业用水；分布：沿海地区、河口三角洲、滨海含水层\n- 地震：上位：地质灾害、自然灾害；特征：地壳快速震动、释放能量、产生地震波；成因：岩层断裂、板块运动、火山活动；影响：建筑物破坏、人员伤亡、引发次生灾害；分布：环太平洋地震带、地中海-喜马拉雅地震带\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是地下水漏斗区进一步可能引发的后果\n2. 与地下水过量开采存在因果关联\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 563,
+  "total_tokens": 590,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 563
+ },
+ "created": 1792768777
+}

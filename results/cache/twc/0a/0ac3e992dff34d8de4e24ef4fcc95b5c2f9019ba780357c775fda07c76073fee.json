@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-SV-010",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n土壤酸碱度（pH值）是土壤的重要化学特性，影响植物生长和养分吸收，下列关于土壤酸碱度的说法正确的有（）\n\nOptions:\nA. pH值小于7为酸性土壤，大于7为碱性土壤，等于7为中性土壤\nB. 大多数农作物适合在中性或微酸性土壤中生长\nC. 土壤酸碱度不会影响土壤中养分的有效性\n\nInstructions:\n1. At least two options are correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nAB",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 151,
+  "total_tokens": 153,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771841
+}

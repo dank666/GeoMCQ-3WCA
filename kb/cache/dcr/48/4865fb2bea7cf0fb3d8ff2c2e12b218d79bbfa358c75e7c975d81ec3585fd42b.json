@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:覆盖率||fc199f2bc818",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“覆盖率”编写一个词典条目，供符号推理系统使用。\n\n题干：下列关于河流含沙量与植被覆盖率的关系，说法正确的有()\n选项：\nA. 植被覆盖率越低，河流含沙量越高\nB. 植被覆盖率与河流含沙量无关\nC. 植被覆盖率越高，河流含沙量越低\n\n词典中已有条目的示例：\n{\"term\": \"含沙量\", \"category\": \"WATER\", \"parent_level\": \"水文要素；植被覆盖率；降水强度\", \"child_level\": \"高含沙量河流；低含沙量河流；随季节变化；受流域植被影响；影响水质\"}\n{\"term\": \"植被覆盖\", \"category\": \"SOILVEG\", \"parent_level\": \"地表覆盖；气候条件；地形土壤\", \"child_level\": \"森林覆盖；草地覆盖；农作物覆盖；覆盖度指标；动态变化；空间差异\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"SOILVEG\", \"parent_level\": \"地表覆盖；生态环境；水土保持\", \"child_level\": \"森林覆盖率；草原覆盖率；城市覆盖率；农业覆盖率；生态保护；影响水土流失；与含沙量关系\", \"confidence\": 0.9}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 60,
+  "prompt_tokens": 462,
+  "total_tokens": 522,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792768102
+}

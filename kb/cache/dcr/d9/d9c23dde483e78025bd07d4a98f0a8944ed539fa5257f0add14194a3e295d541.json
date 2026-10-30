@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:城际||cfa76efe3ed6",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“城际”编写一个词典条目，供符号推理系统使用。\n\n题干：某大城市在解决“大城市病”过程中，通过疏解非首都功能，将部分批发市场、制造业企业迁往周边中小城市，并加强了城际轨道交通建设。这种举措有利于()\n选项：\nA. 优化区域产业布局\nB. 促进逆城市化\nC. 缓解核心城市压力\n\n词典中已有条目的示例：\n{\"term\": \"大城市\", \"category\": \"POPCITY\", \"parent_level\": \"城市；人口集聚；产业集中\", \"child_level\": \"超大城市；特大城市；Ⅰ型大城市；人口规模大；经济发达；功能综合\"}\n{\"term\": \"进程\", \"category\": \"OTHER\", \"parent_level\": \"发展变化；社会经济发展；政策推动\", \"child_level\": \"城市化进程；工业化进程；动态变化；阶段性；不可逆性\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"区域联系；交通网络；空间组织\", \"child_level\": \"城际铁路；都市圈；通勤圈；区域一体化\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 49,
+  "prompt_tokens": 478,
+  "total_tokens": 527,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 478
+ },
+ "created": 1792768492
+}

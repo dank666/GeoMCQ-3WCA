@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-069",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流沿岸城市多沿河布局，主要利用河流的：\n\n待判断的选项：\nA. 发电、养殖功能\nB. 供水、运输、防卫功能\nC. 灌溉、农业功能\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流沿岸：上位：河流地貌；特征：地势平坦、水源充足；成因：河流堆积作用；影响：利于聚落分布、利于农业灌溉；分布：河谷平原、大河两岸\n- 城市：上位：聚落；特征：人口密集、非农业产业集聚、建筑密集、交通网络发达；成因：生产力发展、社会分工深化、工商业集聚；影响：区域经济中心、文化教育中心、交通枢纽；分布：沿海地区、平原地区、交通枢纽\n- 沿河：上位：地理区位；特征：水源充足、水运便利、地形平坦；成因：河流提供水源、河流提供运输；影响：形成聚落、发展农业、布局工业；分布：长江沿岸、黄河沿岸、尼罗河沿岸\n- 布局：上位：空间组织；特征：空间分布、区位选择、规划性\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 发电：上位：能源工业、电力生产；特征：能源转换、资金技术密集、受资源分布影响；成因：电力需求增长、能源资源分布不均；影响：提供电力保障、影响环境质量、促进经济发展；分布：煤炭基地、河流峡谷、沿海地区、风能丰富区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是河流的交通、水源和灌溉功能\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 518,
+  "total_tokens": 536,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 518
+ },
+ "created": 1792772618
+}

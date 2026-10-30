@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:geomcq-multiple-SV-069",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n下列关于不同气候区土壤特性的说法，正确的有（）\n\nOptions:\nA. 寒带气候区，气温低，土壤有机质分解慢，土层薄\nB. 温带大陆性气候区，降水少，蒸发旺盛，土壤多碱性，有机质含量较高\nC. 热带季风气候区，降水丰富，土壤淋溶作用强，多酸性土壤\n\nInstructions:\n1. At least two options are correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "AC",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 159,
+  "total_tokens": 160,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 159
+ },
+ "created": 1792774854
+}

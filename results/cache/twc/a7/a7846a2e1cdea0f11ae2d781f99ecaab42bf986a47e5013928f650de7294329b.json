@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-148",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：近年来，春运期间民工从珠三角地区返回到中西部的“摩托大军”规模显著缩小，驾驶私家车返乡数量大幅增加。影响民工返乡交通方式变化的主要因素是（）\n\n待判断的选项：\nA. 收入水平\nB. 舒适程度\nC. 交通条件\nD. 区域差距\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 民工：上位：人口迁移、城乡差异、劳动力流动、社会结构；特征：务工人员、返乡潮、摩托大军、私家车返乡\n- 珠三角地区：上位：经济区、地理区域；特征：经济发达、城市密集、对外开放前沿；成因：改革开放政策、毗邻港澳、地理位置优越；影响：工业化城市化快速、人口集聚、产业升级；分布：广东省中南部、珠江入海口\n- 中西部地区：上位：经济地理区域、中国区域划分；特征：资源丰富、经济相对落后、发展潜力大；成因：自然条件差异、历史基础、政策倾斜；影响：区域协调发展、产业转移承接；分布：河南、湖北、四川、陕西\n- 交通：上位：运输方式；特征：实现位移、网络性、区域性；成因：社会经济需求、技术进步；影响：促进经济发展、加强区域联系\n- 变迁：上位：地理过程；特征：动态性、长期性、阶段性；成因：自然因素、人为因素；影响：地理格局改变、人地关系调整\n- 主导因素：上位：影响因素；特征：起决定性作用、影响事物发展\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成民工返乡交通方式变化的主要因素\n2. 针对近年来春运期间的变化\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"否\", \"是\"], \"D\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 446,
+  "total_tokens": 482,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 446
+ },
+ "created": 1792770999
+}

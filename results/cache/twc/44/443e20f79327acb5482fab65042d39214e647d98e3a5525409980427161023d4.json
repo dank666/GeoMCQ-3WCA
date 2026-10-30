@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-173",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国甜菜制糖业主要分布在北方，用甘蔗制糖的制糖厂主要分布在南方，这表明制糖业属于（　　）\n\n待判断的选项：\nA. 市场主导型\nB. 原料主导型\nC. 技术主导型\nD. 劳动力主导型\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 甘蔗：上位：农产品原料、制糖业原料、南方经济作物；特征：热带亚热带作物、甘蔗制糖、原料导向型工业、南方分布\n- 制糖厂：上位：工业区位因素、制糖工业、原料导向；特征：甜菜制糖、甘蔗制糖、原料不便于长距离运输、原料重量大于产品重量、接近原料产地\n- 市场：上位：区位因素；特征：影响产业布局、接近消费地、降低运输成本；成因：人口集聚、经济发展；影响：形成市场指向型工业、促进产业集聚；分布：城市地区、人口密集区\n- 原料：上位：生产资料；特征：未经加工或初级加工、用于生产产品；影响：影响工业区位选择\n- 技术：上位：生产力要素；特征：可创新性、可传播性、阶段性；成因：科学进步、社会需求、经济发展；影响：提高生产效率、改变生产方式、促进产业升级\n- 劳动力：上位：区位因素；特征：影响工业生产成本、影响工业区位选择；影响：影响产业布局\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是制糖业所属的工业类型\n2. 能解释南北方原料分布差异\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"], \"D\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 440,
+  "total_tokens": 476,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 440
+ },
+ "created": 1792771040
+}

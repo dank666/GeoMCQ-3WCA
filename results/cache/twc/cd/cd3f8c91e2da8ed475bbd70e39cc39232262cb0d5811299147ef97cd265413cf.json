@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-082",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：海啸的破坏力极强，下列关于海啸的防范措施有（）\n\n待判断的选项：\nA. 加强沿海地区的防护工程，如海堤等\nB. 沿海居民无需撤离，待在原地即可\nC. 建立海啸预警系统，及时发布预警信息\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是关于海啸的防范措施\n2. 是正确的\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"否\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 180,
+  "total_tokens": 206,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772612
+}

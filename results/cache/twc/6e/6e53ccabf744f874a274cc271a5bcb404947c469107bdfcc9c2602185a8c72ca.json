@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-GPP-057",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n大气对太阳辐射的削弱作用包括吸收、反射、散射，多云白天气温不太高，主要是（）\n\nOptions:\nA. 吸收作用强\nB. 散射作用弱\nC. 反射作用强\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 101,
+  "total_tokens": 103,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771644
+}

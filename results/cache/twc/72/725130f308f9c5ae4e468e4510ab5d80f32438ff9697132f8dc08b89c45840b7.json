@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-151",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：近年来，浙江省鼓励建设多层厂房代替单层厂房。用多层厂房代替单层厂房土地利用变化最显著的是（）\n\n待判断的选项：\nA. 用地规模\nB. 用地类型\nC. 功能分区\nD. 自然属性\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 浙江省：上位：中国省级行政区；特征：位于东南沿海、经济发达、多山地丘陵；分布：中国东南沿海\n- 厂房：上位：工业区位、产业布局、土地利用；特征：多层建筑、节约用地、提高容积率、工业集聚\n- 单层：上位：工业布局、土地利用、厂房建设；特征：占地面积大、平面布局、土地集约度低、传统工业模式\n- 土地利用变化：上位：土地利用；特征：动态性、受人类活动驱动、具有区域性；成因：城市化、人口增长、政策调整；影响：影响生态环境、改变地表径流、影响生物多样性\n- 用地规模：上位：城市规模、土地利用；特征：反映城市范围、受地形限制、随人口增长而扩大；成因：人口增长、经济发展、城市化进程；影响：影响城市布局、改变土地利用结构、占用耕地；分布：城市边缘区、城市新区、开发区\n- 土地利用类型：上位：土地分类；特征：按用途划分、具有空间分布、可相互转化；成因：自然条件、人类活动、规划管理；影响：决定土地功能、影响生态服务、反映区域发展；分布：全国范围、典型农业区、城市建成区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是多层厂房代替单层厂房导致的土地利用变化\n2. 是浙江省近年来发生的土地利用变化\n3. 是变化最显著的一项\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"是\", \"否\"], \"B\": [\"是\", \"是\", \"是\"], \"C\": [\"否\", \"是\", \"否\"], \"D\": [\"否\", \"是\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 472,
+  "total_tokens": 520,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 472
+ },
+ "created": 1792771002
+}

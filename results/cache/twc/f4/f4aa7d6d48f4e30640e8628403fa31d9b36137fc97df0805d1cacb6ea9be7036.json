@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-021",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n湖泊按盐度可分为淡水湖和咸水湖，淡水湖的湖水盐度低于1‰，主要靠降水和河流补给，湖水能排出；咸水湖的湖水盐度高于1‰，主要靠冰雪融水补给，湖水不能排出，某湖泊位于我国青藏高原，主要靠高山冰雪融水补给，湖水无法排出，结合湖泊盐度分类，该湖泊属于（ ）\n\nOptions:\nA. 半咸水湖\nB. 咸水湖\nC. 淡水湖\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "B",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 179,
+  "total_tokens": 180,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 179
+ },
+ "created": 1792774361
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-004",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n植被具有保持水土、涵养水源的作用，植被覆盖率高的地区，河流含沙量小、水量季节变化小；植被覆盖率低的地区，河流含沙量大、水量季节变化大，某地区植被茂密，以热带雨林为主，降水丰富且均匀，结合植被对河流的影响，该地区河流的水文特征是（ ）\n\nOptions:\nA. 流速快、结冰期长\nB. 含沙量小、水量季节变化小\nC. 含沙量大、水量季节变化大\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nB",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 162,
+  "total_tokens": 164,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771661
+}

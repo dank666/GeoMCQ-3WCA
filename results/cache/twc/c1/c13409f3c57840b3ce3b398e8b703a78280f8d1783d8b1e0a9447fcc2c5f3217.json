@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-081",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：森林通过光合作用吸收二氧化碳、释放氧气，调节大气成分，被称为（）\n\n待判断的选项：\nA. 天然水库\nB. 地球之肾\nC. 地球之肺\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 森林植被：上位：植被类型；特征：层次结构复杂、生物多样性高、多年生木本植物、覆盖率高；成因：水分充足、热量适宜、土壤肥沃；影响：调节气候、涵养水源、保持水土、提供资源；分布：湿润地区、山地、热带雨林区、温带地区\n- 光合作用：上位：生物化学过程、植物生理过程；特征：合成有机物、释放氧气、吸收二氧化碳、需要光照；成因：叶绿体、光能驱动、酶催化；影响：维持碳氧平衡、提供食物、积累有机质；分布：植物叶绿体、藻类、光合细菌\n- 吸收二氧化碳：上位：光合作用、碳循环；特征：绿色植物吸收、释放氧气、维持碳氧平衡；成因：光合作用、呼吸作用；影响：降低大气二氧化碳浓度、减缓温室效应；分布：森林、草地、海洋\n- 氧气：上位：大气成分、气体；特征：无色无味、支持燃烧、化学性质活泼；成因：植物光合作用、大气光解；影响：维持生物呼吸、参与氧化反应；分布：大气圈、水圈\n- 大气组成：上位：大气环境；特征：氮氧为主、成分比例稳定、垂直分布不均；成因：地球演化、生物活动、人类活动；影响：生命维持、天气变化、气候形成\n- 水库：上位：水利工程；特征：人工湖泊、调节径流、蓄水防洪；成因：人类修建；影响：防洪灌溉、发电养殖、改善航运；分布：三峡水库、小浪底水库\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是森林调节大气成分功能的别称\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 499,
+  "total_tokens": 517,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 499
+ },
+ "created": 1792768819
+}

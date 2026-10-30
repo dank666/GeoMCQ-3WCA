@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-CL-099",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n下列关于气候与土壤的关系，说法正确的有（）\n\nOptions:\nA. 热带雨林气候区，土壤贫瘠，有机质分解快\nB. 热带沙漠气候区，土壤贫瘠，盐分含量高\nC. 温带季风气候区，土壤肥沃，有机质积累多\n\nInstructions:\n1. One or more options may be correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nABC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 139,
+  "total_tokens": 141,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771705
+}

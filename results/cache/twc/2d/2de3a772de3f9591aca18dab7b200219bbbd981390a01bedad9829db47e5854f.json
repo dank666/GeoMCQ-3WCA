@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-116",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国某公路长500多千米，南北贯穿了多冰川的山脉，并跨越了多条河流。公路南端海拔约1 070米，为山前洪积平原上的绿洲。该公路山区段每年9月底至次年5月底封路禁行。 该公路山区段定期封路禁行主要是因为 ( )\n\n待判断的选项：\nA. 洪水频发\nB. 路面积雪严重\nC. 泥石流多发\nD. 路面冻融沉降\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成该现象的主要原因\n2. 位于我国山区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"是\", \"是\"],\n\"D\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 224,
+  "total_tokens": 258,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773035
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:盛行于||73db5191a03a",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“盛行于”编写一个词典条目，供符号推理系统使用。\n\n题干：我国的“妈祖信仰”已成为世界非物质文化遗产，妈祖文化盛行于()\n选项：\nA. 江南水乡\nB. 四川盆地\nC. 华南沿海\nD. 云贵高原\n\n词典中已有条目的示例：\n{\"term\": \"世界\", \"category\": \"PLACE\", \"parent_level\": \"地理区域\", \"child_level\": \"七大洲；四大洋；全球范围；自然与人文综合体\"}\n{\"term\": \"非物质文化遗产\", \"category\": \"OTHER\", \"parent_level\": \"文化遗产；历史积淀；族群传承\", \"child_level\": \"传统技艺；民俗活动；传统表演艺术；活态传承；以人为载体；地域特色鲜明\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"OTHER\", \"parent_level\": \"文化分布；人文地理；地域特征\", \"child_level\": \"广泛流行；主要分布；集中区域；文化辐射\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 46,
+  "prompt_tokens": 450,
+  "total_tokens": 496,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 450
+ },
+ "created": 1792770524
+}

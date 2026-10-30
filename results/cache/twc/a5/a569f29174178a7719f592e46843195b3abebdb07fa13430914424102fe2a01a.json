@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-091",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：热带沙漠气候的全年炎热干燥，年降水量不足200毫米，主要是因为受副热带高气压带和信风带控制，下列地区中，不属于热带沙漠气候分布区的是（ ）\n\n待判断的选项：\nA. 澳大利亚中部\nB. 南美洲东南部\nC. 阿拉伯半岛\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 热带沙漠气候：上位：沙漠气候、热带气候；特征：终年高温少雨、气温日较差大、蒸发旺盛；成因：副热带高压控制、信风带控制、寒流影响；影响：热带荒漠景观、绿洲农业；分布：撒哈拉沙漠、阿拉伯半岛、澳大利亚中西部\n- 降水量：上位：气候要素、气象要素；特征：以毫米计量、时空分布不均、反映水汽供应；成因：水汽条件、抬升条件、凝结核；影响：影响水资源量、影响植被类型、影响农业生产；分布：赤道多雨带、副热带少雨带、沿海多雨区\n- 副热带高气压带：上位：气压带；特征：动力成因、盛行下沉气流、干燥少雨；成因：赤道上空空气堆积下沉；影响：形成热带沙漠气候、影响全球降水分布；分布：南北纬30°附近\n- 信风带：上位：行星风带；特征：风向稳定、由副热带高压吹向赤道低压、全年盛行；成因：三圈环流、地转偏向力；影响：影响气候、推动洋流；分布：赤道两侧、副热带地区\n- 分布区：上位：空间范围；特征：空间范围、地理集中性、动态变化；成因：自然条件、社会经济条件、历史因素；影响：影响区域发展、决定产业布局\n- 澳大利亚：上位：国家、大陆；特征：独占大陆、气候干旱、生物独特、矿产资源丰富；成因：大陆孤立、副热带高压控制、洋流影响；影响：人口集中东南沿海、农牧业发达、物种特有性强；分布：南半球、印度洋与太平洋之间、大洋洲\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 不属于热带沙漠气候分布区\n2. 位于题干提及的地理范围内\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 575,
+  "total_tokens": 602,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 575
+ },
+ "created": 1792768694
+}

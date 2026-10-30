@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-070",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：锋面活动不仅会影响降水，还会影响气温和风向，冷锋过境后，气温下降，气压升高，风向改变；暖锋过境后，气温升高，气压降低，风向改变，某地区过境某锋面后，气温下降，气压升高，结合锋面活动的影响，该地区过境的锋面是（ ）\n\n待判断的选项：\nA. 暖锋\nB. 准静止锋\nC. 冷锋\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是过境锋面后气温下降、气压升高的锋面\n2. 结合锋面活动的影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"不确定\", \"不确定\"], \"C\": [\"是\", \"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 222,
+  "total_tokens": 249,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772100
+}

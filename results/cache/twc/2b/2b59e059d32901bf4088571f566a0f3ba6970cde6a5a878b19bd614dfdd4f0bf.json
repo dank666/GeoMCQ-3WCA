@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-044",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：大气对太阳辐射的削弱作用包括（）\n\n待判断的选项：\nA. 吸收\nB. 反射\nC. 地面辐射\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 大气：上位：地球圈层；特征：由气体组成、垂直分层、密度随高度递减、不断运动；成因：地球引力、太阳辐射、地球自转；影响：保护地球生命、调节地表温度、产生天气现象；分布：地球外围、对流层、平流层\n- 太阳辐射：上位：电磁辐射；特征：短波辐射、能量集中、纬度差异；成因：太阳核聚变；影响：地球能量来源、大气运动、水循环\n- 削弱作用：上位：大气对太阳辐射的作用；特征：选择性吸收、反射无选择性、散射波长相关；成因：大气成分、云层厚度；影响：到达地面太阳辐射减少、白天气温降低\n- 吸收：上位：物理过程；特征：物质或能量转移、选择性、可逆性；成因：浓度差、能量差、生物作用；影响：净化环境、物质循环、能量流动\n- 反射作用：上位：大气对太阳辐射的削弱作用；特征：无选择性、反射率与下垫面有关；成因：云层、颗粒物反射；影响：削弱太阳辐射、影响气温；分布：大气层\n- 地面辐射：上位：长波辐射、热辐射；特征：波长较长、方向向上、受地面温度影响；成因：地面吸收太阳辐射增温、地面热量释放；影响：大气增温、保温作用、大气逆辐射\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 属于大气对太阳辐射的削弱作用\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 460,
+  "total_tokens": 478,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 460
+ },
+ "created": 1792769592
+}

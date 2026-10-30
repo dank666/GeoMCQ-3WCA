@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-011",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：常绿阔叶林主要分布在亚热带季风气候区，夏季高温多雨，冬季温和少雨，植被四季常绿。该气候区典型土壤是（）\n\n待判断的选项：\nA. 黑土\nB. 红壤\nC. 冻土\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是常绿阔叶林分布区的典型土壤\n2. 是亚热带季风气候区的典型土壤\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"否\", \"否\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"否\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 183,
+  "total_tokens": 209,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772299
+}

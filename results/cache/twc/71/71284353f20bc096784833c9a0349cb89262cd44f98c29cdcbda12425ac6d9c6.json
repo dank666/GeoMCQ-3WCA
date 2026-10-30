@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-037",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：内蒙古高原地域辽阔，地表坦荡开阔，区域内植被分布存在明显差异，东部以草原为主，西部以荒漠为主，结合该高原的气候分布特点，其植被分布的差异主要与下列哪种因素有关（ ）\n\n待判断的选项：\nA. 海拔高低\nB. 土壤类型\nC. 降水多少\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是内蒙古高原植被分布差异的主要因素\n2. 结合该高原的气候分布特点\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"否\", \"否\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 192,
+  "total_tokens": 218,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772363
+}

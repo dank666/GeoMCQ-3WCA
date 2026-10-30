@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-062",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：紫色土矿物质丰富、肥力高，主要分布在我国（）\n\n待判断的选项：\nA. 四川盆地\nB. 东北平原\nC. 西北盆地\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 紫色土：上位：土壤、初育土；特征：紫色、富含磷钾、土层浅薄、易侵蚀；成因：紫色砂页岩风化、亚热带季风气候、地形起伏；影响：肥力较高、适宜多种作物、水土流失严重；分布：四川盆地、云南、贵州、湖南\n- 矿物质：上位：土壤组成物质、无机物；特征：由岩石风化形成、提供植物养分、影响土壤质地；成因：岩石风化、成土母质；影响：决定土壤肥力、影响植物生长\n- 土壤肥沃：上位：土壤属性；特征：有机质丰富、养分含量高、保水保肥能力强、团粒结构好；成因：植被茂盛、有机质积累、合理耕作、气候适宜；影响：作物高产、农业发达、土地生产力高；分布：东北平原、长江中下游平原、珠江三角洲\n- 四川盆地：上位：盆地、地貌单元；特征：四周高中间低、紫色土广布、气候湿热、多云雾；成因：地壳构造、河流沉积、紫色砂页岩风化；影响：农业发达、人口密集、多雾、易发酸雨；分布：四川省、重庆市\n- 东北平原：上位：平原；特征：面积广大、地势平坦、黑土肥沃、沼泽湿地多；成因：河流冲积、地壳沉降；影响：商品粮基地、农业机械化、湿地保护；分布：中国东北部\n- 西北：上位：中国地理分区；特征：深居内陆、干旱半干旱、草原荒漠广布；成因：远离海洋、地形阻挡；影响：降水稀少、绿洲农业、荒漠化；分布：中国西北部\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是紫色土在我国的主要分布区域\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 519,
+  "total_tokens": 537,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 519
+ },
+ "created": 1792769204
+}

@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:阔叶林||e81632b8dcf1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“阔叶林”编写一个词典条目，供符号推理系统使用。\n\n题干：温带季风气候的植被类型为温带落叶阔叶林，冬季树叶凋零，夏季树叶茂盛，这是为了适应温带季风气候冬季寒冷干燥的特征，减少水分和养分消耗，结合温带落叶阔叶林的特征，下列季节中，温带落叶阔叶林树叶最茂盛的是()\n选项：\nA. 夏季\nB. 冬季\nC. 春季\n\n词典中已有条目的示例：\n{\"term\": \"温带季风气候\", \"category\": \"ATMOS\", \"parent_level\": \"季风气候；海陆热力性质差异；季风环流\", \"child_level\": \"夏季高温多雨；冬季寒冷干燥；雨热同期\"}\n{\"term\": \"植被类型\", \"category\": \"SOILVEG\", \"parent_level\": \"植被；热量差异；水分差异\", \"child_level\": \"森林；草原；荒漠；受气候影响；具有地带性；群落结构差异\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n    \"category\": \"SOILVEG\",\n    \"parent_level\": \"森林；受气候影响；具有地带性\",\n    \"child_level\": \"夏季树叶茂盛；落叶特征；温带气候适应\",\n    \"confidence\": 0.95\n}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 57,
+  "prompt_tokens": 538,
+  "total_tokens": 595,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 506
+ },
+ "created": 1792771963
+}

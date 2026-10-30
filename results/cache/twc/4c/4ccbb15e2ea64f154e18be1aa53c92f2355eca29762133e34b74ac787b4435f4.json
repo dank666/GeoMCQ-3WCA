@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:agieval-029",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：浙江S集团是一家研发和生产空调控制元件和零部件的企业，其生产的零部件占全球智能空调配件市场60%以上的份额。至2017年，S集团除国内工厂外，还在美国、墨西哥、波兰等国家建有工厂。其国内工厂生产的产品除供应国内市场外，还满足出口需求。2018年，在国内工厂产能饱和、订单不断增长的情况下，S集团入驻越南某工业园，在买地自建厂房的同时，租用厂房开展生产。与国内建厂相比，S集团选择在越南建厂，可以（）\n\n待判断的选项：\nA. 降低生产成本\nB. 增加产品产量\nC. 提高产品质量\nD. 方便原料供应\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是S集团在越南建厂的原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\"],\n\"B\": [\"是\"],\n\"C\": [\"不确定\"],\n\"D\": [\"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 22,
+  "prompt_tokens": 254,
+  "total_tokens": 276,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 254
+ },
+ "created": 1792772974
+}

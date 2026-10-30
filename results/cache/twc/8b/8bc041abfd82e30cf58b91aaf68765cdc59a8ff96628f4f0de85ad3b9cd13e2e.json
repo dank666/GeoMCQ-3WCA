@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-065",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：断层湖是断层下陷后积水形成的湖泊，下列属于断层湖的有（）\n\n待判断的选项：\nA. 青海湖\nB. 贝加尔湖\nC. 鄱阳湖\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 断层：上位：地质构造；特征：岩层断裂、位移明显、线状分布；成因：地壳运动、应力作用；影响：形成断层谷、形成断块山、诱发地震；分布：东非大裂谷、华山、庐山\n- 积水：上位：地表水；特征：流动性差、易蒸发、水质易变；成因：降水过多、排水不畅、地势低洼；影响：形成内涝、影响交通、滋生蚊虫；分布：城市低洼区、平原洼地\n- 湖泊：上位：水体、地表水；特征：封闭性、流动性差、生态功能；成因：地壳运动、冰川作用、火山活动；影响：调节径流、维持生物多样性、提供水资源；分布：长江中下游、青藏高原、五大湖\n- 青海湖：上位：湖泊、地质构造、地壳运动、应力作用；特征：断层下陷、积水形成、高原湖泊、水体面积大\n- 鄱阳湖：上位：湖泊、淡水湖；特征：中国最大淡水湖、季节性水位变化大、吞吐型湖泊；成因：地壳断陷、泥沙淤积；影响：调蓄长江洪水、维持生物多样性、提供灌溉水源；分布：江西省北部、长江中下游南岸\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是断层下陷后积水形成的湖泊\n2. 是湖泊\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 499,
+  "total_tokens": 526,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 499
+ },
+ "created": 1792773530
+}

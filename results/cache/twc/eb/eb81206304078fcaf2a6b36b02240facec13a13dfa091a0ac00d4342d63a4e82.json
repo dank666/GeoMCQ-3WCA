@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:agieval-095",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：互花米草是一种原产于北美的海滩植物，种子可随海浪传播，其茎干密集粗壮，地下根茎发达，耐盐耐淹、抗风浪，能够促进泥沙沉降和淤积，减弱海水交换能力。1979年，我国从美国引进互花米草并种植于河口海岸。互花米草在沿海迅速繁殖扩张成为入侵物种，其产生的主要影响有\r\n\n\n待判断的说法：\n①. 生物多样性减少\n②. 滩涂大量减少\r\n③. 海水质量下降\n④. 滩涂养殖条件改善\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是互花米草产生的主要影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 1 个判断，例如：{\"①\": [\"是\"], \"②\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"①\": [\"是\"],\n\"②\": [\"是\"],\n\"③\": [\"不确定\"],\n\"④\": [\"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 232,
+  "total_tokens": 258,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 232
+ },
+ "created": 1792773020
+}

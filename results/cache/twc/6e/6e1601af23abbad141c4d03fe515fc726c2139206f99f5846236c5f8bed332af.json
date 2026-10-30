@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-013",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n湖泊对河流具有调节作用，能够调蓄河流流量，使河流流量季节变化减小，汛期推迟、水位降低，枯水期水位升高，某河流中游有一个大型湖泊，结合湖泊的调节作用，该河流的水文特征是（ ）\n\nOptions:\nA. 流量季节变化小、汛期推迟\nB. 流量季节变化大、汛期早\nC. 含沙量大、流速快\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nA",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 143,
+  "total_tokens": 145,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771661
+}

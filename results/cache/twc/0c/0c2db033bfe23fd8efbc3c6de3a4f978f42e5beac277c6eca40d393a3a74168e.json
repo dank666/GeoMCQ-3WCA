@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:agieval-172",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：南北纬30°～40°大陆西岸，分布面积最广泛的农业地域类型是（　　）\n\n待判断的选项：\nA. 水田农业\nB. 旱作农业\nC. 牧场畜牧业\nD. 地中海型农业\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是南北纬30°～40°大陆西岸分布的农业地域类型\n2. 是分布面积最广泛的农业地域类型\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"否\", \"否\"],\n\"B\": [\"否\", \"否\"],\n\"C\": [\"是\", \"是\"],\n\"D\": [\"是\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 185,
+  "total_tokens": 219,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 185
+ },
+ "created": 1792773076
+}

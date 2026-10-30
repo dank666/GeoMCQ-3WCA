@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:使用量||52c98997df74",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“使用量”编写一个词典条目，供符号推理系统使用。\n\n题干：目前，我国为保护棉农利益，控制国际棉花进口，国内的棉花价格约比国际市场高；我国纺织行业工人工资一般为美国的，是越南、巴基斯坦等国的3倍．我国一些纺织企业为利用国际市场棉花，在国外建纺纱厂，并将产品(纱线)运回国内加工，在我国同行业企业纷纷到越南、巴基斯坦等国建厂的情况下，总部位于杭州的K企业独自在美国建纺纱厂．2015年4月底，K企业在美国工厂生产的第一批110吨纱线运至杭州．据此完成1～3题．该案例表明，随着工业技术水平的提高，我国纺纱业已大幅度降低了()\n选项：\nA. 原料使用量\nB. 劳动力使用量\nC. 运输量\nD. 设备费用\n\n词典中已有条目的示例：\n{\"term\": \"案例\", \"category\": \"OTHER\", \"parent_level\": \"地理学习方法\", \"child_level\": \"区域案例；问题案例；典型性；真实性；分析性\"}\n{\"term\": \"工业\", \"category\": \"INDUSTRY\", \"parent_level\": \"产业；资源分布；市场需求\", \"child_level\": \"重工业；轻工业；高新技术产业；原料加工；机械化生产；产品输出\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"生产成本；技术进步\", \"child_level\": \"自动化；效率提升；资源节约\", \"confidence\": 0.8}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 548,
+  "total_tokens": 589,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792770992
+}

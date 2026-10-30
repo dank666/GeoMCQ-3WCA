@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-009",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：东亚季风形成与特征，正确的是（）\n\n待判断的选项：\nA. 夏季风温暖湿润\nB. 夏季风寒冷干燥\nC. 海陆热力性质差异为主因\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 东亚：上位：亚洲分区；特征：季风气候显著、人口稠密、经济发达；成因：海陆位置、季风环流；影响：稻作农业发达、工业集聚；分布：亚洲东部\n- 季风：上位：大气环流；特征：风向随季节变化、雨热同期、影响范围广；成因：海陆热力差异、气压带风带季节移动；影响：形成季风气候、影响农业；分布：东亚、南亚、东南亚\n- 湿润：上位：气候特征、干湿状况；特征：降水量大于蒸发量、空气湿度大、降水较多；成因：受海洋影响、季风气候、地形抬升；影响：植被茂密、水资源丰富、适宜农业；分布：中国东部季风区、湿润地区\n- 海陆热力性质差异：上位：热力差异；特征：海洋热容量大、陆地热容量小、温度变化差异；成因：比热容差异、太阳辐射；影响：形成季风、形成海陆风、影响气候；分布：全球\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于东亚季风形成与特征的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 392,
+  "total_tokens": 410,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 392
+ },
+ "created": 1792769546
+}

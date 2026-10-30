@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:gaokao-14-2",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "材料：热带沙漠中的尼罗河泛滥区孕育了古埃及农耕文明．尼罗河在每年 6～10 月泛滥，从上游带来的类似肥沃土壤的沉积物，与上游来水和周边区域的植物资源，都对农耕文明的形成意义重大．据此完成 6～8 题．\n题干：尼罗河下游泛滥区沉积物主要来源地的降水特点为（）\n\n待判断的选项：\nA. 降水季节性强，年降水量大\nB. 降水季节性强，年降水量小\nC. 降水季节分配均匀，年降水量大\nD. 降水季节分配均匀，年降水量小\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是尼罗河上游的降水特点\n2. 是每年6-10月的降水特点\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"否\"],\n\"C\": [\"否\", \"否\"],\n\"D\": [\"否\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 251,
+  "total_tokens": 285,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773127
+}

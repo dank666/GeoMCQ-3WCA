@@ -1,0 +1,184 @@
+{
+ "geomcq1200": {
+  "n": 1200,
+  "by_type": {
+   "single": 600,
+   "multiple": 600
+  },
+  "by_domain": {
+   "CL": 200,
+   "GPP": 200,
+   "HEG": 200,
+   "HY": 200,
+   "SV": 200,
+   "TG": 200
+  },
+  "answer_size": {
+   "1": 603,
+   "3": 132,
+   "2": 465
+  },
+  "n_options": {
+   "3": 1199,
+   "4": 1
+  },
+  "statement_combo": 0,
+  "figure_dependent": 1,
+  "with_passage": 0
+ },
+ "geomcq_answer_position_original": {
+  "single": {
+   "A": 347,
+   "B": 203,
+   "C": 49,
+   "D": 1
+  },
+  "multiple": {
+   "ABC": 132,
+   "AB": 453,
+   "AC": 10,
+   "A": 3,
+   "BC": 2
+  }
+ },
+ "geomcq_answer_position_balanced": {
+  "single": {
+   "A": 202,
+   "B": 198,
+   "C": 200
+  },
+  "multiple": {
+   "ABC": 132,
+   "BC": 160,
+   "AB": 140,
+   "AC": 165,
+   "B": 3
+  }
+ },
+ "geomcq_dev": {
+  "n": 240,
+  "by_type": {
+   "multiple": 120,
+   "single": 120
+  },
+  "by_domain": {
+   "CL": 40,
+   "GPP": 40,
+   "HEG": 40,
+   "HY": 40,
+   "SV": 40,
+   "TG": 40
+  },
+  "answer_size": {
+   "3": 27,
+   "2": 92,
+   "1": 121
+  },
+  "n_options": {
+   "3": 239,
+   "4": 1
+  },
+  "statement_combo": 0,
+  "figure_dependent": 0,
+  "with_passage": 0
+ },
+ "geomcq_test": {
+  "n": 960,
+  "by_type": {
+   "multiple": 480,
+   "single": 480
+  },
+  "by_domain": {
+   "CL": 160,
+   "GPP": 160,
+   "HEG": 160,
+   "HY": 160,
+   "SV": 160,
+   "TG": 160
+  },
+  "answer_size": {
+   "3": 105,
+   "2": 373,
+   "1": 482
+  },
+  "n_options": {
+   "3": 960
+  },
+  "statement_combo": 0,
+  "figure_dependent": 1,
+  "with_passage": 0
+ },
+ "gaokao_geo": {
+  "n": 245,
+  "by_type": {
+   "single": 245
+  },
+  "by_domain": {},
+  "answer_size": {
+   "1": 245
+  },
+  "n_options": {
+   "4": 245
+  },
+  "statement_combo": 36,
+  "figure_dependent": 25,
+  "with_passage": 46
+ },
+ "gaokao_geo_sources": {
+  "agieval": 199,
+  "gaokao_bench_total": 95,
+  "gaokao_bench_duplicates_of_agieval": 49,
+  "gaokao_bench_kept": 46
+ },
+ "duplicates": {
+  "gaokao-16-1": "agieval-154",
+  "gaokao-16-2": "agieval-155",
+  "gaokao-17-1": "agieval-156",
+  "gaokao-17-2": "agieval-157",
+  "gaokao-17-3": "agieval-158",
+  "gaokao-18-1": "agieval-143",
+  "gaokao-18-2": "agieval-144",
+  "gaokao-18-3": "agieval-145",
+  "gaokao-19-1": "agieval-112",
+  "gaokao-19-2": "agieval-113",
+  "gaokao-19-3": "agieval-114",
+  "gaokao-20-1": "agieval-115",
+  "gaokao-20-2": "agieval-116",
+  "gaokao-20-3": "agieval-117",
+  "gaokao-21-1": "agieval-118",
+  "gaokao-21-2": "agieval-119",
+  "gaokao-22-1": "agieval-120",
+  "gaokao-22-2": "agieval-121",
+  "gaokao-22-3": "agieval-122",
+  "gaokao-23-1": "agieval-123",
+  "gaokao-23-2": "agieval-124",
+  "gaokao-23-3": "agieval-125",
+  "gaokao-24-1": "agieval-102",
+  "gaokao-24-2": "agieval-103",
+  "gaokao-24-3": "agieval-104",
+  "gaokao-26-1": "agieval-075",
+  "gaokao-26-2": "agieval-076",
+  "gaokao-26-3": "agieval-077",
+  "gaokao-27-1": "agieval-039",
+  "gaokao-27-2": "agieval-040",
+  "gaokao-27-3": "agieval-041",
+  "gaokao-28-1": "agieval-064",
+  "gaokao-28-2": "agieval-065",
+  "gaokao-28-3": "agieval-066",
+  "gaokao-29-1": "agieval-067",
+  "gaokao-29-2": "agieval-068",
+  "gaokao-29-3": "agieval-069",
+  "gaokao-30-1": "agieval-025",
+  "gaokao-30-2": "agieval-026",
+  "gaokao-30-3": "agieval-027",
+  "gaokao-31-1": "agieval-028",
+  "gaokao-31-2": "agieval-029",
+  "gaokao-31-3": "agieval-030",
+  "gaokao-32-1": "agieval-031",
+  "gaokao-32-2": "agieval-032",
+  "gaokao-32-3": "agieval-033",
+  "gaokao-33-1": "agieval-034",
+  "gaokao-33-2": "agieval-035",
+  "gaokao-33-3": "agieval-036"
+ }
+}

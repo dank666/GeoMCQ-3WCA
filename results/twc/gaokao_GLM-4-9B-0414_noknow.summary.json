@@ -1,0 +1,40 @@
+{
+ "split": "gaokao",
+ "model": "THUDM/GLM-4-9B-0414",
+ "params": {
+  "knowledge": false,
+  "max_knowledge": 6,
+  "min_multi": 2,
+  "defer": true,
+  "three_valued": true,
+  "max_conditions": 6
+ },
+ "dcr": null,
+ "results": {
+  "all": {
+   "acc": 84.08,
+   "jaccard": 84.08,
+   "n": 245
+  },
+  "format:statement_combo": {
+   "acc": 91.67,
+   "jaccard": 91.67,
+   "n": 36
+  },
+  "type:single": {
+   "acc": 84.08,
+   "jaccard": 84.08,
+   "n": 245
+  },
+  "_diagnostics": {
+   "deferred_rate": 0.3878,
+   "acc_context": 88.0,
+   "mean_calls": 2.388,
+   "mean_prompt_tokens": 656.6,
+   "mean_completion_tokens": 58.6,
+   "mean_conditions": 1.61,
+   "undetermined_rate": 0.207,
+   "mean_dcr_terms": 0.0
+  }
+ }
+}

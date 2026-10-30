@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:agieval-132",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n人类首次使用射电望远镜拍下了黑洞照片，干燥的环境有助于天文观测，根据已知条件判断下列哪些地区适合天文观测（　　）\r\n①西欧平原②亚马孙平原③南美沙漠区④南极大陆\n\nOptions:\nA. ①和②\nB. ①和③\nC. ①和④\nD. ③和④\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nD",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 131,
+  "total_tokens": 133,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771774
+}

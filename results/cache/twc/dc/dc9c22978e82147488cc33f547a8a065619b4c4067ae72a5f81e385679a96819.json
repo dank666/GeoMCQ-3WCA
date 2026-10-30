@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-075",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于风蚀蘑菇的说法，正确的有（）\n\n待判断的选项：\nA. 多分布在湿润地区\nB. 上部岩石较坚硬，下部岩石较松软\nC. 由风力侵蚀形成\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 风蚀蘑菇：上位：风蚀地貌；特征：上大下小、形似蘑菇、下部磨蚀强；成因：风沙磨蚀、近地面风沙多、岩性差异；影响：指示风向、地貌景观；分布：干旱区、戈壁、沙漠边缘\n- 湿润地区：上位：干湿地区；特征：降水量大于蒸发量、植被茂密、河流径流丰富；成因：季风气候、海洋性气候；影响：农业以种植业为主、森林分布广；分布：中国东部季风区、东南沿海\n- 岩石：上位：地壳物质；特征：由矿物组成、具有一定结构、参与岩石循环；成因：岩浆冷凝、沉积固结、变质作用；影响：构成岩石圈、提供矿产资源；分布：地壳、岩石圈\n- 质地坚硬：上位：岩石物理性质、力学性质；特征：抗压强度高、抗风化能力强、不易侵蚀；成因：矿物成分、结构致密、胶结紧密；影响：形成陡崖、建筑石材、抗蚀性强；分布：山地、丘陵、石材产区\n- 风力侵蚀：上位：风力作用、外力侵蚀；特征：吹蚀作用、磨蚀作用、干旱区显著；成因：强风、松散地表、植被稀少；影响：形成风蚀地貌、土地退化、沙尘暴；分布：西北干旱区、塔克拉玛干沙漠、柴达木盆地\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是风蚀作用形成的地貌\n2. 由风化和侵蚀共同作用形成\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"不确定\"], \"B\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 536,
+  "total_tokens": 554,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 536
+ },
+ "created": 1792773536
+}

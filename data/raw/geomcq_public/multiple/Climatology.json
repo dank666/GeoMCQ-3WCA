@@ -1,0 +1,1675 @@
+{
+  "geography_questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带季风气候主要分布在中南半岛、印度半岛等地，其形成与海陆热力性质差异和气压带风带移动密切相关，下列关于热带季风气候特征的说法正确的有（）",
+      "options": {
+        "A": "全年高温，分明显干湿两季",
+        "B": "夏季盛行西南季风，降水丰富",
+        "C": "冬季盛行东北季风，降水稀少"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带雨林气候主要分布在赤道附近地区，受赤道低气压带长期控制，下列属于热带雨林气候典型特征的有（）",
+      "options": {
+        "A": "全年高温多雨",
+        "B": "气温年较差小",
+        "C": "降水季节分配均匀"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带沙漠气候多分布在南北回归线附近的大陆西岸和内陆地区，受副热带高气压带或信风带控制，其特征表现为（）",
+      "options": {
+        "A": "全年炎热干燥",
+        "B": "降水稀少，蒸发旺盛",
+        "C": "气温日较差大"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地中海气候分布在南北纬30°-40°的大陆西岸，受副热带高气压带和西风带交替控制，下列关于其气候特征的说法正确的有（）",
+      "options": {
+        "A": "夏季炎热干燥",
+        "B": "冬季温和多雨",
+        "C": "降水季节分配不均"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "亚热带季风气候主要分布在南北纬25°-35°的大陆东岸，受海陆热力性质差异影响，其特征包括（）",
+      "options": {
+        "A": "夏季高温多雨",
+        "B": "冬季温和少雨",
+        "C": "雨热同期"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带季风气候分布在北纬35°-55°的大陆东岸，海陆热力性质差异显著，下列属于其气候特征的有（）",
+      "options": {
+        "A": "夏季高温多雨，冬季寒冷干燥",
+        "B": "气温年较差大",
+        "C": "降水集中在夏季"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带海洋性气候分布在南北纬40°-60°的大陆西岸，受西风带控制，其气候特征表现为（）",
+      "options": {
+        "A": "全年温和湿润",
+        "B": "气温年较差小",
+        "C": "降水季节分配均匀"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带大陆性气候主要分布在中纬度大陆内部，远离海洋，受大陆气团控制，下列关于其特征的说法正确的有（）",
+      "options": {
+        "A": "夏季炎热，冬季寒冷",
+        "B": "降水稀少，集中在夏季",
+        "C": "气温年较差和日较差都大"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "寒带气候包括苔原气候和冰原气候，主要分布在高纬度地区，其共同特征有（）",
+      "options": {
+        "A": "全年寒冷",
+        "B": "降水稀少",
+        "C": "热量不足"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "影响气候的主要因素有纬度位置、海陆位置、地形等，其中纬度位置对气候的影响主要体现在（）",
+      "options": {
+        "A": "影响太阳辐射的多少",
+        "B": "决定气温的高低",
+        "C": "影响降水的分布"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "海陆位置对气候的影响显著，同纬度地区，海洋和陆地的气候差异主要表现为（）",
+      "options": {
+        "A": "海洋气温年较差小，陆地气温年较差大",
+        "B": "海洋降水多，陆地降水少（沿海除外）",
+        "C": "海洋冬季气温高于陆地，夏季低于陆地"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地形对气候的影响主要体现在海拔和坡向两个方面，下列说法正确的有（）",
+      "options": {
+        "A": "海拔越高，气温越低",
+        "B": "迎风坡降水多，背风坡降水少",
+        "C": "阳坡气温高于阴坡"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "大气环流是影响气候的重要因素，下列关于大气环流对气候影响的说法正确的有（）",
+      "options": {
+        "A": "低气压带控制地区多阴雨天气",
+        "B": "高气压带控制地区多晴朗天气",
+        "C": "西风带控制地区多温和湿润气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "季风环流是大气环流的重要组成部分，东亚季风和南亚季风的共同特点有（）",
+      "options": {
+        "A": "夏季风来自海洋，温暖湿润",
+        "B": "冬季风来自陆地，寒冷干燥",
+        "C": "受海陆热力性质差异影响"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "锋面活动是影响天气和气候的重要因素，冷锋过境时可能带来的天气现象有（）",
+      "options": {
+        "A": "阴天、大风",
+        "B": "降温",
+        "C": "降水"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "暖锋过境时，由于暖气团缓慢爬升，可能出现的天气特征有（）",
+      "options": {
+        "A": "连续性降水",
+        "B": "气温上升",
+        "C": "气压下降"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气旋（低压系统）控制下，空气上升，易形成阴雨天气，下列属于气旋控制下的天气现象有（）",
+      "options": {
+        "A": "暴雨",
+        "B": "大风",
+        "C": "晴朗干燥"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "反气旋（高压系统）控制下，空气下沉，多晴朗天气，下列属于反气旋控制下的天气特征有（）",
+      "options": {
+        "A": "晴朗少云",
+        "B": "风力较小",
+        "C": "气温日较差大"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖是当前重要的气候问题，其主要原因有（）",
+      "options": {
+        "A": "温室气体（如二氧化碳）大量排放",
+        "B": "人类活动破坏植被",
+        "C": "太阳辐射增强"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖可能带来的影响有（）",
+      "options": {
+        "A": "海平面上升",
+        "B": "极端天气增多",
+        "C": "农业生产格局改变"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "降水的形成需要充足的水汽、上升气流和凝结核，下列因素中能促进降水形成的有（）",
+      "options": {
+        "A": "湿润气流遇地形阻挡爬升",
+        "B": "冷暖空气相遇形成锋面",
+        "C": "空气下沉增温"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于降水类型的说法，正确的有（）",
+      "options": {
+        "A": "锋面雨多形成于温带地区",
+        "B": "地形雨多发生在山地迎风坡",
+        "C": "对流雨多出现于赤道地区和夏季午后"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气温的分布受多种因素影响，下列关于世界气温分布规律的说法正确的有（）",
+      "options": {
+        "A": "从赤道向两极，气温逐渐降低",
+        "B": "同纬度地区，夏季陆地气温高于海洋，冬季相反",
+        "C": "海拔越高，气温越低"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气温日较差是指一天中最高气温与最低气温的差值，影响气温日较差的因素有（）",
+      "options": {
+        "A": "天气状况（晴天日较差大，阴天小）",
+        "B": "下垫面性质（陆地日较差大，海洋小）",
+        "C": "纬度位置（低纬度日较差大，高纬度小）"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气温年较差是指一年中最高月平均气温与最低月平均气温的差值，影响气温年较差的因素有（）",
+      "options": {
+        "A": "纬度位置（高纬度年较差大，低纬度小）",
+        "B": "海陆位置（陆地年较差大，海洋小）",
+        "C": "地形（高原年较差大，平原小）"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带草原气候分布在热带雨林气候南北两侧，受赤道低气压带和信风带交替控制，其特征有（）",
+      "options": {
+        "A": "全年高温",
+        "B": "分干湿两季",
+        "C": "湿季降水丰富，干季降水稀少"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "亚热带地中海气候与亚热带季风气候的异同点有（）",
+      "options": {
+        "A": "均位于亚热带地区",
+        "B": "夏季均炎热",
+        "C": "地中海气候冬季多雨，季风气候夏季多雨"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带季风气候与温带大陆性气候的区别主要体现在（）",
+      "options": {
+        "A": "降水多少（季风气候降水多，大陆性气候少）",
+        "B": "降水季节分配（季风气候集中夏季，大陆性气候更均匀）",
+        "C": "气温年较差（大陆性气候更大）"
+      },
+      "correct_answer": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "寒带苔原气候与冰原气候的共同特征有（）",
+      "options": {
+        "A": "全年寒冷",
+        "B": "降水稀少",
+        "C": "有苔藓、地衣等植被"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "影响大气环流的因素有（）",
+      "options": {
+        "A": "太阳辐射",
+        "B": "地转偏向力",
+        "C": "海陆分布"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气压带风带移动的说法，正确的有（）",
+      "options": {
+        "A": "随太阳直射点的季节移动而移动",
+        "B": "北半球夏季北移，冬季南移",
+        "C": "移动幅度约为5-10个纬度"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "西风带控制的地区，气候多温和湿润，下列地区中受西风带影响的有（）",
+      "options": {
+        "A": "欧洲西部",
+        "B": "北美洲西海岸",
+        "C": "南美洲东海岸"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "副热带高气压带控制的地区，气候多炎热干燥，下列地区中受其影响的有（）",
+      "options": {
+        "A": "撒哈拉沙漠",
+        "B": "阿拉伯半岛",
+        "C": "西欧平原"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "赤道低气压带控制的地区，空气上升，多阴雨天气，下列地区中受其影响的有（）",
+      "options": {
+        "A": "亚马孙平原",
+        "B": "刚果盆地",
+        "C": "地中海沿岸"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地形雨的形成需要特定的地形条件，下列关于地形雨的说法正确的有（）",
+      "options": {
+        "A": "湿润气流必须遇到山地阻挡",
+        "B": "降水主要集中在山地迎风坡",
+        "C": "背风坡降水稀少，形成雨影区"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "对流雨的形成与近地面空气受热上升有关，下列关于对流雨的说法正确的有（）",
+      "options": {
+        "A": "多发生在夏季午后",
+        "B": "降水强度大，历时短",
+        "C": "范围小，常伴有雷电"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "锋面雨是我国东部地区主要的降水类型，下列关于锋面雨的说法正确的有（）",
+      "options": {
+        "A": "多由冷锋或暖锋活动形成",
+        "B": "降水持续时间较长",
+        "C": "降水范围较广"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于世界气候分布规律的说法，正确的有（）",
+      "options": {
+        "A": "热带气候主要分布在南北回归线之间",
+        "B": "温带气候主要分布在中纬度地区",
+        "C": "寒带气候主要分布在两极地区"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "大陆东岸与大陆西岸的气候差异主要体现在（）",
+      "options": {
+        "A": "东岸多季风气候，西岸多非季风气候",
+        "B": "东岸降水多集中在夏季，西岸多集中在冬季（地中海气候）",
+        "C": "东岸气温年较差大，西岸气温年较差小"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，雨热同期的有（）",
+      "options": {
+        "A": "热带季风气候",
+        "B": "亚热带季风气候",
+        "C": "温带季风气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，雨热不同期的有（）",
+      "options": {
+        "A": "地中海气候",
+        "B": "热带沙漠气候",
+        "C": "温带海洋性气候"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "影响降水季节分配的因素有（）",
+      "options": {
+        "A": "大气环流",
+        "B": "海陆位置",
+        "C": "地形"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候对农业生产影响的说法，正确的有（）",
+      "options": {
+        "A": "热带气候适合种植热带作物（如橡胶、椰子）",
+        "B": "温带气候适合种植小麦、玉米等粮食作物",
+        "C": "寒带气候不适合农业生产"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气候对人类生活的影响主要体现在（）",
+      "options": {
+        "A": "衣着（热带穿短袖，寒带穿厚衣）",
+        "B": "民居（热带多高脚屋，寒带多冰屋）",
+        "C": "交通（暴雨、暴雪影响交通）"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列属于气候异常现象的有（）",
+      "options": {
+        "A": "厄尔尼诺现象",
+        "B": "拉尼娜现象",
+        "C": "暴雨洪涝"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "厄尔尼诺现象发生时，可能带来的影响有（）",
+      "options": {
+        "A": "太平洋东部海水温度升高",
+        "B": "南美洲西海岸降水增多",
+        "C": "东南亚降水减少"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "拉尼娜现象发生时，与厄尔尼诺现象相反的影响有（）",
+      "options": {
+        "A": "太平洋东部海水温度降低",
+        "B": "南美洲西海岸降水减少",
+        "C": "东南亚降水增多"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于大气保温作用的说法，正确的有（）",
+      "options": {
+        "A": "大气中的二氧化碳、水汽能吸收地面长波辐射",
+        "B": "大气逆辐射能补偿地面热量损失",
+        "C": "保温作用越强，气温年较差越小"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "大气削弱作用主要包括吸收、反射和散射，下列关于大气削弱作用的说法正确的有（）",
+      "options": {
+        "A": "云层反射作用强，能减少到达地面的太阳辐射",
+        "B": "臭氧能吸收太阳紫外线",
+        "C": "散射作用使晴朗天空呈蔚蓝色"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，全年降水稀少的有（）",
+      "options": {
+        "A": "热带沙漠气候",
+        "B": "温带大陆性气候",
+        "C": "寒带冰原气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，全年温和的有（）",
+      "options": {
+        "A": "温带海洋性气候",
+        "B": "亚热带季风气候",
+        "C": "寒带苔原气候"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于地形对气温影响的说法，正确的有（）",
+      "options": {
+        "A": "同纬度地区，海拔每升高100米，气温约下降0.6℃",
+        "B": "阳坡接受太阳辐射多，气温高于阴坡",
+        "C": "山谷地区夜间气温高于山坡，形成山谷风"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于海陆热力性质差异的说法，正确的有（）",
+      "options": {
+        "A": "陆地比热容小，升温快、降温快",
+        "B": "海洋比热容大，升温慢、降温慢",
+        "C": "海陆热力性质差异是季风形成的主要原因"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，受气压带风带交替控制形成的有（）",
+      "options": {
+        "A": "地中海气候",
+        "B": "热带草原气候",
+        "C": "热带季风气候"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，受单一气压带控制形成的有（）",
+      "options": {
+        "A": "热带雨林气候（赤道低气压带）",
+        "B": "热带沙漠气候（副热带高气压带）",
+        "C": "温带海洋性气候（西风带）"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于降水分布的说法，正确的有（）",
+      "options": {
+        "A": "赤道地区降水多，两极地区降水少",
+        "B": "中纬度沿海地区降水多，内陆地区降水少",
+        "C": "山地迎风坡降水多，背风坡降水少"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气温变化的说法，正确的有（）",
+      "options": {
+        "A": "一天中，最高气温出现在14时左右，最低气温出现在日出前后",
+        "B": "一年中，北半球陆地最高气温出现在7月，最低气温出现在1月",
+        "C": "南半球气温变化与北半球相反"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖对海洋的影响有（）",
+      "options": {
+        "A": "海水温度升高",
+        "B": "冰川融化，海平面上升",
+        "C": "海水盐度降低"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 59,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖对陆地生态系统的影响有（）",
+      "options": {
+        "A": "植被分布范围北移",
+        "B": "生物多样性减少",
+        "C": "农业生产条件改善"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列措施中，能缓解全球气候变暖的有（）",
+      "options": {
+        "A": "减少温室气体排放",
+        "B": "植树造林，增加植被覆盖率",
+        "C": "推广清洁能源"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于季风气候的说法，正确的有（）",
+      "options": {
+        "A": "季风气候区降水季节变化大",
+        "B": "季风气候区易发生旱涝灾害",
+        "C": "季风气候区雨热同期，利于农业生产"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 62,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于温带海洋性气候的说法，正确的有（）",
+      "options": {
+        "A": "全年温和湿润，适合多汁牧草生长",
+        "B": "降水季节分配均匀，无明显干湿季",
+        "C": "气温年较差小，冬季温和，夏季凉爽"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于热带沙漠气候的说法，正确的有（）",
+      "options": {
+        "A": "全年炎热干燥，蒸发量远大于降水量",
+        "B": "植被稀少，多为荒漠景观",
+        "C": "气温日较差和年较差都很大"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于热带雨林气候的说法，正确的有（）",
+      "options": {
+        "A": "全年高温多雨，植被茂密",
+        "B": "降水类型以对流雨为主",
+        "C": "气温年较差小，无明显季节变化"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "影响气候的人为因素主要有（）",
+      "options": {
+        "A": "人类活动排放温室气体",
+        "B": "破坏植被",
+        "C": "修建水库、城市热岛效应"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "城市热岛效应是城市气候的重要特征，其形成原因有（）",
+      "options": {
+        "A": "城市人口密集、工业发达，废热排放多",
+        "B": "城市硬化路面多，吸热快",
+        "C": "城市植被少，调节气温能力弱"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "城市热岛效应带来的影响有（）",
+      "options": {
+        "A": "城市气温高于郊区",
+        "B": "城市降水多于郊区",
+        "C": "城市风力小于郊区"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于锋面与气候的关系，说法正确的有（）",
+      "options": {
+        "A": "冷锋过境后，气温下降，气压升高，天气转晴",
+        "B": "暖锋过境后，气温上升，气压下降，天气转晴",
+        "C": "锋面活动频繁的地区，降水较多"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气旋与反气旋的区别，说法正确的有（）",
+      "options": {
+        "A": "气旋中心为低压，反气旋中心为高压",
+        "B": "气旋控制下多阴雨，反气旋控制下多晴朗",
+        "C": "气旋气流辐合上升，反气旋气流辐散下沉"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 70,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，分布在大陆内部的有（）",
+      "options": {
+        "A": "温带大陆性气候",
+        "B": "热带沙漠气候（内陆部分）",
+        "C": "亚热带季风气候"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，分布在大陆东岸的有（）",
+      "options": {
+        "A": "热带季风气候",
+        "B": "亚热带季风气候",
+        "C": "温带季风气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 72,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，分布在大陆西岸的有（）",
+      "options": {
+        "A": "地中海气候",
+        "B": "温带海洋性气候",
+        "C": "热带沙漠气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 73,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于降水强度的说法，正确的有（）",
+      "options": {
+        "A": "对流雨降水强度大，历时短",
+        "B": "锋面雨降水强度适中，历时较长",
+        "C": "地形雨降水强度随坡度增大而增强"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候与河流的关系，说法正确的有（）",
+      "options": {
+        "A": "热带雨林气候区，河流径流量大，季节变化小",
+        "B": "热带沙漠气候区，河流稀少，径流量小",
+        "C": "温带季风气候区，河流径流量季节变化大"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候与植被的关系，说法正确的有（）",
+      "options": {
+        "A": "热带雨林气候区，植被为热带雨林",
+        "B": "热带草原气候区，植被为热带草原",
+        "C": "温带海洋性气候区，植被为温带落叶阔叶林"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 76,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，冬季气温高于0℃的有（）",
+      "options": {
+        "A": "亚热带季风气候",
+        "B": "地中海气候",
+        "C": "温带海洋性气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，冬季气温低于0℃的有（）",
+      "options": {
+        "A": "温带季风气候",
+        "B": "温带大陆性气候",
+        "C": "寒带气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气压带的说法，正确的有（）",
+      "options": {
+        "A": "赤道低气压带：盛行上升气流，多阴雨",
+        "B": "副热带高气压带：盛行下沉气流，多晴朗",
+        "C": "副极地低气压带：冷暖空气交汇，多阴雨"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于风带的说法，正确的有（）",
+      "options": {
+        "A": "信风带：风向稳定，从副热带吹向赤道",
+        "B": "西风带：风向为西南风（北半球）、西北风（南半球），温和湿润",
+        "C": "极地东风带：从极地吹向副极地，寒冷干燥"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 80,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候类型判断的说法，正确的有（）",
+      "options": {
+        "A": "最冷月气温>15℃，为热带气候",
+        "B": "最冷月气温在0℃-15℃之间，为亚热带或温带海洋性气候",
+        "C": "最冷月气温<0℃，为温带或寒带气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 81,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，年降水量大于1000mm的有（）",
+      "options": {
+        "A": "热带雨林气候",
+        "B": "热带季风气候",
+        "C": "亚热带季风气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 82,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，年降水量在500-1000mm之间的有（）",
+      "options": {
+        "A": "温带季风气候",
+        "B": "温带海洋性气候",
+        "C": "热带草原气候"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 83,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，年降水量小于500mm的有（）",
+      "options": {
+        "A": "热带沙漠气候",
+        "B": "温带大陆性气候",
+        "C": "寒带气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 84,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于大气环流对降水影响的说法，正确的有（）",
+      "options": {
+        "A": "上升气流控制区，降水多",
+        "B": "下沉气流控制区，降水少",
+        "C": "西风带控制区，降水多"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 85,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于地形对降水影响的说法，正确的有（）",
+      "options": {
+        "A": "山地海拔越高，降水越多（一定范围内）",
+        "B": "迎风坡降水多，背风坡降水少",
+        "C": "地形起伏越大，降水差异越明显"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 86,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于海陆位置对降水影响的说法，正确的有（）",
+      "options": {
+        "A": "沿海地区降水多，内陆地区降水少",
+        "B": "距海越远，降水越少",
+        "C": "沿海地区降水均多于内陆地区（无例外）"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候异常现象中，会影响全球降水分布的有（）",
+      "options": {
+        "A": "厄尔尼诺现象",
+        "B": "拉尼娜现象",
+        "C": "台风"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 88,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于台风的说法，正确的有（）",
+      "options": {
+        "A": "台风多形成于热带海洋，受热带低压控制",
+        "B": "台风会带来狂风、暴雨、风暴潮",
+        "C": "台风主要影响我国东南沿海地区"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于寒潮的说法，正确的有（）",
+      "options": {
+        "A": "寒潮是强冷空气入侵带来的剧烈降温天气",
+        "B": "寒潮会带来大风、雨雪、冰冻等灾害",
+        "C": "寒潮主要影响我国北方地区，南方不受影响"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 90,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候对建筑的影响，说法正确的有（）",
+      "options": {
+        "A": "热带地区建筑多通风、遮阳，以降低室内温度",
+        "B": "寒带地区建筑多厚重、保暖，以抵御严寒",
+        "C": "多雨地区建筑多尖顶，便于排水"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 91,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候对交通的影响，说法正确的有（）",
+      "options": {
+        "A": "暴雨、暴雪会影响公路、铁路交通",
+        "B": "大雾会影响航空交通",
+        "C": "高温天气会影响车辆行驶安全"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候对人体健康的影响，说法正确的有（）",
+      "options": {
+        "A": "高温天气易引发中暑",
+        "B": "寒潮天气易引发感冒、关节炎",
+        "C": "潮湿天气易引发皮肤病"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 93,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，具有明显季节变化的有（）",
+      "options": {
+        "A": "热带季风气候",
+        "B": "温带季风气候",
+        "C": "地中海气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 94,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列气候类型中，季节变化不明显的有（）",
+      "options": {
+        "A": "热带雨林气候",
+        "B": "温带海洋性气候",
+        "C": "热带沙漠气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气压带风带对气候影响的说法，正确的有（）",
+      "options": {
+        "A": "赤道低气压带控制，形成热带雨林气候",
+        "B": "副热带高气压带控制，形成热带沙漠气候",
+        "C": "西风带控制，形成温带海洋性气候"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 96,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于海陆热力性质差异对季风影响的说法，正确的有（）",
+      "options": {
+        "A": "夏季，陆地升温快，形成低压，海洋形成高压，风从海洋吹向陆地",
+        "B": "冬季，陆地降温快，形成高压，海洋形成低压，风从陆地吹向海洋",
+        "C": "海陆热力性质差异越显著，季风越强"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 97,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于全球气候分布的特殊性，说法正确的有（）",
+      "options": {
+        "A": "马达加斯加岛东部为热带雨林气候，受地形和暖流影响",
+        "B": "南美洲西海岸热带沙漠气候延伸至赤道附近，受寒流影响",
+        "C": "欧洲西部温带海洋性气候分布广泛，受西风和暖流影响"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 98,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候变暖对农业的影响，说法正确的有（）",
+      "options": {
+        "A": "高纬度地区热量条件改善，利于农业生产",
+        "B": "中低纬度地区可能出现干旱，影响农业生产",
+        "C": "全球农业生产格局会发生调整"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 99,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候与土壤的关系，说法正确的有（）",
+      "options": {
+        "A": "热带雨林气候区，土壤贫瘠，有机质分解快",
+        "B": "温带季风气候区，土壤肥沃，有机质积累多",
+        "C": "热带沙漠气候区，土壤贫瘠，盐分含量高"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 100,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "下列关于气候研究的意义，说法正确的有（）",
+      "options": {
+        "A": "指导农业生产，合理安排种植制度",
+        "B": "预测天气变化，防范气候灾害",
+        "C": "为城市规划、交通建设提供依据"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ]
+}

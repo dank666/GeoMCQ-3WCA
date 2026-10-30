@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:agieval-191",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：为确保2020年上海崇明岛基本达到世界级生态岛的建设要求，科学家需采集岛内土地资源的影像形状和色调特征信息。其所用的技术主要是 ( )\n\n待判断的选项：\nA. 遥感技术\nB. 全球定位系统\nC. 地理信息系统\nD. 数字地球\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于2020年上海崇明岛土地资源影像形状和色调特征信息采集的技术\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\"],\n\"B\": [\"否\"],\n\"C\": [\"否\"],\n\"D\": [\"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 22,
+  "prompt_tokens": 178,
+  "total_tokens": 200,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 178
+ },
+ "created": 1792773093
+}

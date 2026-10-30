@@ -1,0 +1,50 @@
+{
+ "tag": "DIRECT:geomcq-single-CL-094",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n大气环流中的信风带主要分布在南北纬0°-30°之间，分为东北信风带和东南信风带，信风带的气流多为干燥气流，对热带沙漠气候的形成有重要影响，某地区位于北回归线附近的大陆西岸，受东北信风带控制，结合信风带的影响及热带气候特征，该地区的气候特征是（ ）\n\nOptions:\nA. 全年高温多雨\nB. 全年炎热干燥\nC. 夏季高温多雨，冬季温和少雨\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "B",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 182,
+  "total_tokens": 183,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 182
+ },
+ "created": 1792771204
+}

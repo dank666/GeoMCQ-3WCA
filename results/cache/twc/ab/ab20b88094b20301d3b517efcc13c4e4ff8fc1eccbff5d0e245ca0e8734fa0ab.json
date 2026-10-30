@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:gaokao-03-2",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n地膜覆盖具有保温、保湿、保土等作用，可有效提高农作物产量和农产品质量． 我国目前使用的地膜多是超薄型地膜，易破，难回收，难以自然降解，易造成严重的“白色污染”．据此完成 3～5 题．\n\nQuestion:\n下列地区相比较，地膜覆盖的保温、保湿、保土作用最显著的是（）\n\nOptions:\nA. 东南沿海地区\nB. 西南地区\nC. 东北地区\nD. 西北地区\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "D",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 177,
+  "total_tokens": 178,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 64,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 64,
+  "prompt_cache_miss_tokens": 113
+ },
+ "created": 1792774600
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-058",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：科考队在北极圈内某地进行科考时，于北京时间6月22日16时测得了当地一天中太阳高度的最小值为10°。该地位于（）\n\n待判断的选项：\nA. 欧洲北部\nB. 亚洲西部\nC. 亚洲东部\nD. 北美北部\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 科考：上位：地理研究方法、科学考察活动；特征：极地科考、环境监测、数据采集、野外作业\n- 北极圈：上位：纬线圈；特征：北纬66.5°、极昼极夜现象；成因：地轴倾斜；影响：寒带气候、极地生态系统；分布：北冰洋、格陵兰岛、西伯利亚北部\n- 北京：上位：中国首都、直辖市；特征：政治文化中心、国际交往中心、科技创新中心；成因：历史古都、国家政策；影响：京津冀协同发展、城市化进程；分布：华北平原北部、京津冀地区\n- 时间：上位：地理要素；特征：一维性、不可逆性、连续性；影响：地理过程演变、时间尺度差异\n- 太阳高度：上位：角度；特征：随纬度变化、随季节变化、日变化；成因：地球自转、地球公转；影响：影响太阳辐射强度、决定昼夜长短\n- 欧洲：上位：大洲；特征：海岸线曲折、平原面积广大、温带气候为主；成因：冰川作用、西风带影响；影响：经济发达、旅游业繁荣；分布：亚欧大陆西部\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合该地地理特征的结论\n2. 位于北极圈内\n3. 满足6月22日太阳高度最小值为10°\n4. 对应北京时间16时的经度位置\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 4 个判断，例如：{\"A\": [\"是\", \"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\", \"是\", \"是\"], \"B\": [\"否\", \"是\", \"是\", \"否\"], \"C\": [\"否\", \"是\", \"是\", \"否\"], \"D\": [\"否\", \"是\", \"是\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 60,
+  "prompt_tokens": 502,
+  "total_tokens": 562,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 502
+ },
+ "created": 1792770829
+}

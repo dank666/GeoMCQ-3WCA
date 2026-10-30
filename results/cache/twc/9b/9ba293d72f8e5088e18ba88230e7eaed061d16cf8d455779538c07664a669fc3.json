@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:gaokao-03-1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n地膜覆盖具有保温、保湿、保土等作用，可有效提高农作物产量和农产品质量． 我国目前使用的地膜多是超薄型地膜，易破，难回收，难以自然降解，易造成严重的“白色污染”．据此完成 3～5 题．\n\nQuestion:\n我国大部分地区使用地膜覆盖主要在（）\n\nOptions:\nA. 春季\nB. 夏季\nC. 秋季\nD. 冬季\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "A",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 164,
+  "total_tokens": 165,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 164
+ },
+ "created": 1792774600
+}

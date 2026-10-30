@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-069",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：洋流对航海的影响有（）\n\n待判断的选项：\nA. 寒暖流交汇处多雾\nB. 逆流不影响速度\nC. 顺流增速省油\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 洋流对航海的影响：上位：洋流影响；特征：顺流加速、逆流减速；成因：洋流运动；影响：影响航行速度、影响航行安全；分布：北大西洋航线、太平洋航线\n- 寒暖流交汇：上位：洋流相互作用；特征：海水扰动强烈、营养盐类上泛、形成水障、浮游生物繁盛；成因：不同性质洋流相遇、海水密度差异、风向与地形影响；影响：形成大渔场、影响海洋生物分布、改变局部气候；分布：纽芬兰渔场、北海道渔场、北海渔场\n- 多雾：上位：天气现象；特征：能见度低、持续时间长、局地性强；成因：水汽充足、冷却凝结、逆温层；影响：影响交通、净化空气；分布：四川盆地、沿海地区、城市近郊\n- 逆流：上位：洋流运动、洋流对航海影响；特征：逆流减速、逆流耗油、逆流航行\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是洋流对航海产生的影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 379,
+  "total_tokens": 397,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 379
+ },
+ "created": 1792769618
+}

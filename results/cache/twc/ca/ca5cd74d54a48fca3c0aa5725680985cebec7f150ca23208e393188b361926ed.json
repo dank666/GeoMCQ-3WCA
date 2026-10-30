@@ -1,0 +1,50 @@
+{
+ "tag": "DIRECT:gaokao-03-3",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n地膜覆盖具有保温、保湿、保土等作用，可有效提高农作物产量和农产品质量． 我国目前使用的地膜多是超薄型地膜，易破，难回收，难以自然降解，易造成严重的“白色污染”．据此完成 3～5 题．\n\nQuestion:\n残留在土壤中的地膜会（） ①危害作物根系发育 ②阻碍土壤温度提升 ③阻碍土壤水肥运移 ④加快表土流失速度．\n\nOptions:\nA. ①③\nB. ①④\nC. ②③\nD. ②④\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "A",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 208,
+  "total_tokens": 209,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 208
+ },
+ "created": 1792771497
+}

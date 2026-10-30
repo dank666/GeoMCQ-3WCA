@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-080",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：水循环的地下径流环节，是地下水的主要运动形式，地下径流的速度主要受土质和地形影响，土质疏松、地势落差大的地区，地下径流速度快；土质坚硬、地势平坦的地区，地下径流速度慢，某地区土质疏松，地势有一定落差，结合地下径流的影响因素，该地区的地下径流速度是（ ）\n\n待判断的选项：\nA. 速度慢\nB. 速度不变\nC. 速度快\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 水循环：上位：物质循环；特征：连续运动、全球性、能量交换；成因：太阳辐射、重力作用；影响：维持水量平衡、塑造地表形态、促进物质迁移；分布：全球\n- 地下径流：上位：径流、水循环环节；特征：流速慢、水量稳定、水质较好；成因：降水下渗、地下水流动、地形坡度；影响：补给河流、维持生态用水、参与水循环；分布：喀斯特地区、冲积平原、山区\n- 地下水：上位：陆地水体、水资源；特征：埋藏地下、水量稳定、水质较好、更新缓慢；成因：降水下渗、地表水补给、岩层储水；影响：提供饮用水、农业灌溉、维持生态、引发地面沉降；分布：华北平原、河西走廊、喀斯特地区\n- 土质：上位：土壤性质、下渗条件、地质结构；特征：土质疏松、土质坚硬、孔隙大小、透水性\n- 地形影响：上位：自然地理影响；特征：影响气候差异、影响河流流向、影响交通布局；成因：海拔高度、地表起伏、坡向坡度；影响：形成垂直地带性、影响人口分布、影响农业类型\n- 地势：上位：地形特征；特征：高低起伏、倾斜方向、海拔差异；成因：地壳运动、外力侵蚀、沉积作用；影响：河流流向、气候差异、交通布局；分布：中国地势、青藏高原、长江中下游平原\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合该地区地下径流速度特征的结论\n2. 基于土质疏松和地势有落差的已知条件\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 570,
+  "total_tokens": 597,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 570
+ },
+ "created": 1792769094
+}

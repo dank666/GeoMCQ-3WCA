@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:素质||68cabc249b7d",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“素质”编写一个词典条目，供符号推理系统使用。\n\n题干：我国是世界闻名的陶瓷古国，明清时期，“瓷都”景德镇是全国的瓷业中心，产品远销海内外，20世纪80年代初，广东省佛山市率先引进国外现代化陶瓷生产线，逐步发展成为全国乃至世界最大的陶瓷生产基地．2003年，佛山陶瓷主产区被划入中心城区范围，陶瓷产业向景德镇等陶瓷产地转移．据此完成1﹣3题．与景德镇相比，20世纪80年代佛山瓷业迅速发展的主要原因是()\n选项：\nA. 市场广阔\nB. 原材料充足\nC. 劳动力素质高\nD. 国家政策倾斜\n\n词典中已有条目的示例：\n{\"term\": \"成因\", \"category\": \"OTHER\", \"parent_level\": \"地理要素\", \"child_level\": \"自然成因；人为成因；解释性；关联性；多样性\"}\n{\"term\": \"市场\", \"category\": \"INDUSTRY\", \"parent_level\": \"区位因素；人口集聚；经济发展\", \"child_level\": \"消费市场；国际市场；国内市场；影响产业布局；接近消费地；降低运输成本\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"劳动力；技能水平；经济发展\", \"child_level\": \"技术熟练；创新能力；教育水平；生产效率；产业升级\", \"confidence\": 0.8}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 508,
+  "total_tokens": 556,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771020
+}

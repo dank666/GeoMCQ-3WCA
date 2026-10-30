@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-017",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流上游流速快，以侵蚀、搬运作用为主；下游流速慢，以堆积作用为主。从上游到下游，河流沉积物颗粒变化规律通常是（）\n\n待判断的选项：\nA. 颗粒均匀不变\nB. 由粗变细\nC. 由细变粗\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流上游：上位：河段；特征：落差大、水流急、侵蚀作用强、多峡谷；成因：地势高差大、河流下切侵蚀；影响：水能资源丰富、形成峡谷地貌；分布：长江上游、黄河上游\n- 流速：上位：水文要素；特征：单位时间流距、影响侵蚀搬运；成因：坡度、流量；影响：侵蚀强度、沉积作用；分布：河流、洋流\n- 搬运作用：上位：外力作用；特征：物质迁移、分选性、磨圆度变化；成因：流水、风力、冰川、重力；影响：形成沉积物、塑造地表形态；分布：河流、沙漠、冰川区、海岸\n- 下游：上位：河流分段；特征：地势低平、流速缓慢、沉积作用强；影响：形成冲积平原、多曲流；分布：河流入海口、河流中下游平原\n- 堆积作用：上位：外力作用；特征：物质堆积、分选性、层理构造；成因：搬运能力下降、流速减缓、冰川融化；影响：形成堆积地貌、土壤形成；分布：河流中下游、山麓地带、沙漠边缘\n- 上游：上位：河流分段；特征：落差大、水流急、水能丰富、侵蚀作用强；成因：地势高差大；影响：水能资源丰富、峡谷地貌、泥沙来源；分布：河流源头段、山区河流\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是河流沉积物颗粒从上游到下游的变化规律\n2. 符合河流流速与沉积物颗粒大小的地理原理\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 521,
+  "total_tokens": 548,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 521
+ },
+ "created": 1792768728
+}

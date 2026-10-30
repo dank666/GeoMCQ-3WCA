@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-CL-091",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于气候对交通的影响，说法正确的有（）\n\n待判断的选项：\nA. 大雾会影响航空交通\nB. 高温天气会影响车辆行驶安全\nC. 暴雨、暴雪会影响公路、铁路交通\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 气候：上位：大气现象；特征：长期平均状态、具有稳定性、空间差异性、受多种因素影响；成因：太阳辐射、大气环流、下垫面性质、人类活动；影响：影响农业生产、影响人类活动、塑造自然景观；分布：全球各地\n- 交通：上位：运输方式；特征：实现位移、网络性、区域性；成因：社会经济需求、技术进步；影响：促进经济发展、加强区域联系\n- 大雾：上位：天气现象；特征：能见度低、近地面水汽凝结、持续时间不定；成因：水汽充足、冷却降温、凝结核存在、大气稳定；影响：交通受阻、空气质量下降、农业影响；分布：四川盆地、长江中下游、沿海地区\n- 航空：上位：交通运输方式；特征：速度快、运量小、运费高、受天气影响大；成因：长距离快速运输需求、经济发展水平提高；影响：缩短时空距离、促进国际交往；分布：国际航空枢纽、大型机场\n- 高温：上位：天气现象、气象灾害；特征：气温高、持续时间长、影响范围广；成因：副热带高压控制、太阳辐射强、城市热岛效应；影响：人体健康受损、用电用水紧张、农作物减产；分布：长江中下游地区、华北地区、新疆盆地\n- 天气：上位：大气状况；特征：短时间变化、多要素综合、局地差异明显；成因：大气运动、天气系统活动；影响：影响生产生活、影响出行活动\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于气候对交通的影响符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 493,
+  "total_tokens": 511,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 493
+ },
+ "created": 1792769525
+}

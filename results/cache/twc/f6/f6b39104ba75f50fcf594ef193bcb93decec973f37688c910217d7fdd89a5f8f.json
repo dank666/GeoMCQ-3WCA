@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-099",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地表形态的形成是内力和外力共同作用的结果，下列地形中，由内力作用和外力作用共同形成的是（ ）\n\n待判断的选项：\nA. 黄土高原\nB. 山脉\nC. 三角洲\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地表形态：上位：自然地理要素；特征：起伏变化、空间差异、动态演变；成因：内力作用、外力作用；影响：影响气候、影响水文、影响人类活动；分布：全球陆地\n- 内力：上位：地质作用；特征：能量来自地球内部、使地表高低起伏、作用缓慢而持久；成因：放射性元素衰变、地球内部热能；影响：塑造地表形态、形成山脉盆地、引发地震火山；分布：板块交界带、造山带、裂谷带\n- 外力：上位：地质作用、地貌成因；特征：来自地球外部、以太阳能为动力、使地表趋于平缓；成因：太阳辐射能、重力作用、流水风力冰川；影响：塑造地表形态、削高填低、形成沉积地貌\n- 成果：上位：产出、结果；特征：可评估、有价值、可转化；成因：劳动投入、创新活动；影响：推动发展、产生效益\n- 地形：上位：地表形态；特征：地表起伏形态、由内外力共同塑造、具有空间分异；成因：内力作用、外力作用；影响：影响气候、影响水文、影响土壤植被、影响人类活动\n- 内力作用：上位：地质作用；特征：能量来自地球内部、使地表高低起伏、作用缓慢而持久；成因：地球内能释放、放射性元素衰变；影响：形成山脉盆地、塑造地表形态、引发地震火山；分布：板块交界带、造山带、裂谷带\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是内力作用和外力作用共同形成的地形\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 499,
+  "total_tokens": 517,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 499
+ },
+ "created": 1792769396
+}

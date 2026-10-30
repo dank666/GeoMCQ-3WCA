@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-051",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：锋面雨形成的原理是冷暖空气相遇，暖气团沿锋面抬升冷却凝结成雨。我国东部夏季降水多属于（）\n\n待判断的选项：\nA. 锋面雨\nB. 对流雨\nC. 地形雨\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 锋面雨：上位：降水类型；特征：暖空气抬升、冷却凝结、降水范围广；成因：冷暖气团相遇、暖空气抬升；影响：降水、缓解旱情；分布：中纬度地区、我国东部季风区\n- 暖空气：上位：气团；特征：温度较高、密度较小、常位于锋面上方；成因：受热、来自低纬度；影响：形成暖锋、导致气温上升\n- 暖气团：上位：气团；特征：温度较高、湿度较大、层结稳定；成因：低纬度地区形成、下垫面加热；影响：天气转暖、形成暖锋；分布：低纬度洋面、副热带地区\n- 锋面：上位：天气系统；特征：冷暖气团交界面、倾斜界面、伴随云雨天气；成因：冷暖气团相遇、气团势力差异；影响：形成降水、引起天气变化、影响气温和风；分布：中纬度地区、温带地区、我国大部分地区\n- 冷凝：上位：物态变化；特征：气态变液态、释放热量；成因：降温、水汽饱和；影响：形成降水、释放潜热；分布：近地面、云中\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 属于我国东部夏季降水的主要类型\n2. 符合锋面雨的形成原理\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 508,
+  "total_tokens": 535,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 508
+ },
+ "created": 1792768785
+}

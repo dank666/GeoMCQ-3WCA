@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:gaokao-11-3",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n我国是世界闻名的陶瓷古国，明清时期，“瓷都”景德镇是全国的瓷业中心，产品远销海内外，20 世纪 80 年代初，广东省佛山市率先引进国外现代化陶瓷生产线，逐步发展成为全国乃至世界最大的陶瓷生产基地．2003 年，佛山陶瓷主产区被划入中心城区范围，陶瓷产业向景德镇等陶瓷产地转移．据此完成 1﹣3 题．\n\nQuestion:\n景德镇吸引佛山陶瓷产业转移的主要优势是（）\n\nOptions:\nA. 资金充足\nB. 劳动力成本低\nC. 产业基础好\nD. 交通运输便捷\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 181,
+  "total_tokens": 183,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771787
+}

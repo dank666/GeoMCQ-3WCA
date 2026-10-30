@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-054",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：山区沟谷地带地势低平，泥沙淤积，水源充足，土壤与植被特点是（）\n\n待判断的选项：\nA. 土层薄、植被差\nB. 盐碱重、植被少\nC. 土层厚、植被好\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 山区：上位：陆地地形；特征：海拔较高、坡度陡峭、地形起伏大；成因：地壳运动、流水侵蚀、风化作用；影响：垂直自然带、交通不便、生态脆弱；分布：青藏高原、横断山区、秦岭\n- 沟谷：上位：流水侵蚀地貌、地貌类型；特征：地表凹陷、两壁陡峭、纵比降大；成因：流水侵蚀、地表物质松散、植被破坏；影响：水土流失、切割地表；分布：黄土高原、山区\n- 地带：上位：自然地理环境；特征：呈带状分布、具有一定宽度、沿一定方向延伸；成因：纬度位置差异、海陆位置差异、地形起伏；影响：影响自然地理要素分布、影响人类活动；分布：全球陆地、特定区域\n- 地势低平：上位：地形特征、地貌特征；特征：海拔较低、地面起伏小；成因：沉积作用、地壳沉降；影响：利于农业发展、易发生洪涝、交通便利；分布：华北平原、长江中下游平原\n- 泥沙：上位：固体物质；特征：颗粒细小、随水流搬运、易沉积；成因：流水侵蚀、风化作用；影响：形成冲积平原、淤积河道、影响水质；分布：黄河、长江中下游、河口三角洲\n- 淤积：上位：外力作用；特征：泥沙堆积、地势抬高、河床变浅；成因：流速减慢、泥沙来源丰富、人类活动；影响：河床抬高、洪涝加剧、航道受阻；分布：黄河下游、长江中游、水库库尾\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是山区沟谷地带的土壤与植被特点\n2. 符合地势低平、泥沙淤积、水源充足的环境特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 546,
+  "total_tokens": 573,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 546
+ },
+ "created": 1792769193
+}

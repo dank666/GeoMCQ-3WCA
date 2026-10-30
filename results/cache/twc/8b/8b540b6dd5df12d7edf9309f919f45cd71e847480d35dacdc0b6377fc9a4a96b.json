@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-074",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下表为2019年全国及四大地区人口增长幅度（与2012年相比）、三次产业结构统计表。\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline \\multicolumn{2}{|c|}{ 地区 } & 全国 & 甲 & 乙 & 丙 & 丁 \\\\\n\\hline \\multicolumn{2}{|c|}{ 人口增长率 (\\%) } & 3.4 & -1.7 & 4.5 & 2.6 & 4.2 \\\\\n\\hline \\multirow{3}{*}{\\begin{tabular}{c} \n三次产业结构 \\\\\n\\multirow{3}{*}{$(\\%)$}\n\\end{tabular}} & 第一产业 & 7.2 & 13.2 & 4.6 & 8.2 & 11.0 \\\\\n\\cline { 2 - 7 } & 第二产业 & 39.1 & 34.4 & 38.9 & 41.8 & 37.0 \\\\\n\\cline { 2 - 7 } & 第三产业 & 53.7 & 52.4 & 56.5 & 50.0 & 51.1 \\\\\n\\hline\n\\end{tabular} 四大地区中（）\n\n待判断的选项：\nA. 主导丁地区发展的因素是高科技\nB. 人口增幅最大的地区，城市化水平最高\nC. 吸纳外资能力由强到弱依次 丙、甲、丁、乙\nD. 乙、丙地区第二产业比重较高，以重型工业为主\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于四大地区人口增长幅度和三次产业结构的说法\n2. 2019年\n3. 全国及四大地区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"不确定\", \"是\", \"是\"],\n\"B\": [\"不确定\", \"是\", \"是\"],\n\"C\": [\"不确定\", \"是\", \"是\"],\n\"D\": [\"不确定\", \"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 46,
+  "prompt_tokens": 478,
+  "total_tokens": 524,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773004
+}

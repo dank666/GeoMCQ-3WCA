@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-071",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于土壤水分与植物生长关系的说法，正确的有（）\n\n待判断的选项：\nA. 土壤水分不足，植物会缺水枯萎；水分过多，会导致根系缺氧腐烂\nB. 植物生长需要适宜的土壤水分，过多或过少都会影响生长\nC. 不同植物对土壤水分的需求相同，无需根据植物类型调整水分\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤水分：上位：土壤组成物质；特征：动态变化、受气候影响、影响土壤通气；成因：降水、蒸发、灌溉；影响：影响作物生长、影响土壤发育\n- 植物：上位：生物；特征：光合作用、适应环境；成因：气候土壤条件；影响：保持水土、调节气候\n- 缺水：上位：资源问题、环境问题；特征：水资源不足、供需矛盾、分布不均；成因：降水稀少、用水量大、水污染、水资源分布不均；影响：制约经济发展、影响居民生活、导致生态退化；分布：华北地区、西北地区、干旱区\n- 水分：上位：土壤组成；特征：存在于土壤孔隙、参与植物吸收、随季节变化；成因：降水下渗、灌溉补给、地下水上升；影响：影响植物生长、影响土壤肥力、参与水循环；分布：耕作层、草原土壤、森林土壤\n- 根系：上位：植物器官、植被组成部分；特征：固定植株、吸收水分养分、分布受土壤影响；成因：植物生长、土壤条件、水分条件；影响：保持水土、改良土壤、影响地表径流；分布：森林、草原、荒漠\n- 调整：上位：改变、优化；特征：适应性、目的性、过程性；成因：内外部条件变化、发展需求；影响：适应新环境、提高效益\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于土壤水分与植物生长关系的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 496,
+  "total_tokens": 514,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 496
+ },
+ "created": 1792770018
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-016",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：雅丹地貌是干旱地区的一种特殊地貌，其形成的主要条件有（）\n\n待判断的选项：\nA. 风力侵蚀强烈\nB. 岩层疏松易风化\nC. 降水丰富\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 雅丹地貌：上位：风蚀地貌；特征：垄槽相间、走向与风向一致、形态多样；成因：风力侵蚀、干旱气候、湖相沉积物；影响：形成独特景观、指示风向；分布：柴达木盆地、罗布泊地区、敦煌\n- 干旱地区：上位：自然地区、气候区；特征：气候干旱、地表水缺乏、风力作用强；成因：深居内陆、水汽难以到达；影响：荒漠景观、绿洲分布、土地退化；分布：塔里木盆地、河西走廊、柴达木盆地\n- 地貌：上位：地表形态、自然地理要素；特征：起伏形态、空间分异、成因多样；成因：内力作用、外力作用；影响：影响气候、影响水文、影响人类活动；分布：陆地表面、海底地形\n- 风力侵蚀：上位：风力作用、外力侵蚀；特征：吹蚀作用、磨蚀作用、干旱区显著；成因：强风、松散地表、植被稀少；影响：形成风蚀地貌、土地退化、沙尘暴；分布：西北干旱区、塔克拉玛干沙漠、柴达木盆地\n- 岩层：上位：岩石、地质构造；特征：层状结构、地质历史记录、产状变化；成因：沉积作用、岩浆活动、变质作用；影响：地质构造、矿产资源、地下水储存；分布：沉积盆地、山区、平原\n- 风化：上位：外力作用、岩石破坏过程；特征：岩石破碎、原地进行、为侵蚀提供物质；成因：温度变化、水与氧气作用、生物活动；影响：形成风化壳、促进土壤形成、改变岩石性质；分布：岩石裸露区、干旱地区、湿润山区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是雅丹地貌形成的主要条件\n2. 适用于干旱地区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 550,
+  "total_tokens": 577,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 550
+ },
+ "created": 1792770084
+}

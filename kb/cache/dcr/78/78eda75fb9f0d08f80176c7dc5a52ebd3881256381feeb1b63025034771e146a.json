@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:土壤侵蚀||4788b42ac1ab",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“土壤侵蚀”编写一个词典条目，供符号推理系统使用。\n\n题干：下列关于植被的生态价值，说法正确的有()\n选项：\nA. 为动物提供栖息地，维护生物多样性\nB. 保持水土，减少土壤侵蚀，防治土地荒漠化\nC. 净化空气，吸收有害气体，释放氧气\n\n词典中已有条目的示例：\n{\"term\": \"植被\", \"category\": \"SOILVEG\", \"parent_level\": \"自然地理要素；生物圈组成部分；气候条件；土壤条件\", \"child_level\": \"森林；草原；荒漠；覆盖地表；受气候制约；具有地带性分布\"}\n{\"term\": \"生态\", \"category\": \"ENVSYS\", \"parent_level\": \"自然系统；生物与环境相互作用\", \"child_level\": \"森林生态；草原生态；湿地生态；物质循环；能量流动；自我调节\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"SOILVEG\", \"parent_level\": \"土壤退化；外力作用；生态破坏\", \"child_level\": \"水土流失；表土剥离；肥力下降；沟壑发育\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 53,
+  "prompt_tokens": 473,
+  "total_tokens": 526,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 473
+ },
+ "created": 1792768563
+}

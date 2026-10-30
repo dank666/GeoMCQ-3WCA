@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-077",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于火山锥的说法，正确的有（）\n\n待判断的选项：\nA. 由火山喷发的岩浆、火山灰堆积形成\nB. 均为活火山\nC. 呈圆锥形\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 火山锥：上位：火山地貌、堆积地貌；特征：锥形山体、顶部有火山口、由火山碎屑堆积、坡度较陡；成因：火山喷发、碎屑物堆积、熔岩流冷凝；影响：形成山地景观、火山灾害、旅游资源；分布：日本富士山、意大利维苏威、中国长白山、美国圣海伦斯\n- 火山喷发：上位：地质作用、自然灾害；特征：岩浆喷出、火山灰、火山气体；成因：岩浆压力、板块运动；影响：火山灾害、改变地貌、影响气候；分布：环太平洋火山带、地中海火山带、冰岛\n- 岩浆：上位：地球内部物质；特征：高温熔融、富含气体、可流动；成因：地温增高、压力降低、构造活动；影响：形成岩浆岩、引发火山活动；分布：软流层、火山口\n- 火山：上位：地质构造、地貌类型；特征：岩浆喷出、火山锥、火山口；成因：板块运动、岩浆活动；影响：形成火山地貌、火山灾害、火山资源；分布：环太平洋火山带、地中海火山带、东非裂谷带\n- 活火山：上位：火山活动、地质构造、板块运动、岩浆活动；特征：近期喷发、有喷发记录、可能喷发、火山锥、熔岩流\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于火山锥的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 459,
+  "total_tokens": 477,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 459
+ },
+ "created": 1792770163
+}

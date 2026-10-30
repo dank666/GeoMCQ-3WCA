@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-009",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：成土母质是土壤的物质基础，花岗岩等酸性岩风化形成的土壤多偏酸，石灰岩风化形成的土壤偏碱。石灰岩地区土壤通常（）\n\n待判断的选项：\nA. 呈酸性\nB. 呈碱性\nC. 呈强酸性\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 成土母质：上位：土壤形成因素；特征：提供矿物质、影响土壤质地、影响土壤化学性质；成因：岩石风化、外力搬运；影响：决定土壤肥力基础、影响土壤类型\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 花岗岩：上位：岩浆岩、侵入岩；特征：全晶质结构、块状构造、质地坚硬、抗蚀力强；成因：岩浆侵入冷凝、地壳深处结晶；影响：形成花岗岩地貌、提供建筑材料；分布：华南地区、泰山、华山、黄山\n- 酸性：上位：土壤性质、化学性质；特征：pH值小于7、盐基饱和度低、铁铝氧化物富集；成因：降水淋溶、酸性母岩、酸沉降；影响：影响养分有效性、限制作物生长；分布：南方红壤区、酸雨区\n- 风化：上位：外力作用、岩石破坏过程；特征：岩石破碎、原地进行、为侵蚀提供物质；成因：温度变化、水与氧气作用、生物活动；影响：形成风化壳、促进土壤形成、改变岩石性质；分布：岩石裸露区、干旱地区、湿润山区\n- 石灰岩：上位：沉积岩；特征：主要成分碳酸钙、易溶蚀、层理构造；成因：浅海沉积、化学沉淀、生物堆积；影响：形成喀斯特地貌、用作建筑材料；分布：广西、贵州、云南\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是石灰岩地区土壤的通常特征\n2. 符合石灰岩风化形成偏碱土壤的规律\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 557,
+  "total_tokens": 584,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 557
+ },
+ "created": 1792769132
+}

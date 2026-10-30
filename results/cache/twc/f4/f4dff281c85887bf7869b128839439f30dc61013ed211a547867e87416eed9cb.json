@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-HY-004",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n汛期是指河流由于流域内季节性降水、融雪等原因，水位周期性上涨的时期，下列关于河流汛期的说法正确的有（）\n\nOptions:\nA. 积雪融水补给的河流，汛期多在春季\nB. 全年降水均匀的地区，河流无明显汛期\nC. 夏雨型气候区，河流汛期多在夏季\n\nInstructions:\n1. One or more options may be correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nABC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 145,
+  "total_tokens": 147,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771729
+}

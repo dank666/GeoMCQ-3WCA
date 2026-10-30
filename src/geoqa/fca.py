@@ -1,0 +1,212 @@
+"""Formal contexts, two-way and three-way concepts, and three-way merged concepts.
+
+Notation follows Qi et al. (2014) as used in the paper. For a context (U, V, R)
+with X ⊆ U and A ⊆ V:
+
+    X*  = attributes shared by all objects of X
+    A*  = objects having all attributes of A
+    X¯* = attributes possessed by no object of X       (positive operator on R^c)
+    A¯* = objects having none of the attributes of A
+
+    X⋖ = (X*, X¯*)             (A, B)⋗ = A* ∩ B¯*
+    A⋖ = (A*, A¯*)             (X, Y)⋗ = X* ∩ Y¯*
+
+An OE-concept is (X, (A, B)) with X⋖ = (A, B) and (A, B)⋗ = X; an AE-concept is
+((X, Y), A) with A⋖ = (X, Y) and (X, Y)⋗ = A. A three-way merged concept pairs a
+compatible OE- and AE-concept (conditions C1 / C2 of the paper).
+
+Sets are represented as int bitmasks internally; the public API uses frozensets
+of object / attribute names.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from typing import Hashable, Iterable
+
+
+def _bits(mask: int) -> Iterable[int]:
+    while mask:
+        low = mask & -mask
+        yield low.bit_length() - 1
+        mask ^= low
+
+
+@dataclass(frozen=True)
+class MergedConcept:
+    """((X, Y), (A, B)): X has all of A, Y has none of A; A shared by X, B absent from X."""
+
+    pos_extent: frozenset
+    neg_extent: frozenset
+    pos_intent: frozenset
+    neg_intent: frozenset
+    kinds: frozenset  # subset of {"C1", "C2"}
+
+
+class FormalContext:
+    """A formal context (U, V, R⁺, R⁻).
+
+    By default R⁻ is the complement of R⁺ (a complete context). Passing
+    `negative` gives an incomplete (three-valued) context: (g, a) ∈ R⁺ means g
+    has a, (g, a) ∈ R⁻ means g lacks a, and pairs in neither are unknown.
+    """
+
+    def __init__(
+        self,
+        objects: Iterable[Hashable],
+        attributes: Iterable[Hashable],
+        incidence: Iterable[tuple],
+        negative: Iterable[tuple] | None = None,
+    ):
+        self.objects = list(dict.fromkeys(objects))
+        self.attributes = list(dict.fromkeys(attributes))
+        self._oi = {g: i for i, g in enumerate(self.objects)}
+        self._ai = {m: j for j, m in enumerate(self.attributes)}
+        self.n, self.m = len(self.objects), len(self.attributes)
+        self.U = (1 << self.n) - 1
+        self.V = (1 << self.m) - 1
+        self.rows = [0] * self.n  # object -> attribute mask
+        self.cols = [0] * self.m  # attribute -> object mask
+        for g, a in incidence:
+            if g in self._oi and a in self._ai:
+                i, j = self._oi[g], self._ai[a]
+                self.rows[i] |= 1 << j
+                self.cols[j] |= 1 << i
+        self.complete = negative is None
+        if self.complete:
+            self.nrows = [~r & self.V for r in self.rows]
+            self.ncols = [~c & self.U for c in self.cols]
+        else:
+            self.nrows, self.ncols = [0] * self.n, [0] * self.m
+            for g, a in negative:
+                if g in self._oi and a in self._ai:
+                    i, j = self._oi[g], self._ai[a]
+                    if self.rows[i] >> j & 1:
+                        raise ValueError(f"({g}, {a}) is in both R+ and R-")
+                    self.nrows[i] |= 1 << j
+                    self.ncols[j] |= 1 << i
+
+    # ------------------------------------------------------------ conversions
+    def obj_mask(self, X: Iterable) -> int:
+        return sum(1 << self._oi[g] for g in set(X))
+
+    def attr_mask(self, A: Iterable) -> int:
+        return sum(1 << self._ai[a] for a in set(A))
+
+    def objs(self, mask: int) -> frozenset:
+        return frozenset(self.objects[i] for i in _bits(mask))
+
+    def attrs(self, mask: int) -> frozenset:
+        return frozenset(self.attributes[j] for j in _bits(mask))
+
+    def has(self, g, a) -> bool:
+        return bool(self.rows[self._oi[g]] >> self._ai[a] & 1)
+
+    def lacks(self, g, a) -> bool:
+        return bool(self.nrows[self._oi[g]] >> self._ai[a] & 1)
+
+    def complement(self) -> "FormalContext":
+        inc = [(g, a) for g in self.objects for a in self.attributes if not self.has(g, a)]
+        return FormalContext(self.objects, self.attributes, inc)
+
+    # -------------------------------------------------------------- operators
+    def up(self, X: int) -> int:
+        out = self.V
+        for i in _bits(X):
+            out &= self.rows[i]
+        return out
+
+    def down(self, A: int) -> int:
+        out = self.U
+        for j in _bits(A):
+            out &= self.cols[j]
+        return out
+
+    def neg_up(self, X: int) -> int:
+        out = self.V
+        for i in _bits(X):
+            out &= self.nrows[i]
+        return out
+
+    def neg_down(self, A: int) -> int:
+        out = self.U
+        for j in _bits(A):
+            out &= self.ncols[j]
+        return out
+
+    # ------------------------------------------------------- two-way concepts
+    def extents(self) -> set[int]:
+        """All concept extents: the closure system generated by attribute extents."""
+        ext = {self.U}
+        for col in self.cols:
+            ext |= {e & col for e in ext}
+        return ext
+
+    def intents(self) -> set[int]:
+        it = {self.V}
+        for row in self.rows:
+            it |= {i & row for i in it}
+        return it
+
+    def concepts(self) -> list[tuple[int, int]]:
+        return [(X, self.up(X)) for X in self.extents()]
+
+    # ----------------------------------------------------- three-way concepts
+    def _neg_extents(self) -> set[int]:
+        ext = {self.U}
+        for neg in self.ncols:
+            ext |= {e & neg for e in ext}
+        return ext
+
+    def _neg_intents(self) -> set[int]:
+        it = {self.V}
+        for neg in self.nrows:
+            it |= {i & neg for i in it}
+        return it
+
+    def oe_concepts(self) -> list[tuple[int, tuple[int, int]]]:
+        """OE-concepts. Extents are intersections of extents of R and R^c (Qi et al., 2014)."""
+        extents = {x & y for x in self.extents() for y in self._neg_extents()}
+        return [(X, (self.up(X), self.neg_up(X))) for X in extents]
+
+    def ae_concepts(self) -> list[tuple[tuple[int, int], int]]:
+        """AE-concepts. Intents are intersections of intents of R and R^c."""
+        intents = {a & b for a in self.intents() for b in self._neg_intents()}
+        return [((self.down(A), self.neg_down(A)), A) for A in intents]
+
+    # -------------------------------------------------------- merged concepts
+    def merged_concepts_bruteforce(self) -> dict[tuple[int, int, int, int], frozenset]:
+        """Algorithm 2 of the paper: pair every AE-concept with every OE-concept."""
+        out: dict[tuple, set] = {}
+        oes = self.oe_concepts()
+        for (Xa, Ya), Aa in self.ae_concepts():
+            for Xo, (Ao, Bo) in oes:
+                if Xa == Xo and Aa == Ao:
+                    out.setdefault((Xa, Ya, Ao, Bo), set()).add("C1")
+                if Ya == Xo and Aa == Bo:
+                    out.setdefault((Xa, Ya, Bo, Ao), set()).add("C2")
+        return {q: frozenset(k) for q, k in out.items()}
+
+    def merged_concepts_fast(self) -> dict[tuple[int, int, int, int], frozenset]:
+        """Closed form of the merged concepts (Proposition 1).
+
+        C1 merged concepts correspond one-to-one to the formal concepts (X, A)
+        of R: ((X, A¯*), (A, X¯*)). C2 merged concepts correspond to the formal
+        concepts (Y, B) of R^c: ((B*, Y), (B, Y*)). Returns each quadruple with
+        the set of compatibility conditions it satisfies.
+        """
+        out: dict[tuple, set] = {}
+        for X in self.extents():
+            A = self.up(X)
+            out.setdefault((X, self.neg_down(A), A, self.neg_up(X)), set()).add("C1")
+        for Y in self._neg_extents():
+            B = self.neg_up(Y)
+            out.setdefault((self.down(B), Y, B, self.up(Y)), set()).add("C2")
+        return {q: frozenset(k) for q, k in out.items()}
+
+    def merged_concepts(self, kinds: tuple[str, ...] = ("C1", "C2")) -> list[MergedConcept]:
+        return [
+            MergedConcept(self.objs(X), self.objs(Y), self.attrs(A), self.attrs(B), k)
+            for (X, Y, A, B), k in sorted(self.merged_concepts_fast().items())
+            if k & set(kinds)
+        ]

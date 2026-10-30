@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-020",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流的流速主要受地势落差影响，地势落差越大，流速越快；地势落差越小，流速越慢，某河流从高山地区流向平原地区，地势逐渐变缓，结合地势对流速的影响，该河流的流速变化是（ ）\n\n待判断的选项：\nA. 逐渐减慢\nB. 保持不变\nC. 逐渐加快\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 流速：上位：水文要素；特征：单位时间流距、影响侵蚀搬运；成因：坡度、流量；影响：侵蚀强度、沉积作用；分布：河流、洋流\n- 地势：上位：地形特征；特征：高低起伏、倾斜方向、海拔差异；成因：地壳运动、外力侵蚀、沉积作用；影响：河流流向、气候差异、交通布局；分布：中国地势、青藏高原、长江中下游平原\n- 高山地区：上位：山地；特征：海拔高、气温低、昼夜温差大、垂直分异明显；成因：板块碰撞、地壳抬升、外力侵蚀；影响：垂直自然带、冰川发育、生物多样性独特；分布：青藏高原、天山、阿尔卑斯山、安第斯山\n- 流向：上位：水文要素；特征：指示水流方向、受地形影响；成因：地势高低；影响：影响航运、影响水能；分布：河流\n- 平原地区：上位：地貌类型、地形区；特征：地势低平、起伏较小、土层深厚；成因：流水沉积、地壳沉降、海浪堆积；影响：农业发达、交通便利、城镇密集；分布：东北平原、华北平原、长江中下游平原\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合地势对流速影响规律的流速变化\n2. 是描述该河流从高山流向平原的流速变化\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 546,
+  "total_tokens": 573,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 546
+ },
+ "created": 1792768987
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-068",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：安第斯山脉贯穿南美洲西部，是世界上最长的山脉，其海拔较高，多火山和地震，结合板块运动的知识，该山脉多火山地震的主要原因是（ ）\n\n待判断的选项：\nA. 风力侵蚀作用强烈\nB. 位于板块交界处，地壳活跃\nC. 位于板块内部，地壳稳定\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 安第斯山脉：上位：褶皱山系、科迪勒拉山系；特征：世界最长山脉、板块碰撞形成、高大绵长；成因：南极洲板块与美洲板块碰撞、板块挤压抬升；影响：形成高大山系、影响气候与河流；分布：南美洲西部\n- 南美洲：上位：大洲；特征：安第斯山脉、亚马孙平原、热带雨林；分布：西半球南部\n- 西部地区：上位：中国经济区域、中国地理分区；特征：地域辽阔、资源丰富、生态环境脆弱、经济相对落后、少数民族聚居；成因：深居内陆、地形复杂、历史基础薄弱；影响：西部大开发、生态保护重点、能源基地建设；分布：新疆、西藏、青海、甘肃、宁夏\n- 世界：上位：地理区域；特征：全球范围、自然与人文综合体\n- 山脉：上位：山地；特征：呈条带状、有一定走向、海拔较高；成因：板块运动、地壳运动；影响：影响气候、分隔区域、形成河流分水岭；分布：喜马拉雅山脉、秦岭、天山\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成该山脉多火山地震的主要原因\n2. 需结合板块运动知识进行解释\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 495,
+  "total_tokens": 522,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 495
+ },
+ "created": 1792769357
+}

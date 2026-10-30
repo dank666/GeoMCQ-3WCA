@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-059",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：森林被称为“地球之肺”，因为森林可以（）\n\n待判断的选项：\nA. 释放氧气\nB. 加剧温室效应\nC. 吸收CO₂\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 森林植被：上位：植被类型；特征：层次结构复杂、生物多样性高、多年生木本植物、覆盖率高；成因：水分充足、热量适宜、土壤肥沃；影响：调节气候、涵养水源、保持水土、提供资源；分布：湿润地区、山地、热带雨林区、温带地区\n- 地球：上位：行星、类地行星；特征：太阳系八大行星之一、存在生命、有适宜温度和水、有大气层；成因：日地距离适中、质量体积适中；影响：孕育生命、形成自然环境；分布：太阳系\n- 氧气：上位：大气成分、气体；特征：无色无味、支持燃烧、化学性质活泼；成因：植物光合作用、大气光解；影响：维持生物呼吸、参与氧化反应；分布：大气圈、水圈\n- 温室效应：上位：大气保温作用；特征：大气逆辐射增强、地表增温、全球气候变暖；成因：温室气体增加、化石燃料燃烧、森林破坏；影响：海平面上升、极端天气增多、生态系统改变；分布：全球\n- 吸收：上位：物理过程；特征：物质或能量转移、选择性、可逆性；成因：浓度差、能量差、生物作用；影响：净化环境、物质循环、能量流动\n- 一氧化碳：上位：大气污染物、碳氧化物；特征：无色无味、有毒气体、难溶于水；成因：化石燃料不完全燃烧、汽车尾气；影响：危害人体健康、污染大气；分布：城市大气、工业区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是森林被称为“地球之肺”的原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 488,
+  "total_tokens": 506,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 488
+ },
+ "created": 1792769605
+}

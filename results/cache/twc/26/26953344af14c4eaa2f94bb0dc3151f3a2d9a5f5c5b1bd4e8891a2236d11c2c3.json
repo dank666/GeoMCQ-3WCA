@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-024",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：2021年10月16日，神舟十三号载人飞船在酒泉卫星发射中心成功发射，将我国3名航天员顺利送入距离地表约400km的中国空间站。2022年4月16日，航天员安全返回地球。驻留期间，酒泉卫星发射中心发射塔与广州市区广州塔两地每天正午太阳高度的差值（）\n\n待判断的选项：\nA. 先变大后变小\nB. 先变小后变大\nC. 持续不断变大\nD. 始终保持不变\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是2021年10月16日至2022年4月16日期间两地每天正午太阳高度的差值\n2. 是地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"是\", \"否\"],\n\"D\": [\"是\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 248,
+  "total_tokens": 282,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772970
+}

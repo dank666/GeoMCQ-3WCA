@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-020",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：瀑布的形成与地形和岩石性质密切相关，下列关于瀑布形成条件的说法正确的有（）\n\n待判断的选项：\nA. 风力侵蚀强烈\nB. 上下岩层硬度差异大（上部坚硬、下部松软）\nC. 河流流经陡崖处\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 瀑布景观：上位：流水地貌、旅游景观；特征：水流落差大、水能丰富、景观壮美、侵蚀作用强；成因：河流落差、岩性差异、断层活动；影响：水能资源丰富、形成旅游景点、溯源侵蚀；分布：黄果树瀑布、壶口瀑布、尼亚加拉瀑布\n- 地形：上位：地表形态；特征：地表起伏形态、由内外力共同塑造、具有空间分异；成因：内力作用、外力作用；影响：影响气候、影响水文、影响土壤植被、影响人类活动\n- 岩石性质：上位：岩石特征；特征：决定岩石用途、影响风化速度、与成因相关；成因：矿物成分、结构构造、形成环境；影响：影响地貌发育、影响工程建设、影响土壤形成\n- 风力侵蚀：上位：风力作用、外力侵蚀；特征：吹蚀作用、磨蚀作用、干旱区显著；成因：强风、松散地表、植被稀少；影响：形成风蚀地貌、土地退化、沙尘暴；分布：西北干旱区、塔克拉玛干沙漠、柴达木盆地\n- 岩层：上位：岩石、地质构造；特征：层状结构、地质历史记录、产状变化；成因：沉积作用、岩浆活动、变质作用；影响：地质构造、矿产资源、地下水储存；分布：沉积盆地、山区、平原\n- 硬度：上位：矿物物理性质；特征：抵抗外力刻划、相对大小、分级表示；成因：矿物成分、晶体结构、化学键强度；影响：影响矿物鉴定、影响岩石抗风化、影响开采加工\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于瀑布形成条件的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 525,
+  "total_tokens": 543,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 525
+ },
+ "created": 1792770087
+}

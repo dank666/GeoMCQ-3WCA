@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:gaokao-00-1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "材料：日本某汽车公司在中国建有多个整车生产厂和零件生产厂．2011 年 3 月 11 日东日本大地震及随后的海啸、核辐射灾难，使该公司在灾区的工厂停产．受其影响，该公司在中国的整车生产厂也被迫减产．据此完成 1～2 题．\n题干：该公司在中国建零部件生产厂，主要目的是（）\n\n待判断的选项：\nA. 避免自然灾害对本土汽车生产的影响\nB. 为其中国整车厂配套，降低整车生产成本\nC. 利用中国廉价劳动力，为其日本整车厂服务\nD. 建立其全球整车生产的零部件工业基地\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 日本：上位：东亚岛国；特征：群岛国家、多山地丘陵、海岸线曲折、火山地震多发；成因：位于板块交界处、太平洋西岸；影响：海洋性季风气候、渔业发达；分布：东亚、太平洋西北部\n- 汽车：上位：交通工具、工业产品；特征：机动灵活、门到门运输、依赖道路；影响：交通拥堵、尾气污染、促进经济发展；分布：城市、公路网\n- 企业：上位：经济组织、市场主体；特征：营利性、独立性、组织性；成因：市场需求、利润驱动、分工协作；影响：提供产品服务、创造就业、推动创新；分布：产业园区、城市、工业区\n- 中国：上位：国家；特征：海陆兼备、季风气候显著、地形复杂多样；影响：人口众多、经济快速发展、区域差异大；分布：亚洲东部、太平洋西岸\n- 整车：上位：工业生产环节、汽车制造流程、产业链分工；特征：整车组装、成品车制造、总装厂、汽车下线\n- 生产厂：上位：工业区位、生产布局、产业转移；特征：整车厂配套、零部件供应、降低成本、就近生产\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是该公司在中国建零部件生产厂的主要原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"], \"D\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 520,
+  "total_tokens": 544,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 520
+ },
+ "created": 1792771089
+}

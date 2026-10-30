@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-CL-032",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：西风带控制的地区，气候多温和湿润，下列地区中受西风带影响的有（）\n\n待判断的选项：\nA. 南美洲东海岸\nB. 欧洲西部\nC. 北美洲西海岸\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 盛行西风带：上位：行星风带、大气环流；特征：自西向东吹、中纬度地区、温和湿润；成因：地转偏向力；影响：形成温带海洋性气候、影响洋流；分布：北半球中纬度、南半球中纬度\n- 气候：上位：大气现象；特征：长期平均状态、具有稳定性、空间差异性、受多种因素影响；成因：太阳辐射、大气环流、下垫面性质、人类活动；影响：影响农业生产、影响人类活动、塑造自然景观；分布：全球各地\n- 湿润：上位：气候特征、干湿状况；特征：降水量大于蒸发量、空气湿度大、降水较多；成因：受海洋影响、季风气候、地形抬升；影响：植被茂密、水资源丰富、适宜农业；分布：中国东部季风区、湿润地区\n- 南美洲：上位：大洲；特征：安第斯山脉、亚马孙平原、热带雨林；分布：西半球南部\n- 东海：上位：边缘海；特征：大陆架宽广、岛屿众多、渔业资源丰富；影响：海洋渔业、油气资源；分布：中国东部海域\n- 欧洲西部：上位：欧洲分区；特征：温带海洋性气候、经济发达、一体化程度高；成因：西风带控制、北大西洋暖流影响；影响：乳畜业发达、旅游业兴盛；分布：欧洲西部沿海、北海沿岸\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是受西风带影响的地区\n2. 位于西风带控制范围内\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 490,
+  "total_tokens": 517,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 490
+ },
+ "created": 1792769441
+}

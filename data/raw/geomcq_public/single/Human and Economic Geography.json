@@ -1,0 +1,1305 @@
+{
+  "geography_questions":
+    [
+      {
+        "id": 1,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "人口自然增长率等于出生率减去死亡率，当出生率长期高于死亡率时，人口总量最可能出现的变化是：",
+        "options": {
+          "A": "持续增长",
+          "B": "持续减少",
+          "C": "保持不变"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 2,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "人口老龄化是指老年人口占比不断上升，其带来的主要社会问题是：",
+        "options": {
+          "A": "劳动力不足、养老压力大",
+          "B": "就业竞争过度激烈",
+          "C": "住房严重短缺"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 3,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "城市中心区通常地租最高、交通最便利、人口最密集，最适合布局的功能区是：",
+        "options": {
+          "A": "商业区",
+          "B": "工业区",
+          "C": "低级住宅区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 4,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "工业区为降低成本、减少污染，多布局在城市外围、交通干线附近，主要考虑的因素是：",
+        "options": {
+          "A": "地价低、运输便利、污染小",
+          "B": "人口密集、市场广阔",
+          "C": "环境优美、靠近景区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 5,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "高级住宅区对环境质量、交通条件、配套设施要求高，通常分布在：",
+        "options": {
+          "A": "城市外缘、上风上水地带",
+          "B": "市中心、商业区附近",
+          "C": "工业区周边"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 6,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "城市化是指人口向城镇集聚、城镇规模扩大的过程，过快城市化最容易引发：",
+        "options": {
+          "A": "交通拥堵、住房紧张、环境恶化",
+          "B": "人口大量回流农村",
+          "C": "农业劳动力严重过剩"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 7,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "季风水田农业主要分布在季风气候区，雨热同期、人口稠密，其突出特点是：",
+        "options": {
+          "A": "小农经营、单产高、商品率低",
+          "B": "规模大、机械化程度极高",
+          "C": "以种植小麦、玉米为主"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 8,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "商品谷物农业以生产小麦、玉米为主，地广人稀、机械化水平高，最典型分布区是：",
+        "options": {
+          "A": "美国中央大平原",
+          "B": "东南亚热带雨林区",
+          "C": "欧洲西部乳畜区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 9,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "乳畜业产品易变质，主要面向城市市场，布局时优先考虑：",
+        "options": {
+          "A": "靠近城市、交通便利、饲料充足",
+          "B": "远离市场、降低地租",
+          "C": "高温多雨、光照充足"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 10,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "大牧场放牧业多分布在干旱半干旱地区，草场广阔、地广人稀，其生产特点是：",
+        "options": {
+          "A": "生产规模大、专业化程度高",
+          "B": "小农经营、商品率低",
+          "C": "以种植粮食作物为主"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 11,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "工业区位选择中，原料运输成本高的企业多靠近原料产地，属于：",
+        "options": {
+          "A": "原料导向型工业",
+          "B": "市场导向型工业",
+          "C": "技术导向型工业"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 12,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "产品不便于长途运输或运输成本高的工业，多靠近消费市场，属于：",
+        "options": {
+          "A": "市场导向型工业",
+          "B": "动力导向型工业",
+          "C": "劳动力导向型工业"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 13,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "消耗能源量大的工业，如炼铝、炼钢，多靠近水电站或火电站，属于：",
+        "options": {
+          "A": "动力导向型工业",
+          "B": "技术导向型工业",
+          "C": "原料导向型工业"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 14,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "需要大量廉价劳动力的工业，多布局在人口稠密、工资较低地区，属于：",
+        "options": {
+          "A": "劳动力导向型工业",
+          "B": "市场导向型工业",
+          "C": "动力导向型工业"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 15,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "高新技术产业对科技人才、环境质量、交通条件要求高，多布局在：",
+        "options": {
+          "A": "高等院校和科研院所附近",
+          "B": "传统工业区中心",
+          "C": "矿产资源丰富地区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 16,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "传统工业区衰落的主要原因包括结构单一、资源枯竭、污染严重等，其整治方向不包括：",
+        "options": {
+          "A": "继续扩大传统工业规模",
+          "B": "调整产业结构、发展高新技术",
+          "C": "治理污染、美化环境"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 17,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "新兴工业区以中小企业、轻工业、分散布局为特点，最典型代表是：",
+        "options": {
+          "A": "意大利东北部和中部",
+          "B": "德国鲁尔区",
+          "C": "美国东北部工业区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 18,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "交通运输方式中，运量大、运费低、适合长途大宗货物运输的是：",
+        "options": {
+          "A": "铁路或水运",
+          "B": "公路",
+          "C": "航空"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 19,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "公路运输机动灵活、周转速度快，可以实现门到门运输，最适合：",
+        "options": {
+          "A": "短途、小批量、鲜活货物",
+          "B": "长途、大宗、笨重货物",
+          "C": "国际长途、贵重货物"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 20,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "航空运输速度最快，但运费高、运量小，最适合运输：",
+        "options": {
+          "A": "贵重、急需、轻型物品",
+          "B": "煤炭、矿石等大宗货物",
+          "C": "粮食、石油等散装货物"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 21,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "港口建设需要水域条件和陆域条件，优良港口通常具备：",
+        "options": {
+          "A": "港阔水深、避风、地形平坦",
+          "B": "河流湍急、流速快",
+          "C": "地形陡峭、陆域狭窄"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 22,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "商业网点布局遵循市场最优和交通最优原则，市中心商业网点密集主要因为：",
+        "options": {
+          "A": "人口多、市场大、交通便利",
+          "B": "地租便宜、成本低",
+          "C": "环境安静、污染小"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 23,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "随着电商和物流业快速发展，实体商业网点布局更加强调：",
+        "options": {
+          "A": "交通便利、物流高效",
+          "B": "远离交通干线、降低噪音",
+          "C": "集中在市中心、不向外扩散"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 24,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "环境承载力是指环境能持续供养的最大人口数量，其大小首先取决于：",
+        "options": {
+          "A": "资源数量",
+          "B": "科技水平",
+          "C": "消费水平"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 25,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "人口合理容量小于环境承载力，强调人口与资源、环境、发展相协调，其意义是：",
+        "options": {
+          "A": "利于可持续发展",
+          "B": "可以无限制扩大人口",
+          "C": "只考虑经济增长"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 26,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "发展中国家城市化起步晚、速度快，但城市化水平与经济发展水平不适应，称为：",
+        "options": {
+          "A": "虚假城市化或滞后城市化",
+          "B": "逆城市化",
+          "C": "再城市化"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 27,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "逆城市化表现为城市人口向乡村和小城镇回流，其主要原因是：",
+        "options": {
+          "A": "城市环境恶化、乡村设施完善",
+          "B": "城市就业机会极度短缺",
+          "C": "乡村工业化水平超过城市"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 28,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "农业区位因素中，决定农业生产类型和规模的最主要社会经济因素是：",
+        "options": {
+          "A": "市场",
+          "B": "气候",
+          "C": "土壤"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 29,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "交通条件改善和冷藏保鲜技术进步，对农业的最主要影响是：",
+        "options": {
+          "A": "扩大农产品销售范围",
+          "B": "大幅降低农业产量",
+          "C": "使农业完全不受自然影响"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 30,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "我国东南丘陵地区广泛种植茶树，主要因为当地：",
+        "options": {
+          "A": "气候湿润、土壤呈酸性、地形有坡度",
+          "B": "平原广阔、土壤肥沃",
+          "C": "光照极强、昼夜温差大"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 31,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "西北地区发展种植业必须依靠灌溉，限制其农业发展的主导因素是：",
+        "options": {
+          "A": "水源",
+          "B": "热量",
+          "C": "土壤"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 32,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "青藏高原农业主要分布在河谷地带，因为河谷地区：",
+        "options": {
+          "A": "热量相对充足、水源便利",
+          "B": "光照最弱、气温稳定",
+          "C": "地形平坦开阔、机械化最高"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 33,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "工业集聚可以共用基础设施、加强信息交流、降低运费，从而：",
+        "options": {
+          "A": "降低生产成本、提高利润",
+          "B": "加剧恶性竞争、提高成本",
+          "C": "导致资源迅速枯竭"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 34,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "工业分散多出现于高技术产品或复杂产品生产，目的是：",
+        "options": {
+          "A": "寻找最优区位、降低成本",
+          "B": "集中治理污染",
+          "C": "扩大地方就业"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 35,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "交通线建设可以带动沿线经济发展、加强区域联系，被称为：",
+        "options": {
+          "A": "区域发展的先行官",
+          "B": "环境污染的主要来源",
+          "C": "耕地减少的根本原因"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 36,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "商业中心形成需要稳定的商品来源、广阔的销售市场和便利的交通，因此多形成于：",
+        "options": {
+          "A": "交通枢纽或人口密集区",
+          "B": "偏远山区、人口稀少区",
+          "C": "资源枯竭型城市"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 37,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "可持续发展强调生态、经济、社会三者协调，其核心是：",
+        "options": {
+          "A": "发展",
+          "B": "先污染后治理",
+          "C": "限制一切经济活动"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 38,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "循环经济以减量化、再利用、资源化为原则，在工业生产中表现为：",
+        "options": {
+          "A": "清洁生产",
+          "B": "大量排放废弃物",
+          "C": "单纯追求产量"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 39,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "在农业生产中，循环经济最典型的模式是：",
+        "options": {
+          "A": "生态农业",
+          "B": "大量使用化肥农药",
+          "C": "单一种植、过度开垦"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 40,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "人口迁移受自然、经济、社会等因素影响，目前我国人口迁移的主要动力是：",
+        "options": {
+          "A": "地区间经济发展不平衡",
+          "B": "自然灾害频繁",
+          "C": "政策强制移民"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 41,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "大量农村人口迁入城市，对城市的积极影响是：",
+        "options": {
+          "A": "提供充足廉价劳动力",
+          "B": "完全解决城市老龄化问题",
+          "C": "减轻城市公共服务压力"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 42,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "大量农村人口迁出，对农村的不利影响可能是：",
+        "options": {
+          "A": "劳动力短缺、土地撂荒",
+          "B": "人均耕地迅速减少",
+          "C": "环境污染急剧加重"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 43,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "城市内部功能分区中，占地面积最广的功能区通常是：",
+        "options": {
+          "A": "住宅区",
+          "B": "商业区",
+          "C": "工业区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 44,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "地租水平受距离市中心远近和交通通达度影响，交通干线交汇处往往：",
+        "options": {
+          "A": "地租较高",
+          "B": "地租最低",
+          "C": "人口最稀少"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 45,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "工业化是城市化的主要动力，工业快速发展会直接导致：",
+        "options": {
+          "A": "城市人口和用地规模扩大",
+          "B": "城市人口大量回流农村",
+          "C": "第三产业完全停滞"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 46,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "种植园农业以单一经济作物为主，规模大、商品率高，主要分布在：",
+        "options": {
+          "A": "热带地区",
+          "B": "温带地区",
+          "C": "寒带地区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 47,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "地中海气候区夏季炎热干燥、冬季温和多雨，适合发展：",
+        "options": {
+          "A": "园艺业、水果种植",
+          "B": "水稻种植业",
+          "C": "高寒畜牧业"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 48,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "钢铁工业早期多靠近煤铁产地，随着交通发展，后来多靠近：",
+        "options": {
+          "A": "港口和市场",
+          "B": "劳动力密集区",
+          "C": "科技园区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 49,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "电子装配、服装加工等工业需要大量劳动力，最适合布局在：",
+        "options": {
+          "A": "人口稠密、工资较低地区",
+          "B": "科技发达、人才集中地区",
+          "C": "能源充足地区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 50,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "高新技术产业产品更新换代快，研发费用高，其布局最不看重：",
+        "options": {
+          "A": "矿产资源",
+          "B": "科技人才",
+          "C": "高速交通"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 51,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "铁路与河流交汇处容易形成城市，因为该位置：",
+        "options": {
+          "A": "交通便利、人流物流集中",
+          "B": "地形最平坦、土壤最肥沃",
+          "C": "气候最适宜居住"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 52,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "山区交通线路多沿河谷或等高线布局，主要目的是：",
+        "options": {
+          "A": "减小坡度、降低工程难度",
+          "B": "缩短距离、提高速度",
+          "C": "占用更多耕地"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 53,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "国道、高速公路等干线道路多从城市边缘通过，主要是为了：",
+        "options": {
+          "A": "减少对城区交通干扰",
+          "B": "方便直接进入市中心",
+          "C": "降低道路建设成本"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 54,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "随着生活水平提高，市场对农产品需求发生变化，农业生产更加注重：",
+        "options": {
+          "A": "品质、安全、多样化",
+          "B": "只追求产量最大化",
+          "C": "完全放弃粮食生产"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 55,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "资源枯竭型城市经济衰退、就业困难，其转型方向合理的是：",
+        "options": {
+          "A": "发展新兴产业和第三产业",
+          "B": "继续依赖资源开采",
+          "C": "全面停止工业生产"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 56,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "人口性别比失衡会引发婚姻挤压、社会不稳定，其主要原因多为：",
+        "options": {
+          "A": "传统生育观念影响",
+          "B": "自然灾害影响",
+          "C": "经济快速发展"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 57,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "城市绿地和湿地可以调节气候、净化空气、美化环境，主要体现城市的：",
+        "options": {
+          "A": "生态功能",
+          "B": "生产功能",
+          "C": "商业功能"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 58,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "城中村存在建筑密集、环境脏乱、设施落后等问题，合理整治措施是：",
+        "options": {
+          "A": "规划改造、完善基础设施",
+          "B": "全部拆除、禁止居住",
+          "C": "继续无序建设"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 59,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "商品粮基地建设需要耕地广阔、土壤肥沃、粮食商品率高，我国最典型地区是：",
+        "options": {
+          "A": "东北平原",
+          "B": "江南丘陵",
+          "C": "黄土高原"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 60,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "花卉、蔬菜、水果等城郊农业，主要面向城市市场，其突出特点是：",
+        "options": {
+          "A": "商品率高、生产周期短",
+          "B": "商品率低、自给自足",
+          "C": "远离城市、地租便宜"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 61,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "传统工业以重工业为主，污染严重，其治理重点是：",
+        "options": {
+          "A": "节能减排、优化布局",
+          "B": "扩大规模、提高产量",
+          "C": "忽视污染、优先发展"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 62,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "产业转移通常由发达地区向欠发达地区转移，转移的多是：",
+        "options": {
+          "A": "劳动密集型或资源密集型产业",
+          "B": "高端高新技术产业",
+          "C": "金融、总部经济"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 63,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "承接产业转移对转入地的有利影响是：",
+        "options": {
+          "A": "增加就业、促进工业化",
+          "B": "完全没有环境污染",
+          "C": "导致人才大量外流"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 64,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "交通通达度提高会使区域地租水平整体上升，商业和住宅更倾向于布局在：",
+        "options": {
+          "A": "交通干线附近",
+          "B": "封闭偏僻地区",
+          "C": "地形陡峭地区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 65,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "人口容量具有相对性，科技水平提高会使人口合理容量：",
+        "options": {
+          "A": "增大",
+          "B": "减小",
+          "C": "保持不变"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 66,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "城市化过程中，大量硬化路面会导致下渗减少、地表径流增加，易引发：",
+        "options": {
+          "A": "城市内涝",
+          "B": "地下水位大幅上升",
+          "C": "土壤肥力显著提高"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 67,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "农业地域类型的形成是自然与社会经济因素长期作用的结果，体现了地理环境的：",
+        "options": {
+          "A": "整体性和差异性",
+          "B": "完全独立性",
+          "C": "无规律性"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 68,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "工业区位因素中，信息网络、政策环境、品牌效应等属于：",
+        "options": {
+          "A": "社会经济因素",
+          "B": "自然因素",
+          "C": "气候因素"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 69,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "河流沿岸城市多沿河布局，主要利用河流的：",
+        "options": {
+          "A": "供水、运输、防卫功能",
+          "B": "发电、养殖功能",
+          "C": "灌溉、农业功能"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 70,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "乡村聚落规模小、分布分散，主要受影响的因素是：",
+        "options": {
+          "A": "地形、耕地、水源",
+          "B": "工业、商业、交通",
+          "C": "科技、政策、文化"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 71,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "中心商务区（CBD）是城市核心区域，具有的特点是：",
+        "options": {
+          "A": "高楼林立、经济活动繁忙",
+          "B": "以居住功能为主",
+          "C": "地价低廉、人口稀疏"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 72,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "低级住宅区多靠近工业区，环境较差、建筑密集，主要原因是：",
+        "options": {
+          "A": "租金较低、方便工人上下班",
+          "B": "环境优美、配套完善",
+          "C": "远离工厂、减少污染"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 73,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "农业生产中，政策、地价、技术、市场等因素属于：",
+        "options": {
+          "A": "社会经济因素",
+          "B": "自然因素",
+          "C": "气候因素"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 74,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "热量不足、生长期短是高纬度和高海拔地区农业主要限制因素，因此作物多：",
+        "options": {
+          "A": "耐寒、早熟",
+          "B": "喜高温、生长期长",
+          "C": "需水量极大"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 75,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "工业生产产生的废气、废水、废渣会造成环境污染，合理布局应：",
+        "options": {
+          "A": "远离居民区、位于下风下水地带",
+          "B": "布局在城市中心、人口密集区",
+          "C": "布局在河流上游、水源地"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 76,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "现代物流业发展依赖交通、信息技术和仓储设施，其发展可以：",
+        "options": {
+          "A": "提高商品流通效率",
+          "B": "增加流通成本",
+          "C": "减少就业岗位"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 77,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "旅游资源丰富地区可以大力发展旅游业，带动相关产业是：",
+        "options": {
+          "A": "交通、餐饮、住宿、购物",
+          "B": "钢铁、煤炭、机械",
+          "C": "化工、造纸、冶炼"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 78,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "生态破坏包括水土流失、土地沙化、生物多样性减少等，主要原因多为：",
+        "options": {
+          "A": "人类不合理活动",
+          "B": "自然环境本身演变",
+          "C": "全球气候变冷"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 79,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "绿色消费、低碳出行、垃圾分类等行为，主要符合可持续发展的：",
+        "options": {
+          "A": "生态可持续",
+          "B": "只追求经济增长",
+          "C": "满足当代不顾后代"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 80,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "人口迁移中，经济收入、就业机会、生活水平属于：",
+        "options": {
+          "A": "拉力因素",
+          "B": "推力因素",
+          "C": "自然因素"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 81,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "自然灾害、贫困、战争、环境恶化等促使人口离开，属于：",
+        "options": {
+          "A": "推力因素",
+          "B": "拉力因素",
+          "C": "社会福利因素"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 82,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "城市热岛效应是指城市气温高于郊区，主要原因是：",
+        "options": {
+          "A": "人口工业集中、废热多、散热慢",
+          "B": "城市绿地面积过大",
+          "C": "城市风速过大"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 83,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "为缓解城市热岛效应，最合理的措施是：",
+        "options": {
+          "A": "增加绿地和水域、节能减排",
+          "B": "扩大硬化路面",
+          "C": "增加高层建筑密度"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 84,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "水稻种植需要高温多雨、雨热同期的气候，最适合的气候类型是：",
+        "options": {
+          "A": "季风气候",
+          "B": "地中海气候",
+          "C": "温带大陆性气候"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 85,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "小麦、玉米等粮食作物适应性较强，分布范围广，更适合：",
+        "options": {
+          "A": "机械化、规模化生产",
+          "B": "小农经营、精耕细作",
+          "C": "高温多雨、湿热环境"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 86,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "港口经济腹地广阔、货源充足，其发展速度通常：",
+        "options": {
+          "A": "更快",
+          "B": "更慢",
+          "C": "不受影响"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 87,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "交通建设应与自然环境相协调，山区道路建设特别注意：",
+        "options": {
+          "A": "保护生态、防治滑坡泥石流",
+          "B": "大规模开挖山体、破坏植被",
+          "C": "占用大量优质耕地"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 88,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "商业网点密度在平原地区大、山区小，主要影响因素是：",
+        "options": {
+          "A": "地形、交通、人口",
+          "B": "气候、土壤、植被",
+          "C": "矿产、能源、水文"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 89,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "区域经济一体化可以加强区域合作、实现优势互补，其表现为：",
+        "options": {
+          "A": "资源、技术、人才合理流动",
+          "B": "各自封闭、恶性竞争",
+          "C": "统一产业、完全相同"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 90,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "高新技术产业开发区多布局在环境优美、交通便利、科技发达地区，被称为：",
+        "options": {
+          "A": "新工业区",
+          "B": "传统重工业区",
+          "C": "原料产地型工业区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 91,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "随着城镇化水平提高，农业比重下降、二三产业比重上升，这一趋势：",
+        "options": {
+          "A": "符合区域发展规律",
+          "B": "属于不合理发展",
+          "C": "导致经济衰退"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 92,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "土地是农业最基本的生产资料，合理利用土地的核心是：",
+        "options": {
+          "A": "因地制宜、可持续利用",
+          "B": "无限开垦、扩大耕地",
+          "C": "全部转为建设用地"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 93,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "水资源短缺地区在工业布局中应限制：",
+        "options": {
+          "A": "高耗水工业",
+          "B": "高新技术工业",
+          "C": "轻工业"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 94,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "世界人口最密集地区多在：",
+        "options": {
+          "A": "中低纬度近海平原",
+          "B": "高纬度寒冷地区",
+          "C": "干旱沙漠地区"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 95,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "城市规划需要合理布局功能区，其根本目的是：",
+        "options": {
+          "A": "实现城市有序、高效、宜居发展",
+          "B": "追求城市规模无限扩大",
+          "C": "优先发展工业"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 96,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "农产品保鲜冷藏技术的发展，使农业生产与市场的地域联系：",
+        "options": {
+          "A": "更加紧密",
+          "B": "更加松散",
+          "C": "不受影响"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 97,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "工业集聚可能带来的问题是：",
+        "options": {
+          "A": "用地紧张、污染集中",
+          "B": "成本大幅上升、无利润",
+          "C": "信息交流严重受阻"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 98,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "影响人口分布的自然因素中，最基本、最稳定的是：",
+        "options": {
+          "A": "地形、气候、水源",
+          "B": "交通、市场、政策",
+          "C": "文化、宗教、风俗"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 99,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "合理城市道路网可以缓解交通拥堵，提高通行效率，常见形态是：",
+        "options": {
+          "A": "方格放射式或环形放射式",
+          "B": "完全自由无序式",
+          "C": "单一主干道式"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": 100,
+        "type": "single",
+        "geography_category": "Human and Economic Geography",
+        "difficulty": "medium",
+        "question": "人文经济地理研究人与地理环境的关系，核心思想是：",
+        "options": {
+          "A": "人地协调、可持续发展",
+          "B": "人类征服自然、改造自然",
+          "C": "只重视经济发展"
+        },
+        "correct_answer": "A"
+      }
+    ]
+}

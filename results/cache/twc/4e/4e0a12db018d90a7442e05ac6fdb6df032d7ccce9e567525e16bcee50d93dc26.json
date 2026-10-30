@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-139",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：2019年4月，上海张江生物医学产业园新增四个产业园，生物医学产业在此聚集的主导区位因素是（　　）\n\n待判断的选项：\nA. 劳动力数量\nB. 能源矿产\nC. 交通运输\nD. 科学技术\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是2019年4月上海张江生物医学产业园新增四个产业园的主导区位因素\n2. 是生物医学产业在此聚集的主导区位因素\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"否\", \"否\"],\n\"B\": [\"否\", \"否\"],\n\"C\": [\"否\", \"否\"],\n\"D\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 191,
+  "total_tokens": 225,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773046
+}

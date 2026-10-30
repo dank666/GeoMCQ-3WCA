@@ -1,0 +1,1304 @@
+{
+  "geography_questions": [
+        {
+          "id": 1,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "太阳辐射穿过大气层时，可见光较易穿透到达地面，地面吸热后以长波辐射形式释放热量，被大气中的二氧化碳、水汽等吸收，使近地面气温升高，该过程被称为（）",
+          "options": {
+            "A": "大气保温作用",
+            "B": "太阳辐射作用",
+            "C": "大气削弱作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 2,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "白天多云时，云层对太阳辐射的反射作用增强，到达地面的太阳辐射减少，气温比晴天低；夜晚多云时，大气逆辐射强，保温效果好，气温比晴天高。这体现了云层对（）",
+          "options": {
+            "A": "气温日变化的调节",
+            "B": "气温年变化的调节",
+            "C": "全球气候变暖的抑制"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 3,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "由于地面冷热不均，热地区空气膨胀上升，近地面形成低压；冷地区空气收缩下沉，近地面形成高压，空气由高压流向低压，形成环流。该过程称为（）",
+          "options": {
+            "A": "热力环流",
+            "B": "三圈环流",
+            "C": "季风环流"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 4,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "城市人口密集、工业集中、废热排放多，导致城区气温高于郊区，城区空气上升、郊区空气下沉，近地面风由郊区吹向城区。该环流属于（）",
+          "options": {
+            "A": "城市热岛环流",
+            "B": "海陆风环流",
+            "C": "山谷风环流"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 5,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "白天陆地升温快、海洋升温慢，陆地近地面形成低压，海洋形成高压，风从海洋吹向陆地；夜晚相反。该环流形成的直接原因是（）",
+          "options": {
+            "A": "海陆热力性质差异",
+            "B": "气压带风带移动",
+            "C": "地形起伏差异"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 6,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "空气上升过程中，气温不断降低，水汽冷却凝结，易成云致雨；空气下沉过程中，气温升高，水汽不易凝结，多晴朗天气。下列对应正确的是（）",
+          "options": {
+            "A": "上升 — 阴雨",
+            "B": "下沉 — 阴雨",
+            "C": "上升 — 晴朗"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 7,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "赤道附近终年受热，空气强烈上升，近地面形成赤道低气压带，盛行上升气流，其气候特征是（）",
+          "options": {
+            "A": "全年高温多雨",
+            "B": "全年炎热干燥",
+            "C": "全年温和湿润"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 8,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "副热带地区空气下沉为主，下沉增温，水汽难以凝结，降水稀少，形成的典型地表景观是（）",
+          "options": {
+            "A": "热带沙漠",
+            "B": "热带雨林",
+            "C": "热带草原"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 9,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "气压带和风带会随太阳直射点的季节移动而移动，就北半球而言，大致规律是（）",
+          "options": {
+            "A": "夏季北移、冬季南移",
+            "B": "夏季南移、冬季北移",
+            "C": "全年位置基本不变"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 10,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "东亚季风的形成主要是由于海陆热力性质差异显著，夏季风来自海洋，性质是（）",
+          "options": {
+            "A": "温暖湿润",
+            "B": "寒冷干燥",
+            "C": "炎热干燥"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 11,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "冷锋是冷气团主动向暖气团移动的锋，暖气团被迫抬升，抬升过程中冷却凝结。冷锋过境后，当地最可能出现（）",
+          "options": {
+            "A": "气温下降、气压升高",
+            "B": "气温上升、气压下降",
+            "C": "天气持续阴雨"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 12,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "暖锋是暖气团主动向冷气团移动的锋，暖气团沿锋面缓慢爬升，多形成连续性降水。暖锋过境后，当地最可能出现（）",
+          "options": {
+            "A": "气温上升、气压下降",
+            "B": "气温下降、气压升高",
+            "C": "天气突然转晴"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 13,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "气旋中心为低压，空气由四周向中心辐合上升，上升冷却易成云致雨。气旋控制下的天气多为（）",
+          "options": {
+            "A": "阴雨天气",
+            "B": "晴朗天气",
+            "C": "大风降温"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 14,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "反气旋中心为高压，空气由中心向四周辐散，中心盛行下沉气流，下沉增温，天气多为（）",
+          "options": {
+            "A": "晴朗干燥",
+            "B": "狂风暴雨",
+            "C": "持续阴雨"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 15,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "水循环的主要环节包括蒸发、水汽输送、降水、下渗、地表径流、地下径流等。其中，能调节海陆间水量平衡、对陆地水资源更新最重要的是（）",
+          "options": {
+            "A": "海陆间循环",
+            "B": "陆地内循环",
+            "C": "海上内循环"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 16,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "植被覆盖率提高，会减缓地表径流速度，增加下渗量，从而使地下径流增加、地表径流减少。若某流域植被大量破坏，短期内最可能出现（）",
+          "options": {
+            "A": "地表径流增大",
+            "B": "下渗量增大",
+            "C": "地下径流增大"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 17,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "河流上游流速快，以侵蚀、搬运作用为主；下游流速慢，以堆积作用为主。从上游到下游，河流沉积物颗粒变化规律通常是（）",
+          "options": {
+            "A": "由粗变细",
+            "B": "由细变粗",
+            "C": "颗粒均匀不变"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 18,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "河流流出山口时，地势突然变缓，河道变宽，流速减慢，泥沙大量堆积，形成扇形堆积地貌。该地貌是（）",
+          "options": {
+            "A": "冲积扇",
+            "B": "三角洲",
+            "C": "河漫滩平原"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 19,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "河流入海口处，地势低平、流速缓慢，加上海水顶托作用，泥沙大量淤积，形成的地貌是（）",
+          "options": {
+            "A": "三角洲",
+            "B": "冲积扇",
+            "C": "喀斯特地貌"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 20,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "地下水或地表水溶解并带走石灰岩中的碳酸钙，使岩石被溶蚀、侵蚀，形成溶洞、峰林、石林等景观。该地貌过程属于（）",
+          "options": {
+            "A": "喀斯特作用",
+            "B": "风力作用",
+            "C": "冰川作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 21,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "干旱半干旱地区，风力吹蚀地表松散物质，细颗粒被吹走，粗颗粒残留，形成戈壁；风沙遇到阻挡或风速减弱，沙粒沉积形成沙丘。该过程属于（）",
+          "options": {
+            "A": "风力作用",
+            "B": "流水作用",
+            "C": "冰川作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 22,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "沙丘是风力堆积地貌，其迎风坡坡度缓、背风坡坡度陡，通过沙丘形态可判断主导风向。沙丘缓坡指向（）",
+          "options": {
+            "A": "风的来向",
+            "B": "风的去向",
+            "C": "与风向无关"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 23,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "高山或高纬度地区，冰川在重力作用下缓慢移动，对地表进行刨蚀、搬运，形成 U 型谷、角峰、冰斗等。该地貌过程是（）",
+          "options": {
+            "A": "冰川作用",
+            "B": "流水作用",
+            "C": "风力作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 24,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "内力作用能量主要来自地球内部，表现为地壳运动、岩浆活动、变质作用等，其总趋势是（）",
+          "options": {
+            "A": "使地表高低起伏",
+            "B": "使地表趋于平坦",
+            "C": "只形成平原"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 25,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "外力作用能量主要来自太阳辐射能，表现为风化、侵蚀、搬运、堆积、固结成岩等，其总趋势是（）",
+          "options": {
+            "A": "使地表趋于平坦",
+            "B": "使地表高低起伏",
+            "C": "只形成山地"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 26,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "地壳运动中，岩层受水平挤压发生弯曲变形，形成褶皱。岩层向上拱起的部分称为（）",
+          "options": {
+            "A": "背斜",
+            "B": "向斜",
+            "C": "断层"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 27,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "褶皱构造中，岩层向下弯曲的部分称为向斜，向斜槽部受挤压，岩石坚实，不易被侵蚀，常形成（）",
+          "options": {
+            "A": "山岭",
+            "B": "山谷",
+            "C": "盆地"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 28,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "岩层受强大压力或张力超过岩石强度，发生断裂并沿断裂面产生位移，称为断层。断层相对上升的岩块常形成（）",
+          "options": {
+            "A": "山岭或高地",
+            "B": "谷地或低地",
+            "C": "平原"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 29,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "岩浆沿地壳薄弱地带喷出地表，冷却凝固形成喷出岩；岩浆侵入地壳内部冷却凝固形成侵入岩。该过程属于（）",
+          "options": {
+            "A": "岩浆活动",
+            "B": "变质作用",
+            "C": "沉积作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 30,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "裸露岩石在温度变化、水、大气、生物等作用下发生崩解破碎，该过程称为（）",
+          "options": {
+            "A": "风化作用",
+            "B": "侵蚀作用",
+            "C": "搬运作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 31,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "风化或侵蚀产物被风、流水、冰川等从原地转移到另一地的过程，称为（）",
+          "options": {
+            "A": "搬运作用",
+            "B": "堆积作用",
+            "C": "固结成岩"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 32,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "搬运过程中，外力减弱或遇到障碍物，被搬运物质逐渐沉积下来，称为（）",
+          "options": {
+            "A": "堆积作用",
+            "B": "侵蚀作用",
+            "C": "变质作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 33,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "沉积物经过长期压实、胶结，最终形成沉积岩。沉积岩的典型特征是（）",
+          "options": {
+            "A": "具有层理构造、常含化石",
+            "B": "质地坚硬、晶体粗大",
+            "C": "多气孔构造"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 34,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "岩石在一定温度、压力条件下，矿物成分、结构发生改变，形成新岩石，该过程是（）",
+          "options": {
+            "A": "变质作用",
+            "B": "岩浆活动",
+            "C": "沉积作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 35,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "岩浆岩、沉积岩、变质岩在一定条件下可以相互转化，从岩浆到形成各种岩石，再到重新形成岩浆的过程，称为（）",
+          "options": {
+            "A": "岩石圈物质循环",
+            "B": "水循环",
+            "C": "大气循环"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 36,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "海水在盛行风、地转偏向力等作用下，大规模沿一定方向流动，称为洋流。暖流对沿岸气候的主要影响是（）",
+          "options": {
+            "A": "增温增湿",
+            "B": "降温减湿",
+            "C": "降温增湿"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 37,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "寒流由高纬度流向低纬度，水温低于流经海区，对沿岸气候的主要影响是（）",
+          "options": {
+            "A": "降温减湿",
+            "B": "增温增湿",
+            "C": "增温减湿"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 38,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "寒暖流交汇处，海水受到扰动，底层营养盐类上泛，浮游生物繁盛，为鱼类提供丰富饵料，易形成（）",
+          "options": {
+            "A": "大渔场",
+            "B": "荒漠景观",
+            "C": "暴雨天气"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 39,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "上升补偿流使深层冷海水上泛，带来丰富营养盐类，渔业资源丰富。最典型的海域是（）",
+          "options": {
+            "A": "秘鲁附近海域",
+            "B": "北海海域",
+            "C": "北海道附近海域"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 40,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "洋流可以加快污染海域的净化速度，但同时也会扩大污染范围，这体现了地理环境的（）",
+          "options": {
+            "A": "整体性",
+            "B": "差异性",
+            "C": "独立性"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 41,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "从赤道到两极，随着热量条件的变化，植被、土壤等自然要素呈现有规律的更替，体现了（）",
+          "options": {
+            "A": "纬度地带分异",
+            "B": "干湿度地带分异",
+            "C": "垂直分异"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 42,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "从沿海向内陆，随着降水逐渐减少，植被由森林变为草原、荒漠，体现了（）",
+          "options": {
+            "A": "干湿度地带分异",
+            "B": "纬度地带分异",
+            "C": "地方性分异"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 43,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "高山地区，随海拔升高，水热组合发生变化，植被、土壤呈现垂直方向的更替，称为（）",
+          "options": {
+            "A": "垂直地域分异",
+            "B": "纬度分异",
+            "C": "干湿度分异"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 44,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "地理环境各要素相互联系、相互影响、相互制约，某一要素变化会引起其他要素甚至整体环境改变，这是地理环境的（）",
+          "options": {
+            "A": "整体性",
+            "B": "差异性",
+            "C": "复杂性"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 45,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "温室气体大量排放，导致大气吸收地面辐射增多，大气逆辐射增强，全球气温升高，该过程称为（）",
+          "options": {
+            "A": "温室效应增强",
+            "B": "大气削弱作用增强",
+            "C": "太阳辐射增强"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 46,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "全球气候变暖会使冰川融化、海平面上升，淹没沿海低地，同时影响全球降水格局，导致（）",
+          "options": {
+            "A": "极端天气增多",
+            "B": "全球气候趋于稳定",
+            "C": "全球降水均匀增加"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 47,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "水土流失过程是：降水冲刷→地表径流侵蚀→土壤养分流失→土层变薄→植被退化→侵蚀加剧。该过程体现了（）",
+          "options": {
+            "A": "恶性循环",
+            "B": "良性循环",
+            "C": "无变化"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 48,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "坡面水流速度越快，侵蚀能力越强；坡度越大、坡面越长，侵蚀量通常（）",
+          "options": {
+            "A": "越大",
+            "B": "越小",
+            "C": "不受影响"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 49,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "河流凹岸水流速度快，以侵蚀作用为主；凸岸水流速度慢，以堆积作用为主。港口更适合建在（）",
+          "options": {
+            "A": "凹岸",
+            "B": "凸岸",
+            "C": "凸岸堆积区"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 50,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "地下水过量开采，会使地下水位下降，形成地下水漏斗区，进一步可能引发（）",
+          "options": {
+            "A": "地面沉降、海水入侵",
+            "B": "地下水位上升、土壤沼泽化",
+            "C": "地震、火山喷发"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 51,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "锋面雨形成的原理是冷暖空气相遇，暖气团沿锋面抬升冷却凝结成雨。我国东部夏季降水多属于（）",
+          "options": {
+            "A": "锋面雨",
+            "B": "地形雨",
+            "C": "对流雨"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 52,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "湿润气流遇到山地阻挡，被迫沿山坡爬升，冷却凝结形成降水，称为（）",
+          "options": {
+            "A": "地形雨",
+            "B": "锋面雨",
+            "C": "台风雨"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 53,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "对流雨是近地面空气强烈受热上升，冷却凝结形成的降水，强度大、历时短、范围小，多见于（）",
+          "options": {
+            "A": "赤道地区、夏季午后",
+            "B": "极地地区、冬季",
+            "C": "沙漠地区、夜间"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 54,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "气压差是形成风的直接原因，水平气压梯度力越大，风力（）",
+          "options": {
+            "A": "越大",
+            "B": "越小",
+            "C": "不变"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 55,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "地转偏向力只改变风向，不改变风速，北半球风向向右侧偏，南半球向左侧偏，赤道地区（）",
+          "options": {
+            "A": "无地转偏向力",
+            "B": "地转偏向力最大",
+            "C": "风向向西偏"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 56,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "摩擦力会减小风速、削弱风力，近地面摩擦力大，高空摩擦力小，因此近地面风力比高空（）",
+          "options": {
+            "A": "小",
+            "B": "大",
+            "C": "相同"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 57,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "大气对太阳辐射的削弱作用包括吸收、反射、散射，多云白天气温不太高，主要是（）",
+          "options": {
+            "A": "反射作用强",
+            "B": "吸收作用强",
+            "C": "散射作用弱"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 58,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "晴朗天空呈蔚蓝色，是因为波长较短的蓝光易被大气分子散射，该过程属于（）",
+          "options": {
+            "A": "散射作用",
+            "B": "反射作用",
+            "C": "吸收作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 59,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "日出前、日落后天空仍然明亮，是大气对太阳辐射的（）",
+          "options": {
+            "A": "散射作用",
+            "B": "反射作用",
+            "C": "吸收作用"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 60,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "地面是近地面大气主要、直接的热源，离地面越高，气温通常（）",
+          "options": {
+            "A": "越低",
+            "B": "越高",
+            "C": "不变"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 61,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "对流层气温随高度升高而降低，空气对流运动显著，天气现象复杂多变，原因是（）",
+          "options": {
+            "A": "热量主要来自地面",
+            "B": "热量主要来自太阳直接加热",
+            "C": "水汽尘埃极少"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 62,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "平流层气温随高度升高而升高，气流以水平运动为主，适合飞机飞行，原因是（）",
+          "options": {
+            "A": "臭氧吸收紫外线增温",
+            "B": "地面辐射加热",
+            "C": "对流旺盛"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 63,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "土壤形成过程中，成土母质提供矿物质，气候影响水热与风化，生物提供有机质。土壤肥力高低主要取决于（）",
+          "options": {
+            "A": "有机质含量",
+            "B": "岩石硬度",
+            "C": "土层厚度"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 64,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "生物在土壤形成中的主导作用是通过光合作用合成有机质，枯枝落叶分解后补充（）",
+          "options": {
+            "A": "土壤有机质",
+            "B": "矿物质",
+            "C": "水分"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 65,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "冻土区土壤长期冻结，微生物活动微弱，有机质分解极慢，因此冻土中有机质（）",
+          "options": {
+            "A": "积累多",
+            "B": "积累少",
+            "C": "完全没有"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 66,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "高温多雨地区，淋溶作用强烈，土壤中的盐基离子和有机质易流失，土壤多呈（）",
+          "options": {
+            "A": "酸性",
+            "B": "碱性",
+            "C": "中性"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 67,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "干旱蒸发旺盛地区，盐分易在土壤表层积累，形成盐碱土，土壤多呈（）",
+          "options": {
+            "A": "碱性",
+            "B": "酸性",
+            "C": "强酸性"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 68,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "植物根系呼吸、微生物活动都需要土壤空气，土壤孔隙越大、含水量越少，通气性（）",
+          "options": {
+            "A": "越好",
+            "B": "越差",
+            "C": "不受影响"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 69,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "土壤水分过多，会排挤空气，导致通气不良，根系缺氧，易出现（）",
+          "options": {
+            "A": "烂根、生长不良",
+            "B": "生长旺盛",
+            "C": "耐旱性增强"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 70,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "板块构造学说认为，地球岩石圈由六大板块组成，板块内部地壳稳定，板块交界处地壳（）",
+          "options": {
+            "A": "活跃",
+            "B": "稳定",
+            "C": "无岩浆活动"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 71,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "板块相互碰撞挤压的边界，地壳隆起，常形成（）",
+          "options": {
+            "A": "山脉、高原",
+            "B": "裂谷、海洋",
+            "C": "平原、盆地"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 72,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "板块相互张裂分离的边界，地壳断裂下陷，常形成（）",
+          "options": {
+            "A": "裂谷、海洋",
+            "B": "高大山脉",
+            "C": "高原"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 73,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "火山、地震多集中分布在板块交界地带，因为该处（）",
+          "options": {
+            "A": "地壳运动活跃",
+            "B": "岩石坚硬稳定",
+            "C": "地势平坦"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 74,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "地震发生时，纵波传播速度快，先到达地面，使人感觉上下颠簸；横波后到，使人感觉左右摇晃。先感受到的是（）",
+          "options": {
+            "A": "纵波",
+            "B": "横波",
+            "C": "同时感受"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 75,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "河口地区水位受河流径流和海洋潮汐共同影响，当河流洪水与天文大潮相遇，易出现（）",
+          "options": {
+            "A": "海水倒灌、水位暴涨",
+            "B": "河流断流",
+            "C": "河口淤积消失"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 76,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "山谷风白天吹谷风，夜晚吹山风，形成原因是（）",
+          "options": {
+            "A": "山坡与山谷热力差异",
+            "B": "海陆热力差异",
+            "C": "气压带风带移动"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 77,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "白天山坡受热快，空气上升，风由谷底沿山坡向上吹，称为（）",
+          "options": {
+            "A": "谷风",
+            "B": "山风",
+            "C": "季风"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 78,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "夜晚山坡冷却快，空气下沉，风由山坡向谷底吹，称为（）",
+          "options": {
+            "A": "山风",
+            "B": "谷风",
+            "C": "台风"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 79,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "水体富营养化是由于氮、磷等营养物质过多，导致藻类大量繁殖，水体缺氧，鱼类死亡。该过程主要发生在（）",
+          "options": {
+            "A": "静止或流动缓慢的水域",
+            "B": "快速流动的河流",
+            "C": "海洋深处"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 80,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "湿地具有涵养水源、调节径流、净化水质、维持生物多样性等功能，被称为（）",
+          "options": {
+            "A": "地球之肾",
+            "B": "地球之肺",
+            "C": "地球心脏"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 81,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "森林通过光合作用吸收二氧化碳、释放氧气，调节大气成分，被称为（）",
+          "options": {
+            "A": "地球之肺",
+            "B": "地球之肾",
+            "C": "天然水库"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 82,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "植被保持水土的原理：截留降水→减缓径流→增加下渗→减轻侵蚀。植被覆盖率越高，水土流失越（）",
+          "options": {
+            "A": "轻",
+            "B": "重",
+            "C": "不受影响"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 83,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "黄土高原土质疏松、垂直节理发育，降水集中且多暴雨，植被稀少，因此最突出的环境问题是（）",
+          "options": {
+            "A": "水土流失",
+            "B": "土地沙化",
+            "C": "土壤盐碱化"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 84,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "石漠化是在喀斯特山区，土层薄，植被破坏后水土流失加剧，岩石裸露，土地生产力下降。该过程主要发生在（）",
+          "options": {
+            "A": "湿润石灰岩山区",
+            "B": "干旱沙漠区",
+            "C": "高寒冻土区"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 85,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "土地沙化过程：植被破坏→地表裸露→风力侵蚀→细土流失→沙丘活化→沙化扩大。主导外力是（）",
+          "options": {
+            "A": "风力",
+            "B": "流水",
+            "C": "冰川"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 86,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "酸雨形成原理：燃烧化石燃料排放二氧化硫、氮氧化物，在大气中氧化并溶于雨水，使雨水 pH（）",
+          "options": {
+            "A": "小于 5.6",
+            "B": "大于 7",
+            "C": "等于 7"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 87,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "臭氧层能吸收太阳紫外线，保护地球生物，臭氧层空洞主要是由哪种物质大量排放导致（）",
+          "options": {
+            "A": "氟氯烃",
+            "B": "二氧化碳",
+            "C": "氮气"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 88,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "热岛效应使城区降水概率往往高于郊区，原因是城区（）",
+          "options": {
+            "A": "上升气流强、凝结核多",
+            "B": "气温低、水汽足",
+            "C": "风速大、对流弱"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 89,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "下垫面性质不同，热力性质差异大。与草地、林地相比，硬化路面升温（）",
+          "options": {
+            "A": "更快",
+            "B": "更慢",
+            "C": "相同"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 90,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "河流径流量季节变化大，说明其补给来源季节差异明显；径流量稳定均匀，最可能的补给是（）",
+          "options": {
+            "A": "地下水补给",
+            "B": "雨水补给",
+            "C": "季节性积雪融水"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 91,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "季节性积雪融水补给主要发生在春季，气温回升，积雪融化，使河流形成（）",
+          "options": {
+            "A": "春汛",
+            "B": "夏汛",
+            "C": "冬汛"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 92,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "高山冰雪融水补给受气温影响显著，气温越高融化越多，河流流量峰值出现在（）",
+          "options": {
+            "A": "夏季",
+            "B": "冬季",
+            "C": "春季"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 93,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "洋流对航海的影响：顺洋流航行速度快、省燃料；逆洋流航行速度慢、费燃料。寒暖流交汇处多（）",
+          "options": {
+            "A": "海雾，不利航行",
+            "B": "晴天，有利航行",
+            "C": "大浪，无影响"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 94,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "背风坡气流下沉增温，降水稀少，气候干燥，形成雨影区。背风坡比迎风坡（）",
+          "options": {
+            "A": "降水少",
+            "B": "降水多",
+            "C": "降水相同"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 95,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "等高线密集处坡度陡，水流速度快，以侵蚀为主；等高线稀疏处坡度缓，以（）",
+          "options": {
+            "A": "堆积为主",
+            "B": "侵蚀为主",
+            "C": "搬运为主"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 96,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "河口三角洲增长速度取决于河流泥沙含量、流速及海洋侵蚀能力。泥沙越多、海浪越弱，三角洲（）",
+          "options": {
+            "A": "增长越快",
+            "B": "增长越慢",
+            "C": "逐渐后退"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 97,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "沉积岩中，颗粒大、比重大的物质先沉积，颗粒小、比重小的后沉积，这一规律称为（）",
+          "options": {
+            "A": "分选性",
+            "B": "层理性",
+            "C": "固结性"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 98,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "大气环流是全球性有规律的大气运动，它可以调节（）",
+          "options": {
+            "A": "全球热量和水汽分布",
+            "B": "地壳物质循环",
+            "C": "地表形态塑造"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 99,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "自然带的分布是气候、植被、土壤共同作用的结果，其中起主导作用的是（）",
+          "options": {
+            "A": "气候",
+            "B": "地形",
+            "C": "土壤"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": 100,
+          "type": "single",
+          "geography_category": "Geographical Processes and Principles",
+          "difficulty": "medium",
+          "question": "所有地理过程都遵循 “原因 — 过程 — 结果” 逻辑，人类活动必须遵循地理原理，才能实现（）",
+          "options": {
+            "A": "人地协调与可持续发展",
+            "B": "无限开发自然资源",
+            "C": "先破坏后治理"
+          },
+          "correct_answer": "A"
+        }
+      ]
+  }

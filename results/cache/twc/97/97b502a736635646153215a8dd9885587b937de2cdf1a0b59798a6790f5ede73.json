@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-038",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：土壤有机质的分解速度受多种因素影响，下列能加快土壤有机质分解速度的因素有（）\n\n待判断的选项：\nA. 土壤透气性好，氧气充足\nB. 土壤含水量过高，微生物活动受抑制\nC. 气温高，微生物活动旺盛\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤有机质：上位：土壤组成物质；特征：提供养分、改善土壤结构、含量随深度递减；成因：生物残体分解、微生物合成；影响：提高土壤肥力、促进团粒结构形成\n- 分解作用：上位：生物作用、土壤形成过程；特征：有机物转化为无机物、释放养分、依赖微生物；成因：微生物活动、适宜温湿条件；影响：促进养分循环、形成土壤腐殖质、影响土壤肥力\n- 受多种因素影响：上位：地理事物特征；特征：综合性、多因素叠加、区域差异明显；成因：自然人文因素交织；影响：需综合分析\n- 土壤通气：上位：土壤物理性质；特征：孔隙度、氧气含量、气体交换；成因：土壤结构、质地、含水量；影响：根系呼吸、微生物活动、养分转化；分布：农田、林地、草地\n- 氧气：上位：大气成分、气体；特征：无色无味、支持燃烧、化学性质活泼；成因：植物光合作用、大气光解；影响：维持生物呼吸、参与氧化反应；分布：大气圈、水圈\n- 含水量：上位：土壤物理性质；特征：影响土壤肥力、随降水变化、受植被影响；成因：降水多少、蒸发强弱、土壤质地；影响：影响作物生长、影响地表径流；分布：湿润地区、干旱地区、灌溉农田\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 能加快土壤有机质分解速度\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 486,
+  "total_tokens": 504,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 486
+ },
+ "created": 1792769983
+}

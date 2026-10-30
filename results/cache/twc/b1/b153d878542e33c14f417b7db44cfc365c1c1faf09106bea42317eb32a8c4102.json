@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-022",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：汞是一种易挥发的重金属元素，大气汞主要以气态形式存在。南岭周边省区是我国重要的有色金属冶炼企业分布区。在南岭国家森林公园某山顶附近监测得知，该地大气汞含量日变化明显，最高值在午后出现;秋冬季比夏春季大气汞含量高且变幅大。导致该地大气汞含量在午后出现最高值的原因是午后（）\r\n\n\n待判断的说法：\n①. 对流雨多发\n②. 谷风环流较强\n③. 植被蒸腾较弱\n④. 地面蒸发旺盛\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是午后出现最高值的原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 1 个判断，例如：{\"①\": [\"是\"], \"②\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"①\": [\"否\"],\n\"②\": [\"是\"],\n\"③\": [\"不确定\"],\n\"④\": [\"不确定\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 223,
+  "total_tokens": 249,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772969
+}

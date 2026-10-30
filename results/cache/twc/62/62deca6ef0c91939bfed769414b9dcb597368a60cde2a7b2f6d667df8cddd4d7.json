@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-063",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地下水的开采需要合理控制，下列关于过度开采地下水的危害有（）\n\n待判断的选项：\nA. 不会影响地下水的补给能力\nB. 引发地面沉降、地面塌陷等地质灾害\nC. 导致地下水位下降，形成地下漏斗区\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地下水：上位：陆地水体、水资源；特征：埋藏地下、水量稳定、水质较好、更新缓慢；成因：降水下渗、地表水补给、岩层储水；影响：提供饮用水、农业灌溉、维持生态、引发地面沉降；分布：华北平原、河西走廊、喀斯特地区\n- 过度开采：上位：资源问题、人类活动；特征：开采量超过承载力、资源枯竭、生态破坏；成因：人口增长、经济发展需求、技术落后、管理不善；影响：资源枯竭、地面沉降、生态退化、环境污染；分布：华北平原、黄土高原、矿区\n- 危害：上位：不利影响；特征：造成损失、威胁生命、破坏财产、影响社会；成因：自然变异、人类活动；影响：人员伤亡、经济损失、生态破坏\n- 地面沉降：上位：地质灾害、环境地质问题；特征：缓慢发展、影响范围广、不可逆性；成因：地下水超采、地下矿产开采、地壳运动；影响：建筑物开裂、海水入侵、防洪能力下降；分布：华北平原、长江三角洲、汾渭盆地\n- 地面塌陷：上位：地质灾害、地貌过程；特征：地面下沉、突发性、局部性；成因：地下溶蚀、采矿活动、地下水超采；影响：建筑物破坏、土地资源损失；分布：岩溶地区、矿区、黄土地区\n- 地质灾害：上位：自然灾害；特征：突发性强、破坏性大、链发性明显、分布具地域性；成因：地质构造活动、暴雨、人类活动；影响：人员伤亡、财产损失、破坏交通设施、改变地表形态；分布：山区、断裂带、地震带\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是过度开采地下水的危害\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 533,
+  "total_tokens": 551,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 533
+ },
+ "created": 1792769880
+}

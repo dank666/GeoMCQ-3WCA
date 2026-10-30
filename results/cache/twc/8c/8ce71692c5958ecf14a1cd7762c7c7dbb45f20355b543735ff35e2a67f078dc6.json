@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-040",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：冰川地貌主要分布在高纬度和高海拔地区，下列地区中，冰川地貌发育的有（）\n\n待判断的选项：\nA. 长江中下游平原\nB. 南极地区\nC. 青藏高原\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 冰川地貌：上位：地貌类型；特征：由冰川作用形成、分布于高山高纬、形态独特；成因：冰川侵蚀、冰川堆积；影响：指示古冰川范围、影响地表形态；分布：阿尔卑斯山、青藏高原、北美五大湖\n- 高纬度：上位：纬度带；特征：太阳高度小、气温低、昼夜长短变化大；成因：地球形状、黄赤交角；影响：气候寒冷、极昼极夜；分布：北极地区、南极地区\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n- 长江中下游平原：上位：冲积平原；特征：地势低平、河网稠密、湖泊众多、土壤肥沃；成因：河流冲积、湖积作用；影响：商品粮基地、城市密集；分布：湖北省、湖南省、江西省、安徽省、江苏省\n- 南极：上位：大洲；特征：冰雪覆盖、酷寒干燥、烈风；成因：纬度高、海拔高；影响：全球冷源、科学考察基地；分布：地球最南端\n- 青藏高原：上位：高原；特征：平均海拔4000米以上、面积最大高原、冰川广布；成因：印度洋板块与亚欧板块碰撞；影响：影响亚洲气候、大河发源地；分布：中国西南部、亚洲中部\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是高纬度和高海拔地区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 534,
+  "total_tokens": 552,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 534
+ },
+ "created": 1792773517
+}

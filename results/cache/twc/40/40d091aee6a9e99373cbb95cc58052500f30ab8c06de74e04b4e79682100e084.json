@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-198",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：近年来，有西方发达国家鼓励外迁的企业回迁。某组装企业欲从我国回迁本国进行生产。下列影响该企业生产的区位因素中，近年来发生有利变化的是 ( )\r\n \n\n待判断的说法：\n①. 集聚协作\n②. 劳动力成本\n③. 环保成本\n④. 市场规模\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 发达国家：上位：国家类型；特征：经济发达、科技水平高、城镇化水平高、社会福利完善；成因：工业革命起步早、长期资本积累、科技教育投入大；影响：主导全球经济、资源消耗量大、环境压力大；分布：西欧、北美、大洋洲、东亚\n- 企业：上位：经济组织、市场主体；特征：营利性、独立性、组织性；成因：市场需求、利润驱动、分工协作；影响：提供产品服务、创造就业、推动创新；分布：产业园区、城市、工业区\n- 区位因素：上位：地理因素；特征：多样性、综合性、变化性；影响：决定产业布局、影响区域发展\n- 变迁：上位：地理过程；特征：动态性、长期性、阶段性；成因：自然因素、人为因素；影响：地理格局改变、人地关系调整\n- 集聚：上位：空间现象；特征：空间集中、联系紧密、共享基础设施；成因：规模效益、协作需求、交通便利；影响：降低成本、促进创新、形成集聚效应；分布：产业园区、城市群\n- 协作：上位：产业联系；特征：企业间分工合作、降低生产成本、提高效率；成因：专业化分工、规模效益；影响：形成工业地域、促进区域发展；分布：工业区、产业集群\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是近年来发生有利变化的区位因素\n2. 针对从我国回迁本国的组装企业\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 2 个判断，例如：{\"①\": [\"是\", \"是\"], \"②\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"①\": [\"是\", \"是\"], \"②\": [\"否\", \"是\"], \"③\": [\"否\", \"是\"], \"④\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 40,
+  "prompt_tokens": 492,
+  "total_tokens": 532,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 492
+ },
+ "created": 1792771093
+}

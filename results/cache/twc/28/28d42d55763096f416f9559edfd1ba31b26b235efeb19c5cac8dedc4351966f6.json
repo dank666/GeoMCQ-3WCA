@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-076",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某城市在历史文化街区保护中，不仅修缮建筑，还鼓励原住民留住，延续传统生活方式，并引入文化创意产业。这种保护理念是（）\n\n待判断的选项：\nA. 活态保护\nB. 整体性保护\nC. 博物馆式保护\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 城市：上位：聚落；特征：人口密集、非农业产业集聚、建筑密集、交通网络发达；成因：生产力发展、社会分工深化、工商业集聚；影响：区域经济中心、文化教育中心、交通枢纽；分布：沿海地区、平原地区、交通枢纽\n- 历史文化：上位：文化；特征：历史积淀深厚、地域特色鲜明、传承性；成因：长期历史发展、人类活动积累；影响：促进旅游业发展、增强文化认同\n- 建筑：上位：文化景观；特征：地域性、功能性、时代性；成因：自然环境、历史文化、经济技术；影响：反映地域文化、塑造城乡景观\n- 原住民：上位：人口特征、社会文化；特征：土著居民、传统生活方式、文化传承\n- 文化：上位：人类活动产物、社会现象；特征：地域性、时代性、传承性、多样性；成因：自然环境差异、历史发展过程、人类活动创造；影响：影响人类行为、塑造区域特色、促进社会发展\n- 产业：上位：经济活动；特征：生产物质产品、提供劳务服务、具有地域分布；成因：社会分工、生产力发展；影响：促进经济发展、提供就业机会\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是将历史文化街区的建筑修缮、原住民保留及传统生活方式延续与文化创意产业结合的保护理念\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"不确定\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 485,
+  "total_tokens": 503,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 485
+ },
+ "created": 1792773179
+}

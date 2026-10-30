@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-063",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：降水的强度分为小雨、中雨、大雨、暴雨等等级，暴雨是指24小时降水量超过50毫米的降水，暴雨容易引发洪涝灾害，某地区24小时降水量为80毫米，结合降水强度等级，该地区的降水类型是（ ）\n\n待判断的选项：\nA. 中雨\nB. 暴雨\nC. 大雨\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n- 中雨：上位：降水、降水强度等级、气象观测；特征：10-25毫米、24小时雨量、小雨大雨之间\n- 大雨：上位：降水、降水强度等级、气象观测；特征：24小时25-50毫米、中雨与暴雨之间、短时强降水\n- 暴雨：上位：降水；特征：降水量大、强度大、持续时间短；成因：强对流天气、锋面活动、台风；影响：洪涝灾害、水土流失、城市内涝；分布：我国东部季风区、热带雨林气候区\n- 小时：上位：时间单位、计时单位；特征：时间计量、地球自转周期；成因：地球自转；影响：时间划分、作息安排；分布：全球通用\n- 降水量：上位：气候要素、气象要素；特征：以毫米计量、时空分布不均、反映水汽供应；成因：水汽条件、抬升条件、凝结核；影响：影响水资源量、影响植被类型、影响农业生产；分布：赤道多雨带、副热带少雨带、沿海多雨区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 符合该地区降水类型的定义\n2. 基于24小时降水量80毫米的数值\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 514,
+  "total_tokens": 541,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 514
+ },
+ "created": 1792768654
+}

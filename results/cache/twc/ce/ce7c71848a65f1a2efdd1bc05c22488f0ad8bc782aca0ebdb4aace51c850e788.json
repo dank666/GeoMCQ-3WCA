@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-CL-045",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列属于气候异常现象的有（）\n\n待判断的选项：\nA. 厄尔尼诺现象\nB. 拉尼娜现象\nC. 暴雨洪涝\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 气候异常：上位：气候现象；特征：偏离平均状态、持续时间较长、影响范围广；成因：大气环流异常、海洋温度异常、太阳活动异常；影响：农业减产、水资源短缺、生态系统破坏；分布：全球、热带太平洋、季风区\n- 厄尔尼诺现象：上位：海气相互作用、海洋异常现象；特征：赤道东太平洋海水异常增温、东南信风减弱、沃克环流减弱；成因：东南信风减弱、海气相互作用；影响：全球气候异常、秘鲁沿岸降水增多、澳大利亚东部干旱；分布：赤道太平洋、秘鲁沿岸\n- 拉尼娜现象：上位：海气相互作用、气候异常；特征：赤道东太平洋海温持续偏低、东南信风增强、沃克环流增强；成因：信风增强、冷水上涌加剧；影响：全球气候异常、太平洋东西岸降水异常；分布：赤道太平洋、秘鲁沿岸\n- 暴雨：上位：降水；特征：降水量大、强度大、持续时间短；成因：强对流天气、锋面活动、台风；影响：洪涝灾害、水土流失、城市内涝；分布：我国东部季风区、热带雨林气候区\n- 洪涝：上位：自然灾害、气象水文灾害；特征：水量过大、水位上涨、淹没土地；成因：降水集中、地势低洼、河道淤积、植被破坏；影响：淹没农田、破坏设施、人员伤亡、经济损失；分布：长江中下游、黄淮海平原、珠江三角洲\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 属于气候异常现象\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 484,
+  "total_tokens": 502,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 484
+ },
+ "created": 1792769462
+}

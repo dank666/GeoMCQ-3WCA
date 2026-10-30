@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-085",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：土地沙化过程：植被破坏→地表裸露→风力侵蚀→细土流失→沙丘活化→沙化扩大。主导外力是（）\n\n待判断的选项：\nA. 风力\nB. 冰川\nC. 流水\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 沙化：上位：土地退化、生态环境问题；特征：地表沙质化、植被退化、生产力下降；成因：过度放牧、过度开垦、水资源利用不当、气候干旱；影响：生物多样性减少、沙尘暴频发、贫困加剧；分布：干旱半干旱区、农牧交错带、西北地区\n- 进程：上位：发展变化；特征：动态变化、阶段性、不可逆性；成因：社会经济发展、政策推动；影响：导致结构变化、影响空间格局\n- 植被破坏：上位：生态破坏；特征：植被覆盖率下降、生物多样性减少、水土流失加剧、生态系统退化；成因：乱砍滥伐、过度放牧、开垦荒地、火灾虫害；影响：水土流失、土地荒漠化、生物多样性减少、旱涝灾害频发；分布：黄土高原、亚马孙雨林、内蒙古草原、长江上游\n- 地表裸露：上位：地表覆盖状况；特征：无植被覆盖、地表物质直接暴露、易受外力侵蚀；成因：植被破坏、气候干旱、人类活动；影响：加剧水土流失、土地荒漠化、生态恶化；分布：干旱区、黄土高原、荒漠化地区\n- 风力侵蚀：上位：风力作用、外力侵蚀；特征：吹蚀作用、磨蚀作用、干旱区显著；成因：强风、松散地表、植被稀少；影响：形成风蚀地貌、土地退化、沙尘暴；分布：西北干旱区、塔克拉玛干沙漠、柴达木盆地\n- 沙丘：上位：风积地貌；特征：迎风坡缓、背风坡陡、移动性；成因：风力搬运沉积、沙源丰富、风向稳定；影响：掩埋农田、形成沙漠景观；分布：沙漠地区、海滨沙丘、干旱区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成土地沙化过程的主导外力\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 553,
+  "total_tokens": 571,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 553
+ },
+ "created": 1792768830
+}

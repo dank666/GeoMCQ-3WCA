@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-CL-004",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地中海气候分布在南北纬30°-40°的大陆西岸，受副热带高气压带和西风带交替控制，下列关于其气候特征的说法正确的有（）\n\n待判断的选项：\nA. 降水季节分配不均\nB. 冬季温和多雨\nC. 夏季炎热干燥\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地中海气候：上位：气候类型；特征：夏季炎热干燥、冬季温和多雨、雨热不同期；成因：海陆热力性质差异；影响：适宜园艺业、植被为常绿硬叶林、河流冬汛；分布：地中海沿岸、美国加利福尼亚、智利中部、南非西南部、澳大利亚西南部\n- 南北：上位：方向；特征：经线方向、相对方位\n- 大陆西岸：上位：海岸带、自然地理区域；特征：寒流经过、气候干旱、地中海气候典型；成因：寒流降温减湿、副热带高压、西风带；影响：荒漠景观、渔业资源丰富、气候类型多样；分布：欧洲西部、北美西部、南美西部、非洲西部\n- 副热带高气压带：上位：气压带；特征：动力成因、盛行下沉气流、干燥少雨；成因：赤道上空空气堆积下沉；影响：形成热带沙漠气候、影响全球降水分布；分布：南北纬30°附近\n- 盛行西风带：上位：行星风带、大气环流；特征：自西向东吹、中纬度地区、温和湿润；成因：地转偏向力；影响：形成温带海洋性气候、影响洋流；分布：北半球中纬度、南半球中纬度\n- 气候特征：上位：气候状况；特征：多年平均状况、相对稳定性、地域差异性、综合性；成因：纬度位置、海陆位置、大气环流、地形地势、洋流性质；影响：影响农业生产、影响人类活动、影响自然景观；分布：热带雨林气候区、温带季风气候区、地中海气候区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于地中海气候特征的说法符合地理事实\n2. 描述的是南北纬30°-40°大陆西岸的气候\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 566,
+  "total_tokens": 593,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 566
+ },
+ "created": 1792769406
+}

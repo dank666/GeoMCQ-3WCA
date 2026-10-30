@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:黄土层||e3d0bc4fc9e3",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“黄土层”编写一个词典条目，供符号推理系统使用。\n\n题干：黄土高原的黄土层厚度较大，最厚处可达100多米，结合地质历史和外力作用，该区域的黄土主要来源于()\n选项：\nA. 风力从蒙古高原等地搬运堆积\nB. 当地岩石风化形成\nC. 河流冲积带来\n\n词典中已有条目的示例：\n{\"term\": \"黄土高原\", \"category\": \"PLACE\", \"parent_level\": \"高原；地貌区；风力沉积；流水侵蚀\", \"child_level\": \"黄土覆盖深厚；水土流失严重；千沟万壑\"}\n{\"term\": \"黄土\", \"category\": \"SOILVEG\", \"parent_level\": \"土壤；沉积物；风力沉积\", \"child_level\": \"黄土塬；黄土梁；黄土峁；质地疏松；孔隙大；垂直节理\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"SOILVEG\", \"parent_level\": \"土壤；沉积物；风力沉积\", \"child_level\": \"质地疏松；孔隙大；垂直节理\", \"confidence\": 1.0}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 514,
+  "total_tokens": 562,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 482
+ },
+ "created": 1792772122
+}

@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:gaokao-14-2",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n热带沙漠中的尼罗河泛滥区孕育了古埃及农耕文明．尼罗河在每年 6～10 月泛滥，从上游带来的类似肥沃土壤的沉积物，与上游来水和周边区域的植物资源，都对农耕文明的形成意义重大．据此完成 6～8 题．\n\nQuestion:\n尼罗河下游泛滥区沉积物主要来源地的降水特点为（）\n\nOptions:\nA. 降水季节性强，年降水量大\nB. 降水季节性强，年降水量小\nC. 降水季节分配均匀，年降水量大\nD. 降水季节分配均匀，年降水量小\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "B",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 205,
+  "total_tokens": 206,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 96,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 96,
+  "prompt_cache_miss_tokens": 109
+ },
+ "created": 1792774706
+}

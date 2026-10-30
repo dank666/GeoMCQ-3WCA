@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-016",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：土壤与植被存在相互依存、相互影响的关系，下列关于土壤对植被影响的说法正确的有（）\n\n待判断的选项：\nA. 土壤质地影响植被类型，砂土适合耐旱植物生长\nB. 土壤酸碱度不会影响植被的分布\nC. 土壤肥力越高，植被生长越旺盛，覆盖率越高\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 植被：上位：自然地理要素、生物圈组成部分；特征：覆盖地表、受气候制约、具有地带性分布；成因：气候条件、土壤条件、地形因素；影响：保持水土、调节气候、为动物提供栖息地；分布：热带雨林带、温带草原带、荒漠带\n- 相互影响：上位：地理联系；特征：双向作用、彼此改变、动态变化；成因：要素关联、整体性；影响：系统演变、功能变化\n- 土壤质地：上位：土壤物理性质；特征：反映颗粒组成、影响保水保肥、影响耕作性能；成因：成土母质、风化程度、搬运沉积；影响：影响土壤肥力、影响作物选择、影响水土流失；分布：河流冲积平原、黄土高原\n- 影响植被类型：上位：植被分布规律；特征：水热条件决定、呈地带性分布、垂直分异明显；成因：热量差异、水分差异、地形起伏；影响：形成不同植被带、影响生态系统；分布：赤道雨林带、温带草原带、荒漠带\n- 砂土：上位：土壤质地类型、土壤；特征：颗粒粗、孔隙大、透水性强、保水性差；成因：砂粒含量高、风化沉积；影响：易旱、易风蚀；分布：沙漠地区、河流沿岸\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于土壤对植被影响的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 541,
+  "total_tokens": 559,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 541
+ },
+ "created": 1792769951
+}

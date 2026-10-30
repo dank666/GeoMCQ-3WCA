@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-028",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：黑土主要分布在温带半湿润草甸草原区，冬季寒冷，有机质分解慢，腐殖质层极厚。黑土最突出特点是（）\n\n待判断的选项：\nA. 呈强酸性\nB. 肥力高\nC. 土层薄\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 黑土：上位：土壤类型；特征：有机质含量高、颜色暗黑、团粒结构良好、肥力高；成因：草原植被腐殖质积累、寒冷气候；影响：适宜农耕、作物高产；分布：东北平原、乌克兰平原、密西西比平原\n- 温带：上位：温度带；特征：四季分明、冬冷夏热、气温年较差大；成因：太阳辐射季节变化、中纬度位置；影响：温带气候、温带植被；分布：中纬度地区、北半球大陆\n- 半湿润：上位：干湿地区、气候区；特征：降水量较多、蒸发量较大、森林草原植被、农业发达；成因：季风影响、海陆位置；影响：种植业为主、人口密集；分布：华北平原、东北平原、长江中下游平原\n- 草甸草原：上位：草原、植被类型；特征：草甸与草原过渡、水分较好、草层茂密；成因：降水条件适中、过渡性水分；影响：牧草产量高、宜发展畜牧业；分布：内蒙古东部、大兴安岭西侧\n- 有机：上位：物质属性；特征：含碳化合物、来源于生物体、可降解\n- 分解作用：上位：生物作用、土壤形成过程；特征：有机物转化为无机物、释放养分、依赖微生物；成因：微生物活动、适宜温湿条件；影响：促进养分循环、形成土壤腐殖质、影响土壤肥力\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是黑土最突出的特点\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 497,
+  "total_tokens": 515,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 497
+ },
+ "created": 1792769159
+}

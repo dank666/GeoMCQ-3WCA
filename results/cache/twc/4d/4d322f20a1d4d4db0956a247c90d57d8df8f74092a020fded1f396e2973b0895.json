@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-CL-028",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：温带季风气候与温带大陆性气候的区别主要体现在（）\n\n待判断的选项：\nA. 降水多少（季风气候降水多，大陆性气候少）\nB. 降水季节分配（季风气候集中夏季，大陆性气候更均匀）\nC. 气温年较差（大陆性气候更大）\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 温带季风气候：上位：季风气候；特征：夏季高温多雨、冬季寒冷干燥、雨热同期；成因：海陆热力性质差异、季风环流；影响：温带落叶阔叶林、旱涝灾害；分布：中国北方、朝鲜半岛、日本北部\n- 温带大陆性气候：上位：温带气候、大陆性气候；特征：冬冷夏热、气温年较差大、降水较少、降水集中夏季；成因：深居内陆、距海遥远、海洋水汽难以到达；影响：形成温带草原、形成温带荒漠、适宜发展畜牧业；分布：亚欧大陆内部、北美大陆内部、中国西北地区\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n- 季风气候：上位：气候类型；特征：风向随季节变化、雨热同期、降水集中夏季、年较差较大；成因：海陆热力性质差异、气压带风带季节移动；影响：适宜农业生产、旱涝灾害频繁；分布：东亚、南亚、东南亚\n- 大陆性气候：上位：气候类型；特征：气温年较差大、降水少且集中、日照充足、冬季寒冷；成因：远离海洋、地形阻挡水汽、大陆热力性质；影响：植被稀疏、农业依赖灌溉、温差大；分布：亚欧大陆内部、北美大陆内部、中国西北地区\n- 季节：上位：时间划分；特征：周期性、气候特征变化、昼夜长短变化；成因：地球公转、黄赤交角；影响：影响气候、影响农业生产、影响人类活动\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是温带季风气候与温带大陆性气候之间确实存在的差异\n2. 体现的是两种气候的主要区别\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 581,
+  "total_tokens": 608,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 581
+ },
+ "created": 1792769431
+}

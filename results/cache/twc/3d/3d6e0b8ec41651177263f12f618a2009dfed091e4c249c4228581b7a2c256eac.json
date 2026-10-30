@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-014",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地形雨是指湿润气流遇到山脉等地形阻挡，沿山坡上升凝结形成的降水，迎风坡降水多，背风坡降水少，某山地东侧为迎风坡，西侧为背风坡，夏季受东南季风影响，结合地形雨的形成原理，该山地东侧的降水比西侧（ ）\n\n待判断的选项：\nA. 更少\nB. 一样多\nC. 更多\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是地形雨的成因和特征\n2. 夏季受东南季风影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 205,
+  "total_tokens": 231,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772059
+}

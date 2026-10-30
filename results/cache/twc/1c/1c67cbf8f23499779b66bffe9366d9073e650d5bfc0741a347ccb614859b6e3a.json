@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-TG-019",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n我国三大平原由北向南依次分布，分别是东北平原、华北平原和长江中下游平原，由于纬度位置不同，三大平原的气候条件存在明显差异，结合纬度位置和气候差异的关联，东北平原与长江中下游平原的主要差异是（ ）\n\nOptions:\nA. 土壤类型\nB. 气候干湿\nC. 海拔高低\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nB",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 134,
+  "total_tokens": 136,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771684
+}

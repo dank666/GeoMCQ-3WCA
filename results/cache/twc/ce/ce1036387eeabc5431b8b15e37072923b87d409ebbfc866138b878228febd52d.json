@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:gaokao-07-1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n目前，我国为保护棉农利益，控制国际棉花进口，国内的棉花价格约比国际市场高；我国纺织行业工人工资一般为美国的，是越南、巴基斯坦等国的 3 倍．我国一些纺织企业为利用国际市场棉花，在国外建纺纱厂，并将产品（纱线）运回国内加工，在我国同行业企业纷纷到越南、巴基斯坦等国建厂的情况下，总部位于杭州的 K 企业独自在美国建纺纱厂．2015 年 4 月底，K 企业在美国工厂生产的第一批 110 吨纱线运至杭州．据此完成 1～3 题．\n\nQuestion:\n如果 K 企业将纺纱厂建在越南、巴基斯坦等国，利润比建在美国高，最主要的原因是越南、巴基斯坦等国（）\n\nOptions:\nA. 离原料产地较近\nB. 离消费市场较近\nC. 劳动生产率较高\nD. 劳动力价格较低\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "D",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 275,
+  "total_tokens": 276,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 275
+ },
+ "created": 1792774701
+}

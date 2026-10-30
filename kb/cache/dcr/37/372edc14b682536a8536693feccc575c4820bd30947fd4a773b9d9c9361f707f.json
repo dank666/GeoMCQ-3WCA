@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:霍林河||d9acfda73533",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“霍林河”编写一个词典条目，供符号推理系统使用。\n\n题干：霍林河发源于大兴安岭，为山前半干旱区及部分半湿润区的平原带来了流水及泥沙。受上游修建水库和灌溉的影响，山前平原河段多年断流。断流期间，山前平原上的洼地增多增大。断流期间，山前平原上的洼地增多增大是由于()\n选项：\nA. 地面沉降\nB. 流水侵蚀\nC. 风力侵蚀\nD. 冻融塌陷\n\n词典中已有条目的示例：\n{\"term\": \"大兴安岭\", \"category\": \"PLACE\", \"parent_level\": \"山脉；地理界线；板块运动；流水侵蚀\", \"child_level\": \"东北—西南走向；海拔较低；森林覆盖率高\"}\n{\"term\": \"半干旱\", \"category\": \"ATMOS\", \"parent_level\": \"干湿地区；气候区；深居内陆；远离海洋\", \"child_level\": \"温带半干旱区；热带半干旱区；降水量少；蒸发较强；草原植被\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"WATER\", \"parent_level\": \"河流；水文过程；流域；补给方式\", \"child_level\": \"发源于大兴安岭；流经半干旱区；携带泥沙；受水库灌溉影响；断流现象；洼地增多增大\", \"confidence\": 0.9}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 65,
+  "prompt_tokens": 497,
+  "total_tokens": 562,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792770856
+}

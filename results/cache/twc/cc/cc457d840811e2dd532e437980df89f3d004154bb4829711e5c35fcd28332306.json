@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:geomcq-single-TG-003",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n平原的核心特征是海拔通常低于200米、地表平坦开阔，我国某平原经勘测海拔在150米左右，区域内河网密布、水源充足，且土壤肥沃、适合农作物生长，结合我国主要平原的分布特点和核心特征，该平原最可能是（ ）\n\nOptions:\nA. 东北平原\nB. 华北平原\nC. 长江中下游平原\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "C",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 150,
+  "total_tokens": 151,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 150
+ },
+ "created": 1792774394
+}

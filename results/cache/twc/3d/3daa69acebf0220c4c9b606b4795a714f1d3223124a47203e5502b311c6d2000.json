@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:geomcq-single-TG-031",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n山地是地表起伏最大的地形类型，其主要特征是海拔高、地表起伏大、坡度较陡，多分布在板块交界处，结合板块运动和内力作用的知识，下列关于山地的形成，说法正确的是（ ）\n\nOptions:\nA. 主要由流水侵蚀形成\nB. 主要由内力板块挤压形成\nC. 主要由外力堆积形成\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "B",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 146,
+  "total_tokens": 147,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 146
+ },
+ "created": 1792774398
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-027",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：高原与平原的主要区别在于海拔高低，其中高原海拔高于500米，平原海拔低于200米，某平原经测量海拔为120米，地表平坦开阔，某高原海拔为600米，地表坦荡无明显起伏，结合两者的特征，下列选项中属于两者共同特征的是（ ）\n\n待判断的选项：\nA. 地表坦荡\nB. 边缘陡峭\nC. 海拔较高\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是高原与平原的共同特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 190,
+  "total_tokens": 208,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772359
+}

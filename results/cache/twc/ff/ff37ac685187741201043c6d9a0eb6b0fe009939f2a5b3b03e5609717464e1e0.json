@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-HY-032",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n潮汐是海水在天体引潮力作用下产生的周期性涨落现象，下列关于潮汐的说法正确的有（）\n\nOptions:\nA. 一天中通常有两次涨潮和两次落潮\nB. 潮汐的涨落幅度与月相有关，满月、新月时涨潮幅度最大\nC. 潮汐能是一种清洁、可再生的能源\n\nInstructions:\n1. At least two options are correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nABC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 148,
+  "total_tokens": 150,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771831
+}

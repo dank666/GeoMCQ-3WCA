@@ -1,0 +1,50 @@
+{
+ "tag": "DIRECT:gaokao-01-3",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n第二次世界大战后，美国通过大量技术投入和大规模专业化生产，成为世界最大的大豆生产国和出口国．巴西自 20 世纪 70 年代开始种植大豆，在积极培育优良品种的同时，鼓励农民组建农场联合体，实现了大豆的规模化生产与经营．目前，巴西的大豆产量、出口量仅次于美国．中国曾是世界最大的大豆生产国和出口国，近些年大豆的质量下降（品种退化，出油率低），生产成本较高，成为世界最大的大豆进口国．据此完成 3～5 题．\n\nQuestion:\n中国要提高大豆质量需（）\n\nOptions:\nA. 加大科技投入\nB. 扩大种植面积\nC. 增加劳动力投入\nD. 加大化肥使用量\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "A",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 226,
+  "total_tokens": 227,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 226
+ },
+ "created": 1792771494
+}

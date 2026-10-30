@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:geomcq-single-TG-004",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n高原的核心特征明确为海拔500米以上、地表坦荡或起伏幅度不大，且边缘地区地势陡峭，结合我国四大高原的地貌特征，下列地形区中，完全符合“边缘陡峭且内部坦荡开阔”这一核心特征的是（ ）\n\nOptions:\nA. 青藏高原\nB. 云贵高原\nC. 黄土高原\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "C",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 143,
+  "total_tokens": 144,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 143
+ },
+ "created": 1792774394
+}

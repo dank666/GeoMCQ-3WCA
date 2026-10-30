@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-091",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于土壤pH值调节的说法，正确的有（）\n\n待判断的选项：\nA. 酸性土壤可施加石灰、草木灰等，提高pH值\nB. 土壤pH值一旦确定，无法调节\nC. 碱性土壤可施加石膏、硫磺等，降低pH值\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤酸碱度：上位：土壤化学性质；特征：影响养分有效性、影响微生物活动、影响作物生长；成因：成土母质、气候淋溶、植被类型、施肥管理；影响：决定作物适宜性、影响土壤改良、影响元素迁移；分布：南方红壤区、北方盐碱区\n- 酸性：上位：土壤性质、化学性质；特征：pH值小于7、盐基饱和度低、铁铝氧化物富集；成因：降水淋溶、酸性母岩、酸沉降；影响：影响养分有效性、限制作物生长；分布：南方红壤区、酸雨区\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 石灰：上位：土壤改良、土壤养分；特征：中和土壤酸性、调节pH值、钙质来源\n- 碱性：上位：土壤性质、化学性质；特征：pH值大于7、碳酸盐丰富、钙镁离子含量高\n- 石膏：上位：土壤化学性质、成土母质、气候淋溶；特征：调节pH值、改良土壤、钙质矿物\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于土壤pH值调节的说法符合地理事实\n2. 是正确的\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 528,
+  "total_tokens": 555,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 528
+ },
+ "created": 1792773466
+}

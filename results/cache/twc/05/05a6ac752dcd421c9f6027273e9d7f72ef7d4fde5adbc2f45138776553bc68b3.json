@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-019",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：公路运输机动灵活、周转速度快，可以实现门到门运输，最适合：\n\n待判断的选项：\nA. 国际长途、贵重货物\nB. 长途、大宗、笨重货物\nC. 短途、小批量、鲜活货物\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 公路运输：上位：交通运输方式；特征：灵活机动、门到门、周转快、成本较高；成因：公路网络完善、汽车工业发展、运输需求多样化；影响：促进商品流通、带动沿线经济、增加就业；分布：高速公路沿线、城市群、乡村地区\n- 机动灵活：上位：运输特点；特征：门到门运输、适应性强、周转快；成因：运输工具特性、线路灵活；影响：短途运输优势、应急运输保障\n- 速度快：上位：交通特点、运输特征；特征：运输效率高、时效性强；成因：技术进步、交通方式差异；影响：缩短时间距离、提高运输效率\n- 运输：上位：生产活动、服务业；特征：实现位移、生产与消费纽带、受自然条件影响、需运载工具；成因：生产地与消费地分离、区域分工、商品交换；影响：促进经济发展、加强区域联系、改变空间格局；分布：交通枢纽、港口、铁路沿线\n- 货物：上位：运输对象；特征：可运输、有价值；影响：促进贸易、满足需求\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 适用于短途运输\n2. 能够实现门到门运输\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 452,
+  "total_tokens": 479,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 452
+ },
+ "created": 1792772582
+}

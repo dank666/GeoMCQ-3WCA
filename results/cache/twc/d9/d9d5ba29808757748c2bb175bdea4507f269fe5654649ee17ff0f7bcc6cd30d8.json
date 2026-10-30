@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-085",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某城市为了提升防洪排涝能力，建设了雨水花园、下沉式绿地、透水路面等设施，并加强了河道的生态护岸。这些措施属于（）\n\n待判断的选项：\nA. 城市美化运动\nB. 韧性城市建设\nC. 海绵城市建设\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 城市：上位：聚落；特征：人口密集、非农业产业集聚、建筑密集、交通网络发达；成因：生产力发展、社会分工深化、工商业集聚；影响：区域经济中心、文化教育中心、交通枢纽；分布：沿海地区、平原地区、交通枢纽\n- 防洪：上位：防灾减灾；特征：防御洪水危害、保障生命财产安全、综合性系统工程；成因：洪涝灾害频发、降水集中且变率大；影响：减少洪灾损失、保障社会经济发展；分布：长江中下游平原、珠江三角洲、淮河流域\n- 绿地：上位：城市用地、景观类型；特征：植被覆盖、休闲功能、生态功能、分布广泛；成因：城市规划、生态建设、居民休闲需求；影响：改善城市环境、提供休憩场所、调节城市气候；分布：城市内部、城市边缘、居住区周边\n- 路面：上位：道路结构、交通设施；特征：承受荷载、影响行车速度、反映建设水平；成因：交通需求、材料技术、气候条件；影响：影响运输效率、影响交通安全\n- 河道：上位：河流地貌；特征：水流通道、河床形态、冲淤变化；成因：流水侵蚀、流水堆积、地壳运动；影响：影响泄洪、影响航运、影响生态；分布：长江中下游、黄河下游、平原河流\n- 生态：上位：自然系统；特征：物质循环、能量流动、自我调节；成因：生物与环境相互作用；影响：维持生态平衡、提供生态服务\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是题干所述防洪排涝措施所属的类别\n2. 属于城市水循环管理或海绵城市建设范畴\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 527,
+  "total_tokens": 554,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 527
+ },
+ "created": 1792769771
+}

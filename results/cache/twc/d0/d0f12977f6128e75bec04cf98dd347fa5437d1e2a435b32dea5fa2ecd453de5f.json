@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-022",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：黄土高原千沟万壑的地表形态，主要是由下列哪些作用形成的（）\n\n待判断的选项：\nA. 流水侵蚀\nB. 风力侵蚀\nC. 冰川堆积\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 黄土高原：上位：高原、地貌区；特征：黄土覆盖深厚、水土流失严重、千沟万壑；成因：风力沉积、流水侵蚀、人类活动；影响：黄河泥沙来源、生态脆弱、治理措施；分布：中国中部偏北、黄河中游\n- 地表形态：上位：自然地理要素；特征：起伏变化、空间差异、动态演变；成因：内力作用、外力作用；影响：影响气候、影响水文、影响人类活动；分布：全球陆地\n- 流水侵蚀：上位：外力作用；特征：流水破坏地表、搬运物质、塑造地貌；成因：流水动能、地形坡度、降水强度；影响：沟谷发育、水土流失、河谷加深拓宽；分布：河流上游、黄土高原、山区沟谷\n- 风力侵蚀：上位：风力作用、外力侵蚀；特征：吹蚀作用、磨蚀作用、干旱区显著；成因：强风、松散地表、植被稀少；影响：形成风蚀地貌、土地退化、沙尘暴；分布：西北干旱区、塔克拉玛干沙漠、柴达木盆地\n- 冰川堆积：上位：外力作用；特征：形成堆积地貌、物质大小混杂、分选性差；成因：冰川融化、冰川搬运能力减弱；影响：形成冰碛地貌、改变地表形态；分布：冰川末端、高山地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是黄土高原地表形态形成的主要地质作用\n2. 是长期水土流失的结果\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 523,
+  "total_tokens": 550,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 523
+ },
+ "created": 1792773500
+}

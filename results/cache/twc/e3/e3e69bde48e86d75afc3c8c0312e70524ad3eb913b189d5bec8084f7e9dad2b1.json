@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-053",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于海水运动的说法，正确的有（）\n\n待判断的选项：\nA. 海水运动主要包括洋流、潮汐、波浪等形式\nB. 洋流是海水最主要的运动形式之一\nC. 波浪对海岸地貌的塑造作用不明显\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 海水运动：上位：海洋水文现象、水体运动；特征：形式多样、受多种因素影响、具有规律性、影响范围广；成因：风力作用、天体引力、密度差异、地转偏向力；影响：塑造海岸地貌、影响气候、影响航运与渔业；分布：全球海洋、近岸海域、大洋表层\n- 洋流：上位：海水运动；特征：大规模海水流动、方向相对稳定、沿一定路径运动；成因：盛行风、密度差异、地转偏向力、陆地形状；影响：调节全球热量、影响气候、影响渔场分布、影响航海；分布：各大洋\n- 潮汐：上位：海水运动；特征：周期性涨落、垂直运动、规律性强；成因：月球引力、太阳引力、地球自转；影响：潮汐能发电、影响航运、塑造海岸地貌；分布：杭州湾、芬迪湾、英吉利海峡、中国沿海\n- 海浪：上位：海水运动形式、海洋水文现象；特征：周期性起伏、传播能量、受风力影响；成因：风力作用、气压变化、地震或火山；影响：塑造海岸地貌、影响航海、海洋能量传递；分布：全球海洋、近岸海域、风浪区\n- 海水：上位：水体；特征：含有溶解盐类、具有密度和温度、不断运动；成因：降水与蒸发、径流注入、海底火山活动；影响：调节全球气候、提供海洋资源、影响海岸地貌；分布：全球海洋、近海区域、大洋中心\n- 海岸地貌：上位：地貌类型、外力地貌；特征：海陆相互作用、形态多样、动态演变；成因：海浪作用、潮汐作用、河流作用、生物作用；影响：影响海岸带开发、形成旅游资源；分布：沿海地区、岛屿海岸、河口海岸\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于海水运动的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 564,
+  "total_tokens": 582,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 564
+ },
+ "created": 1792769862
+}

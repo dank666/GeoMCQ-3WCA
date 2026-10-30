@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-010",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：草原地区植被以草本为主，根系浅且密集，有机质主要集中在土壤表层，腐殖质层厚。草原区最典型土壤是（）\n\n待判断的选项：\nA. 荒漠土\nB. 黑钙土\nC. 红壤\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 草原：上位：自然带、植被类型；特征：草本植物为主、乔木稀少、季相变化明显；成因：降水较少、半湿润半干旱气候；影响：适宜畜牧业、土壤有机质较高；分布：亚欧大陆内部、北美中部、非洲热带草原\n- 植被：上位：自然地理要素、生物圈组成部分；特征：覆盖地表、受气候制约、具有地带性分布；成因：气候条件、土壤条件、地形因素；影响：保持水土、调节气候、为动物提供栖息地；分布：热带雨林带、温带草原带、荒漠带\n- 草本：上位：植物；特征：茎柔软、木质部不发达、植株矮小；分布：草原、草甸\n- 根系：上位：植物器官、植被组成部分；特征：固定植株、吸收水分养分、分布受土壤影响；成因：植物生长、土壤条件、水分条件；影响：保持水土、改良土壤、影响地表径流；分布：森林、草原、荒漠\n- 密集：上位：空间分布特征；特征：空间集中、单位面积数量多、分布密度大\n- 有机：上位：物质属性；特征：含碳化合物、来源于生物体、可降解\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是草原区最典型的土壤类型\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 445,
+  "total_tokens": 463,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 445
+ },
+ "created": 1792769137
+}

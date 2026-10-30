@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:铺轨||44c4f31076b6",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“铺轨”编写一个词典条目，供符号推理系统使用。\n\n题干：银西高铁(银川-西安北)途经陕甘宁三省区。经过7个月的铺轨作业，陕西段于2020年6月顺利完工。银西高铁开通后，将()\n选项：\nA. 用于陕甘宁三省区大宗货物运输\nB. 带动新建站点周边土地开发利用\nC. 丰富陇西地区自然旅游资源类型\nD. 改变沿线农产品生产的自然条件\n\n词典中已有条目的示例：\n{\"term\": \"高铁\", \"category\": \"INDUSTRY\", \"parent_level\": \"铁路运输；交通线；技术进步；经济发展\", \"child_level\": \"客运专线；城际铁路；速度快；运量大；准点率高\"}\n{\"term\": \"西安\", \"category\": \"PLACE\", \"parent_level\": \"城市；区域中心城市；地形平坦；水源充足\", \"child_level\": \"历史文化名城；关中平原城市群核心；丝绸之路起点\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"铁路运输；交通线；技术进步；经济发展\", \"child_level\": \"轨道铺设；施工技术；运输效率提高\", \"confidence\": 1.0}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 529,
+  "total_tokens": 577,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 96,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 96,
+  "prompt_cache_miss_tokens": 433
+ },
+ "created": 1792773700
+}

@@ -1,0 +1,57 @@
+{
+ "model_config": {
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 4096,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "thinking": {
+    "type": "disabled"
+   }
+  }
+ },
+ "served_models": [
+  "deepseek-flash"
+ ],
+ "requirements": 141,
+ "stage_a_concepts": 3266,
+ "entries": 7685,
+ "entries_from_curriculum": 3266,
+ "entries_from_expansion": 3000,
+ "entries_from_atomic": 1419,
+ "aliases": 3386,
+ "relations": {
+  "is_a": 10083,
+  "subtypes": 17158,
+  "features": 23395,
+  "causes": 16160,
+  "effects": 18097,
+  "locations": 12507
+ },
+ "relation_values_linked_to_entries": 0.4516,
+ "categories": {
+  "REGION": 506,
+  "TECH": 804,
+  "WATER": 473,
+  "EARTH": 486,
+  "ATMOS": 477,
+  "GEOMORPH": 540,
+  "OTHER": 903,
+  "ENVSYS": 315,
+  "PLACE": 424,
+  "POPCITY": 640,
+  "INDUSTRY": 851,
+  "RESENV": 752,
+  "HAZARD": 288,
+  "SOILVEG": 226
+ },
+ "llm_usage": {
+  "calls": 1103,
+  "cached": 925,
+  "prompt_tokens": 442146,
+  "completion_tokens": 889615
+ }
+}

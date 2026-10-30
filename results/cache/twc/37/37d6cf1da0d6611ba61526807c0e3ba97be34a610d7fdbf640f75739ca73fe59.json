@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-073",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于河流流速与河道形态的关系，说法正确的有（）\n\n待判断的选项：\nA. 河道宽阔、弯曲，流速较慢\nB. 河道深浅与流速无关\nC. 河道狭窄、平直，流速较快\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 流速：上位：水文要素；特征：单位时间流距、影响侵蚀搬运；成因：坡度、流量；影响：侵蚀强度、沉积作用；分布：河流、洋流\n- 河道：上位：河流地貌；特征：水流通道、河床形态、冲淤变化；成因：流水侵蚀、流水堆积、地壳运动；影响：影响泄洪、影响航运、影响生态；分布：长江中下游、黄河下游、平原河流\n- 形态：上位：地理特征；特征：外部轮廓、空间结构；成因：内力作用、外力作用；影响：影响功能\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于河流流速与河道形态关系的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 371,
+  "total_tokens": 389,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 371
+ },
+ "created": 1792769886
+}

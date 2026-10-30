@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-019",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国三大平原由北向南依次分布，分别是东北平原、华北平原和长江中下游平原，由于纬度位置不同，三大平原的气候条件存在明显差异，结合纬度位置和气候差异的关联，东北平原与长江中下游平原的主要差异是（ ）\n\n待判断的选项：\nA. 土壤类型\nB. 气候干湿\nC. 海拔高低\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是东北平原与长江中下游平原的主要差异\n2. 体现纬度位置对气候的影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"否\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 207,
+  "total_tokens": 233,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772354
+}

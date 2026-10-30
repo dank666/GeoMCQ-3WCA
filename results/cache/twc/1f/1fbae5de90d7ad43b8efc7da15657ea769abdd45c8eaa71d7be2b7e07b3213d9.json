@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-CL-064",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n高原山地气候的垂直变化明显，从山麓到山顶，气温逐渐降低，降水先增多后减少，植被也随之发生变化，某山地山麓为亚热带季风气候，植被为亚热带常绿阔叶林，随着海拔升高，气温降低，结合高原山地气候的垂直变化，该山地山腰的植被最可能是（ ）\n\nOptions:\nA. 热带雨林\nB. 寒带苔原\nC. 温带落叶阔叶林\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 155,
+  "total_tokens": 157,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771632
+}

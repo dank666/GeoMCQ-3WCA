@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-CL-002",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：热带雨林气候主要分布在赤道附近地区，受赤道低气压带长期控制，下列属于热带雨林气候典型特征的有（）\n\n待判断的选项：\nA. 降水季节分配均匀\nB. 全年高温多雨\nC. 气温年较差小\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 热带雨林气候：上位：热带气候；特征：全年高温多雨、年降水量大、气温年较差小、对流雨为主；成因：终年受赤道低压带控制、盛行上升气流；影响：形成热带雨林景观、土壤淋溶作用强；分布：亚马孙平原、刚果盆地、马来群岛\n- 赤道：上位：纬线；特征：最长纬线、划分南北半球、全年昼夜平分；影响：形成热带气候、影响大气环流；分布：非洲中部、南美洲北部、东南亚\n- 赤道低气压带：上位：气压带；特征：热力低压、气流上升、多对流雨；成因：太阳辐射强、空气受热上升；影响：高温多雨、热带雨林气候；分布：赤道附近、刚果盆地、亚马孙平原\n- 典型：上位：代表性；特征：突出特征、代表性事物\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n- 季节：上位：时间划分；特征：周期性、气候特征变化、昼夜长短变化；成因：地球公转、黄赤交角；影响：影响气候、影响农业生产、影响人类活动\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是受赤道低气压带长期控制的气候类型\n2. 主要分布在赤道附近地区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 541,
+  "total_tokens": 568,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 541
+ },
+ "created": 1792772870
+}

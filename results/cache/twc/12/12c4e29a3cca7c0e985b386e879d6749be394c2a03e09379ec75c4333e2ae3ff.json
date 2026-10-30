@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-047",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：热带季风气候主要分布在亚洲南部和东南部，受季风环流影响，全年高温，分旱雨两季，雨季降水丰富，旱季降水稀少，某地区位于亚洲东南部，全年高温，每年5-10月为雨季，11月至次年4月为旱季，结合热带季风气候的分布和特征，该地区的气候类型是（ ）\n\n待判断的选项：\nA. 热带草原气候\nB. 热带季风气候\nC. 热带雨林气候\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 热带季风气候：上位：季风气候、热带气候；特征：全年高温、旱雨两季分明、年降水量大、季风显著；成因：海陆热力性质差异、气压带风带季节移动；影响：热带季雨林景观、水稻种植业发达；分布：印度半岛、中南半岛、海南岛\n- 亚洲：上位：大洲；特征：面积最大、人口最多、地形复杂、气候多样；影响：世界文明发源地、经济发展迅速；分布：东半球、北半球\n- 东南：上位：方位；特征：方向性、相对性；分布：中国东南部、东南沿海\n- 季风环流：上位：大气环流；特征：风向随季节变化、海陆间热力环流；成因：海陆热力性质差异、气压带风带季节移动；影响：形成季风气候、影响降水分布；分布：东亚、南亚、东南亚\n- 高温：上位：天气现象、气象灾害；特征：气温高、持续时间长、影响范围广；成因：副热带高压控制、太阳辐射强、城市热岛效应；影响：人体健康受损、用电用水紧张、农作物减产；分布：长江中下游地区、华北地区、新疆盆地\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合该地区气候特征的气候类型\n2. 属于热带季风气候\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 555,
+  "total_tokens": 582,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 555
+ },
+ "created": 1792768623
+}

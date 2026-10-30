@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-CL-003",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n海陆热力性质差异是影响海陆气候差异的主要原因，陆地升温快、降温快，海洋升温慢、降温慢，我国东部沿海地区濒临太平洋，受海陆热力性质差异影响显著，结合我国东部气候分布特点，该区域最主要的气候类型是（ ）\n\nOptions:\nA. 温带大陆性气候\nB. 温带海洋性气候\nC. 季风气候\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 139,
+  "total_tokens": 141,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771624
+}

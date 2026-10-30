@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-052",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：湿润气流遇到山地阻挡，被迫沿山坡爬升，冷却凝结形成降水，称为（）\n\n待判断的选项：\nA. 台风雨\nB. 地形雨\nC. 锋面雨\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 湿润：上位：气候特征、干湿状况；特征：降水量大于蒸发量、空气湿度大、降水较多；成因：受海洋影响、季风气候、地形抬升；影响：植被茂密、水资源丰富、适宜农业；分布：中国东部季风区、湿润地区\n- 气流：上位：大气运动；特征：空气运动、方向性、影响天气；成因：气压差异、热力差异；影响：形成风、输送热量；分布：全球大气\n- 山地：上位：陆地地形；特征：海拔较高、坡度陡峭、相对高度大；成因：地壳抬升、褶皱断裂、外力侵蚀；影响：气候垂直分异、河流落差大、交通不便；分布：喜马拉雅山脉、天山山脉、秦岭\n- 山坡：上位：坡地、地貌部位；特征：倾斜地面、坡度差异大、物质不稳定、易发生重力地貌过程；成因：地壳抬升、流水侵蚀、风化作用、重力作用；影响：水土流失、滑坡崩塌、土壤分层、植被垂直分异；分布：山区、丘陵、高原边缘\n- 冷凝：上位：物态变化；特征：气态变液态、释放热量；成因：降温、水汽饱和；影响：形成降水、释放潜热；分布：近地面、云中\n- 形成降水：上位：大气降水过程；特征：水汽凝结、云滴增大、重力降落；成因：水汽充足、空气上升冷却、凝结核存在；影响：补给水资源、影响气候、塑造地表；分布：赤道多雨带、中纬多雨带、山地迎风坡\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是湿润气流遇山地阻挡形成降水的名称\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 514,
+  "total_tokens": 532,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 514
+ },
+ "created": 1792768785
+}

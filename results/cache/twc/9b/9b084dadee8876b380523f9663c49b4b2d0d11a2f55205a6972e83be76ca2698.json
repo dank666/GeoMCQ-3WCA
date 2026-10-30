@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-057",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某地为了提升农产品的附加值，引进深加工企业，将水果加工成果汁、果干、果酒，并利用电商平台销售。这种做法体现了（）\n\n待判断的选项：\nA. 减少农产品种类\nB. 延长农业产业链\nC. 提高农产品附加值\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于引进深加工企业提升农产品附加值的做法的描述\n2. 是地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 184,
+  "total_tokens": 210,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772541
+}

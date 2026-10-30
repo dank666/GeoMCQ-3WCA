@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:geomcq-multiple-SV-024",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n植被的分布具有明显的纬度地带性规律，从赤道向两极，植被类型逐渐变化，下列关于植被纬度地带性分布的说法正确的有（）\n\nOptions:\nA. 纬度越高，气温越低，植被类型从常绿植被过渡为落叶植被、针叶植被\nB. 赤道附近为热带雨林，向两极依次过渡为热带草原、热带荒漠、温带草原等\nC. 植被纬度地带性分布与降水无关\n\nInstructions:\n1. One or more options may be correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "AB",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 182,
+  "total_tokens": 183,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 182
+ },
+ "created": 1792774452
+}

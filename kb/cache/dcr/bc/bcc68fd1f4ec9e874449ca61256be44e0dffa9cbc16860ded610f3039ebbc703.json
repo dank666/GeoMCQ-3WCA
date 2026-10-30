@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:山区县||1a2b75fb1e30",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“山区县”编写一个词典条目，供符号推理系统使用。\n\n题干：某山区县为了脱贫，利用当地独特的自然景观和少数民族文化，发展生态旅游和民宿经济，同时通过电商平台销售特色农产品。该县的脱贫路径包括()\n选项：\nA. 承接产业转移\nB. 依靠资源优势\nC. 发展特色产业\n\n词典中已有条目的示例：\n{\"term\": \"山区\", \"category\": \"GEOMORPH\", \"parent_level\": \"陆地地形；地壳运动；流水侵蚀\", \"child_level\": \"高山；中山；低山；海拔较高；坡度陡峭；地形起伏大\"}\n{\"term\": \"地文景观\", \"category\": \"PLACE\", \"parent_level\": \"旅游资源；地质作用；外力侵蚀\", \"child_level\": \"山地景观；峡谷景观；喀斯特景观；自然形成；具有观赏价值；地域性强\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"RESENV\", \"parent_level\": \"资源与环境；山区发展\", \"child_level\": \"山区经济；地方特色；生态旅游；脱贫路径\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 46,
+  "prompt_tokens": 499,
+  "total_tokens": 545,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 467
+ },
+ "created": 1792772201
+}

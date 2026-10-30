@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:斯塔德||576f09435a7b",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“斯塔德”编写一个词典条目，供符号推理系统使用。\n\n题干：自20世纪50年代，荷兰的兰斯塔德地区经过多次空间规划，形成城市在外，郊区在内的空间特征：该区中间是一个接近3000平方千米的“绿心”﹣﹣乡村地带；四个核心城市和其他城镇呈环状分布在“绿心”的周围，城镇之间设置不可侵占的绿地．四个核心城市各具特殊职能，各城市分工明确，通过快速交通系统连接成具有国际竞争力的城市群．近20年来，该地区城镇扩展程度小，基本维持稳定的城镇结构体系．据此完成4﹣6题．兰斯塔德空间规划的实施，可以()\n选项：\nA. 提高乡村人口比重\nB. 降低人口密度\nC. 促进城市竞争\nD. 优化城市用地结构\n\n词典中已有条目的示例：\n{\"term\": \"国土空间规划\", \"category\": \"REGION\", \"parent_level\": \"规划；国家治理需要；可持续发展要求\", \"child_level\": \"总体规划；详细规划；专项规划；基础性；约束性；战略性\"}\n{\"term\": \"乡村\", \"category\": \"POPCITY\", \"parent_level\": \"聚落；地形条件；水源条件\", \"child_level\": \"行政村；自然村；中心村；人口密度低；农业生产为主；景观自然化\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"REGION\", \"parent_level\": \"空间规划；区域结构\", \"child_level\": \"城市规划；城市群；生态保护区；空间布局\", \"confidence\": 1.0}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 601,
+  "total_tokens": 642,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 569
+ },
+ "created": 1792773924
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-010",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：土壤酸碱度（pH值）是土壤的重要化学特性，影响植物生长和养分吸收，下列关于土壤酸碱度的说法正确的有（）\n\n待判断的选项：\nA. pH值小于7为酸性土壤，大于7为碱性土壤，等于7为中性土壤\nB. 大多数农作物适合在中性或微酸性土壤中生长\nC. 土壤酸碱度不会影响土壤中养分的有效性\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤酸碱度：上位：土壤化学性质；特征：影响养分有效性、影响微生物活动、影响作物生长；成因：成土母质、气候淋溶、植被类型、施肥管理；影响：决定作物适宜性、影响土壤改良、影响元素迁移；分布：南方红壤区、北方盐碱区\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 化学：上位：自然科学；特征：研究物质组成、研究物质性质、研究物质变化规律\n- 特性：上位：属性；特征：事物固有、区别于其他事物、可被认识\n- 影响植物生长：上位：植物生长条件；特征：光合作用、呼吸作用、蒸腾作用；成因：太阳辐射、气温、降水、土壤肥力；影响：植物分布、植物产量、植物种类；分布：热带雨林、温带草原、荒漠\n- 养分：上位：物质；特征：维持生命、促进生长；影响：植物生长、土壤肥力\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于土壤酸碱度的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 462,
+  "total_tokens": 480,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 462
+ },
+ "created": 1792769945
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-100",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某城市在交通管理中，推广共享单车、共享汽车，并建设智能调度平台，提高车辆使用效率。这种模式属于（）\n\n待判断的选项：\nA. 共享经济\nB. 绿色交通\nC. 私家车普及\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 城市：上位：聚落；特征：人口密集、非农业产业集聚、建筑密集、交通网络发达；成因：生产力发展、社会分工深化、工商业集聚；影响：区域经济中心、文化教育中心、交通枢纽；分布：沿海地区、平原地区、交通枢纽\n- 交通管理：上位：交通运输管理；特征：规范交通秩序、提高运输效率、保障交通安全；成因：交通拥堵、交通事故多发；影响：缓解交通压力、减少交通事故\n- 共享单车：上位：城市交通方式、共享经济；特征：随取随用、绿色低碳、短途出行、智能解锁；成因：城市短途需求、移动支付普及、环保意识增强；影响：缓解交通拥堵、减少碳排放、解决最后一公里；分布：大城市、大学城、旅游区\n- 汽车：上位：交通工具、工业产品；特征：机动灵活、门到门运输、依赖道路；影响：交通拥堵、尾气污染、促进经济发展；分布：城市、公路网\n- 智能：上位：技术特征；特征：自动化、自学习、自适应；影响：提高效率、改变生产方式\n- 调度：上位：管理活动、资源分配；特征：协调性、动态性、优化性；成因：资源分布不均、需求波动；影响：提高资源利用率、保障系统运行\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是题干所述交通管理模式的正确归类\n2. 符合城市交通智能化与共享化的特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 468,
+  "total_tokens": 495,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 468
+ },
+ "created": 1792769787
+}

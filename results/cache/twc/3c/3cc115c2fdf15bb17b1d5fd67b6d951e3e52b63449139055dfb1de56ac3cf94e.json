@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-015",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某传统农业区引入现代农业技术，推广智能温室、无土栽培和电商直销，农产品直接供应一线城市高端市场。这种农业转型体现了（）\n\n待判断的选项：\nA. 农业生态化\nB. 农业商品化\nC. 农业现代化\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 农业区：上位：农业地域；特征：以农业生产为主、地域分工明显、受自然条件影响；成因：自然条件差异、社会经济因素、历史基础；影响：形成农业地域类型、促进专业化生产；分布：东北平原、长江中下游平原、内蒙古草原\n- 现代农业：上位：农业地域类型；特征：机械化程度高、科技投入大、商品率高、专业化生产；成因：工业技术支撑、市场需求扩大、政策引导；影响：提高劳动生产率、保障农产品供给、促进农业可持续发展；分布：美国中央大平原、西欧平原、澳大利亚墨累-达令盆地\n- 技术：上位：生产力要素；特征：可创新性、可传播性、阶段性；成因：科学进步、社会需求、经济发展；影响：提高生产效率、改变生产方式、促进产业升级\n- 智能：上位：技术特征；特征：自动化、自学习、自适应；影响：提高效率、改变生产方式\n- 电子商务：上位：商业活动、服务业；特征：网络化、便捷性、低成本、全球化；成因：互联网技术、物流发展、支付方式变革；影响：改变消费模式、促进经济发展、增加就业；分布：城市、沿海地区\n- 农产品：上位：农业产出；特征：初级产品、地域性强、季节性强、易腐烂；成因：农业生产、自然条件影响；影响：满足生活需求、工业原料、出口创汇\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是这种农业转型所体现的特征\n2. 符合现代农业技术应用的逻辑\n3. 体现农产品供应高端市场的趋势\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\", \"否\"], \"B\": [\"是\", \"是\", \"是\"], \"C\": [\"是\", \"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 512,
+  "total_tokens": 548,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 512
+ },
+ "created": 1792769669
+}

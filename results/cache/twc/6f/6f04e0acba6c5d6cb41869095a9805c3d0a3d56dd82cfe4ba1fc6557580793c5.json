@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-067",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：高山地区海拔过高，热量不足，森林无法生长，其上界称为（）\n\n待判断的选项：\nA. 林线\nB. 雪线\nC. 海岸线\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 高山地区：上位：山地；特征：海拔高、气温低、昼夜温差大、垂直分异明显；成因：板块碰撞、地壳抬升、外力侵蚀；影响：垂直自然带、冰川发育、生物多样性独特；分布：青藏高原、天山、阿尔卑斯山、安第斯山\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n- 热能：上位：能量；特征：可转化、可传递、来源于太阳辐射；成因：太阳辐射、地球内部热；影响：驱动大气运动、维持地表温度、影响地理环境\n- 森林植被：上位：植被类型；特征：层次结构复杂、生物多样性高、多年生木本植物、覆盖率高；成因：水分充足、热量适宜、土壤肥沃；影响：调节气候、涵养水源、保持水土、提供资源；分布：湿润地区、山地、热带雨林区、温带地区\n- 无法：上位：植被分布、生态适应性；特征：森林分布上限、热量限制、海拔上限\n- 上界：上位：植被分布、生态界限；特征：森林分布上限、气温影响、海拔高度\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是高山地区由于海拔过高导致热量不足，森林无法生长的上界\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 479,
+  "total_tokens": 497,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 479
+ },
+ "created": 1792772730
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:有机肥||f9c3c56d5a57",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“有机肥”编写一个词典条目，供符号推理系统使用。\n\n题干：长期施用化肥而缺少有机肥，会导致土壤板结、有机质下降、结构变差。长期如此，土壤会()\n选项：\nA. 更肥沃\nB. 冻融加强\nC. 退化\n\n词典中已有条目的示例：\n{\"term\": \"化肥\", \"category\": \"INDUSTRY\", \"parent_level\": \"农业生产资料；化学工业发展；农业增产需求\", \"child_level\": \"氮肥；磷肥；钾肥；养分含量高；肥效快；易溶于水\"}\n{\"term\": \"有机\", \"category\": \"OTHER\", \"parent_level\": \"物质属性\", \"child_level\": \"有机农业；有机食品；含碳化合物；来源于生物体；可降解\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"SOILVEG\", \"parent_level\": \"土壤改良；农业施肥；物质来源\", \"child_level\": \"含有机质；改善土壤结构；提高肥力；促进微生物活动；来源于动植物残体\", \"confidence\": 1.0}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 58,
+  "prompt_tokens": 435,
+  "total_tokens": 493,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792767656
+}

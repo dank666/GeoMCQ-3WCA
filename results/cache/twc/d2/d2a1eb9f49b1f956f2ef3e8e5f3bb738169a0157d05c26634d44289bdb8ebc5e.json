@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-094",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：大气环流中的信风带主要分布在南北纬0°-30°之间，分为东北信风带和东南信风带，信风带的气流多为干燥气流，对热带沙漠气候的形成有重要影响，某地区位于北回归线附近的大陆西岸，受东北信风带控制，结合信风带的影响及热带气候特征，该地区的气候特征是（ ）\n\n待判断的选项：\nA. 全年高温多雨\nB. 全年炎热干燥\nC. 夏季高温多雨，冬季温和少雨\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 大气环流：上位：大气运动、气候系统；特征：全球性、规律性、稳定性、季节性变化；成因：太阳辐射差异、地球自转、海陆热力差异、地形起伏；影响：气候形成、水热输送、天气变化、洋流影响；分布：全球、赤道地区、副热带地区、极地地区\n- 信风带：上位：行星风带；特征：风向稳定、由副热带高压吹向赤道低压、全年盛行；成因：三圈环流、地转偏向力；影响：影响气候、推动洋流；分布：赤道两侧、副热带地区\n- 南北：上位：方向；特征：经线方向、相对方位\n- 东北信风带：上位：信风带；特征：风向稳定、由副热带高压吹向赤道低压；成因：气压带风带分布、地转偏向力；影响：影响气候、推动洋流；分布：北纬0°~30°\n- 东南信风带：上位：信风带、行星风带；特征：南半球低纬、风向东南、稳定少变；成因：副热带高压带、地转偏向力；影响：南赤道暖流、热带雨林气候；分布：南纬0°~30°、南太平洋、南印度洋\n- 气流：上位：大气运动；特征：空气运动、方向性、影响天气；成因：气压差异、热力差异；影响：形成风、输送热量；分布：全球大气\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是受东北信风带控制地区的气候特征\n2. 符合北回归线附近大陆西岸的地理事实\n3. 体现信风带干燥气流对气候的影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\", \"否\"], \"B\": [\"是\", \"是\", \"是\"], \"C\": [\"否\", \"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 610,
+  "total_tokens": 646,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 610
+ },
+ "created": 1792768701
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:agieval-036",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n蒙古族将靠近山林的优质草原称为杭盖草原。杭盖草原地形和缓，多由缓丘和河谷组成。缓丘上牧草葱郁，河谷中的牧草更加繁茂。通常鼠类打洞、啃食等对草原多有破坏，而杭盖草原的河谷中鼠害却很轻。杭盖草原是古时游牧民族最喜爱的牧场。杭盖草原的河谷鼠害很轻，是因为河谷（）\n\nOptions:\nA. 缺乏鼠类食物\nB. 冷空气易集聚\nC. 地下水位高\nD. 鼠类天敌多\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 185,
+  "total_tokens": 187,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771764
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-080",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：2018年9月，浙江省结对帮扶的青海省海西州率先实现整体脱贫。浙江省与海西州扶贫协作是我国东西部互利共赢之举。浙江省与海西州扶贫协作的合理措施有(　　)\n\n\n待判断的说法：\n①. 电商直播，销售海西农产品到浙江　\n②. 生态移民，助力海西农民迁居至浙江　\n③. 区域合作，选派浙江人才支援海西　\n④. 招商引资，搬迁浙江IT企业扎根海西\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 浙江省：上位：中国省级行政区；特征：位于东南沿海、经济发达、多山地丘陵；分布：中国东南沿海\n- 青海省：上位：省级行政区、内陆省份；特征：青藏高原、三江源、青海湖、高寒气候；成因：地质构造、海拔高；影响：生态屏障、水源涵养、畜牧业；分布：青藏高原东北部\n- 海西州：上位：中国地级行政区、西部内陆、生态脆弱；特征：海西蒙古族藏族自治州、柴达木盆地、盐湖资源\n- 协作：上位：产业联系；特征：企业间分工合作、降低生产成本、提高效率；成因：专业化分工、规模效益；影响：形成工业地域、促进区域发展；分布：工业区、产业集群\n- 东西：上位：方位；特征：方向性、相对性\n- 互利共赢：上位：区域合作原则；特征：双方受益、优势互补、共同发展；成因：区域经济互补、全球化趋势、政策支持；影响：促进区域经济发展、增强区域竞争力、推动一体化；分布：一带一路沿线、自由贸易区、经济合作组织\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是浙江省与海西州扶贫协作的合理措施\n2. 符合2018年9月的时空背景\n3. 体现东西部互利共赢原则\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 3 个判断，例如：{\"①\": [\"是\", \"是\", \"是\"], \"②\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"①\": [\"是\", \"是\", \"是\"], \"②\": [\"否\", \"是\", \"否\"], \"③\": [\"是\", \"是\", \"是\"], \"④\": [\"否\", \"是\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 52,
+  "prompt_tokens": 514,
+  "total_tokens": 566,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 514
+ },
+ "created": 1792770882
+}

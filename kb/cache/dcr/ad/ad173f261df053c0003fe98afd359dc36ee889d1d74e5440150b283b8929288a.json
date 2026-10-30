@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:最靠近||da102151e3af",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“最靠近”编写一个词典条目，供符号推理系统使用。\n\n题干：雾灵山位于北京与承德交界处，海拔2118米，素有“京东第一峰”的美称，是观赏日出和日落的理想之地。如表为“雾灵山部分日期的日出和日落时刻表”。\\begin{tabular}{|c|c|c|}\\hline日期&日出时刻&日落时刻\\\\\\hline(1)&$7:32$&$17:08$\\\\\\hline(2)&$6:31$&$18:15$\\\\\\hline(3)&$4:45$&$19:39$\\\\\\hline(4)&$7:22$&$16:49$\\\\\\hline\\end{tabular}四个日期中，太阳直射点最靠近赤道的是()\n选项：\nA. ①\nB. ②\nC. ③\nD. ④\n\n词典中已有条目的示例：\n{\"term\": \"北京\", \"category\": \"PLACE\", \"parent_level\": \"中国首都；直辖市；历史古都；国家政策\", \"child_level\": \"中心城区；城市副中心；政治文化中心；国际交往中心；科技创新中心\"}\n{\"term\": \"交界\", \"category\": \"OTHER\", \"parent_level\": \"地理边界；自然分异；行政划分\", \"child_level\": \"省界；国界；自然地理界线；过渡性；差异性；管理复杂\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"EARTH\", \"parent_level\": \"地球运动；太阳运动\", \"child_level\": \"太阳直射点；赤道；纬度变化\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 44,
+  "prompt_tokens": 646,
+  "total_tokens": 690,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 614
+ },
+ "created": 1792773712
+}

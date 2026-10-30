@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-056",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：砖红壤发育在热带雨林、季雨林下，高温多雨，淋溶极强，土壤（）\n\n待判断的选项：\nA. 酸性强、肥力低\nB. 中性、肥沃\nC. 碱性强、肥力高\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 砖红壤：上位：土壤、红壤；特征：颜色砖红、酸性强、有机质少、质地黏重；成因：热带雨林气候、脱硅富铝化；影响：肥力低、需改良；分布：海南岛、雷州半岛、西双版纳\n- 热带雨林：上位：森林、自然带；特征：终年常绿、层次复杂、物种丰富；成因：热带雨林气候；影响：调节气候、维护生物多样性；分布：亚马孙平原、刚果盆地、马来群岛\n- 季雨林：上位：热带气候、季节性降水、森林植被；特征：旱季落叶、季相变化、生物循环\n- 高温多雨：上位：气候特征；特征：气温高、降水多、湿度大；成因：低纬度、季风影响、暖流影响；影响：植被茂盛、土壤淋溶强；分布：热带雨林区、东亚季风区\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 酸性：上位：土壤性质、化学性质；特征：pH值小于7、盐基饱和度低、铁铝氧化物富集；成因：降水淋溶、酸性母岩、酸沉降；影响：影响养分有效性、限制作物生长；分布：南方红壤区、酸雨区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是砖红壤在热带雨林、季雨林环境下的特征\n2. 符合高温多雨、淋溶极强的发育条件\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 528,
+  "total_tokens": 555,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 528
+ },
+ "created": 1792769197
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-056",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：寒带气候的降水稀少，主要是因为寒带地区气温低，蒸发微弱，空气中的水汽含量少，难以形成降水，某地区位于寒带地区，年降水量不足50毫米，结合寒带气候的降水成因，该地区的降水类型主要是（ ）\n\n待判断的选项：\nA. 降雪\nB. 地形雨\nC. 锋面雨\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 寒带：上位：气候带；特征：终年寒冷、降水稀少、蒸发微弱；成因：高纬度、太阳辐射少；影响：冻土广布、植被稀疏；分布：北冰洋沿岸、南极大陆、格陵兰岛\n- 降水稀少：上位：气候特征、降水状况；特征：年降水量少、气候干旱、蒸发旺盛；成因：深居内陆、副热带高压控制、寒流影响、地形阻挡；影响：水资源短缺、植被稀疏、荒漠广布；分布：撒哈拉沙漠、中亚地区、澳大利亚中西部\n- 气温：上位：气象要素；特征：随纬度变化、随海拔变化、随时间变化；成因：太阳辐射、下垫面性质、大气环流；影响：影响农业生产、影响人体舒适度、影响自然带分布\n- 蒸发：上位：水循环环节、水体运动；特征：液态变气态、吸收热量、受气温影响；成因：太阳辐射、气温升高、风力作用；影响：水汽输送来源、调节地表温度；分布：海洋表面、陆地水体、土壤表层\n- 空气：上位：自然环境要素；特征：无色无味、可压缩、流动性；成因：地球引力；影响：维持生命、影响气候、传播污染物；分布：对流层、平流层\n- 水汽：上位：大气成分；特征：含量少但变化大、集中于对流层下部、气态水；成因：水面蒸发、植物蒸腾、土壤蒸发；影响：成云致雨、影响天气变化、调节气温；分布：海洋上空、湿润地区、对流层下部\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是寒带地区的主要降水类型\n2. 符合年降水量不足 50 毫米的特征\n3. 符合气温低、蒸发微弱、水汽少的成因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"否\", \"否\", \"否\"], \"C\": [\"否\", \"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 588,
+  "total_tokens": 624,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 588
+ },
+ "created": 1792768635
+}

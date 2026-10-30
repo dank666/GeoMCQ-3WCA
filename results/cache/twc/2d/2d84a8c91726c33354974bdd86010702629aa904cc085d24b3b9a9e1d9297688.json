@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-004",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列属于热力环流典型实例的是（）\n\n待判断的选项：\nA. 城市热岛环流\nB. 海陆风\nC. 低纬环流\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 热力环流：上位：大气环流、大气运动；特征：冷热不均引起、垂直与水平运动结合、形成闭合环流；成因：地面冷热不均、气压差异、空气水平运动；影响：形成风、影响天气、调节热量分布；分布：海陆交界、山谷地区、城市与郊区\n- 典型实例：上位：实例；特征：代表性、具体性、说明性；影响：辅助理解概念、说明地理原理\n- 城市热岛环流：上位：局地环流；特征：城市气温高于郊区、近地面风由郊区吹向城市、高空风由城市吹向郊区；成因：城市人为热排放、下垫面性质改变、建筑物密集；影响：加剧城市高温、形成城市风、影响污染物扩散；分布：大城市、城市中心区\n- 海陆风：上位：热力环流；特征：昼夜风向相反、局地环流、日变化明显；成因：海陆热力差异；影响：调节气温、影响降水、形成局地环流；分布：沿海地区\n- 低纬环流：上位：大气环流、三圈环流；特征：赤道上升、副热带下沉、近地面信风；成因：太阳辐射差异、地转偏向力、热力对流；影响：形成信风带、影响降水分布、维持全球热量平衡；分布：赤道地区、副热带地区、低纬度地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 属于热力环流典型实例\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 468,
+  "total_tokens": 486,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 468
+ },
+ "created": 1792769538
+}

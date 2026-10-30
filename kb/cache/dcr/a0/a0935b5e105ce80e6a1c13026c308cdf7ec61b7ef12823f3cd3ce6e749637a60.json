@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:总人口||d328646e5e7b",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“总人口”编写一个词典条目，供符号推理系统使用。\n\n题干：中心城区通常为城市中人口最密集的区域。下表数据显示上海、北京、广州、深圳四城市2010年中心城区人口比重及2010～2020年中心城区和中心城区以外地区人口数量的变化。\\begin{tabular}{|l|l|l|l|}\\hline城市&$\\begin{array}{l}2010\\text{年中心城}\\\\\\text{区人口比重/\\%}\\end{array}$&$\\begin{array}{l}\\text{2010-2020年中心城}\\\\\\text{区人口变化/万人}\\end{array}$&$\\begin{array}{l}2010-2020\\text{年中心城区以}\\\\\\text{外地区人口变化/万人}\\end{array}$\\\\\\hline上海&30.3&-30.25&215.42\\\\\\hline北京&59.7&-72.8&300.9\\\\\\hline广州&39.7&129.12&568.46\\\\\\hline深圳&34.0&116.88&56.73\\\\\\hline\\end{tabular}2010～2020年四城市人口变化的共同特点是()\n选项：\nA. 总人口增加,中心城区人口比重下降\nB. 总人口减少,中心城区人口比重上升\nC. 总人口增加,中心城区人口比重上升\nD. 总人口减少,中心城区人口比重下降\n\n词典中已有条目的示例：\n{\"term\": \"城区\", \"category\": \"POPCITY\", \"parent_level\": \"城市地域；聚落；人口集聚；经济发展\", \"child_level\": \"中心商务区；住宅区；工业区；人口密集；建筑密集；功能多样\"}\n{\"term\": \"城市\", \"category\": \"POPCITY\", \"parent_level\": \"聚落；生产力发展；社会分工深化\", \"child_level\": \"特大城市；大城市；中等城市；人口密集；非农业产业集聚；建筑密集\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"POPCITY\", \"parent_level\": \"人口统计；人口数量；人口变化\", \"child_level\": \"人口增长；人口减少；人口结构；人口分布\", \"confidence\": 1.0}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 47,
+  "prompt_tokens": 781,
+  "total_tokens": 828,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 749
+ },
+ "created": 1792773693
+}

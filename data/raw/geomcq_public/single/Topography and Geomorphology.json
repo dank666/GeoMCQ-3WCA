@@ -1,0 +1,1505 @@
+{
+  "geography_questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地理学科中明确界定，地球表面各种形态的总称是地形，而地貌则侧重描述地表形态的成因与演化过程，结合两者的定义与区别，下列选项中，既属于地形基本范畴，又能直接体现地貌成因特征的是（ ）",
+      "options": {
+        "A": "地势",
+        "B": "喀斯特丘陵",
+        "C": "地质"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "根据地形分类标准，海拔500米以上、地表起伏幅度较大且坡度较陡的地形类型为山地，某区域经测量海拔为620米，地表坡度达到35°，且区域内峰谷相间、地势落差明显，结合以上关键信息，该区域最可能的地形类型是（ ）",
+      "options": {
+        "A": "高原",
+        "B": "山地",
+        "C": "丘陵"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "平原的核心特征是海拔通常低于200米、地表平坦开阔，我国某平原经勘测海拔在150米左右，区域内河网密布、水源充足，且土壤肥沃、适合农作物生长，结合我国主要平原的分布特点和核心特征，该平原最可能是（ ）",
+      "options": {
+        "A": "东北平原",
+        "B": "华北平原",
+        "C": "长江中下游平原"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "高原的核心特征明确为海拔500米以上、地表坦荡或起伏幅度不大，且边缘地区地势陡峭，结合我国四大高原的地貌特征，下列地形区中，完全符合“边缘陡峭且内部坦荡开阔”这一核心特征的是（ ）",
+      "options": {
+        "A": "青藏高原",
+        "B": "黄土高原",
+        "C": "云贵高原"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "丘陵的地形标准为海拔介于200-500米之间、地表起伏和缓，某区域海拔测量为380米，地表坡度约15°，区域内无明显峰峦，地势起伏平缓，结合山地与丘陵的核心区别，该区域与山地最主要的差异是（ ）",
+      "options": {
+        "A": "海拔高低",
+        "B": "坡度陡缓",
+        "C": "地表起伏程度"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "盆地的最显著特征是四周地势高、中间地势低，呈盆状分布，我国某盆地四周被天山山脉和昆仑山山脉环绕，盆地内部以沙漠为主，气候干旱少雨，结合我国四大盆地的分布和特征，该盆地最可能是（ ）",
+      "options": {
+        "A": "准噶尔盆地",
+        "B": "塔里木盆地",
+        "C": "四川盆地"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地形的基本类型明确包括山地、高原、丘陵、平原、盆地五种，外力作用是塑造地表形态的重要力量，会形成多种非基本地形类型，下列选项中，由外力作用形成且不属于地形基本类型的是（ ）",
+      "options": {
+        "A": "河谷",
+        "B": "丘陵",
+        "C": "盆地"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "亚马孙平原是世界上面积最大的平原，其形成主要与河流冲积作用有关，河流携带的泥沙长期堆积形成了平坦开阔的平原地貌，结合世界主要平原的形成原因，下列平原中，形成原因与亚马孙平原最相似的是（ ）",
+      "options": {
+        "A": "东欧平原",
+        "B": "西西伯利亚平原",
+        "C": "长江中下游平原"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "青藏高原是世界上平均海拔最高的高原，平均海拔超过4000米，被称为“世界屋脊”，其独特的高海拔特征与地球板块运动密切相关，结合板块运动的知识，其海拔高的主要原因是（ ）",
+      "options": {
+        "A": "河流冲积",
+        "B": "板块挤压",
+        "C": "风力堆积"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "巴西高原是世界上面积最大的高原，总面积约500多万平方千米，青藏高原是世界上平均海拔最高的高原，结合两大高原的核心特征，两者之间最显著的差异是（ ）",
+      "options": {
+        "A": "海拔高低",
+        "B": "地表起伏",
+        "C": "形成原因"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "喜马拉雅山脉是世界上最高大的山脉，其主峰珠穆朗玛峰海拔约8848.86米，且经地质观测发现，珠穆朗玛峰的海拔仍在不断升高，结合板块运动的规律，推测其海拔不断升高的主要原因是（ ）",
+      "options": {
+        "A": "风力堆积",
+        "B": "板块张裂",
+        "C": "板块挤压"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "安第斯山脉是世界上最长的山脉，贯穿南美洲西部，全长约8900千米，山脉地势陡峭、海拔较高，结合全球板块分布示意图和板块运动规律，该山脉的形成主要与下列哪两个板块相互挤压有关（ ）",
+      "options": {
+        "A": "亚欧板块与非洲板块",
+        "B": "美洲板块与太平洋板块",
+        "C": "印度洋板块与亚欧板块"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国东北平原是我国面积最大的平原，总面积约35万平方千米，该平原最突出的特征是黑土肥沃，黑土富含腐殖质，肥力极高，结合东北平原的气候和植被特点，其黑土的形成主要与下列哪种因素有关（ ）",
+      "options": {
+        "A": "河流冲积",
+        "B": "植被腐烂积累",
+        "C": "风力堆积"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国四大高原各有独特的地貌特征，其中黄土高原的地表形态以千沟万壑、支离破碎为主，地表沟壑纵横，结合外力作用对地表形态的塑造，其千沟万壑地貌的主要成因是（ ）",
+      "options": {
+        "A": "风力侵蚀",
+        "B": "流水侵蚀",
+        "C": "冰川侵蚀"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "内蒙古高原位于我国北部，是我国第二大高原，其地表特征为坦荡开阔、一望无际，区域内主要分布着草原和荒漠景观，结合该区域的气候条件和外力作用特点，其地表形态的形成主要与（ ）有关",
+      "options": {
+        "A": "流水冲积",
+        "B": "风力侵蚀与堆积",
+        "C": "板块挤压"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "云贵高原位于我国西南部，其地表特征为崎岖不平、多喀斯特地貌，其中喀斯特地貌的形成核心是石灰岩被流水长期溶蚀，结合喀斯特地貌的形成原理和景观特点，下列景观中，属于喀斯特地貌的是（ ）",
+      "options": {
+        "A": "黄土梁",
+        "B": "溶洞",
+        "C": "沙丘"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国四大盆地中，柴达木盆地位于青藏高原东北部，因矿产资源极其丰富，被称为“聚宝盆”，其矿产资源种类多、储量大，结合地质演化历史，其矿产资源丰富的主要原因是（ ）",
+      "options": {
+        "A": "河流冲积带来矿产",
+        "B": "板块挤压形成矿产",
+        "C": "地质时期沉积形成"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "四川盆地位于我国南方地区，是我国四大盆地中最湿润的盆地，该区域降水丰富、河网密布，气候湿润多雨，结合其地理位置和地形特点，其湿润气候的主要原因是（ ）",
+      "options": {
+        "A": "纬度低，热量充足",
+        "B": "地势低，受夏季风影响明显",
+        "C": "靠近海洋，降水多"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国三大平原由北向南依次分布，分别是东北平原、华北平原和长江中下游平原，由于纬度位置不同，三大平原的气候条件存在明显差异，结合纬度位置和气候差异的关联，东北平原与长江中下游平原的主要差异是（ ）",
+      "options": {
+        "A": "海拔高低",
+        "B": "土壤类型",
+        "C": "气候干湿"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "山东丘陵是我国东部主要的丘陵之一，其海拔多在200-500米之间，地表起伏和缓，华北平原位于山东丘陵西侧，地势平坦，结合我国东部地形分布，山东丘陵与华北平原的分界线大致是（ ）",
+      "options": {
+        "A": "秦岭-淮河线",
+        "B": "太行山",
+        "C": "黄河"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地表形态的形成是内力作用和外力作用共同作用的结果，内力作用塑造地表的基本格局，外力作用则对地表进行进一步塑造，下列地形中，主要由内力作用主导形成的是（ ）",
+      "options": {
+        "A": "三角洲",
+        "B": "山地",
+        "C": "沙丘"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "外力作用主要包括风化、侵蚀、搬运、堆积等四种形式，不同的外力作用会形成不同的地表形态，其中流水堆积作用是流水携带的物质在地势平缓处沉积形成地貌，下列现象中，属于流水堆积作用形成的是（ ）",
+      "options": {
+        "A": "峡谷",
+        "B": "三角洲",
+        "C": "溶洞"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "风力作用是干旱、半干旱地区主要的外力作用，分为风力侵蚀和风力堆积两种形式，其中风力堆积作用是风力携带的沙尘物质在风力减弱时沉积形成，下列地形中，由风力堆积作用形成的是（ ）",
+      "options": {
+        "A": "风蚀蘑菇",
+        "B": "沙丘",
+        "C": "峡谷"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "某区域经地质勘测，海拔高度为1000米，地表起伏幅度较小，整体地势坦荡，且区域边缘地势陡峭，与内部形成明显落差，结合地形类型的核心特征，该区域最可能是（ ）",
+      "options": {
+        "A": "山地",
+        "B": "高原",
+        "C": "丘陵"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地势是指地表高低起伏的总趋势，我国地势具有西高东低、呈三级阶梯分布的显著特征，不同阶梯分布着不同的地形区，结合我国地势阶梯的划分标准，下列地形区中，位于第一阶梯的是（ ）",
+      "options": {
+        "A": "青藏高原",
+        "B": "内蒙古高原",
+        "C": "黄土高原"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地形分类中，山地与丘陵的海拔界限大致为500米，其中山地海拔高于500米、起伏较大，丘陵海拔低于500米、起伏和缓，某区域海拔测量为480米，地表起伏和缓，坡度较缓，无明显峰峦，结合以上关键信息，下列关于该区域的说法，正确的是（ ）",
+      "options": {
+        "A": "属于山地，因为地表有起伏",
+        "B": "属于丘陵，因为海拔低于500米且起伏和缓",
+        "C": "属于平原，因为坡度较缓"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "高原与平原的主要区别在于海拔高低，其中高原海拔高于500米，平原海拔低于200米，某平原经测量海拔为120米，地表平坦开阔，某高原海拔为600米，地表坦荡无明显起伏，结合两者的特征，下列选项中属于两者共同特征的是（ ）",
+      "options": {
+        "A": "地表坦荡",
+        "B": "边缘陡峭",
+        "C": "海拔较高"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "盆地的核心特征是四周高、中间低，其内部地形并不固定，可能是平原、丘陵，也可能是沙漠，结合我国四大盆地的内部地形特征，下列盆地中，内部以平原为主，且气候湿润、物产丰富的是（ ）",
+      "options": {
+        "A": "塔里木盆地",
+        "B": "准噶尔盆地",
+        "C": "四川盆地"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "平原的核心特征是海拔低、地表平坦开阔，是人类活动的主要区域之一，结合外力作用对地表形态的塑造，平原的形成多与物质堆积有关，下列关于平原的形成，说法最合理的是（ ）",
+      "options": {
+        "A": "板块挤压隆起形成",
+        "B": "流水或风力堆积形成",
+        "C": "冰川侵蚀形成"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "高原是地形基本类型之一，具有明确的核心特征，结合我国四大高原的地貌特点和全球高原的共性特征，下列关于高原的描述，错误的是（ ）",
+      "options": {
+        "A": "海拔较高，一般在500米以上",
+        "B": "地表坦荡或起伏不大，可能有河流分布",
+        "C": "地表崎岖不平，多喀斯特地貌"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "山地是地表起伏最大的地形类型，其主要特征是海拔高、地表起伏大、坡度较陡，多分布在板块交界处，结合板块运动和内力作用的知识，下列关于山地的形成，说法正确的是（ ）",
+      "options": {
+        "A": "主要由外力堆积形成",
+        "B": "主要由内力板块挤压形成",
+        "C": "主要由流水侵蚀形成"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "丘陵与山地同属起伏类地形，但两者在海拔、起伏程度上有明显区别，丘陵海拔更低、起伏更缓，结合外力作用和内力作用的影响，下列关于丘陵的形成，与山地最可能不同的是（ ）",
+      "options": {
+        "A": "可能由板块挤压形成",
+        "B": "可能由流水侵蚀形成",
+        "C": "可能由风力堆积形成"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地形的五种基本类型各有不同的海拔和起伏特征，结合五种地形的核心定义和特征，下列地形中，地表起伏最小且海拔最低，适合大规模农业种植和城市建设的是（ ）",
+      "options": {
+        "A": "山地",
+        "B": "平原",
+        "C": "丘陵"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "结合五种地形的海拔特征和分布规律，不同地形的海拔差异明显，其中海拔最高，且因海拔高、气温低，可能有冰川分布、雪山连绵景观的是（ ）",
+      "options": {
+        "A": "山地",
+        "B": "平原",
+        "C": "高原",
+        "D": "山地和高原"
+      },
+      "correct_answer": [
+        "D"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "黄土高原位于我国北方地区，因地表千沟万壑、支离破碎而闻名，该区域属于温带季风气候，夏季降水集中且多暴雨，结合其地理位置、气候特征和外力作用，推测其地表形态的演化趋势是（ ）",
+      "options": {
+        "A": "逐渐变得平坦",
+        "B": "起伏逐渐加剧",
+        "C": "保持不变"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "云贵高原位于我国西南部，区域内石灰岩广布，受气候和流水作用影响，形成了典型的喀斯特地貌，结合喀斯特地貌的形成原理和分布特点，下列关于该地貌的说法，正确的是（ ）",
+      "options": {
+        "A": "主要分布在干旱地区",
+        "B": "由流水溶蚀作用形成，降水越多越发育",
+        "C": "地表平坦，适合大规模农业生产"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "内蒙古高原地域辽阔，地表坦荡开阔，区域内植被分布存在明显差异，东部以草原为主，西部以荒漠为主，结合该高原的气候分布特点，其植被分布的差异主要与下列哪种因素有关（ ）",
+      "options": {
+        "A": "海拔高低",
+        "B": "降水多少",
+        "C": "土壤类型"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "青藏高原是世界屋脊，平均海拔超过4000米，区域内雪山连绵、冰川广布，成为众多大河的发源地，结合海拔与气温的关系，其雪山的形成主要是因为（ ）",
+      "options": {
+        "A": "纬度高，气温低",
+        "B": "海拔高，气温低",
+        "C": "降水多，积雪多"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "三角洲是一种常见的地表形态，主要分布在河流入海口处，其形成与流水堆积作用密切相关，下列关于三角洲的形成，说法正确的是（ ）",
+      "options": {
+        "A": "河流入海口处地势陡峭，流水侵蚀形成",
+        "B": "河流携带的泥沙在入海口处堆积，逐渐形成三角洲",
+        "C": "风力携带的泥沙在入海口处堆积形成"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "风蚀蘑菇是干旱地区常见的地貌景观，其形态独特，上部宽大、下部狭窄，结合风力作用的特点，该地貌的形成主要与下列哪种外力作用有关（ ）",
+      "options": {
+        "A": "风力堆积",
+        "B": "风力侵蚀",
+        "C": "流水侵蚀"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国地势西高东低，呈三级阶梯分布，其中第二阶梯与第三阶梯的分界线明确为大兴安岭、太行山、巫山、雪峰山一线，下列地形区中，位于我国第二阶梯的是（ ）",
+      "options": {
+        "A": "东北平原",
+        "B": "华北平原",
+        "C": "黄土高原"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "板块运动是塑造地表形态的重要内力作用，分为板块挤压和板块张裂两种形式，其中板块张裂会形成裂谷或海洋，下列地形中，由板块张裂作用形成的是（ ）",
+      "options": {
+        "A": "喜马拉雅山脉",
+        "B": "东非大裂谷",
+        "C": "安第斯山脉"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冰川作用是高纬度和高海拔地区主要的外力作用，分为冰川侵蚀和冰川堆积两种，其中冰川堆积作用会形成冰碛丘、冰碛平原等地貌，下列地形中，由冰川堆积作用形成的是（ ）",
+      "options": {
+        "A": "冰斗",
+        "B": "角峰",
+        "C": "冰碛丘"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "喀斯特地貌的形成需要两个核心条件：石灰岩广布和充足的降水，结合我国的气候和地形分布，下列地区中，喀斯特地貌最发育、分布最广泛的是（ ）",
+      "options": {
+        "A": "东北平原",
+        "B": "黄土高原",
+        "C": "云贵高原"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国塔里木盆地位于新疆南部，是我国面积最大的盆地，该盆地气候干旱，降水稀少，结合其地理位置和地形特点，其干旱的主要原因是（ ）",
+      "options": {
+        "A": "纬度高，气温低，降水少",
+        "B": "深居内陆，远离海洋，受夏季风影响小",
+        "C": "海拔高，降水少"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "平原根据形成原因可分为冲积平原、洪积平原、湖积平原等，其中冲积平原是由河流长期冲积形成的，下列平原中，属于冲积平原且分布在河流中下游地区的是（ ）",
+      "options": {
+        "A": "东北平原",
+        "B": "东欧平原",
+        "C": "西西伯利亚平原"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "山地的海拔通常在500米以上，根据海拔高度可分为低山、中山、高山和极高山，其中海拔超过3500米的为高山，下列山脉中，属于高山的是（ ）",
+      "options": {
+        "A": "泰山",
+        "B": "黄山",
+        "C": "喜马拉雅山脉"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "丘陵的地表起伏和缓，坡度较缓，通常分布在山地与平原之间，作为两者的过渡地形，下列地区中，主要分布着丘陵地形的是（ ）",
+      "options": {
+        "A": "我国东部沿海地区",
+        "B": "我国西北内陆地区",
+        "C": "青藏高原"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "内力作用的主要表现形式包括地壳运动、岩浆活动和变质作用，其中地壳运动是最主要的内力作用，下列地形的形成，主要与地壳运动中的板块挤压有关的是（ ）",
+      "options": {
+        "A": "三角洲",
+        "B": "沙丘",
+        "C": "山脉"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "外力作用中，风化作用是指地表岩石在温度、水、生物等因素的作用下，逐渐破碎、崩解的过程，下列现象中，属于风化作用的是（ ）",
+      "options": {
+        "A": "河流将岩石冲刷成峡谷",
+        "B": "岩石在温度变化下出现裂缝",
+        "C": "风力将沙尘堆积成沙丘"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国准噶尔盆地位于新疆北部，是我国纬度最高的盆地，该盆地与塔里木盆地相比，最显著的差异是（ ）",
+      "options": {
+        "A": "面积大小",
+        "B": "气候干湿程度",
+        "C": "地理位置"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "长江中下游平原是我国第三大平原，位于长江中下游地区，该平原河网密布、湖荡众多，被称为“鱼米之乡”，其形成主要与下列哪种外力作用有关（ ）",
+      "options": {
+        "A": "风力堆积",
+        "B": "流水冲积",
+        "C": "冰川堆积"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "青藏高原上分布着众多雪山和冰川，这些冰川是我国许多大河的发源地，如长江、黄河、澜沧江等，结合冰川的形成条件，青藏高原冰川广布的主要原因是（ ）",
+      "options": {
+        "A": "降水多，积雪堆积",
+        "B": "海拔高，气温低，积雪不易融化",
+        "C": "纬度高，气温低"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "黄土高原的黄土层厚度较大，最厚处可达100多米，结合地质历史和外力作用，该区域的黄土主要来源于（ ）",
+      "options": {
+        "A": "当地岩石风化形成",
+        "B": "河流冲积带来",
+        "C": "风力从蒙古高原等地搬运堆积"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "喀斯特地貌中，除了溶洞，还有峰林、峰丛、石笋、石柱等景观，这些景观的形成都是流水溶蚀和堆积共同作用的结果，下列景观中，由流水堆积作用形成的是（ ）",
+      "options": {
+        "A": "峰林",
+        "B": "石笋",
+        "C": "溶洞"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国地势三级阶梯的海拔界限明确，第一阶梯平均海拔在4000米以上，第二阶梯平均海拔在1000-2000米之间，第三阶梯平均海拔在500米以下，下列地形区中，位于第三阶梯的是（ ）",
+      "options": {
+        "A": "内蒙古高原",
+        "B": "四川盆地",
+        "C": "华北平原"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "板块张裂作用除了形成裂谷，还会形成新的海洋，例如大西洋就是由板块张裂逐渐形成的，结合板块分布，下列板块的张裂运动，最可能形成新海洋的是（ ）",
+      "options": {
+        "A": "亚欧板块与非洲板块",
+        "B": "美洲板块与太平洋板块",
+        "C": "非洲板块与印度洋板块"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "风力侵蚀作用在干旱地区表现得尤为明显，除了风蚀蘑菇，还有风蚀洼地、风蚀柱等地貌，下列地区中，风蚀地貌最发育的是（ ）",
+      "options": {
+        "A": "云贵高原",
+        "B": "内蒙古高原西部",
+        "C": "东北平原"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 59,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "平原的地表平坦开阔，土壤肥沃，是人类定居和农业生产的理想区域，下列关于平原的分布，说法正确的是（ ）",
+      "options": {
+        "A": "主要分布在高海拔地区",
+        "B": "主要分布在板块交界处",
+        "C": "主要分布在河流中下游地区和沿海地区"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "高原的地表坦荡或起伏不大，边缘陡峭，世界上许多高原都分布在板块交界处，下列高原中，分布在板块交界处的是（ ）",
+      "options": {
+        "A": "巴西高原",
+        "B": "青藏高原",
+        "C": "东非高原"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "某区域地表起伏较大，海拔在800米左右，坡度较陡，峰峦林立，结合地形类型的特征，该区域最可能是（ ）",
+      "options": {
+        "A": "高原",
+        "B": "山地",
+        "C": "丘陵"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 62,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国四大盆地中，四川盆地的气候最湿润，其主要原因是该盆地位于我国南方地区，受夏季风影响明显，下列关于四川盆地的描述，正确的是（ ）",
+      "options": {
+        "A": "内部以沙漠为主",
+        "B": "气候干旱少雨",
+        "C": "河网密布，物产丰富"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "流水侵蚀作用会形成多种地貌，如峡谷、瀑布、沟壑等，其中峡谷是河流长期侵蚀河床形成的，下列峡谷中，由长江流水侵蚀形成的是（ ）",
+      "options": {
+        "A": "雅鲁藏布江大峡谷",
+        "B": "长江三峡",
+        "C": "黄河壶口瀑布"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冰川侵蚀作用主要发生在高纬度和高海拔地区，会形成冰斗、角峰、U型谷等地貌，下列地貌中，由冰川侵蚀形成的是（ ）",
+      "options": {
+        "A": "沙丘",
+        "B": "溶洞",
+        "C": "角峰"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国山东丘陵与辽东丘陵、东南丘陵并称为我国三大丘陵，其中山东丘陵位于我国山东省，结合其地理位置和地形特征，下列关于山东丘陵的描述，正确的是（ ）",
+      "options": {
+        "A": "海拔高于500米",
+        "B": "地表起伏陡峭",
+        "C": "海拔多在200-500米之间，起伏和缓"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地表形态的演化是一个长期的过程，内力作用和外力作用不断相互作用，改变着地表形态，下列关于地表形态演化的说法，正确的是（ ）",
+      "options": {
+        "A": "内力作用使地表趋于平坦",
+        "B": "外力作用使地表趋于崎岖",
+        "C": "内力作用和外力作用相互作用，塑造了多样的地表形态"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国东北平原的黑土是我国最肥沃的土壤之一，其腐殖质含量高，肥力强，结合东北平原的气候特点，黑土形成的关键条件是（ ）",
+      "options": {
+        "A": "高温多雨，植被茂盛",
+        "B": "气候寒冷，植被腐烂速度慢，腐殖质积累多",
+        "C": "河流冲积带来大量肥沃物质"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "安第斯山脉贯穿南美洲西部，是世界上最长的山脉，其海拔较高，多火山和地震，结合板块运动的知识，该山脉多火山地震的主要原因是（ ）",
+      "options": {
+        "A": "位于板块内部，地壳稳定",
+        "B": "位于板块交界处，地壳活跃",
+        "C": "风力侵蚀作用强烈"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "喀斯特地貌的形成需要石灰岩和充足的降水，我国云贵高原之所以喀斯特地貌发育广泛，主要是因为该区域（ ）",
+      "options": {
+        "A": "石灰岩广布，且降水丰富",
+        "B": "石灰岩广布，且降水稀少",
+        "C": "花岗岩广布，且降水丰富"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 70,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国内蒙古高原东部为草原，西部为荒漠，这种植被分布的差异，主要是因为东部和西部的（ ）",
+      "options": {
+        "A": "海拔不同",
+        "B": "纬度不同",
+        "C": "降水不同"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "平原和丘陵的主要区别在于海拔高低和地表起伏程度，下列关于平原和丘陵的描述，正确的是（ ）",
+      "options": {
+        "A": "平原海拔高于丘陵",
+        "B": "平原地表起伏大于丘陵",
+        "C": "丘陵海拔高于平原，地表起伏小于山地"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 72,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国柴达木盆地位于青藏高原东北部，海拔较高，是我国海拔最高的盆地，其被称为“聚宝盆”的主要原因是（ ）",
+      "options": {
+        "A": "地形平坦，适合农业生产",
+        "B": "矿产资源丰富，种类繁多",
+        "C": "气候湿润，物产丰富"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "流水堆积作用形成的地貌多分布在地势平缓的地区，下列地区中，最容易形成流水堆积地貌的是（ ）",
+      "options": {
+        "A": "河流上游，地势陡峭",
+        "B": "河流中游，地势起伏较大",
+        "C": "河流下游，地势平缓"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "风力堆积作用形成的沙丘，主要分布在干旱、半干旱地区，下列地区中，沙丘分布最广泛的是（ ）",
+      "options": {
+        "A": "我国东南沿海地区",
+        "B": "我国西北内陆地区",
+        "C": "我国南方地区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国地势西高东低，呈三级阶梯分布，这种地势特征对我国河流的影响是（ ）",
+      "options": {
+        "A": "河流多自东向西流",
+        "B": "河流多自西向东流，落差大，水能资源丰富",
+        "C": "河流多自南向北流"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 76,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "山地的峰峦多为尖锐的形态，这主要是因为（ ）",
+      "options": {
+        "A": "流水堆积作用",
+        "B": "风力堆积作用",
+        "C": "冰川侵蚀作用"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国四大高原中，云贵高原的地表崎岖不平，多喀斯特地貌，这种地貌对当地农业生产的影响是（ ）",
+      "options": {
+        "A": "地表平坦，适合大规模种植",
+        "B": "土壤肥沃，产量高",
+        "C": "地表崎岖，不利于农业机械化，适合发展林业和畜牧业"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "世界上面积最大的盆地是（ ）",
+      "options": {
+        "A": "塔里木盆地",
+        "B": "刚果盆地",
+        "C": "准噶尔盆地"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "板块挤压作用不仅会形成山脉，还会使地表隆起，形成高原，下列高原中，由板块挤压形成的是（ ）",
+      "options": {
+        "A": "巴西高原",
+        "B": "青藏高原",
+        "C": "东非高原"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 80,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "风化作用是地表岩石破碎、崩解的过程，下列因素中，不属于风化作用的是（ ）",
+      "options": {
+        "A": "温度变化",
+        "B": "水的冲刷",
+        "C": "板块挤压"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 81,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国华北平原是我国第二大平原，主要由黄河、淮河、海河三大河流冲积形成，下列关于华北平原的描述，正确的是（ ）",
+      "options": {
+        "A": "黑土肥沃",
+        "B": "黄土广布，土壤肥力中等",
+        "C": "河网密布，气候湿润"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 82,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冰川作用对地表形态的塑造作用明显，在高海拔地区，冰川侵蚀会形成U型谷，与河流侵蚀形成的V型谷相比，U型谷的特点是（ ）",
+      "options": {
+        "A": "谷壁陡峭，谷底狭窄",
+        "B": "谷壁平缓，谷底宽阔",
+        "C": "谷壁陡峭，谷底宽阔"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 83,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国东南丘陵分布在我国东南部地区，包括江南丘陵、浙闽丘陵、两广丘陵等，该区域的主要地形特征是（ ）",
+      "options": {
+        "A": "海拔高于500米，地表陡峭",
+        "B": "海拔多在200-500米之间，地表起伏和缓",
+        "C": "海拔低于200米，地表平坦"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 84,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "外力作用中，搬运作用是指将风化、侵蚀形成的物质搬运到其他地方，下列关于搬运作用的说法，正确的是（ ）",
+      "options": {
+        "A": "流水只能搬运细小的泥沙",
+        "B": "风力只能搬运沙尘物质",
+        "C": "流水、风力、冰川都能进行搬运作用"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 85,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国塔里木盆地内部的塔克拉玛干沙漠，是我国最大的沙漠，也是世界第二大流动沙漠，该沙漠的形成主要与下列哪种因素有关（ ）",
+      "options": {
+        "A": "流水堆积",
+        "B": "风力堆积",
+        "C": "冰川堆积"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 86,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "高原与山地的主要区别在于（ ）",
+      "options": {
+        "A": "海拔高低",
+        "B": "地表起伏程度",
+        "C": "边缘是否陡峭"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国长江中下游平原的主要农作物是水稻和油菜，这主要是因为该平原（ ）",
+      "options": {
+        "A": "黑土肥沃，适合种植",
+        "B": "气候湿润，雨热同期，适合水稻和油菜生长",
+        "C": "海拔高，气温低"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 88,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "喜马拉雅山脉的主峰珠穆朗玛峰，是世界最高峰，其海拔不断升高，结合板块运动，下列板块中，与珠穆朗玛峰海拔升高有关的是（ ）",
+      "options": {
+        "A": "亚欧板块与非洲板块",
+        "B": "亚欧板块与印度洋板块",
+        "C": "美洲板块与太平洋板块"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "喀斯特地貌中，溶洞内部的石笋和石柱，是由（ ）形成的",
+      "options": {
+        "A": "流水侵蚀",
+        "B": "流水堆积",
+        "C": "风力侵蚀"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 90,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国内蒙古高原的主要气候类型是温带大陆性气候，其气候特征是（ ）",
+      "options": {
+        "A": "夏季高温多雨，冬季寒冷干燥",
+        "B": "夏季炎热干燥，冬季温和多雨",
+        "C": "冬冷夏热，降水稀少，昼夜温差大"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 91,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "平原的形成多与流水或风力堆积有关，下列平原中，由风力堆积形成的是（ ）",
+      "options": {
+        "A": "亚马孙平原",
+        "B": "东北平原",
+        "C": "我国河套平原"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "山地的坡度较陡，地表起伏大，下列关于山地的说法，错误的是（ ）",
+      "options": {
+        "A": "多分布在板块交界处",
+        "B": "适合发展林业和畜牧业",
+        "C": "地表平坦，适合大规模农业生产"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 93,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国四大盆地中，准噶尔盆地是我国纬度最高的盆地，其气候比塔里木盆地湿润的主要原因是（ ）",
+      "options": {
+        "A": "纬度高，降水多",
+        "B": "靠近海洋，降水多",
+        "C": "受西风带影响，降水较多"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 94,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "流水侵蚀作用的强度与水流速度、岩石硬度等因素有关，下列地区中，流水侵蚀作用最强的是（ ）",
+      "options": {
+        "A": "河流上游，地势陡峭，水流湍急",
+        "B": "河流中游，地势平缓，水流缓慢",
+        "C": "河流下游，地势平坦，水流缓慢"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冰川堆积作用形成的冰碛物，具有的特点是（ ）",
+      "options": {
+        "A": "颗粒均匀，分选性好",
+        "B": "颗粒大小不一，分选性差",
+        "C": "颗粒细小，质地疏松"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 96,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国地势第一阶梯与第二阶梯的分界线是（ ）",
+      "options": {
+        "A": "大兴安岭、太行山、巫山、雪峰山",
+        "B": "昆仑山、祁连山、横断山脉",
+        "C": "秦岭-淮河线"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 97,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "板块张裂作用形成的裂谷，其特点是（ ）",
+      "options": {
+        "A": "地势中间高，四周低",
+        "B": "地势中间低，四周高",
+        "C": "地表平坦开阔"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 98,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国东南丘陵的气候类型是亚热带季风气候，其气候特征是（ ）",
+      "options": {
+        "A": "夏季高温多雨，冬季寒冷干燥",
+        "B": "夏季高温多雨，冬季温和少雨",
+        "C": "全年高温多雨"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 99,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地表形态的形成是内力和外力共同作用的结果，下列地形中，由内力作用和外力作用共同形成的是（ ）",
+      "options": {
+        "A": "山脉",
+        "B": "三角洲",
+        "C": "黄土高原"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 100,
+      "type": "single",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "我国黄土高原的水土流失现象严重，结合其地表形态和气候特征，导致水土流失的主要原因是（ ）",
+      "options": {
+        "A": "地表平坦，降水集中",
+        "B": "地表崎岖，降水稀少",
+        "C": "地表千沟万壑，降水集中且多暴雨，植被覆盖率低"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    }
+  ]
+}

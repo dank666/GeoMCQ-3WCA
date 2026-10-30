@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-058",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地形对降水的影响还体现在山脉的走向，东西走向的山脉会阻挡南北方向的气流，南北走向的山脉会阻挡东西方向的气流，我国秦岭是东西走向的山脉，阻挡了北方的冷空气和南方的暖湿气流，结合秦岭对气候的影响，秦岭以南的降水比秦岭以北（ ）\n\n待判断的选项：\nA. 更多\nB. 更少\nC. 一样多\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是东西走向山脉对南北方向气流阻挡作用的表现\n2. 体现于我国秦岭对南北气流阻挡\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"否\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 215,
+  "total_tokens": 241,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772094
+}

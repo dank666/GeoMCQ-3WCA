@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:保鲜||c6bac18135d6",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“保鲜”编写一个词典条目，供符号推理系统使用。\n\n题干：农产品保鲜冷藏技术的发展，使农业生产与市场的地域联系：\n选项：\nA. 更加松散\nB. 不受影响\nC. 更加紧密\n\n词典中已有条目的示例：\n{\"term\": \"农产品\", \"category\": \"INDUSTRY\", \"parent_level\": \"农业产出；农业生产；自然条件影响\", \"child_level\": \"粮食；经济作物；畜产品；初级产品；地域性强；季节性强\"}\n{\"term\": \"技术\", \"category\": \"TECH\", \"parent_level\": \"生产力要素；科学进步；社会需求\", \"child_level\": \"地理信息技术；农业技术；工业技术；可创新性；可传播性；阶段性\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"TECH\", \"parent_level\": \"农业技术；食品工业；保鲜需求\", \"child_level\": \"冷藏技术；保质期延长；减少损耗；冷链物流；市场拓展\", \"confidence\": 0.9}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 50,
+  "prompt_tokens": 420,
+  "total_tokens": 470,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792767596
+}

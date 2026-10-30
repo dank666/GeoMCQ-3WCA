@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-050",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：水稻土是长期种植水稻、水旱交替、耕作熟化形成的，其主要分布区是（）\n\n待判断的选项：\nA. 南方水田区\nB. 青藏高原区\nC. 西北干旱区\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 水稻土：上位：耕作土壤、人为土壤；特征：有机质含量高、氧化还原交替、剖面分层明显；成因：长期淹水耕作、施肥熟化、干湿交替；影响：适宜水稻生长、土壤肥力较高；分布：长江中下游平原、珠江三角洲、四川盆地\n- 水稻：上位：粮食作物、农作物；特征：喜温喜湿、需水量大、生长期短；成因：水热条件、地形平坦、土壤肥沃；影响：粮食安全、稻作文化；分布：亚洲季风区、长江中下游平原、湄公河三角洲\n- 耕作：上位：农业生产活动；特征：土地翻耕、作物种植、周期性强；成因：粮食需求、农业技术发展；影响：土壤熟化、作物产量提高、水土流失；分布：平原、盆地、河谷\n- 分布区：上位：空间范围；特征：空间范围、地理集中性、动态变化；成因：自然条件、社会经济条件、历史因素；影响：影响区域发展、决定产业布局\n- 水田：上位：耕地、农业用地；特征：长期蓄水、人工耕作、周期性干湿交替；成因：地形平坦、水源充足、水稻种植需求；影响：形成水稻土、影响地表径流、提供粮食产出；分布：长江中下游平原、珠江三角洲、四川盆地\n- 青藏高原：上位：高原；特征：平均海拔4000米以上、面积最大高原、冰川广布；成因：印度洋板块与亚欧板块碰撞；影响：影响亚洲气候、大河发源地；分布：中国西南部、亚洲中部\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是水稻土的主要分布区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 515,
+  "total_tokens": 533,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 515
+ },
+ "created": 1792769190
+}

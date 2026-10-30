@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:年份||3a62959574dd",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“年份”编写一个词典条目，供符号推理系统使用。\n\n题干：2017年9月6日,太阳出现了一次强耀斑爆发。耀斑出现()\n选项：\nA. 较少的年份,短波通信常中断\nB. 较少的年份,农业生产倾向增产\nC. 较多的年份,磁暴现象出现多\nD. 较多的年份,地球上的降水较少\n\n词典中已有条目的示例：\n{\"term\": \"太阳\", \"category\": \"EARTH\", \"parent_level\": \"恒星；天体；核聚变反应\", \"child_level\": \"黄矮星；巨大炽热气体球；主要成分氢和氦；自身发光\"}\n{\"term\": \"耀斑\", \"category\": \"EARTH\", \"parent_level\": \"太阳活动；太阳大气现象；太阳磁场能量释放\", \"child_level\": \"局部区域突然增亮；释放巨大能量；周期约11年\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"EARTH\", \"parent_level\": \"时间计量；太阳活动周期；年份统计\", \"child_level\": \"耀斑多发年份；太阳活动高峰年；磁暴频发期\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 51,
+  "prompt_tokens": 491,
+  "total_tokens": 542,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 491
+ },
+ "created": 1792770591
+}

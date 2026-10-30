@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-052",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n湖泊的面积变化主要受降水、蒸发、人类活动等因素影响，降水增多、蒸发减少，湖泊面积增大；降水减少、蒸发增多、围湖造田，湖泊面积减小，某地区近年来降水增多，且没有围湖造田活动，结合湖泊面积变化的影响因素，该地区的湖泊面积变化是（ ）\n\nOptions:\nA. 面积减小\nB. 面积增大\nC. 面积不变\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nB",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 148,
+  "total_tokens": 150,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771664
+}

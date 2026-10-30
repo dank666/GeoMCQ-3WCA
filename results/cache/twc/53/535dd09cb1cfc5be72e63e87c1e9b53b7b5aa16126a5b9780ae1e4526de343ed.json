@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-014",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：水循环中，植被破坏可能导致（）\n\n待判断的选项：\nA. 地表径流增大\nB. 下渗减少\nC. 地下径流增加\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 水循环：上位：物质循环；特征：连续运动、全球性、能量交换；成因：太阳辐射、重力作用；影响：维持水量平衡、塑造地表形态、促进物质迁移；分布：全球\n- 植被破坏：上位：生态破坏；特征：植被覆盖率下降、生物多样性减少、水土流失加剧、生态系统退化；成因：乱砍滥伐、过度放牧、开垦荒地、火灾虫害；影响：水土流失、土地荒漠化、生物多样性减少、旱涝灾害频发；分布：黄土高原、亚马孙雨林、内蒙古草原、长江上游\n- 地表径流：上位：水循环环节、陆地水体；特征：沿地表流动、汇集于河网、受降水影响；成因：降水、融水补给、地形坡度；影响：塑造地表形态、提供水资源、引发水土流失；分布：河流流域、山区坡面、城市地表\n- 下渗：上位：水循环环节；特征：水分进入土壤、受土壤质地影响、受植被影响；成因：降水强度、土壤孔隙、地面坡度；影响：补给地下水、影响地表径流\n- 地下径流：上位：径流、水循环环节；特征：流速慢、水量稳定、水质较好；成因：降水下渗、地下水流动、地形坡度；影响：补给河流、维持生态用水、参与水循环；分布：喀斯特地区、冲积平原、山区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是植被破坏对水循环产生影响\n2. 可能导致水资源减少\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 522,
+  "total_tokens": 549,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 522
+ },
+ "created": 1792772954
+}

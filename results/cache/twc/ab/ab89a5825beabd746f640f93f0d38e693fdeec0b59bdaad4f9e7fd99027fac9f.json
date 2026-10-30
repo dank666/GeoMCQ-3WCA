@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-067",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：季节性积雪融水补给的特点是（）\n\n待判断的选项：\nA. 形成春汛\nB. 主要在春季\nC. 主要在夏季\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 季节性：上位：时间变化特征；特征：随季节规律变化、周期性明显；成因：地球公转、太阳直射点移动；影响：自然景观季节变化、人类活动季节安排；分布：中纬度地区、季风气候区\n- 积雪：上位：陆地水体、固态降水、气温回升、季节性积雪；特征：春汛水源、春季融水、补给河流、季节性变化\n- 融水：上位：陆地水体、水资源；特征：水温低、季节性变化大、水质较好；成因：气温升高、冰雪融化；影响：补给河流、提供灌溉水源、参与水循环；分布：高山地区、冰川区、西北内陆河\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是季节性积雪融水补给的特点\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 304,
+  "total_tokens": 322,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772821
+}

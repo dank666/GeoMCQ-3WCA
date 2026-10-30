@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-141",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：遥感技术广泛运用于众多领域。下列项目中，主要利用该技术实现的有（　　）\r\n\n\n待判断的说法：\n①. 森林火灾检测\n②. 规划物流路径\n③. 获取月背全景\n④. 人口普査数据\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 遥感技术：上位：地理信息技术；特征：探测范围大、获取信息快、受地面限制少、信息处理自动化；成因：电磁波辐射差异、传感器接收信息；影响：资源调查、环境监测、灾害评估\n- 运用：上位：实践方式、应用过程；特征：理论联系实际、解决问题；成因：人类需求、知识转化；影响：提高效率、促进发展\n- 领域：上位：范围；特征：专业性、边界性\n- 项目：上位：工程；特征：目标明确、有组织性、资源投入\n- 技术：上位：生产力要素；特征：可创新性、可传播性、阶段性；成因：科学进步、社会需求、经济发展；影响：提高生产效率、改变生产方式、促进产业升级\n- 森林火灾：上位：自然灾害、生物灾害；特征：突发性强、破坏性大、蔓延迅速、难以控制；成因：干旱天气、人为火源、雷击、易燃物积累；影响：生态破坏、财产损失、人员伤亡、空气污染；分布：干旱林区、针叶林区、地中海气候区、温带大陆性气候区\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是主要利用遥感技术实现的项目\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 1 个判断，例如：{\"①\": [\"是\"], \"②\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"①\": [\"是\"], \"②\": [\"否\"], \"③\": [\"是\"], \"④\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 28,
+  "prompt_tokens": 423,
+  "total_tokens": 451,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 423
+ },
+ "created": 1792770987
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-146",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：创意产业是利用创意、专业知识和技能，开发知识产权，创造财富和增加就业机会的新兴产业，人才是创意产业的关键要素。影响创意产业最小的区位因素是（）\n\n待判断的选项：\nA. 社会资金\nB. 科学技术\nC. 通讯信息\nD. 自然资源\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 产业：上位：经济活动；特征：生产物质产品、提供劳务服务、具有地域分布；成因：社会分工、生产力发展；影响：促进经济发展、提供就业机会\n- 技能：上位：劳动力素质；特征：可通过培训获得、影响就业能力；成因：教育培训、实践经验；影响：影响劳动生产率、影响产业区位\n- 增加就业机会：上位：社会效益、经济发展目标；特征：岗位数量增加、就业结构优化、民生改善；成因：经济增长、产业升级、政策扶持；影响：降低失业率、提高生活水平、促进消费；分布：城市群、经济开发区、旅游区\n- 新兴产业：上位：产业部门；特征：技术密集、高附加值、发展迅速；成因：科技进步、政策支持、市场需求；影响：促进经济增长、推动产业升级；分布：硅谷、中关村、深圳\n- 人才：上位：劳动力；特征：素质高、创新能力强；成因：教育培养、人才引进；影响：推动产业升级、促进科技创新\n- 关键：上位：重要；特征：决定性作用、主要矛盾\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是影响创意产业区位的因素\n2. 是对创意产业影响最小的因素\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"否\"], \"B\": [\"是\", \"否\"], \"C\": [\"是\", \"否\"], \"D\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 424,
+  "total_tokens": 460,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 424
+ },
+ "created": 1792770998
+}

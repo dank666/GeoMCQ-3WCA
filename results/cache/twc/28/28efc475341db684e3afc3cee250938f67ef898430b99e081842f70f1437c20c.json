@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-015",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：沙漠地区植被稀少，地表缺乏保护，风力侵蚀强，土壤颗粒粗、有机质极低。该类土壤是（）\n\n待判断的选项：\nA. 风沙土\nB. 紫色土\nC. 黑土\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 沙漠地区：上位：干旱区、自然地带；特征：气候干旱、植被稀疏、风力作用强、昼夜温差大；成因：深居内陆、副热带高压控制、寒流影响；影响：风力侵蚀、风力沉积、土地荒漠化；分布：撒哈拉沙漠、塔克拉玛干沙漠、阿拉伯沙漠\n- 植被稀疏：上位：植被特征、植被覆盖状况；特征：覆盖度低、物种单一、生长缓慢；成因：干旱气候、土壤贫瘠、高寒环境、人类破坏；影响：水土流失、土地荒漠化、生态脆弱；分布：撒哈拉沙漠、青藏高原、西北干旱区\n- 地面：上位：地球表面、下垫面；特征：直接接受太阳辐射、与大气相互作用、人类活动场所；成因：地球圈层相互作用；影响：影响气候、影响水文、提供活动空间；分布：陆地、海洋、地表\n- 风力侵蚀：上位：风力作用、外力侵蚀；特征：吹蚀作用、磨蚀作用、干旱区显著；成因：强风、松散地表、植被稀少；影响：形成风蚀地貌、土地退化、沙尘暴；分布：西北干旱区、塔克拉玛干沙漠、柴达木盆地\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 颗粒：上位：物质形态；特征：细小、固体、粒径差异；成因：风化作用、搬运沉积；影响：土壤质地、沉积物特征\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是沙漠地区形成的土壤类型\n2. 符合风力侵蚀强、有机质极低的特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 548,
+  "total_tokens": 575,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 548
+ },
+ "created": 1792769146
+}

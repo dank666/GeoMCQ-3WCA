@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-097",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流的流域范围由分水岭（多为山脉）界定，分水岭两侧的河流，分别汇入不同的海洋或内陆湖泊，某山脉是我国重要的分水岭，其东侧河流汇入太平洋，西侧河流汇入内陆湖泊，结合分水岭的作用，该山脉两侧的河流类型分别是（ ）\n\n待判断的选项：\nA. 东侧外流河、西侧内流河\nB. 东侧内流河、西侧外流河\nC. 两侧均为外流河\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 流域：上位：自然区域、水文单元；特征：边界明确、整体性强、上中下游关联；成因：地形分水岭、河流水系；影响：水资源管理、生态保护、区域协作；分布：长江流域、黄河流域、珠江流域\n- 分水岭：上位：地形界线；特征：分隔相邻水系、地势较高、界线明确；成因：地形起伏、河流侵蚀；影响：决定河流流向、影响流域范围；分布：秦岭、大兴安岭、太行山\n- 山脉：上位：山地；特征：呈条带状、有一定走向、海拔较高；成因：板块运动、地壳运动；影响：影响气候、分隔区域、形成河流分水岭；分布：喜马拉雅山脉、秦岭、天山\n- 界定：上位：地理方法；特征：明确范围、确定标准；成因：区域划分需要、研究需要；影响：便于区域管理、明确研究对象\n- 海洋：上位：水体、水圈；特征：面积广阔、连续分布、盐度高、资源丰富；成因：地壳运动、气候影响；影响：调节气候、提供资源、航运通道；分布：全球、各大洋\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合该山脉两侧河流汇入不同水域事实的河流类型\n2. 是东侧汇入太平洋的河流类型\n3. 是西侧汇入内陆湖泊的河流类型\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"否\", \"否\", \"否\"], \"C\": [\"否\", \"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 571,
+  "total_tokens": 607,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 571
+ },
+ "created": 1792769120
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:古埃及||17f768af8a43",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“古埃及”编写一个词典条目，供符号推理系统使用。\n\n题干：热带沙漠中的尼罗河泛滥区孕育了古埃及农耕文明．尼罗河在每年6～10月泛滥，从上游带来的类似肥沃土壤的沉积物，与上游来水和周边区域的植物资源，都对农耕文明的形成意义重大．据此完成6～8题．热带地区原始的耕种方式多为刀耕火种。古埃及人在刀耕火种方式出现之前，能够在沉积物上直接耕种，是因为尼罗河泛滥区()\n选项：\nA. 用水便利\nB. 土壤肥沃\nC. 地势平坦\nD. 植被缺失\n\n词典中已有条目的示例：\n{\"term\": \"热带地区\", \"category\": \"ATMOS\", \"parent_level\": \"五带；太阳辐射强；纬度低\", \"child_level\": \"热带雨林气候；热带草原气候；热带沙漠气候；终年高温；有直射阳光；昼夜长短变化小\"}\n{\"term\": \"耕作\", \"category\": \"INDUSTRY\", \"parent_level\": \"农业生产活动；粮食需求；农业技术发展\", \"child_level\": \"传统耕作；现代耕作；生态耕作；土地翻耕；作物种植；周期性强\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"PLACE\", \"parent_level\": \"尼罗河流域；文明发源地；古文明；历史区域\", \"child_level\": \"金字塔；象形文字；法老；农耕文明；尼罗河文明；古代社会\", \"confidence\": 0.9}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 58,
+  "prompt_tokens": 536,
+  "total_tokens": 594,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771039
+}

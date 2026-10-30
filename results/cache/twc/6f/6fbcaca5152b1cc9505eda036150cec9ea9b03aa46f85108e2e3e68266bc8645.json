@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-173",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国甜菜制糖业主要分布在北方，用甘蔗制糖的制糖厂主要分布在南方，这表明制糖业属于（　　）\n\n待判断的选项：\nA. 市场主导型\nB. 原料主导型\nC. 技术主导型\nD. 劳动力主导型\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是关于制糖业分布规律的正确描述\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"市场主导型\": [\"不确定\"],\n\"原料主导型\": [\"是\"],\n\"技术主导型\": [\"不确定\"],\n\"劳动力主导型\": [\"不确定\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 175,
+  "total_tokens": 209,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773077
+}

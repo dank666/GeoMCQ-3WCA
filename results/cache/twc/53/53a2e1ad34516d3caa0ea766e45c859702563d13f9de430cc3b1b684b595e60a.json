@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-078",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：生态破坏包括水土流失、土地沙化、生物多样性减少等，主要原因多为：\n\n待判断的选项：\nA. 人类不合理活动\nB. 全球气候变冷\nC. 自然环境本身演变\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 生态破坏：上位：环境问题；特征：生态系统结构受损、功能退化、恢复困难、人为性显著；成因：乱砍滥伐、过度放牧、不合理开垦、矿产资源开发；影响：生态服务功能下降、自然灾害加剧、生物多样性丧失；分布：黄土高原、西北干旱区、南方红壤丘陵区、青藏高原\n- 水土流失：上位：土壤侵蚀；特征：表土流失、土地退化、生态破坏；成因：降水集中、地形起伏大、植被破坏、不合理耕作；影响：土地肥力下降、河道淤积、生态恶化；分布：黄土高原、南方丘陵、东北黑土区\n- 沙化：上位：土地退化、生态环境问题；特征：地表沙质化、植被退化、生产力下降；成因：过度放牧、过度开垦、水资源利用不当、气候干旱；影响：生物多样性减少、沙尘暴频发、贫困加剧；分布：干旱半干旱区、农牧交错带、西北地区\n- 生物多样性减少：上位：生态环境问题；特征：物种消失、生态系统简化、不可逆性；成因：栖息地破坏、过度开发、环境污染、外来物种入侵；影响：生态平衡破坏、生态系统服务下降；分布：热带雨林、湿地、珊瑚礁\n- 成因：上位：地理要素；特征：解释性、关联性、多样性；影响：用于地理分析、指导问题解决\n- 智人：上位：人科动物；特征：高度发达大脑、直立行走、制造工具；成因：生物进化；影响：人类文明发展；分布：全球\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成生态破坏的主要原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 498,
+  "total_tokens": 516,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 498
+ },
+ "created": 1792768941
+}

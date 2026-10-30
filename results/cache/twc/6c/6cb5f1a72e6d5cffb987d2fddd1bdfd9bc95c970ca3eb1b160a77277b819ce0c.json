@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-066",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：高温多雨地区，淋溶作用强烈，土壤中的盐基离子和有机质易流失，土壤多呈（）\n\n待判断的选项：\nA. 中性\nB. 酸性\nC. 碱性\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 高温多雨：上位：气候特征；特征：气温高、降水多、湿度大；成因：低纬度、季风影响、暖流影响；影响：植被茂盛、土壤淋溶强；分布：热带雨林区、东亚季风区\n- 淋溶作用：上位：土壤形成过程；特征：可溶性物质下移、土层分异明显、酸性环境增强；成因：降水丰富、土壤透水性好、有机酸参与；影响：土壤肥力下降、形成淋溶层、影响植被类型；分布：湿润地区、热带雨林、温带森林\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 离子：上位：带电微粒；特征：带电荷、可导电、参与化学反应；成因：原子得失电子、电解质电离；影响：溶液导电、参与物质迁移\n- 有机：上位：物质属性；特征：含碳化合物、来源于生物体、可降解\n- 酸性：上位：土壤性质、化学性质；特征：pH值小于7、盐基饱和度低、铁铝氧化物富集；成因：降水淋溶、酸性母岩、酸沉降；影响：影响养分有效性、限制作物生长；分布：南方红壤区、酸雨区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是高温多雨地区淋溶作用强烈导致的土壤特征\n2. 符合盐基离子和有机质易流失后的土壤性质\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 506,
+  "total_tokens": 533,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 506
+ },
+ "created": 1792768799
+}

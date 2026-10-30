@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-090",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某地为了发展林下经济，在林间种植药材、养殖家禽，并开发森林康养项目。这种模式体现了（）\n\n待判断的选项：\nA. 生态经济\nB. 立体复合经营\nC. 单一林业\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 经济：上位：人类活动；特征：物质生产活动、满足人类需求、地域差异明显；成因：人类需求、资源分布、技术进步；影响：促进社会发展、改变地表景观\n- 养殖：上位：农业生产；特征：人工控制、集约化；成因：市场需求、技术进步；影响：提供产品、增加收入；分布：沿海地区、内陆水域\n- 家禽：上位：农业、市场需求；特征：家畜饲养、禽类养殖、农业多样化\n- 森林植被：上位：植被类型；特征：层次结构复杂、生物多样性高、多年生木本植物、覆盖率高；成因：水分充足、热量适宜、土壤肥沃；影响：调节气候、涵养水源、保持水土、提供资源；分布：湿润地区、山地、热带雨林区、温带地区\n- 康养：上位：资源、环境与可持续发展；特征：健康旅游、生态农业、综合开发\n- 项目：上位：工程；特征：目标明确、有组织性、资源投入\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是林下经济的一种实现方式\n2. 涉及林间种植和养殖活动\n3. 包含森林康养项目\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"], \"C\": [\"否\", \"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 455,
+  "total_tokens": 491,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 455
+ },
+ "created": 1792773190
+}

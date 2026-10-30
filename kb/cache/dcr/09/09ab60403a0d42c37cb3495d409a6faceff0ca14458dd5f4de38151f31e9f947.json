@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:陆域||96df468ac13f",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“陆域”编写一个词典条目，供符号推理系统使用。\n\n题干：港口建设需要水域条件和陆域条件，优良港口通常具备：\n选项：\nA. 港阔水深、避风、地形平坦\nB. 地形陡峭、陆域狭窄\nC. 河流湍急、流速快\n\n词典中已有条目的示例：\n{\"term\": \"港口建设\", \"category\": \"INDUSTRY\", \"parent_level\": \"交通建设；基础设施建设；水运需求增长；国际贸易发展\", \"child_level\": \"集装箱码头；散货码头；客运码头；依托水域条件；需陆域配套；投资规模大\"}\n{\"term\": \"水域\", \"category\": \"WATER\", \"parent_level\": \"自然地理要素\", \"child_level\": \"河流；湖泊；海洋；流动性；空间分布\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"港口建设；基础设施建设；水运需求增长；国际贸易发展\", \"child_level\": \"陆上交通连接；后方仓储；物流配送；土地利用规划；港口扩展；基础设施建设\", \"confidence\": 0.9}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 441,
+  "total_tokens": 500,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792767558
+}

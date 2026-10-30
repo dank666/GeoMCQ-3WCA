@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-119",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：美国某快递公司最大的空运枢纽设在路易斯维尔机场。该机场是美国主要的货运机场之一。在机场周边聚集了诸如美国红十字会应急救援中心、汽车配件中心，以及乳制品、珠宝、手机制造等100多家企业。多家企业在路易斯维尔机场附近集聚，主要是为了(　　)\n\n待判断的选项：\nA. 利用机场的基础设施\nB. 降低交通运输成本\nC. 方便企业间产品交换\nD. 快速响应客户需求\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是机场周边企业集聚的主要原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"不确定\"], \"D\": [\"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 201,
+  "total_tokens": 225,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773036
+}

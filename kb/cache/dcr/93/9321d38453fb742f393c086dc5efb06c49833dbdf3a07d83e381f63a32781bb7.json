@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:行车||68d8531a39c9",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“行车”编写一个词典条目，供符号推理系统使用。\n\n题干：近年来，河南某县不断完善基础设施、整合运力资源，推进全域公交，方便群众出行，让生活在偏远山区的群众也能够实现“出门见路、抬脚上车”，在保证行车安全的前提下，将快递物流与城乡客运有机融合，构建全域公交和货运班车带货下乡、捎农产品进城的双向运营模式。如今，便民惠民、助推发展的城乡交通运输一体化网络正在形成。该县建设城乡交通运输一体化网络主要是为了()\n选项：\nA. 助力乡村振兴\nB. 促进物流发展\nC. 提高城镇化率\nD. 保护生态环境\n\n词典中已有条目的示例：\n{\"term\": \"河南\", \"category\": \"PLACE\", \"parent_level\": \"省级行政区\", \"child_level\": \"地处中原；人口大省；农业大省\"}\n{\"term\": \"基础设施\", \"category\": \"INDUSTRY\", \"parent_level\": \"公共设施；社会经济发展需求\", \"child_level\": \"交通设施；通信设施；能源设施；公共性；基础性；先行性\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"交通设施；运输方式\", \"child_level\": \"公共交通；客运服务；物流运输\", \"confidence\": 1.0}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 543,
+  "total_tokens": 584,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 511
+ },
+ "created": 1792773561
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-154",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：油纸伞是我国非物质文化遗产，采用传统方法、全手工制作，油纸伞以竹为骨，以纸或丝绸为面，刷桐油以增强韧性并防水，但长期置于干燥环境中易变脆、开裂。近年来，油纸伞走俏国际市场。与现代钢骨布面伞相比，油纸伞走俏国际市场依赖的主要优势是（　　）\n\n待判断的选项：\nA. 携带方便\nB. 适用地广\nC. 文化蕴涵\nD. 经久耐用\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 油纸伞：上位：非物质文化遗产、传统手工艺、地域文化符号；特征：竹骨纸面、桐油防水、手工技艺、文化载体\n- 非物质文化遗产：上位：文化遗产；特征：活态传承、以人为载体、地域特色鲜明；成因：历史积淀、族群传承；影响：文化多样性、促进旅游发展；分布：中国、日本、韩国\n- 韧性：上位：抗灾能力；特征：适应能力、恢复能力、抗干扰能力；影响：减轻灾害损失、保障可持续发展\n- 环境：上位：自然地理环境、人文地理环境；特征：整体性、差异性、动态性；影响：影响人类活动\n- 市场：上位：区位因素；特征：影响产业布局、接近消费地、降低运输成本；成因：人口集聚、经济发展；影响：形成市场指向型工业、促进产业集聚；分布：城市地区、人口密集区\n- 用地：上位：土地资源利用、人类活动空间；特征：空间属性、功能分区、可变性；成因：自然条件、经济需求、规划政策；影响：土地覆盖变化、区域发展、环境影响\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是油纸伞走俏国际市场依赖的主要优势\n2. 是油纸伞相对于现代钢骨布面伞的优势\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"], \"D\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 502,
+  "total_tokens": 538,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 502
+ },
+ "created": 1792771013
+}

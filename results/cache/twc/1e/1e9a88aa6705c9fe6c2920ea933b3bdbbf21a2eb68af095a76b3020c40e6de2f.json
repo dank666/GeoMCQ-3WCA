@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-077",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国四大高原中，云贵高原的地表崎岖不平，多喀斯特地貌，这种地貌对当地农业生产的影响是（ ）\n\n待判断的选项：\nA. 地表崎岖，不利于农业机械化，适合发展林业和畜牧业\nB. 地表平坦，适合大规模种植\nC. 土壤肥沃，产量高\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 高原：上位：地貌类型；特征：海拔高、地面起伏小、边缘陡峻；成因：地壳抬升、长期侵蚀；影响：气候寒冷、空气稀薄；分布：青藏高原、云贵高原\n- 云贵高原：上位：高原、中国地形区；特征：地势崎岖、喀斯特广布、多坝子；成因：地壳抬升、流水溶蚀；影响：交通不便、旅游资源丰富；分布：中国西南\n- 地表崎岖：上位：地形特征；特征：地面起伏大、坡度陡、相对高度大；成因：地壳抬升、流水侵蚀、风化作用；影响：交通不便、水土流失、生物多样性丰富；分布：横断山区、云贵高原、黄土高原\n- 喀斯特地貌：上位：流水地貌、外力地貌；特征：可溶性岩石、流水溶蚀作用、地表崎岖、地下多溶洞；成因：石灰岩广布、流水溶蚀、气候湿热、地下水活动；影响：地表崎岖、土层薄、易石漠化、旅游资源丰富；分布：云贵高原、广西、贵州、桂林\n- 地貌：上位：地表形态、自然地理要素；特征：起伏形态、空间分异、成因多样；成因：内力作用、外力作用；影响：影响气候、影响水文、影响人类活动；分布：陆地表面、海底地形\n- 农业生产：上位：经济活动；特征：地域性、季节性、周期性；成因：自然条件、社会经济条件、技术条件；影响：提供农产品、保障粮食安全、促进农村就业；分布：平原地区、河谷地区、绿洲地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是喀斯特地貌对当地农业生产的影响\n2. 针对我国云贵高原的地理情境\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 558,
+  "total_tokens": 585,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 558
+ },
+ "created": 1792769364
+}

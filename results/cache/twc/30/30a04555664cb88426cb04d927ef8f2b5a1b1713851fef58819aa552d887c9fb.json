@@ -1,0 +1,50 @@
+{
+ "tag": "DIRECT:gaokao-08-3",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n与 2014 年相比，2015 年上海市的常住人口减少了 10.41 万人，外来常住人口更是减少了 14.77 万人，这是近 20 年首次出现的人口负增长．调查发现减少的外来常住人口主要流向上海周边的中小城市．上海市已制定“十三五”期间人口增长由数量型向质量型转变的策略．据此完成 4～6 题．\n\nQuestion:\n今后，上海市引进产业从业人员将主要分布在（）\n\nOptions:\nA. 资源密集型产业\nB. 劳动密集型产业\nC. 资金密集型产业\nD. 知识密集型产业\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "D",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 209,
+  "total_tokens": 210,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 209
+ },
+ "created": 1792771505
+}

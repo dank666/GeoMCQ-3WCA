@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-065",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国山东丘陵与辽东丘陵、东南丘陵并称为我国三大丘陵，其中山东丘陵位于我国山东省，结合其地理位置和地形特征，下列关于山东丘陵的描述，正确的是（ ）\n\n待判断的选项：\nA. 海拔高于500米\nB. 海拔多在200-500米之间，起伏和缓\nC. 地表起伏陡峭\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 山东丘陵：上位：丘陵；特征：海拔较低、起伏和缓、分布于山东；成因：地壳运动、外力侵蚀；影响：影响农业布局、形成旅游资源；分布：山东半岛、鲁中南山地\n- 丘陵：上位：地貌类型；特征：海拔较低、坡度较缓、起伏和缓、相对高度小；成因：地壳运动、流水侵蚀、风化作用；影响：适宜发展林果业、梯田农业、水土保持；分布：东南丘陵、山东丘陵、辽东丘陵\n- 东南丘陵：上位：丘陵；特征：地势起伏和缓、红壤广布、亚热带季风气候；成因：地壳抬升、流水侵蚀；影响：发展立体农业、水土流失；分布：中国东南部\n- 中山：上位：山地；特征：海拔1000-3500米、山坡陡峭、山顶浑圆；成因：地壳抬升、流水侵蚀；影响：垂直自然带明显、水土流失敏感；分布：中国南方山地、黄土高原\n- 地理位置：上位：地理特征；特征：空间确定性、相对性、综合性、可变性；成因：地球坐标系统、自然与人文要素分布；影响：影响气候、影响交通、影响经济发展、影响区域联系；分布：任何区域\n- 地形：上位：地表形态；特征：地表起伏形态、由内外力共同塑造、具有空间分异；成因：内力作用、外力作用；影响：影响气候、影响水文、影响土壤植被、影响人类活动\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于山东丘陵的描述符合地理事实\n2. 基于山东丘陵的地理位置和地形特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 550,
+  "total_tokens": 577,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 550
+ },
+ "created": 1792769348
+}

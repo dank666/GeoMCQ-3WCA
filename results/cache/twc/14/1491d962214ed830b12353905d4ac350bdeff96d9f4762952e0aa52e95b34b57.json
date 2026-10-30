@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-020",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n河流的流速主要受地势落差影响，地势落差越大，流速越快；地势落差越小，流速越慢，某河流从高山地区流向平原地区，地势逐渐变缓，结合地势对流速的影响，该河流的流速变化是（ ）\n\nOptions:\nA. 逐渐减慢\nB. 保持不变\nC. 逐渐加快\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nA",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 126,
+  "total_tokens": 128,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771661
+}

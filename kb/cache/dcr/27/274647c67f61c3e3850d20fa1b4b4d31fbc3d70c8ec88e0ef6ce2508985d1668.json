@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:大豆||3ac112474ddd",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“大豆”编写一个词典条目，供符号推理系统使用。\n\n题干：气候对农业生产的影响主要体现在热量、水分、光照等方面，热量充足、水分充沛、光照充足的地区，农业生产条件好，某地区热量充足、水分充沛、光照时间长，且位于我国南方地区，结合气候对农业的影响及我国南方气候特征，该地区最适合种植的经济作物是()\n选项：\nA. 大豆\nB. 甜菜\nC. 甘蔗\n\n词典中已有条目的示例：\n{\"term\": \"气候\", \"category\": \"ATMOS\", \"parent_level\": \"大气现象；太阳辐射；大气环流\", \"child_level\": \"热带气候；温带气候；寒带气候；长期平均状态；具有稳定性；空间差异性\"}\n{\"term\": \"农业生产\", \"category\": \"INDUSTRY\", \"parent_level\": \"经济活动；自然条件；社会经济条件\", \"child_level\": \"种植业；林业；畜牧业；地域性；季节性；周期性\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"SOILVEG\", \"parent_level\": \"农作物；植物生长；农业经济\", \"child_level\": \"豆科植物；蛋白质来源；轮作；固氮作用\", \"confidence\": 0.9}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 49,
+  "prompt_tokens": 470,
+  "total_tokens": 519,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792767516
+}

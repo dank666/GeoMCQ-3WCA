@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-198",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：近年来，有西方发达国家鼓励外迁的企业回迁。某组装企业欲从我国回迁本国进行生产。下列影响该企业生产的区位因素中，近年来发生有利变化的是 ( )\r\n \n\n待判断的说法：\n①. 集聚协作\n②. 劳动力成本\n③. 环保成本\n④. 市场规模\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是影响该企业生产的区位因素\n2. 近年来发生有利变化\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 2 个判断，例如：{\"①\": [\"是\", \"是\"], \"②\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"①\": [\"是\", \"不确定\"],\n\"②\": [\"是\", \"否\"],\n\"③\": [\"是\", \"否\"],\n\"④\": [\"是\", \"不确定\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 191,
+  "total_tokens": 229,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773098
+}

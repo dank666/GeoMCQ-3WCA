@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:养老||775630c2a691",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“养老”编写一个词典条目，供符号推理系统使用。\n\n题干：人口老龄化是指老年人口占比不断上升，其带来的主要社会问题是：\n选项：\nA. 劳动力不足、养老压力大\nB. 住房严重短缺\nC. 就业竞争过度激烈\n\n词典中已有条目的示例：\n{\"term\": \"人口老龄化\", \"category\": \"POPCITY\", \"parent_level\": \"人口年龄结构问题；生育率下降；寿命延长\", \"child_level\": \"轻度老龄化；中度老龄化；重度老龄化；老年人口比重上升；劳动年龄人口减少；抚养比升高\"}\n{\"term\": \"人口\", \"category\": \"POPCITY\", \"parent_level\": \"地理要素；自然因素；社会经济因素\", \"child_level\": \"人口数量；人口素质；人口结构；社会属性；数量与质量统一；时空变化\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"POPCITY\", \"parent_level\": \"人口结构；社会问题\", \"child_level\": \"老年人口增加；社会保障压力；家庭结构变化\", \"confidence\": 1.0}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 43,
+  "prompt_tokens": 492,
+  "total_tokens": 535,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 460
+ },
+ "created": 1792771977
+}

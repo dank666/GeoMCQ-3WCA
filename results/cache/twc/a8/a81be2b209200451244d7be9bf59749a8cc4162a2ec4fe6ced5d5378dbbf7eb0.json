@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-HY-002",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n水循环是自然界中水体运动的主要形式，分为海陆间循环、陆地内循环和海上内循环，下列关于海陆间循环的说法正确的有（）\n\nOptions:\nA. 涉及海洋和陆地，是最重要的水循环类型\nB. 能使陆地水资源得到不断补充和更新\nC. 环节包括蒸发、水汽输送、降水、地表径流等\n\nInstructions:\n1. One or more options may be correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nABC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 151,
+  "total_tokens": 153,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771729
+}

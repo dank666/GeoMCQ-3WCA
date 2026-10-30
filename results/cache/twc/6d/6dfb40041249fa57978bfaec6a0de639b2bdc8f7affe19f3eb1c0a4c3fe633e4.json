@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-064",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：冰川侵蚀作用主要发生在高纬度和高海拔地区，会形成冰斗、角峰、U型谷等地貌，下列地貌中，由冰川侵蚀形成的是（ ）\n\n待判断的选项：\nA. 溶洞\nB. 沙丘\nC. 角峰\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 冰川侵蚀：上位：外力作用；特征：破坏地表、形成侵蚀地貌、多发生在冰川运动区；成因：冰川运动、冰川重量；影响：形成冰斗、形成角峰、形成U形谷；分布：高山地区、高纬度地区\n- 高纬度：上位：纬度带；特征：太阳高度小、气温低、昼夜长短变化大；成因：地球形状、黄赤交角；影响：气候寒冷、极昼极夜；分布：北极地区、南极地区\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n- 冰斗：上位：冰川侵蚀地貌；特征：围椅状洼地、三面陡壁、底部平坦；成因：冰川侵蚀、冻融风化；影响：指示雪线高度、形成冰斗湖；分布：高山地区、阿尔卑斯山\n- 角峰：上位：冰川侵蚀地貌；特征：金字塔形尖峰、刃脊环绕、冰斗围合；成因：冰川侵蚀、冻融风化；影响：形成高山景观、指示古冰川范围；分布：阿尔卑斯山、喜马拉雅山、天山\n- 地貌：上位：地表形态、自然地理要素；特征：起伏形态、空间分异、成因多样；成因：内力作用、外力作用；影响：影响气候、影响水文、影响人类活动；分布：陆地表面、海底地形\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是冰川侵蚀作用形成的地貌\n2. 属于高纬度或高海拔地区的地貌\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 526,
+  "total_tokens": 553,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 526
+ },
+ "created": 1792769351
+}

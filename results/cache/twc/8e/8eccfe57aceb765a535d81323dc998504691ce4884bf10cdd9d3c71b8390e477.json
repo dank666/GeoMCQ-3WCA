@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:agieval-054",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n近年来，我国宁夏、贵州、云南等省区成功实施了生态移民工程，大大改善了移民的生产和生活条件。生态移民工程的成功实施\r\n\t①促进了迁入区的资源开发\t②缓解了迁出区人口老龄化程度\r\n\t③减轻了迁入区的就业压力\t④实现了迁出区人口的脱贫致富\n\nOptions:\nA. ①②\nB. ②③\nC. ③④\nD. ①④\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nD",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 146,
+  "total_tokens": 148,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771765
+}

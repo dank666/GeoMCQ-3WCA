@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-045",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：冰川融水补给的河流，流量的年际变化主要受气温年际变化影响，气温年际变化小的地区，河流流量年际变化小；气温年际变化大的地区，河流流量年际变化大，某地区位于青藏高原，气温年际变化小，结合冰川融水补给的特点，该河流的流量年际变化是（ ）\n\n待判断的选项：\nA. 年际变化大\nB. 无年际变化\nC. 年际变化小\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 冰川水：上位：陆地水体；特征：固态水、淡水主体、更新慢；成因：降水积累、低温环境；影响：重要淡水资源、影响河流补给；分布：南极、格陵兰、青藏高原\n- 融水：上位：陆地水体、水资源；特征：水温低、季节性变化大、水质较好；成因：气温升高、冰雪融化；影响：补给河流、提供灌溉水源、参与水循环；分布：高山地区、冰川区、西北内陆河\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 流量：上位：水文要素；特征：单位时间水量、季节变化；成因：降水、流域面积；影响：水资源量、洪涝灾害；分布：河流、水库\n- 年际变化：上位：时间变化；特征：逐年波动、周期不固定、受多种因素影响；成因：大气环流异常、海温异常、太阳活动；影响：影响农业生产、导致旱涝灾害\n- 气温：上位：气象要素；特征：随纬度变化、随海拔变化、随时间变化；成因：太阳辐射、下垫面性质、大气环流；影响：影响农业生产、影响人体舒适度、影响自然带分布\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合冰川融水补给河流流量年际变化规律的结论\n2. 是位于青藏高原且气温年际变化小的地区河流特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 565,
+  "total_tokens": 592,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 565
+ },
+ "created": 1792769031
+}

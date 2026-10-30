@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-098",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于地下水资源的特点，说法正确的有（）\n\n待判断的选项：\nA. 补给速度慢，再生能力弱\nB. 埋藏在地下，不易受污染（承压水）\nC. 分布广泛，能随时开采利用\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地下水资源：上位：水资源、自然资源；特征：分布广泛、水质较好、更新缓慢；成因：大气降水补给、地表水渗漏；影响：农业灌溉水源、工业和生活用水、生态维持；分布：华北平原、河西走廊\n- 速度慢：上位：交通特点、运输特征；特征：运输效率低、耗时较长；成因：运输方式差异、自然条件限制；影响：运价较低、适合大宗货物\n- 污染：上位：环境问题；特征：有害物质进入环境、危害人体健康、破坏生态平衡；成因：人类活动排放污染物、工业过度排放；影响：环境质量下降、生态系统破坏\n- 承压水：上位：地下水；特征：承受静水压力、有隔水顶板、水位随压力变化；成因：地质构造、隔水层分布、补给区与排泄区高差；影响：供水稳定、易受污染、过度开采引起地面沉降；分布：自流盆地、向斜构造区、冲积平原\n- 分布广泛：上位：空间分布特征；特征：空间覆盖范围大、出现频率高、区域差异小；成因：自然条件适宜、人类活动普遍；影响：资源利用广泛、环境影响面大\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于地下水资源特点的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 436,
+  "total_tokens": 454,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 436
+ },
+ "created": 1792769926
+}

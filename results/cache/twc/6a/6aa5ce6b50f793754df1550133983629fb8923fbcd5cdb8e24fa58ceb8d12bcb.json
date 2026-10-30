@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-041",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流的汛期类型主要有春汛、夏汛、秋汛等，春汛由季节性积雪融水形成，夏汛由夏季降水或冰川融水形成，秋汛由秋季降水形成，某地区位于我国华北地区，冬季降雪较少，夏季降水丰富，结合汛期类型，该地区河流的汛期主要是（ ）\n\n待判断的选项：\nA. 夏汛\nB. 春汛\nC. 秋汛\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 春汛：上位：水文现象、季节性变化；特征：春季融雪、夏季降水、秋季降水\n- 夏汛：上位：水文现象、季节性变化；特征：汛期类型、夏季降水补给\n- 秋汛：上位：水文现象、季节性变化、河流补给；特征：秋季降水、河流洪水期、华北地区河流\n- 季节性：上位：时间变化特征；特征：随季节规律变化、周期性明显；成因：地球公转、太阳直射点移动；影响：自然景观季节变化、人类活动季节安排；分布：中纬度地区、季风气候区\n- 融水：上位：陆地水体、水资源；特征：水温低、季节性变化大、水质较好；成因：气温升高、冰雪融化；影响：补给河流、提供灌溉水源、参与水循环；分布：高山地区、冰川区、西北内陆河\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是华北地区的河流\n2. 主要由夏季降水形成\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 524,
+  "total_tokens": 551,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 524
+ },
+ "created": 1792772652
+}

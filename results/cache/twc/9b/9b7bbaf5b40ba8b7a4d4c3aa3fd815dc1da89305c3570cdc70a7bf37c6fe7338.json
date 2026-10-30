@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-080",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：湿地具有涵养水源、调节径流、净化水质、维持生物多样性等功能，被称为（）\n\n待判断的选项：\nA. 地球之肺\nB. 地球心脏\nC. 地球之肾\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 湿地：上位：自然生态系统；特征：地表长期积水、水生植物为主、土壤潜育化、生物多样性丰富；成因：地形低洼、排水不畅、水分充足；影响：调节气候、涵养水源、净化水质、维护生物多样性；分布：三江平原、洞庭湖、鄱阳湖、滨海滩涂\n- 涵养水源：上位：生态功能；特征：蓄水保水、调节径流、净化水质；成因：植被截留、土壤下渗、枯枝落叶层；影响：减少地表径流、增加地下径流、防洪抗旱；分布：山区森林、湿地、水源地\n- 径流：上位：水循环环节；特征：沿地表或地下流动、受气候地形影响、具有季节性变化；成因：降水、冰雪融水、地形坡度；影响：塑造地表形态、提供水资源、引发洪涝灾害；分布：河流流域、山区、湿润地区\n- 净化水质：上位：水体自净、生态功能；特征：降解污染物、改善水质、生态服务功能；成因：湿地吸附过滤、微生物分解、水体稀释扩散；影响：提高水质、维护生态平衡、保障用水安全；分布：湿地、河流、湖泊\n- 维持生物多样性：上位：生态系统服务功能；特征：维持物种多样性、维持遗传多样性、维持生态系统多样性；影响：保障生态平衡、提供生态服务；分布：自然保护区、生物多样性热点地区\n- 地球：上位：行星、类地行星；特征：太阳系八大行星之一、存在生命、有适宜温度和水、有大气层；成因：日地距离适中、质量体积适中；影响：孕育生命、形成自然环境；分布：太阳系\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是湿地的别称\n2. 体现湿地的生态功能\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 539,
+  "total_tokens": 566,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 539
+ },
+ "created": 1792768818
+}

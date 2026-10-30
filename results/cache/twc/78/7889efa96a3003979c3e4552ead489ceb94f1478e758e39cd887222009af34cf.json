@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-094",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列地貌中，适合发展旅游业的有（）\n\n待判断的选项：\nA. 喀斯特峰林\nB. 丹霞地貌\nC. 风蚀洼地\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地貌：上位：地表形态、自然地理要素；特征：起伏形态、空间分异、成因多样；成因：内力作用、外力作用；影响：影响气候、影响水文、影响人类活动；分布：陆地表面、海底地形\n- 发展旅游业：上位：第三产业、产业活动；特征：关联性强、就业容量大、资源消耗低；成因：旅游资源丰富、交通条件改善、市场需求增长；影响：促进经济增长、带动相关产业、增加就业机会\n- 峰林：上位：喀斯特地貌、岩溶地貌；特征：峰体锥状、基座相连、群峰林立；成因：流水溶蚀、可溶性岩石、地壳抬升；影响：旅游景观、地表崎岖、地下水资源丰富；分布：桂林、阳朔、贵州荔波\n- 丹霞地貌：上位：红层地貌、流水侵蚀地貌；特征：红色砂砾岩、陡崖赤壁、方山石墙；成因：红色岩层沉积、地壳抬升、流水侵蚀风化；影响：形成独特景观、旅游资源丰富、地质研究价值；分布：广东丹霞山、江西龙虎山、甘肃张掖\n- 风蚀洼地：上位：风力侵蚀、干旱地貌、外力作用、雅丹地貌；特征：风蚀蘑菇、风蚀柱、戈壁滩、洼地形态、景观独特\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是适合发展旅游业的地貌\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 451,
+  "total_tokens": 469,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 451
+ },
+ "created": 1792770181
+}

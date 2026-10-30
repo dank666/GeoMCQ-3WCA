@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-042",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：据报道，2020年深圳市大疆创新科技有限公司的无人机产品占全球及国内市场份额分别超80%和70%。目前，德国是该公司在欧洲的最大市场。该公司在德国的金融中心法兰克福市设立了欧洲总部。无人机自动返航主要使用的技术是（）\n\n待判断的选项：\nA. 气压感知\nB. 大地测量\nC. 遥感监测\nD. 卫星定位\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 深圳：上位：经济特区、城市；特征：沿海开放城市、经济特区、移民城市、创新城市；成因：改革开放政策、毗邻香港；影响：经济快速发展、城市化水平高；分布：珠江三角洲、广东省\n- 科学技术：上位：生产力；特征：第一生产力、创新性、渗透性、综合性；成因：社会需求、科学探索、经济发展；影响：推动经济发展、改变生活方式、促进社会进步；分布：科技园区、研究机构、高等院校\n- 有限公司：上位：企业组织形式、市场主体、经济制度；特征：有限责任公司、股份制、现代企业制度\n- 产物：上位：生产成果；特征：人类劳动成果、满足需求、可交换；成因：生产过程、资源投入；影响：满足消费、促进流通\n- 全球：上位：空间范围；特征：整体性、相互联系\n- 市场：上位：区位因素；特征：影响产业布局、接近消费地、降低运输成本；成因：人口集聚、经济发展；影响：形成市场指向型工业、促进产业集聚；分布：城市地区、人口密集区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是无人机自动返航主要使用的技术\n2. 属于地理信息技术范畴\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"是\"], \"D\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 461,
+  "total_tokens": 497,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 461
+ },
+ "created": 1792770790
+}

@@ -1,0 +1,89 @@
+{
+ "split": "test",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "params": {
+  "knowledge": true,
+  "max_knowledge": 6,
+  "min_multi": 2,
+  "defer": true,
+  "three_valued": true,
+  "max_conditions": 6
+ },
+ "dcr": {
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  },
+  "tau": 0.5,
+  "max_terms": 8,
+  "usage": {
+   "calls": 832,
+   "cached": 832,
+   "prompt_tokens": 398658,
+   "completion_tokens": 43348
+  }
+ },
+ "results": {
+  "all": {
+   "acc": 96.35,
+   "jaccard": 98.12,
+   "n": 960
+  },
+  "domain:CL": {
+   "acc": 93.12,
+   "jaccard": 97.5,
+   "n": 160
+  },
+  "domain:GPP": {
+   "acc": 98.75,
+   "jaccard": 99.17,
+   "n": 160
+  },
+  "domain:HEG": {
+   "acc": 95.62,
+   "jaccard": 97.92,
+   "n": 160
+  },
+  "domain:HY": {
+   "acc": 97.5,
+   "jaccard": 98.96,
+   "n": 160
+  },
+  "domain:SV": {
+   "acc": 97.5,
+   "jaccard": 98.54,
+   "n": 160
+  },
+  "domain:TG": {
+   "acc": 95.62,
+   "jaccard": 96.67,
+   "n": 160
+  },
+  "type:multiple": {
+   "acc": 93.96,
+   "jaccard": 97.5,
+   "n": 480
+  },
+  "type:single": {
+   "acc": 98.75,
+   "jaccard": 98.75,
+   "n": 480
+  },
+  "_diagnostics": {
+   "deferred_rate": 0.0792,
+   "acc_context": 97.4,
+   "mean_calls": 2.079,
+   "mean_prompt_tokens": 818.7,
+   "mean_completion_tokens": 48.5,
+   "mean_conditions": 1.57,
+   "undetermined_rate": 0.0027,
+   "mean_dcr_terms": 0.433
+  }
+ }
+}

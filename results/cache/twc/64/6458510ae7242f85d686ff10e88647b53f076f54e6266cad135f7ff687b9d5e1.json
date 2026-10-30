@@ -1,0 +1,50 @@
+{
+ "tag": "DIRECT:gaokao-13-1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n某日，小明在互联网上看到世界各地好友当天发来的信息：甲：温暖的海风夹着即将到来的夏天的味道扑面而来． 乙：冬季临近，金黄的落叶铺满了一地． 丙：又一次入秋失败了，这还是我四季分明的家乡吗？ 丁：又是黑夜漫长的季节，向北望去，小城上空的极光如彩色帷幕般挂在夜空． 据此完成 10～11 题．\n\nQuestion:\n以上四人所在地从北到南的排列顺序是（）\n\nOptions:\nA. 甲乙丙丁\nB. 丁乙丙甲\nC. 丁丙甲乙\nD. 甲丙乙丁\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "B",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 210,
+  "total_tokens": 211,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 210
+ },
+ "created": 1792771509
+}

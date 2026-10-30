@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-094",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：大气环流中的信风带主要分布在南北纬0°-30°之间，分为东北信风带和东南信风带，信风带的气流多为干燥气流，对热带沙漠气候的形成有重要影响，某地区位于北回归线附近的大陆西岸，受东北信风带控制，结合信风带的影响及热带气候特征，该地区的气候特征是（ ）\n\n待判断的选项：\nA. 全年高温多雨\nB. 全年炎热干燥\nC. 夏季高温多雨，冬季温和少雨\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是受信风带影响的地区的气候特征\n2. 位于北回归线附近的大陆西岸\n3. 受东北信风带控制\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n    \"A\": [\"否\", \"是\", \"否\"],\n    \"B\": [\"是\", \"是\", \"是\"],\n    \"C\": [\"否\", \"是\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 252,
+  "total_tokens": 293,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772112
+}

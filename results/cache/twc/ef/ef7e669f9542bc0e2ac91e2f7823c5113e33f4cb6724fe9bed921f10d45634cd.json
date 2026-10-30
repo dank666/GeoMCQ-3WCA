@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-182",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：2016年我国沿海海平面上升近38毫米，上升幅度为30多年来最大。如果这一现象持续下去，沿海城市可采取的应对措施是 ( )  \n\n待判断的说法：\n①. 提升防潮排涝能力\n②. 控制城市地面沉降\n③. 加速城市化进程\n④. 植树造林修复生态\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是沿海城市可采取的应对措施\n2. 与海平面上升有关\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 2 个判断，例如：{\"①\": [\"是\", \"是\"], \"②\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"①\": [\"是\", \"是\"],\n\"②\": [\"是\", \"是\"],\n\"③\": [\"否\", \"否\"],\n\"④\": [\"是\", \"不确定\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 193,
+  "total_tokens": 231,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773088
+}

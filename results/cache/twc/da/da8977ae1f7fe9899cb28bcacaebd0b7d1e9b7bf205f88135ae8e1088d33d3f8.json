@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-072",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于河流含沙量与植被覆盖率的关系，说法正确的有（）\n\n待判断的选项：\nA. 植被覆盖率越低，河流含沙量越高\nB. 植被覆盖率与河流含沙量无关\nC. 植被覆盖率越高，河流含沙量越低\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 含沙量：上位：水文要素；特征：随季节变化、受流域植被影响、影响水质；成因：植被覆盖率、降水强度、土质疏松、地形坡度；影响：影响河道淤积、影响水库寿命、塑造三角洲；分布：黄河中游、长江上游、黄土高原\n- 植被覆盖：上位：地表覆盖；特征：覆盖度指标、动态变化、空间差异、受人类影响；成因：气候条件、地形土壤、人类活动、自然灾害；影响：保持水土、调节气候、影响径流、保护生物多样性；分布：全球陆地、流域、生态脆弱区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于河流含沙量与植被覆盖率关系的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 323,
+  "total_tokens": 341,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 323
+ },
+ "created": 1792769886
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:gaokao-08-2",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "材料：与 2014 年相比，2015 年上海市的常住人口减少了 10.41 万人，外来常住人口更是减少了 14.77 万人，这是近 20 年首次出现的人口负增长．调查发现减少的外来常住人口主要流向上海周边的中小城市．上海市已制定“十三五”期间人口增长由数量型向质量型转变的策略．据此完成 4～6 题．\n题干：上海市减少的外来常住人口多流向周边中小城市，主要原因是这些中小城市（） \n\n待判断的说法：\n①. 服务设施齐全\n②. 承接了上海市转移的产业\n③. 适宜就业机会多\n④. 生态环境好．\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是上海市减少的外来常住人口主要流向的原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 1 个判断，例如：{\"①\": [\"是\"], \"②\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"①\": [\"不确定\"], \"②\": [\"是\"], \"③\": [\"不确定\"], \"④\": [\"不确定\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 243,
+  "total_tokens": 267,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773119
+}

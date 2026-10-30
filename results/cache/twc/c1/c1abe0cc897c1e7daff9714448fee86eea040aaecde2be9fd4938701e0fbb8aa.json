@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-064",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：交通通达度提高会使区域地租水平整体上升，商业和住宅更倾向于布局在：\n\n待判断的选项：\nA. 地形陡峭地区\nB. 交通干线附近\nC. 封闭偏僻地区\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 交通通达度：上位：交通条件、区位因素；特征：衡量交通便捷程度、随交通网络变化、具有空间差异性；成因：交通网络密度、运输方式组合、距离远近；影响：影响产业区位选择、影响人口流动、影响城市发展；分布：交通枢纽、城市中心、沿海港口\n- 区域：上位：地理空间单元；特征：一定范围、内部相对一致、边界模糊、层次性；成因：地球表面差异、人类活动划分；影响：便于空间分析、区域发展基础\n- 地租：上位：经济地理现象；特征：位置差异、距离衰减、市场调节；成因：土地位置差异、土地质量差异、土地供求关系；影响：影响土地利用、形成功能分区；分布：城市内部、农业区域\n- 商业：上位：第三产业；特征：商品流通、服务性、市场导向；成因：消费需求、交通条件、人口分布；影响：促进经济发展、方便生活；分布：城市中心、交通枢纽、商业街\n- 住宅：上位：土地利用类型；特征：分布广泛、与人口密度相关\n- 倾向：上位：岩层产状要素；特征：岩层面倾斜方向、垂直于走向、表示岩层倾向；成因：地壳运动、岩层受力变形；影响：影响岩层分布、决定地下水流动\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是商业和住宅更倾向于布局的区位\n2. 受交通通达度提高影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 474,
+  "total_tokens": 501,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 474
+ },
+ "created": 1792768922
+}

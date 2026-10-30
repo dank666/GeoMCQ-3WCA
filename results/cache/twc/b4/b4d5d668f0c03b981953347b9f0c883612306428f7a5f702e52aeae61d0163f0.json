@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-078",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：夜晚山坡冷却快，空气下沉，风由山坡向谷底吹，称为（）\n\n待判断的选项：\nA. 谷风\nB. 山风\nC. 台风\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 山坡：上位：坡地、地貌部位；特征：倾斜地面、坡度差异大、物质不稳定、易发生重力地貌过程；成因：地壳抬升、流水侵蚀、风化作用、重力作用；影响：水土流失、滑坡崩塌、土壤分层、植被垂直分异；分布：山区、丘陵、高原边缘\n- 空气：上位：自然环境要素；特征：无色无味、可压缩、流动性；成因：地球引力；影响：维持生命、影响气候、传播污染物；分布：对流层、平流层\n- 谷风：上位：热力环流、局地风系、山谷风；特征：白天吹、上坡风、谷地升温快\n- 台风：上位：热带气旋；特征：强风、暴雨、风暴潮；成因：热带洋面高温、水汽充足、地转偏向力；影响：狂风暴雨、洪涝灾害、缓解伏旱；分布：西北太平洋、中国东南沿海\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是夜晚山坡冷却快、空气下沉形成的风\n2. 是风由山坡向谷底吹的现象名称\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 394,
+  "total_tokens": 421,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 394
+ },
+ "created": 1792768817
+}

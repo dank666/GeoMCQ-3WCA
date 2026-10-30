@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-036",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：云贵高原位于我国西南部，区域内石灰岩广布，受气候和流水作用影响，形成了典型的喀斯特地貌，结合喀斯特地貌的形成原理和分布特点，下列关于该地貌的说法，正确的是（ ）\n\n待判断的选项：\nA. 由流水溶蚀作用形成，降水越多越发育\nB. 主要分布在干旱地区\nC. 地表平坦，适合大规模农业生产\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 云贵高原：上位：高原、中国地形区；特征：地势崎岖、喀斯特广布、多坝子；成因：地壳抬升、流水溶蚀；影响：交通不便、旅游资源丰富；分布：中国西南\n- 西南：上位：中国地理分区；特征：地形崎岖、气候湿润、喀斯特地貌广布；成因：板块碰撞、季风影响；影响：水能丰富、生物多样性高；分布：中国西南部\n- 区域：上位：地理空间单元；特征：一定范围、内部相对一致、边界模糊、层次性；成因：地球表面差异、人类活动划分；影响：便于空间分析、区域发展基础\n- 石灰岩：上位：沉积岩；特征：主要成分碳酸钙、易溶蚀、层理构造；成因：浅海沉积、化学沉淀、生物堆积；影响：形成喀斯特地貌、用作建筑材料；分布：广西、贵州、云南\n- 广布：上位：空间分布特征；特征：分布范围广、相对均匀；成因：自然条件适宜、扩散能力强；影响：资源总量大、利用便利\n- 气候：上位：大气现象；特征：长期平均状态、具有稳定性、空间差异性、受多种因素影响；成因：太阳辐射、大气环流、下垫面性质、人类活动；影响：影响农业生产、影响人类活动、塑造自然景观；分布：全球各地\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于喀斯特地貌的说法符合地理事实\n2. 结合喀斯特地貌的形成原理和分布特点\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 524,
+  "total_tokens": 551,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 524
+ },
+ "created": 1792769303
+}

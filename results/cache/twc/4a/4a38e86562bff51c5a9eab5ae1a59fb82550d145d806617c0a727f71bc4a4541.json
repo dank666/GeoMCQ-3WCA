@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-002",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：根据地形分类标准，海拔500米以上、地表起伏幅度较大且坡度较陡的地形类型为山地，某区域经测量海拔为620米，地表坡度达到35°，且区域内峰谷相间、地势落差明显，结合以上关键信息，该区域最可能的地形类型是（ ）\n\n待判断的选项：\nA. 山地\nB. 丘陵\nC. 高原\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地形：上位：地表形态；特征：地表起伏形态、由内外力共同塑造、具有空间分异；成因：内力作用、外力作用；影响：影响气候、影响水文、影响土壤植被、影响人类活动\n- 标准：上位：技术规范、衡量尺度；特征：统一性、规范性、可度量性；成因：生产协作需要、质量管理要求；影响：保证产品质量、促进贸易流通、规范生产行为\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n- 地面：上位：地球表面、下垫面；特征：直接接受太阳辐射、与大气相互作用、人类活动场所；成因：地球圈层相互作用；影响：影响气候、影响水文、提供活动空间；分布：陆地、海洋、地表\n- 幅度：上位：变化量；特征：变化大小、差值\n- 坡度：上位：地形要素、地貌特征；特征：地表倾斜程度、影响水土流失、影响农业耕作；成因：地壳运动、流水侵蚀、风化作用；影响：影响土壤厚度、影响植被覆盖、影响工程建设；分布：山地、丘陵、高原边缘\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合山地定义的地形类型\n2. 海拔在500米以上\n3. 坡度较陡且起伏幅度大\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"否\", \"否\", \"否\"], \"C\": [\"否\", \"是\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 515,
+  "total_tokens": 551,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 515
+ },
+ "created": 1792769260
+}

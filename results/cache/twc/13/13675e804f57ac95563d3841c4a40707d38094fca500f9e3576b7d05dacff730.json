@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:agieval-042",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：据报道，2020年深圳市大疆创新科技有限公司的无人机产品占全球及国内市场份额分别超80%和70%。目前，德国是该公司在欧洲的最大市场。该公司在德国的金融中心法兰克福市设立了欧洲总部。无人机自动返航主要使用的技术是（）\n\n待判断的选项：\nA. 气压感知\nB. 大地测量\nC. 遥感监测\nD. 卫星定位\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是无人机自动返航主要使用的技术\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"否\"], \"D\": [\"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 195,
+  "total_tokens": 219,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 195
+ },
+ "created": 1792772985
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-SV-077",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n下列关于荒漠植被与土壤关系的说法，正确的有（）\n\nOptions:\nA. 荒漠植被能固定土壤，减少风沙侵蚀，延缓土壤退化\nB. 荒漠植被的生长会进一步消耗土壤水分，加剧土壤干旱\nC. 荒漠土壤贫瘠、干旱，仅能生长耐旱的荒漠植被\n\nInstructions:\n1. At least two options are correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nAC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 142,
+  "total_tokens": 144,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771849
+}

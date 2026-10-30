@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-096",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国地势第一阶梯与第二阶梯的分界线是（ ）\n\n待判断的选项：\nA. 秦岭-淮河线\nB. 昆仑山、祁连山、横断山脉\nC. 大兴安岭、太行山、巫山、雪峰山\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地势：上位：地形特征；特征：高低起伏、倾斜方向、海拔差异；成因：地壳运动、外力侵蚀、沉积作用；影响：河流流向、气候差异、交通布局；分布：中国地势、青藏高原、长江中下游平原\n- 阶梯：上位：阶梯状分布、地势特征；特征：第一阶梯、第二阶梯、地势分界\n- 分界线：上位：地理界线；特征：明确划分范围、具有法律或自然意义、可能为过渡带；成因：自然地理分异、行政管理需要；影响：界定区域范围、影响区域发展；分布：秦岭—淮河一线、黑河—腾冲线、国界线\n- 秦岭：上位：东西走向山脉；特征：南北地理分界线、垂直分异明显；成因：地壳运动抬升；影响：划分南北方、阻挡冬季风、影响气候与植被；分布：陕西省南部、中国中部\n- 淮河：上位：河流；特征：南北气候过渡、水系复杂、洪涝多发；成因：降水集中、地势低平、黄河夺淮；影响：形成洪泽湖、影响农业生产、南水北调东线；分布：河南、安徽、江苏\n- 昆仑山：上位：山脉、地名；特征：中国西部山脉、地势阶梯分界\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是青藏高原和黄土高原、内蒙古高原的分界线\n2. 位于昆仑山脉、祁连山脉和横断山脉以东\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 535,
+  "total_tokens": 553,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 535
+ },
+ "created": 1792772868
+}

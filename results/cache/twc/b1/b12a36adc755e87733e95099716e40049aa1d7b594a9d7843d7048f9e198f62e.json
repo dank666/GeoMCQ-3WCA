@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-080",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：利于坡面水土保持的措施原理是（）\n\n待判断的选项：\nA. 提高植被覆盖\nB. 增加径流速度\nC. 减缓坡度\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 边坡：上位：地貌形态、坡地；特征：倾斜地面、重力作用明显、易发生变形；成因：地壳抬升、流水侵蚀、人类开挖；影响：滑坡崩塌、水土流失、工程稳定性问题；分布：山区道路沿线、矿山开采区、河流谷坡\n- 水土保持：上位：生态保护措施；特征：防治水土流失、保护土地资源、改善生态环境；影响：减少水土流失、提高土地生产力、改善生态环境；分布：黄土高原、南方丘陵、东北黑土区\n- 植被覆盖：上位：地表覆盖；特征：覆盖度指标、动态变化、空间差异、受人类影响；成因：气候条件、地形土壤、人类活动、自然灾害；影响：保持水土、调节气候、影响径流、保护生物多样性；分布：全球陆地、流域、生态脆弱区\n- 径流：上位：水循环环节；特征：沿地表或地下流动、受气候地形影响、具有季节性变化；成因：降水、冰雪融水、地形坡度；影响：塑造地表形态、提供水资源、引发洪涝灾害；分布：河流流域、山区、湿润地区\n- 缓坡：上位：坡地；特征：坡度较小、地表起伏和缓、水土流失较轻；成因：地壳运动、外力侵蚀、堆积作用；影响：适宜耕作、利于交通建设、便于聚落分布；分布：丘陵地区、山麓地带、河谷两侧\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是利于坡面水土保持的措施原理\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 465,
+  "total_tokens": 483,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 465
+ },
+ "created": 1792769638
+}

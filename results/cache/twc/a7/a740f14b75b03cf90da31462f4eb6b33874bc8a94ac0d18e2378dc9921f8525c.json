@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-SV-014",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n荒漠植被主要分布在干旱地区，适应降水稀少、蒸发旺盛的环境，下列关于荒漠植被的说法正确的有（）\n\nOptions:\nA. 植被稀疏，多为耐旱植物，叶片细小或退化为刺\nB. 荒漠植被能大量涵养水源，改善区域气候\nC. 根系发达，能深入地下吸收水分\n\nInstructions:\n1. At least two options are correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nAC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 146,
+  "total_tokens": 148,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771842
+}

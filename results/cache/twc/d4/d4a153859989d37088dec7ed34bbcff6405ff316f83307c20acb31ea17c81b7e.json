@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-046",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某地依托当地优质温泉资源，开发了温泉度假村、康养中心和房地产项目，并配套建设了医院和学校。这种开发模式属于（）\n\n待判断的选项：\nA. 资源依赖型开发\nB. 低密度开发\nC. 综合性旅游地产\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 温泉：上位：自然资源、地域性；特征：温泉、康养、房地产、综合性开发\n- 资源：上位：自然资源；特征：有限性、地域性；影响：经济发展基础\n- 康养：上位：资源、环境与可持续发展；特征：健康疗养、温泉疗养、综合开发\n- 项目：上位：工程；特征：目标明确、有组织性、资源投入\n- 医院：上位：医疗机构；特征：专业性、服务性、等级性；成因：人口健康需求、医疗资源配置、城市规划；影响：提供医疗服务、影响人口分布、带动相关产业；分布：城市中心、城市郊区、县城\n- 学校：上位：公共设施、教育场所；特征：教育功能、人员密集、服务范围明确；影响：培养人才、促进文化传播；分布：城市、乡村\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是依托当地优质温泉资源进行开发\n2. 包括温泉度假村、康养中心和房地产项目\n3. 配套建设了医院和学校\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 424,
+  "total_tokens": 448,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 424
+ },
+ "created": 1792773130
+}

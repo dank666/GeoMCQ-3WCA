@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-054",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：气压差是形成风的直接原因，水平气压梯度力越大，风力（）\n\n待判断的选项：\nA. 越小\nB. 越大\nC. 不变\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 气压：上位：大气物理量；特征：单位面积大气压力、随高度递减、受温度影响；成因：空气重力、热力作用、动力作用；影响：形成风、影响天气变化；分布：全球大气\n- 形成风：上位：大气水平运动；特征：水平气压梯度力驱动、受地转偏向力影响、受摩擦力影响；成因：水平气压梯度力、地转偏向力、摩擦力；影响：输送水热、形成风能、塑造地貌；分布：全球大气环流、季风区、沿海地区\n- 成因：上位：地理要素；特征：解释性、关联性、多样性；影响：用于地理分析、指导问题解决\n- 水平气压梯度力：上位：气压梯度力；特征：垂直于等压线、由高压指向低压、形成风的直接原因；成因：气压差异；影响：形成风、影响风速风向\n- 风力：上位：大气运动、自然能源；特征：水平气压梯度力驱动、具有方向性、能量可再生；成因：气压差异、地球自转、地表受热不均；影响：塑造风成地貌、风力发电、传播种子；分布：沿海地区、内蒙古高原、西北内陆\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是水平气压梯度力与风力之间的正确关系\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 425,
+  "total_tokens": 443,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 425
+ },
+ "created": 1792768790
+}

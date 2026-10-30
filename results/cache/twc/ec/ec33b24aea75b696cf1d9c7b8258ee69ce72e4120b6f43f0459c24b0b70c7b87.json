@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:gaokao-04-1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n降水在生态系统中被分为蓝水和绿水．蓝水是形成径流的部分（包括地表径流和地下径流）；绿水是被蒸发（腾）的部分，其中被植物蒸腾的部分称为生产性绿水，被蒸发的部分被称为非生产性绿水．据此完成 6～7 题．\n\nQuestion:\n下列河流中，绿水比例最大的是（）\n\nOptions:\nA. 塔里木河流域\nB. 长江流域\nC. 雅鲁藏布江流域\nD. 黑龙江流域\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nA",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 165,
+  "total_tokens": 167,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771785
+}

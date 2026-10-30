@@ -1,0 +1,50 @@
+{
+ "tag": "DIRECT:gaokao-09-2",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n庄园经济是一种实现农业资源聚集化、生产规模化、经营多元化、管理企业化、建设生态化的经营组织模式．某县生产的优质铁观音茶获得“中国地理标志” 认证．该县茶企业通过整合特色山水，建设集茶种植、茶叶加工储存、旅游和文化为一体的现代茶庄园．据此完成 1～2 题．\n\nQuestion:\n与传统的茶园相比，现代茶庄园的突出优势是（）\n\nOptions:\nA. 品牌更多，环境更优\nB. 市场更广，产品价格更低\nC. 产品更多，效益更高\nD. 投入更少，生产成本更低\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "C",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 200,
+  "total_tokens": 201,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 200
+ },
+ "created": 1792771506
+}

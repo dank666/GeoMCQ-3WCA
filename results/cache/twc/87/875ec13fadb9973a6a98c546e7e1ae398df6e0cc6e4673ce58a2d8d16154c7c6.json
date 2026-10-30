@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-005",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：高级住宅区对环境质量、交通条件、配套设施要求高，通常分布在：\n\n待判断的选项：\nA. 工业区周边\nB. 市中心、商业区附近\nC. 城市外缘、上风上水地带\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 高级住宅区：上位：住宅区；特征：环境优美、配套设施完善、建筑质量高、居民收入高；成因：收入水平高、环境需求高、交通便利；影响：居住分异、地价上涨、社区服务提升；分布：城市外缘、高地、风景区附近\n- 环境质量：上位：环境状况；特征：综合性、时空差异性、可评价性；成因：自然因素、人为因素；影响：影响人类健康、影响生态系统\n- 交通条件：上位：区位条件；特征：影响产业布局、影响人口流动、具有地域差异；成因：自然地理环境、经济发展水平、技术政策；影响：促进区域发展、改变商业网点布局、影响城市形态；分布：沿海地区、沿江地区、交通枢纽\n- 工业区周边：上位：城市功能区；特征：交通便利、地价较低、环境质量较差；成因：工业集聚、地租支付能力、环境规划；影响：居住区分离、通勤增加、污染影响；分布：城市外缘、交通干线两侧\n- 城市中心：上位：城市功能区；特征：交通便利、地价高昂、功能密集、人口流动大；成因：历史发展、交通枢纽、经济集聚；影响：辐射带动周边、形成中央商务区、交通拥堵；分布：大城市核心区、传统商业街区、交通枢纽周边\n- 商业区：上位：城市功能区；特征：人口流动量大、地价较高、建筑物高大密集、土地利用集约；成因：交通便捷、市场最优、地租支付能力高；影响：形成城市核心区、带动周边地价上涨；分布：大城市中心、交通干线交汇处\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是高级住宅区的典型分布区域\n2. 符合对环境质量、交通及配套设施的高要求\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 530,
+  "total_tokens": 557,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 530
+ },
+ "created": 1792768855
+}

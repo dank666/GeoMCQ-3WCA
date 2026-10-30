@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:agieval-042",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n据报道，2020年深圳市大疆创新科技有限公司的无人机产品占全球及国内市场份额分别超80%和70%。目前，德国是该公司在欧洲的最大市场。该公司在德国的金融中心法兰克福市设立了欧洲总部。无人机自动返航主要使用的技术是（）\n\nOptions:\nA. 气压感知\nB. 大地测量\nC. 遥感监测\nD. 卫星定位\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "D",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 155,
+  "total_tokens": 156,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 155
+ },
+ "created": 1792774580
+}

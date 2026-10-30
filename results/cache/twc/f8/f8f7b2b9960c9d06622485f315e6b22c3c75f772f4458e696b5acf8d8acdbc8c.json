@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-027",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：针叶林植被主要分布在高纬度和高海拔地区，适应寒冷、干燥的环境，下列关于针叶林植被的说法正确的有（）\n\n待判断的选项：\nA. 根系发达，能适应贫瘠的土壤\nB. 植被以针叶树为主，叶片细小，表面有蜡质，减少水分蒸发\nC. 针叶林植被的落叶量大，土壤有机质含量极高\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于针叶林植被的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 197,
+  "total_tokens": 215,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772636
+}

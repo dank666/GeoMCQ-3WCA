@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-079",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于我国黑土保护的说法，正确的有（）\n\n待判断的选项：\nA. 黑土肥力高，但长期开垦会导致肥力下降，需加强保护\nB. 黑土资源丰富，可随意开垦，无需担心肥力下降\nC. 采取轮作休耕、秸秆还田等措施，能恢复黑土肥力\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 黑土：上位：土壤类型；特征：有机质含量高、颜色暗黑、团粒结构良好、肥力高；成因：草原植被腐殖质积累、寒冷气候；影响：适宜农耕、作物高产；分布：东北平原、乌克兰平原、密西西比平原\n- 土壤肥沃：上位：土壤属性；特征：有机质丰富、养分含量高、保水保肥能力强、团粒结构好；成因：植被茂盛、有机质积累、合理耕作、气候适宜；影响：作物高产、农业发达、土地生产力高；分布：东北平原、长江中下游平原、珠江三角洲\n- 肥力：上位：土壤属性；特征：提供养分、保水保肥、动态变化；成因：成土母质、气候、生物、耕作；影响：作物产量、农业可持续\n- 资源丰富：上位：资源特征；特征：总量大、种类多、人均占有量高；成因：自然条件优越、地质构造复杂；影响：经济发展基础好、资源出口潜力大；分布：中国、俄罗斯、加拿大、澳大利亚\n- 轮作：上位：耕作制度、农业措施；特征：在同一田块上轮换种植、有序种植不同作物、维持地力；成因：恢复土壤肥力、防治病虫害、提高作物产量；影响：保持土壤肥力、减少病虫害、提高农业可持续性；分布：中国东北平原、华北平原、长江中下游平原\n- 秸秆：上位：农业废弃物、生物质资源；特征：有机质含量高、可资源化利用、季节性强；成因：农作物收获；影响：还田培肥、饲料化利用、焚烧污染；分布：粮食主产区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于我国黑土保护的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 561,
+  "total_tokens": 579,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 561
+ },
+ "created": 1792770034
+}

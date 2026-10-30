@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-099",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于水文灾害的说法，正确的有（）\n\n待判断的选项：\nA. 洪水多由暴雨、融雪等引发，破坏力强\nB. 干旱是一种慢性水文灾害，影响范围广\nC. 水文灾害主要包括洪水、干旱、海啸、凌汛等\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 水文：上位：自然地理要素；特征：研究水体运动、涉及水量水质、时空变化\n- 灾害：上位：自然现象、社会现象；特征：造成损失、突发性、区域性；成因：自然变异、人类活动；影响：人员伤亡、财产损失、环境破坏；分布：地震带、沿海地区、气候异常区\n- 洪涝：上位：自然灾害、气象水文灾害；特征：水量过大、水位上涨、淹没土地；成因：降水集中、地势低洼、河道淤积、植被破坏；影响：淹没农田、破坏设施、人员伤亡、经济损失；分布：长江中下游、黄淮海平原、珠江三角洲\n- 暴雨：上位：降水；特征：降水量大、强度大、持续时间短；成因：强对流天气、锋面活动、台风；影响：洪涝灾害、水土流失、城市内涝；分布：我国东部季风区、热带雨林气候区\n- 破坏力：上位：灾害属性、自然力量；特征：能量巨大、突发性强、造成损失；成因：自然异变、人类活动；影响：人员伤亡、财产损失、环境破坏\n- 干旱：上位：气候现象、自然灾害；特征：降水稀少、蒸发强烈、水分亏缺；成因：降水长期偏少、气温高蒸发强、水资源分配不均；影响：农作物减产、水资源短缺、土地荒漠化；分布：西北内陆、华北地区、非洲撒哈拉\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于水文灾害的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"不确定\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 541,
+  "total_tokens": 559,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 541
+ },
+ "created": 1792773359
+}

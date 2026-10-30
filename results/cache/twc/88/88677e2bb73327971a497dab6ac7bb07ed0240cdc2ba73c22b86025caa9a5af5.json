@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-066",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地下水的污染来源主要有工业污染、农业污染、生活污染等，农业污染主要是由于农药、化肥的使用，渗入地下污染地下水，某地区是农业产区，大量使用农药和化肥，结合地下水的污染来源，该地区的地下水主要污染类型是（ ）\n\n待判断的选项：\nA. 生活污染\nB. 工业污染\nC. 农业污染\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是农业产区\n2. 大量使用农药和化肥\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 195,
+  "total_tokens": 222,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772267
+}

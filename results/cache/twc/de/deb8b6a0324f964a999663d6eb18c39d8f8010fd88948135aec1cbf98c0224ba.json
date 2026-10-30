@@ -1,0 +1,42 @@
+{
+ "tag": "COND:agieval-044",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理教师，擅长分析选择题的题意。"
+   },
+   {
+    "role": "user",
+    "content": "下面是一道地理选择题的题干（不含选项）。请找出题干对“正确答案”提出的判断条件。\n\n要求：\n1. 条件是每一个正确选项都必须满足的要求，不是某个正确选项的具体内容；用一个条件判断所有选项；\n2. 第一个条件复述题目的问法，例如：\n   - “下列关于X的说法正确的有”→“关于X的说法符合地理事实”\n   - “X和Y的共同特征有”→“是X和Y的共同特征”\n   - “X与Y的差异主要体现在”→“是X与Y之间确实存在的差异”\n   - “造成该现象的主要原因是”→“是造成该现象的主要原因”\n3. 其余条件是题干中对答案的额外限定（如时间、地点、数量、程度），每个 4~20 个字；没有就不写；共 1~4 个；\n4. 条件一律用肯定形式表述；若题目问的是“不正确/不属于/不是/错误”的选项，把 polarity 设为 \"negative\"，否则为 \"positive\"。\n\n只输出 JSON：{\"conditions\": [\"...\", \"...\"], \"polarity\": \"positive\"}\n\n题干：长江流域、黄河流域和西北内陆地区是我国三大产棉区。2020年，新疆棉花产量占全国和世界总产量分别达87．3%和20%以上，机械采摘率已达69．8%。表1反映三大产棉区不同时段面积和单产对棉花产量的贡献率变化。\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline \\multirow{2}{*}{$\\begin{array}{l}\\text { 产棉区 } \\\\\n\\text { 贡献率（\\%) } \\\\\n\\text { 时段（年） }\\end{array}$} & \\multicolumn{2}{|c|}{ 长江流域 } & \\multicolumn{2}{|c|}{ 黄河流域 } & \\multicolumn{2}{|c|}{ 西北内陆 } \\\\\n\\hline & 面积 & 单产 & 面积 & 单产 & 面积 & 单产 \\\\\n\\hline $1950-1965$ & 22. 61 & 30. 27 & 26. 85 & 48. 61 & 52. 38 & 9. 52 \\\\\n\\hline $1965-1980$ & 18. 77 & 46. 74 & 20. 37 & 52. 78 & 34. 92 & 26. 98 \\\\\n\\hline $1980-1995$ & 30. 65 & 37. 55 & 50. 93 & 30. 56 & 47. 62 & 19. 05 \\\\\n\\hline $1995-2010$ & 55. 56 & 19. 16 & 62. 04 & 17. 13 & 61. 90 & 9. 52 \\\\\n\\hline $2010-2015$ & 57. 47 & 26. 44 & 68. 06 & 11. 11 & 66. 67 & 9. 52 \\\\\n\\hline\n\\end{tabular} 三大产棉区中对棉花产量贡献一直以面积为主导的是（）"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"conditions\": [\"是棉花产量贡献一直以面积为主导的产棉区\", \"西北内陆\"], \"polarity\": \"positive\"}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 29,
+  "prompt_tokens": 856,
+  "total_tokens": 885,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 256,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 256,
+  "prompt_cache_miss_tokens": 600
+ },
+ "created": 1792774007
+}

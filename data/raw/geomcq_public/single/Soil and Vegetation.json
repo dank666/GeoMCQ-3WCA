@@ -1,0 +1,1504 @@
+{
+  "geography_questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "气候湿润、降水丰富的地区，淋溶作用强烈，土壤中的盐基离子易被淋失，土壤常呈酸性。我国南方丘陵地区终年湿润，雨热同期，该区域典型土壤是（）",
+      "options": {
+        "A": "黑土",
+        "B": "红壤",
+        "C": "荒漠土"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被对土壤形成具有重要作用，植物枯枝落叶经微生物分解可补充有机质。在植被茂密、温度较低的地区，有机质分解慢，易积累。下列地区土壤有机质最丰富的是（）",
+      "options": {
+        "A": "热带雨林区",
+        "B": "温带草原区",
+        "C": "热带荒漠区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "干旱地区降水稀少、蒸发旺盛，植被以耐旱类型为主，土壤发育差，有机质含量低。我国西北内陆盆地最典型的植被与土壤组合是（）",
+      "options": {
+        "A": "森林 — 黑土",
+        "B": "荒漠 — 荒漠土",
+        "C": "草原 — 黑钙土"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "坡度较陡的山地，地表径流速度快，水土流失明显，土层难以发育。陡坡地区土壤最突出特征是（）",
+      "options": {
+        "A": "土层深厚",
+        "B": "土层浅薄",
+        "C": "有机质极高"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "热带雨林地区全年高温多雨，生物循环旺盛，有机质分解极快，土壤养分易流失。该地区土壤（）",
+      "options": {
+        "A": "非常肥沃",
+        "B": "比较贫瘠",
+        "C": "多为黑土"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "温带落叶阔叶林夏季生长旺盛，冬季落叶，枯枝落叶量大，且气温适中，利于土壤有机质积累。其典型土壤是（）",
+      "options": {
+        "A": "棕壤",
+        "B": "砖红壤",
+        "C": "风沙土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "地下水埋深浅的地区，盐分易随蒸发积累于地表，形成盐碱化土壤。最易出现土壤盐碱化的环境是（）",
+      "options": {
+        "A": "湿润森林区",
+        "B": "干旱半干旱低洼区",
+        "C": "陡峭山区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被具有保持水土、涵养水源功能，植被覆盖率越高，地表径流越弱，下渗越多。若某山区植被遭到严重破坏，最可能出现（）",
+      "options": {
+        "A": "水土流失加剧",
+        "B": "土壤肥力上升",
+        "C": "降水大幅增加"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "成土母质是土壤的物质基础，花岗岩等酸性岩风化形成的土壤多偏酸，石灰岩风化形成的土壤偏碱。石灰岩地区土壤通常（）",
+      "options": {
+        "A": "呈酸性",
+        "B": "呈碱性",
+        "C": "呈强酸性"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "草原地区植被以草本为主，根系浅且密集，有机质主要集中在土壤表层，腐殖质层厚。草原区最典型土壤是（）",
+      "options": {
+        "A": "黑钙土",
+        "B": "红壤",
+        "C": "荒漠土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "常绿阔叶林主要分布在亚热带季风气候区，夏季高温多雨，冬季温和少雨，植被四季常绿。该气候区典型土壤是（）",
+      "options": {
+        "A": "红壤",
+        "B": "黑土",
+        "C": "冻土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "冻土分布在高纬度或高海拔寒冷地区，土壤长期冻结，微生物活动弱，有机质分解极慢。冻土区植被最可能是（）",
+      "options": {
+        "A": "森林",
+        "B": "苔原、草甸",
+        "C": "荒漠"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "人类长期耕作、施肥、灌溉，可改变土壤结构与肥力，形成人工熟化土壤。下列属于人工耕作土壤的是（）",
+      "options": {
+        "A": "水稻土",
+        "B": "荒漠土",
+        "C": "冰沼土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "高山地区随海拔升高，气温降低、降水变化，植被呈现垂直分异。海拔升高，森林最可能逐渐过渡为（）",
+      "options": {
+        "A": "草原、灌丛",
+        "B": "热带雨林",
+        "C": "农田"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "沙漠地区植被稀少，地表缺乏保护，风力侵蚀强，土壤颗粒粗、有机质极低。该类土壤是（）",
+      "options": {
+        "A": "风沙土",
+        "B": "黑土",
+        "C": "紫色土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "四川盆地紫色土由紫色砂岩、页岩风化而成，矿物质丰富，土壤肥沃，非常适合农耕。其肥沃主要因为（）",
+      "options": {
+        "A": "有机质极高",
+        "B": "矿物养分丰富",
+        "C": "降水极少"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被可以调节局部小气候，增加空气湿度，减小温差。若森林被大面积砍伐，当地最可能出现（）",
+      "options": {
+        "A": "湿度下降、温差变大",
+        "B": "降水大幅增多",
+        "C": "土壤肥力上升"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "温带大陆性气候区降水较少，蒸发较强，植被从森林向草原、荒漠过渡。由东向西，植被变化最可能是（）",
+      "options": {
+        "A": "森林→草原→荒漠",
+        "B": "荒漠→草原→森林",
+        "C": "森林→荒漠→草原"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤通气性影响植物根系呼吸，砂土疏松透气，但保水差；黏土保水强，但通气差。最适合多数植物生长的土壤是（）",
+      "options": {
+        "A": "砂土",
+        "B": "黏土",
+        "C": "壤土"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "河流沿岸冲积平原由泥沙淤积而成，土层深厚、土质疏松、养分丰富，非常利于植物生长。该类土壤是（）",
+      "options": {
+        "A": "冲积土",
+        "B": "荒漠土",
+        "C": "冰沼土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "暖温带半湿润地区落叶阔叶林下，土壤黏化作用明显，呈微酸性，土层较厚。该土壤是（）",
+      "options": {
+        "A": "棕壤",
+        "B": "砖红壤",
+        "C": "风沙土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "干旱区绿洲依靠水源灌溉发展农业，若灌溉不当，地下水位上升，蒸发旺盛，极易引发（）",
+      "options": {
+        "A": "土壤盐碱化",
+        "B": "土壤酸化",
+        "C": "水土流失"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被退化会导致地表裸露，土壤失去保护，在风力作用下最易出现（）",
+      "options": {
+        "A": "土地沙化",
+        "B": "土壤熟化",
+        "C": "土层加厚"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "热带雨林植被高大茂密，生物量巨大，但土壤并不肥沃，主要原因是（）",
+      "options": {
+        "A": "有机质分解快、流失多",
+        "B": "降水太少",
+        "C": "气温太低"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "黄土高原黄土层深厚，土质疏松，垂直节理发育，但在缺少植被保护时，极易出现（）",
+      "options": {
+        "A": "水土流失",
+        "B": "土地沙化",
+        "C": "土壤盐碱化"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "高海拔山地气温低、风力大、土层薄，植被矮小、贴地生长，以适应环境。该类植被最可能是（）",
+      "options": {
+        "A": "高山灌丛草甸",
+        "B": "常绿阔叶林",
+        "C": "季雨林"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤水分过多时，通气不足，根系易缺氧腐烂，不利于植物生长。易积水、通气差的土壤是（）",
+      "options": {
+        "A": "黏土",
+        "B": "砂土",
+        "C": "壤土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "黑土主要分布在温带半湿润草甸草原区，冬季寒冷，有机质分解慢，腐殖质层极厚。黑土最突出特点是（）",
+      "options": {
+        "A": "肥力高",
+        "B": "呈强酸性",
+        "C": "土层薄"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "季风区降水季节变化大，雨季地表径流强，若植被不足，最容易引发（）",
+      "options": {
+        "A": "水土流失",
+        "B": "土地沙化",
+        "C": "冻土扩张"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "荒漠植被根系极发达，叶片退化或变小，其形态特征主要适应的环境是（）",
+      "options": {
+        "A": "干旱缺水",
+        "B": "高温多雨",
+        "C": "寒冷冻土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "坡向影响光照与热量，阳坡光照足、温度高、蒸发强，植被相对稀疏；阴坡则相反。同一山体，植被更茂密的是（）",
+      "options": {
+        "A": "阳坡",
+        "B": "阴坡",
+        "C": "一样"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "长期施用化肥而缺少有机肥，会导致土壤板结、有机质下降、结构变差。长期如此，土壤会（）",
+      "options": {
+        "A": "更肥沃",
+        "B": "退化",
+        "C": "冻融加强"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "落叶阔叶林冬季落叶，可减少水分消耗与热量散失，适应冬季低温少雨环境。该植被主要分布在（）",
+      "options": {
+        "A": "温带季风区",
+        "B": "热带雨林区",
+        "C": "高寒区"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "沼泽地区长期积水，土壤处于还原环境，有机质分解慢，积累多，土壤呈（）",
+      "options": {
+        "A": "酸性、泥炭化",
+        "B": "碱性、沙化",
+        "C": "中性、熟化"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被覆盖率提高，可增加下渗、减少地表径流，从而减轻（）",
+      "options": {
+        "A": "水土流失",
+        "B": "土壤盐碱化",
+        "C": "土壤酸化"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "热带季雨林区有明显干湿季，植被在旱季会落叶以减少水分消耗。该植被最适应（）",
+      "options": {
+        "A": "全年多雨",
+        "B": "干湿分明",
+        "C": "全年干旱"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤盐碱化会使土壤渗透压升高，植物难以吸水，最终导致（）",
+      "options": {
+        "A": "植被生长良好",
+        "B": "植被退化、死亡",
+        "C": "植被更加茂密"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "山区梯田改造地形，减缓坡度，减小径流速度，其主要作用是（）",
+      "options": {
+        "A": "加剧水土流失",
+        "B": "保持水土、保肥",
+        "C": "加快沙化"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "温带草原区降水少于森林区，无法支撑森林生长，以草本为主。影响其植被类型的关键因素是（）",
+      "options": {
+        "A": "热量",
+        "B": "水分",
+        "C": "光照"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤酸化会抑制根系生长，降低土壤肥力，导致植被生长不良。导致土壤酸化的主要自然环境是（）",
+      "options": {
+        "A": "高温多雨淋溶强",
+        "B": "干旱蒸发强",
+        "C": "寒冷冻土广"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "森林破坏后，地表径流增强，侵蚀加剧，土壤最可能出现（）",
+      "options": {
+        "A": "土层变薄、肥力下降",
+        "B": "土层加厚、肥力上升",
+        "C": "盐碱化加重"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "干旱内陆湖盆地区，地下水浅，蒸发强，地表盐分聚集，土壤多为（）",
+      "options": {
+        "A": "盐碱土",
+        "B": "黑土",
+        "C": "水稻土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "常绿硬叶林叶片小、表层蜡质，可减少蒸发，适应夏季炎热干燥的气候。该植被对应气候是（）",
+      "options": {
+        "A": "季风气候",
+        "B": "地中海气候",
+        "C": "雨林气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤有机质主要来源于动植物残体，微生物分解缓慢时，有机质更易积累。有机质最易积累的是（）",
+      "options": {
+        "A": "高温多雨区",
+        "B": "低温湿润区",
+        "C": "高温干旱区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "退耕还林还草可以恢复植被，减轻侵蚀，改善土壤结构，最终使土壤（）",
+      "options": {
+        "A": "退化",
+        "B": "肥力提高",
+        "C": "沙化加剧"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "高山冰雪融水补给的山麓地带，水源较稳定，植被呈条带状分布，该地带最可能是（）",
+      "options": {
+        "A": "绿洲",
+        "B": "荒漠",
+        "C": "苔原"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "黏土颗粒细、孔隙小，保水保肥强，但通气透水性差，最不利于（）",
+      "options": {
+        "A": "根系呼吸",
+        "B": "水分储存",
+        "C": "养分保持"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "风沙土土质松散，易被风吹蚀，植被一旦破坏，极易扩张形成（）",
+      "options": {
+        "A": "沙漠",
+        "B": "森林",
+        "C": "水田"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "从赤道向两极，热量逐渐减少，植被呈现纬度地带分异。依次最可能是（）",
+      "options": {
+        "A": "雨林→阔叶林→针叶林→苔原",
+        "B": "苔原→针叶林→雨林",
+        "C": "阔叶林→荒漠→雨林"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "水稻土是长期种植水稻、水旱交替、耕作熟化形成的，其主要分布区是（）",
+      "options": {
+        "A": "南方水田区",
+        "B": "西北干旱区",
+        "C": "青藏高原区"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤侵蚀会带走表层细土和养分，留下粗颗粒，导致土壤（）",
+      "options": {
+        "A": "质地变粗、肥力下降",
+        "B": "质地变细、肥力上升",
+        "C": "盐碱化加重"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "针叶林叶片呈针状，减少蒸发与冻害，主要分布在寒冷地区。其典型土壤是（）",
+      "options": {
+        "A": "灰化土",
+        "B": "红壤",
+        "C": "紫色土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "草原植被比森林植被更耐旱，比荒漠植被需水更多，其分布区属于（）",
+      "options": {
+        "A": "半湿润、半干旱区",
+        "B": "极端干旱区",
+        "C": "全年多雨区"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "山区沟谷地带地势低平，泥沙淤积，水源充足，土壤与植被特点是（）",
+      "options": {
+        "A": "土层厚、植被好",
+        "B": "土层薄、植被差",
+        "C": "盐碱重、植被少"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "过度放牧会使草原植被被啃食、踩踏，地表覆盖度下降，直接导致（）",
+      "options": {
+        "A": "土壤沙化、退化",
+        "B": "土壤肥力提高",
+        "C": "土层加厚"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "砖红壤发育在热带雨林、季雨林下，高温多雨，淋溶极强，土壤（）",
+      "options": {
+        "A": "酸性强、肥力低",
+        "B": "碱性强、肥力高",
+        "C": "中性、肥沃"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被可以截留降水、减缓径流、增加下渗，因此森林区比裸露区（）",
+      "options": {
+        "A": "水土流失更轻",
+        "B": "水土流失更重",
+        "C": "蒸发更少"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "寒冷地区冻土发育，土壤冻结时间长，植被生长季短，典型植被是（）",
+      "options": {
+        "A": "苔原",
+        "B": "雨林",
+        "C": "季雨林"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 59,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "不合理灌溉导致地下水位上升，盐分随蒸发表聚，这一过程称为（）",
+      "options": {
+        "A": "次生盐碱化",
+        "B": "水土流失",
+        "C": "土壤熟化"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "砂土孔隙大、透气好，但保水保肥差，植物易缺水缺肥。改良砂土最有效措施是（）",
+      "options": {
+        "A": "增施有机肥",
+        "B": "只施化肥",
+        "C": "大量浇水"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "从沿海向内陆，降水逐渐减少，植被依次呈现（）",
+      "options": {
+        "A": "森林→草原→荒漠",
+        "B": "荒漠→草原→森林",
+        "C": "草原→森林→荒漠"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 62,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "紫色土矿物质丰富、肥力高，主要分布在我国（）",
+      "options": {
+        "A": "四川盆地",
+        "B": "东北平原",
+        "C": "西北盆地"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被破坏→地表裸露→侵蚀加剧→土层变薄→植被更差，这一过程会形成（）",
+      "options": {
+        "A": "良性循环",
+        "B": "恶性循环",
+        "C": "无变化"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "热带雨林区虽然土壤贫瘠，但生物量巨大，主要因为（）",
+      "options": {
+        "A": "水热充足、循环快",
+        "B": "土壤极肥沃",
+        "C": "人类施肥多"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "黑土主要分布在我国（）",
+      "options": {
+        "A": "东北平原",
+        "B": "江南丘陵",
+        "C": "青藏高原"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤通气、保水、保肥能力协调，最适宜耕作的是（）",
+      "options": {
+        "A": "壤土",
+        "B": "砂土",
+        "C": "黏土"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "高山地区海拔过高，热量不足，森林无法生长，其上界称为（）",
+      "options": {
+        "A": "雪线",
+        "B": "林线",
+        "C": "海岸线"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "地表植被覆盖度越高，风力侵蚀与水力侵蚀越（）",
+      "options": {
+        "A": "弱",
+        "B": "强",
+        "C": "不变"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "温带荒漠区降水极少，植被稀疏矮小，土壤（）",
+      "options": {
+        "A": "有机质低",
+        "B": "有机质高",
+        "C": "呈酸性"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 70,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植树种草、恢复植被是治理沙化土地最主要措施，因为植被可以（）",
+      "options": {
+        "A": "固定沙丘、减弱风蚀",
+        "B": "增加蒸发、加剧干旱",
+        "C": "降低下渗、增加径流"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "湿润区土壤淋溶作用强，盐基淋失，土壤多呈（）",
+      "options": {
+        "A": "酸性",
+        "B": "碱性",
+        "C": "中性"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 72,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "干旱区土壤蒸发大于降水，盐分易在表层积累，土壤多呈（）",
+      "options": {
+        "A": "酸性",
+        "B": "碱性",
+        "C": "强酸性"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "农田秸秆还田可以增加有机质，改善结构，长期实施会使土壤（）",
+      "options": {
+        "A": "更肥沃",
+        "B": "更板结",
+        "C": "沙化更重"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "常绿阔叶林终年常绿，适应温暖湿润环境，主要分布在（）",
+      "options": {
+        "A": "亚热带季风区",
+        "B": "寒带",
+        "C": "干旱区"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "坡度平缓地区，径流慢、侵蚀弱，泥沙易沉积，土壤通常（）",
+      "options": {
+        "A": "深厚肥沃",
+        "B": "浅薄贫瘠",
+        "C": "盐碱化重"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 76,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤冻融交替频繁，会破坏土体结构，导致土层松散，易发生（）",
+      "options": {
+        "A": "侵蚀、滑塌",
+        "B": "沉积、加厚",
+        "C": "熟化、肥沃"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "荒漠植物叶片退化、根系极深，主要适应环境中的（）",
+      "options": {
+        "A": "水分短缺",
+        "B": "热量不足",
+        "C": "光照过强"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "森林比草地涵养水源能力更强，主要因为森林（）",
+      "options": {
+        "A": "冠层厚、枯枝落叶多",
+        "B": "根系更浅",
+        "C": "覆盖更低"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "冲积平原、三角洲地区土壤深厚肥沃，主要因为（）",
+      "options": {
+        "A": "泥沙淤积、养分丰富",
+        "B": "淋溶极强",
+        "C": "蒸发极强"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 80,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤盐碱化严重地区，植被难以生长，最可能形成（）",
+      "options": {
+        "A": "盐碱荒漠",
+        "B": "茂密森林",
+        "C": "高产农田"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 81,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "暖温带半湿润区落叶阔叶林下发育的棕壤，比南方红壤（）",
+      "options": {
+        "A": "肥力更高",
+        "B": "酸性更强",
+        "C": "土层更薄"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 82,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "过度开垦、陡坡耕种，最直接导致的环境问题是（）",
+      "options": {
+        "A": "水土流失",
+        "B": "土壤盐碱化",
+        "C": "冻土扩大"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 83,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "苔原植被低矮、匍匐生长，主要适应（）",
+      "options": {
+        "A": "寒冷、大风",
+        "B": "高温、多雨",
+        "C": "干旱、风沙"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 84,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤腐殖质含量越高，土壤颜色越暗，肥力通常（）",
+      "options": {
+        "A": "越高",
+        "B": "越低",
+        "C": "不变"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 85,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "草原被开垦为耕地后，若管理不当，有机质下降，最易出现（）",
+      "options": {
+        "A": "土壤退化",
+        "B": "土壤肥力上升",
+        "C": "冻土发育"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 86,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "垂直地带性中，基带植被与山体所在地区的植被（）",
+      "options": {
+        "A": "一致",
+        "B": "完全不同",
+        "C": "相反"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "红壤黏重、酸性强、肥力偏低，改良措施不包括（）",
+      "options": {
+        "A": "只施化肥",
+        "B": "施用石灰",
+        "C": "增施有机肥"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 88,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被保持水土的关键作用是（）",
+      "options": {
+        "A": "减缓径流、增加下渗",
+        "B": "加快径流、减少下渗",
+        "C": "增加蒸发、减少降水"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "风沙土颗粒粗、有机质少，主要分布在（）",
+      "options": {
+        "A": "干旱风沙区",
+        "B": "湿润平原区",
+        "C": "高寒冻土区"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 90,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "温带针叶林气候寒冷，土壤灰化作用明显，土壤呈（）",
+      "options": {
+        "A": "酸性",
+        "B": "碱性",
+        "C": "中性"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 91,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "地下水位过深，植物根系无法吸收水分，植被会（）",
+      "options": {
+        "A": "生长不良",
+        "B": "更加茂盛",
+        "C": "不受影响"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "合理轮作、休耕、种植绿肥，可使土壤（）",
+      "options": {
+        "A": "持续培肥",
+        "B": "快速退化",
+        "C": "沙化加重"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 93,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "季雨林在旱季落叶，是为了（）",
+      "options": {
+        "A": "减少水分消耗",
+        "B": "增加光合作用",
+        "C": "提高温度"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 94,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤板结后，孔隙度下降，最直接影响植物的（）",
+      "options": {
+        "A": "根系呼吸",
+        "B": "叶片光合作用",
+        "C": "开花结果"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "森林是陆地生态系统中最重要的植被类型，具有涵养水源、保持水土、调节气候等多种生态功能，对维护生态平衡意义重大。森林最主要的生态功能是：",
+      "options": {
+        "A": "涵养水源",
+        "B": "提供木材",
+        "C": "美化环境"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 96,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "红壤主要分布在我国南方湿热地区，在高温多雨的气候条件下发育而成，土壤呈酸性，有机质含量相对较低。红壤的酸碱性特征是：",
+      "options": {
+        "A": "酸性",
+        "B": "碱性",
+        "C": "中性"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 97,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "黑土是世界上最肥沃的土壤之一，主要分布在我国东北平原，有机质含量高，土层深厚，是重要的粮食生产基地。黑土最突出的特点是：",
+      "options": {
+        "A": "肥沃",
+        "B": "贫瘠",
+        "C": "盐碱"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 98,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "荒漠植被主要分布在干旱地区，降水稀少，植物种类少，覆盖度低，多为耐旱的灌木和草本植物。荒漠地区的降水特点是：",
+      "options": {
+        "A": "稀少",
+        "B": "丰富",
+        "C": "季节性强"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 99,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "草原植被主要分布在半干旱的温带地区，以草本植物为主，是重要的畜牧业基地，在我国主要分布在内蒙古高原。草原植被的优势植物类型是：",
+      "options": {
+        "A": "草本",
+        "B": "乔木",
+        "C": "灌木"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 100,
+      "type": "single",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤侵蚀是指土壤在水力、风力等外力作用下发生破坏和移动的过程，会导致土地退化，影响农业生产和生态环境。造成土壤侵蚀的主要自然因素是：",
+      "options": {
+        "A": "降水",
+        "B": "温度",
+        "C": "光照"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    }
+  ]
+}

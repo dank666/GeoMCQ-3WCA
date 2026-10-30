@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-069",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：土壤水分过多，会排挤空气，导致通气不良，根系缺氧，易出现（）\n\n待判断的选项：\nA. 生长旺盛\nB. 耐旱性增强\nC. 烂根、生长不良\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤水分：上位：土壤组成物质；特征：动态变化、受气候影响、影响土壤通气；成因：降水、蒸发、灌溉；影响：影响作物生长、影响土壤发育\n- 空气：上位：自然环境要素；特征：无色无味、可压缩、流动性；成因：地球引力；影响：维持生命、影响气候、传播污染物；分布：对流层、平流层\n- 通气：上位：土壤组成物质、降水、蒸发；特征：土壤气体、根系呼吸、土壤微生物活动\n- 根系：上位：植物器官、植被组成部分；特征：固定植株、吸收水分养分、分布受土壤影响；成因：植物生长、土壤条件、水分条件；影响：保持水土、改良土壤、影响地表径流；分布：森林、草原、荒漠\n- 耐旱性：上位：植物适应性、土壤特性；特征：植物对干旱的适应、土壤保水能力\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是导致根系缺氧的原因\n2. 会导致通气不良\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 417,
+  "total_tokens": 444,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 417
+ },
+ "created": 1792772535
+}

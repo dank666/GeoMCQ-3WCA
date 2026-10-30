@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:夫妇||482afd6b1c8b",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“夫妇”编写一个词典条目，供符号推理系统使用。\n\n题干：家住北方某县的小王夫妇，效仿村里一些年轻人的做法，在自家5亩耕地上栽植了杨树后就外出打工了。八年后，小王夫妇将已成材的杨树出售，获利24000元。与原来种植粮食作物、蔬菜等相比，这些收入虽不丰厚，但他们还算满意。据调查，该县耕地上栽植杨树的面积约占耕地总面积的10%，这种“农地杨树化”现象引起了有关专家的高度关注。当地“农地杨树化”的主要原因是()\n选项：\nA. 生态效益高\nB. 木材销路好\nC. 劳动投入少\nD. 种树有补贴\n\n词典中已有条目的示例：\n{\"term\": \"耕地\", \"category\": \"INDUSTRY\", \"parent_level\": \"土地资源；农业用地；自然成土过程；人类开垦利用\", \"child_level\": \"水田；旱地；水浇地；有限性；可更新性；区域性\"}\n{\"term\": \"粮食作物\", \"category\": \"INDUSTRY\", \"parent_level\": \"农作物；农产品；自然条件适宜；人口食物需求\", \"child_level\": \"小麦；水稻；玉米；提供基本食物；种植面积广；受自然条件影响大\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"家庭经济活动；土地利用方式；农业经营\", \"child_level\": \"夫妻共同劳动；家庭收入来源；农业结构调整；土地利用变化\", \"confidence\": 0.0}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 51,
+  "prompt_tokens": 551,
+  "total_tokens": 602,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792770742
+}

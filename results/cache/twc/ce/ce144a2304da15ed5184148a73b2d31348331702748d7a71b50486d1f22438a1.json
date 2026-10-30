@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:agieval-047",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n据报道，北京时间2021年4月29日，包括我国搭载空间站天和核心舱的长征5号B等三枚运载火箭先后发射升空。三个发射场均位于海岸线附近。下表为三枚运载火箭发射的相关信息。\\begin{tabular}{|c|c|c|}\n\\hline 运载火箭名称 & 发射场 & 发射时间 \\\\\n\\hline $\\begin{array}{l}\\text { 中国长征 } 5 \\text { 号 } \\\\\n\\text { B }\\end{array}$ & 海南文昌航天发射场 & 北京时间 4 月 29 日 11 时 23 分 \\\\\n\\hline 欧洲织女星 & 库鲁 $\\left(5^{\\circ} 14^{\\prime} \\mathrm{N}, 52^{\\circ} 47^{\\prime} \\mathrm{W}\\right)$ & $\\begin{array}{l}\\text { 西三区区时 } 4 \\text { 月 } 28 \\text { 日 } 22 \\text { 时 } 50 \\\\\n\\text { 分 }\\end{array}$ \\\\\n\\hline 美国猎鹰 9 号 & $\\begin{array}{l}\\text { 卡纳维拉尔角 }\\left(28^{\\circ} 29^{\\prime} \\mathrm{N},\\right. \\\\\n\\left.80^{\\circ} 35^{\\prime} \\mathrm{W}\\right)\\end{array}$ & $\\begin{array}{l}\\text { 西五区区时 } 4 \\text { 月 } 28 \\text { 日 } 22 \\text { 时 } 44 \\\\\n\\text { 分 }\\end{array}$ \\\\\n\\hline\n\\end{tabular} 从纬度地带性角度考虑，三个发射场所在地自然带为亚热带常绿阔叶林带的个数为（）\n\nOptions:\nA. 0个\nB. 1个\nC. 2个\nD. 3个\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nB",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 480,
+  "total_tokens": 482,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771765
+}

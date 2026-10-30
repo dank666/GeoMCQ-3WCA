@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-024",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：内力作用能量主要来自地球内部，表现为地壳运动、岩浆活动、变质作用等，其总趋势是（）\n\n待判断的选项：\nA. 只形成平原\nB. 使地表趋于平坦\nC. 使地表高低起伏\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 内力作用：上位：地质作用；特征：能量来自地球内部、使地表高低起伏、作用缓慢而持久；成因：地球内能释放、放射性元素衰变；影响：形成山脉盆地、塑造地表形态、引发地震火山；分布：板块交界带、造山带、裂谷带\n- 能量：上位：自然资源；特征：可转换性、守恒性、驱动地理过程；影响：维持地理环境、推动物质循环\n- 地球内部：上位：地球；特征：圈层结构、物质状态多样、温度压力随深度增加；成因：地球形成时的分异作用；影响：产生地震波传播差异、形成地球磁场\n- 地壳运动：上位：内力作用、地质作用；特征：长期缓慢、方向性、引起海陆变迁；成因：地球内力、板块运动；影响：形成褶皱断层、改变地表形态、引发地震；分布：板块边界、造山带\n- 岩浆活动：上位：内力作用；特征：释放内能、改变地表形态、伴随变质作用；成因：地壳运动、板块活动；影响：形成岩浆岩、形成火山地貌、带来地热资源；分布：板块交界带、火山带\n- 变质作用：上位：内力作用；特征：高温高压、矿物重结晶、岩石结构改变；成因：地壳运动、岩浆活动、构造应力；影响：形成变质岩、改变岩石性质；分布：造山带、岩浆侵入接触带、断裂带\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是内力作用总趋势的正确描述\n2. 符合地球内部能量驱动的地貌演化规律\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 517,
+  "total_tokens": 544,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 517
+ },
+ "created": 1792768741
+}

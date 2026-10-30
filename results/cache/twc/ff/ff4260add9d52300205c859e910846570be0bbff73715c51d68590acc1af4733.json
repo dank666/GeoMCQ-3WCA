@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-089",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下垫面性质不同，热力性质差异大。与草地、林地相比，硬化路面升温（）\n\n待判断的选项：\nA. 更慢\nB. 相同\nC. 更快\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 下垫面性质：上位：地表特征；特征：影响热力差异、改变水热交换、空间差异显著；影响：影响气温、影响降水、形成局地环流\n- 热力：上位：大气物理过程；特征：温度差异、气压变化、气流运动；成因：太阳辐射、地表性质；影响：形成风、影响天气；分布：城市、海陆交界、山谷\n- 特性：上位：属性；特征：事物固有、区别于其他事物、可被认识\n- 草地：上位：土地覆盖类型；特征：草本植物覆盖、可用于放牧、分布广泛、生态脆弱；成因：自然植被发育、人类经营管理；影响：畜牧业基础、水土保持、碳汇功能；分布：内蒙古、新疆、青藏高原\n- 林地：上位：土地覆盖类型；特征：林木覆盖、生态功能强、生物多样性高；成因：自然演替、人工造林；影响：保持水土、调节气候、提供林产品；分布：山地、丘陵、平原\n- 路面：上位：道路结构、交通设施；特征：承受荷载、影响行车速度、反映建设水平；成因：交通需求、材料技术、气候条件；影响：影响运输效率、影响交通安全\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是硬化路面与草地、林地之间升温速度的差异\n2. 硬化路面比草地、林地升温更快\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 494,
+  "total_tokens": 521,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 494
+ },
+ "created": 1792772553
+}

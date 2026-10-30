@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:西北风||e65c96496210",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“西北风”编写一个词典条目，供符号推理系统使用。\n\n题干：我国北方地区冬季寒冷干燥，主要是因为冬季受蒙古-西伯利亚高压控制，盛行西北风，西北风从内陆带来寒冷干燥的气流，结合我国北方地区冬季气候的成因，下列说法正确的是()\n选项：\nA. 我国北方地区冬季寒冷干燥与夏季风有关\nB. 我国北方地区冬季降水较多\nC. 我国北方地区冬季寒冷干燥主要受西北风影响\n\n词典中已有条目的示例：\n{\"term\": \"中国北方\", \"category\": \"PLACE\", \"parent_level\": \"中国区域；纬度较高；受季风影响\", \"child_level\": \"东北地区；华北地区；西北地区；温带季风气候为主；平原面积广阔；旱地农业为主\"}\n{\"term\": \"蒙古\", \"category\": \"PLACE\", \"parent_level\": \"国家；东亚国家；深居内陆；地形以高原为主\", \"child_level\": \"内陆国；高原为主；温带大陆性气候\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n    \"category\": \"ATMOS\",\n    \"parent_level\": \"风向；冬季风；干燥气流\",\n    \"child_level\": \"寒冷干燥；内陆气流；温带大陆性气候\",\n    \"confidence\": 0.95\n}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 56,
+  "prompt_tokens": 534,
+  "total_tokens": 590,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 502
+ },
+ "created": 1792771961
+}

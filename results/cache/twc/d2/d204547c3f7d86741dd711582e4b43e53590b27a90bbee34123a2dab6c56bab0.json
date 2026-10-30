@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-053",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n潜水和承压水的水质差异主要在于埋藏条件，承压水埋藏较深，有隔水层保护，不易受污染，水质较好；潜水埋藏较浅，无隔水层保护，易受污染，水质较差，某地区需要寻找优质饮用水源，结合地下水的水质特点，应优先选择（ ）\n\nOptions:\nA. 地表水\nB. 承压水\nC. 潜水\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nB",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 148,
+  "total_tokens": 150,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771664
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:集体经济||b0aa77e345bd",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“集体经济”编写一个词典条目，供符号推理系统使用。\n\n题干：20世纪80年代开始，长江三角洲地区某县村办企业涌现，形成“村村冒烟”现象。2016年该县开始实施村集体经济“抱团飞地”发展模式：由县、镇统筹，整合腾退的村办企业建设用地指标和补贴资金，各村以股份合作形式(抱团)在发展条件优越的城镇(飞地)联合建设创新创业中心，并建立保证各村收益的机制。实施“抱团飞地”发展模式，可以()①弥补劳动力不足②缓解建设用地紧张③提升基础教育水平④壮大集体经济实力\n选项：\nA. ①③\nB. ②③\nC. ①④\nD. ②④\n\n词典中已有条目的示例：\n{\"term\": \"长三角地区\", \"category\": \"REGION\", \"parent_level\": \"经济地理区域；自然地理区域；河流沉积作用；区位优势\", \"child_level\": \"上海；江苏南部；浙江北部；地势低平；河网密布；经济发达\"}\n{\"term\": \"企业\", \"category\": \"INDUSTRY\", \"parent_level\": \"经济组织；市场主体；市场需求；利润驱动\", \"child_level\": \"工业企业；农业企业；服务企业；营利性；独立性；组织性\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"经济组织；市场主体；集体管理\", \"child_level\": \"村办企业；股份合作；收益分配；社区经济；共同富裕\", \"confidence\": 0.9}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 50,
+  "prompt_tokens": 546,
+  "total_tokens": 596,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792770803
+}

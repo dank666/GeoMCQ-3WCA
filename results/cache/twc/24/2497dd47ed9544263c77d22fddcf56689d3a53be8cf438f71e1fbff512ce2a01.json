@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-054",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：近年来，我国宁夏、贵州、云南等省区成功实施了生态移民工程，大大改善了移民的生产和生活条件。生态移民工程的成功实施\r\n\t\n\n待判断的说法：\n①. 促进了迁入区的资源开发\n②. 缓解了迁出区人口老龄化程度\r\n③. 减轻了迁入区的就业压力\n④. 实现了迁出区人口的脱贫致富\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 宁夏：上位：省级行政区、自治区；特征：内陆地区、黄河流经、回族聚居；分布：中国西北地区\n- 贵州：上位：省级行政区；特征：喀斯特地貌、多民族聚居；分布：中国西南\n- 云南：上位：中国省级行政区；特征：低纬高原、季风气候、生物多样性丰富；成因：低纬位置、高原地形、季风影响；影响：立体气候显著、旅游资源丰富；分布：中国西南\n- 生态移民：上位：人口迁移；特征：政府主导、自愿与强制结合、目的性明确、涉及人口再分布；成因：生态环境恶化、生态保护政策、自然灾害频发、贫困问题；影响：减轻迁出区生态压力、改善移民生活条件、促进城镇化、文化适应问题；分布：宁夏西海固、三江源地区、贵州山区、陕南地区\n- 移民：上位：人口移动；特征：跨越行政区界、居住地变更、长期性；成因：经济差异、环境变化、政策引导；影响：改变人口分布、促进文化交流、缓解人地矛盾；分布：移民迁入区、移民迁出区\n- 资源开发：上位：人类活动；特征：获取资源、改变自然环境；成因：经济发展需求、人口增长；影响：经济增长、生态破坏；分布：资源富集区\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是生态移民工程成功实施带来的结果\n2. 发生在我国宁夏、贵州、云南等省区\n3. 发生在近年来\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 3 个判断，例如：{\"①\": [\"是\", \"是\", \"是\"], \"②\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"①\": [\"是\", \"是\", \"是\"], \"②\": [\"否\", \"是\", \"是\"], \"③\": [\"否\", \"是\", \"是\"], \"④\": [\"是\", \"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 52,
+  "prompt_tokens": 521,
+  "total_tokens": 573,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 521
+ },
+ "created": 1792770822
+}

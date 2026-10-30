@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-019",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：非地带性土壤是指受非地带性因素（地形、母质、人类活动等）影响形成的土壤，下列关于非地带性土壤的说法正确的有（）\n\n待判断的选项：\nA. 水稻土是人类长期种植水稻形成的非地带性土壤\nB. 盐碱土多分布在干旱、半干旱地区，受地形和地下水影响\nC. 非地带性土壤的分布没有任何规律\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 非地带性土壤：上位：土壤类型；特征：受地方性因素影响、分布不呈带状、与地带性土壤交错；成因：地形起伏、母质差异、人类耕作、水文条件；影响：增加土壤多样性、影响农业布局；分布：四川盆地、黄土高原、华北平原\n- 非地带性：上位：地域分异规律；特征：无一定延伸方向、呈斑块状分布、局部性显著；成因：海陆分布、地形起伏、洋流性质、岩石性质；影响：破坏地带性规律、形成地方性分异；分布：南美安第斯山南段、非洲马达加斯加岛东部、澳大利亚东北部\n- 地形：上位：地表形态；特征：地表起伏形态、由内外力共同塑造、具有空间分异；成因：内力作用、外力作用；影响：影响气候、影响水文、影响土壤植被、影响人类活动\n- 成土母质：上位：土壤形成因素；特征：提供矿物质、影响土壤质地、影响土壤化学性质；成因：岩石风化、外力搬运；影响：决定土壤肥力基础、影响土壤类型\n- 人类活动：上位：人地关系；特征：有目的性、受自然条件影响、改造自然环境、具有地域性；成因：人类需求、社会发展；影响：改变自然环境、形成人文景观、产生环境问题\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于非地带性土壤的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 560,
+  "total_tokens": 578,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 560
+ },
+ "created": 1792769954
+}

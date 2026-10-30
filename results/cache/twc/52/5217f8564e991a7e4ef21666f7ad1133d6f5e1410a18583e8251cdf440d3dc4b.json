@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-083",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国东南丘陵分布在我国东南部地区，包括江南丘陵、浙闽丘陵、两广丘陵等，该区域的主要地形特征是（ ）\n\n待判断的选项：\nA. 海拔低于200米，地表平坦\nB. 海拔高于500米，地表陡峭\nC. 海拔多在200-500米之间，地表起伏和缓\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 东南丘陵：上位：丘陵；特征：地势起伏和缓、红壤广布、亚热带季风气候；成因：地壳抬升、流水侵蚀；影响：发展立体农业、水土流失；分布：中国东南部\n- 东南：上位：方位；特征：方向性、相对性；分布：中国东南部、东南沿海\n- 江南丘陵：上位：丘陵、地貌类型；特征：地势起伏和缓、红壤广布、亚热带季风气候、水土流失敏感；成因：地壳抬升、流水侵蚀、风化作用、亚热带气候；影响：发展立体农业、水土流失治理、红壤改良、生态保护；分布：江西、湖南、浙江、福建、安徽南部\n- 浙闽丘陵：上位：丘陵；特征：地形起伏较大、多河谷盆地、红壤广布；成因：地壳抬升、流水侵蚀；影响：发展立体农业、水土流失风险；分布：浙江、福建\n- 两广丘陵：上位：丘陵、东南丘陵；特征：海拔较低、起伏和缓、红壤广布、喀斯特地貌；成因：流水侵蚀、地壳抬升；影响：梯田农业、水土流失；分布：广东、广西\n- 区域：上位：地理空间单元；特征：一定范围、内部相对一致、边界模糊、层次性；成因：地球表面差异、人类活动划分；影响：便于空间分析、区域发展基础\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是东南丘陵的主要地形特征\n2. 位于我国东南部地区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 522,
+  "total_tokens": 549,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 522
+ },
+ "created": 1792769374
+}

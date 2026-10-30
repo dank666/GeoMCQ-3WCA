@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-007",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：副热带高气压带控制下的区域特征有（）\n\n待判断的选项：\nA. 多锋面雨\nB. 盛行下沉气流\nC. 多晴朗干燥天气\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 副热带高气压带：上位：气压带；特征：动力成因、盛行下沉气流、干燥少雨；成因：赤道上空空气堆积下沉；影响：形成热带沙漠气候、影响全球降水分布；分布：南北纬30°附近\n- 区域特征：上位：区域属性；特征：综合性、层次性、独特性；成因：自然地理环境、人文活动；影响：区域分异、区域发展；分布：自然区、经济区、行政区\n- 锋面雨：上位：降水类型；特征：暖空气抬升、冷却凝结、降水范围广；成因：冷暖气团相遇、暖空气抬升；影响：降水、缓解旱情；分布：中纬度地区、我国东部季风区\n- 下沉气流：上位：大气垂直运动；特征：气流下沉、绝热增温、水汽不易凝结；成因：高压控制、空气冷却；影响：天气晴朗、形成干旱；分布：副热带地区、极地地区\n- 天气：上位：大气状况；特征：短时间变化、多要素综合、局地差异明显；成因：大气运动、天气系统活动；影响：影响生产生活、影响出行活动\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是副热带高气压带控制下的区域特征\n2. 位于中低纬度\n3. 气候较为干燥\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"是\", \"否\"], \"B\": [\"是\", \"是\", \"是\"], \"C\": [\"是\", \"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 484,
+  "total_tokens": 520,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 484
+ },
+ "created": 1792772946
+}

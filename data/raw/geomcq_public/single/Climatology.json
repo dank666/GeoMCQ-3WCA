@@ -1,0 +1,1504 @@
+{
+  "geography_questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地理学科中，气候是指一个地区多年的天气平均状况，主要由气温、降水两大要素决定，同时受纬度位置、海陆位置、地形等多种因素影响，结合以上定义和影响因素，下列选项中，既体现气候两大核心要素，又能反映海陆位置对气候影响的是（ ）",
+      "options": {
+        "A": "温带海洋性气候全年温和湿润",
+        "B": "热带沙漠气候全年炎热干燥",
+        "C": "高原山地气候垂直变化明显"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "纬度位置是影响气候的最根本因素，纬度越低，太阳高度角越大，获得的太阳辐射越多，气温越高；纬度越高，太阳高度角越小，气温越低，某地区纬度约为40°N，夏季炎热多雨，冬季寒冷干燥，结合纬度与气候的关联及常见气候类型特征，该地区最可能的气候类型是（ ）",
+      "options": {
+        "A": "热带季风气候",
+        "B": "温带季风气候",
+        "C": "寒带气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "海陆热力性质差异是影响海陆气候差异的主要原因，陆地升温快、降温快，海洋升温慢、降温慢，我国东部沿海地区濒临太平洋，受海陆热力性质差异影响显著，结合我国东部气候分布特点，该区域最主要的气候类型是（ ）",
+      "options": {
+        "A": "温带大陆性气候",
+        "B": "季风气候",
+        "C": "温带海洋性气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地形对气候的影响主要体现在海拔和坡向两个方面，海拔每升高1000米，气温约下降6℃，迎风坡降水多，背风坡降水少，某山地海拔为3000米，山麓地区气温为24℃，且山麓为热带雨林气候，结合地形对气候的影响规律，该山地山顶最可能的气候特征是（ ）",
+      "options": {
+        "A": "炎热多雨",
+        "B": "温和湿润",
+        "C": "寒冷干燥"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带气候主要分布在南北回归线之间，全年高温，根据降水特点可分为热带雨林、热带草原、热带沙漠、热带季风四种气候类型，某地区位于赤道附近，全年高温多雨，年降水量超过2000毫米，植被以热带雨林为主，结合热带气候的分布和特征，该地区的气候类型是（ ）",
+      "options": {
+        "A": "热带草原气候",
+        "B": "热带雨林气候",
+        "C": "热带沙漠气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带气候分布在南北回归线与南北极圈之间，气候特征差异明显，其中温带海洋性气候主要分布在中纬度大陆西岸，受西风带影响，全年温和湿润，某地区位于40°S-60°S大陆西岸，全年气温温差小，降水均匀，结合温带气候分布规律，该地区的气候类型是（ ）",
+      "options": {
+        "A": "温带大陆性气候",
+        "B": "温带季风气候",
+        "C": "温带海洋性气候"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "寒带气候主要分布在南北极圈以内，全年寒冷，降水稀少，根据纬度差异可分为苔原气候和冰原气候，某地区位于北极圈以北，全年气温低于0℃，地表覆盖着冰雪，几乎无植被生长，结合寒带气候的特征，该地区的气候类型是（ ）",
+      "options": {
+        "A": "苔原气候",
+        "B": "冰原气候",
+        "C": "亚寒带针叶林气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "季风气候的核心特征是夏季高温多雨、冬季低温少雨（或寒冷干燥），主要分布在大陆东岸，受季风环流影响，我国是世界上季风气候最显著的国家之一，结合我国季风气候的分布，下列地区中，主要分布着热带季风气候的是（ ）",
+      "options": {
+        "A": "海南岛",
+        "B": "长江中下游平原",
+        "C": "华北平原"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "降水的形成需要三个必要条件：充足的水汽、上升气流、凝结核，其中上升气流能使水汽冷却凝结，形成降水，某地区位于山地迎风坡，夏季受海洋暖湿气流影响，水汽充足，且地形抬升形成上升气流，结合降水形成条件，该地区夏季的降水特点是（ ）",
+      "options": {
+        "A": "降水稀少",
+        "B": "降水丰富",
+        "C": "降水均匀"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气温的日变化是指一天中气温的最高值和最低值出现的时间及差值，一般情况下，陆地气温最高值出现在14时左右，最低值出现在日出前后，某城市某日日出时间为6:30，日落时间为18:30，结合气温日变化规律，该城市当日气温最高值最可能出现在（ ）",
+      "options": {
+        "A": "12:00",
+        "B": "14:00",
+        "C": "16:00"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气候异常会对人类生产生活产生重大影响，厄尔尼诺现象是一种常见的气候异常现象，主要表现为赤道附近太平洋东部和中部海水温度异常升高，导致全球气候异常，结合厄尔尼诺现象的影响，下列现象中，可能与厄尔尼诺现象有关的是（ ）",
+      "options": {
+        "A": "我国南方地区出现洪涝灾害",
+        "B": "我国北方地区出现严重干旱",
+        "C": "全球气温普遍下降"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带草原气候主要分布在热带雨林气候的南北两侧，全年高温，分干湿两季，湿季降水丰富，草木茂盛，干季降水稀少，草木枯黄，某地区位于非洲中部，全年高温，每年6-9月为湿季，10月至次年5月为干季，结合热带草原气候的特征，该地区的植被类型是（ ）",
+      "options": {
+        "A": "热带雨林",
+        "B": "热带草原",
+        "C": "热带荒漠"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带大陆性气候主要分布在中纬度大陆内部，远离海洋，受海洋影响小，气候特征为冬冷夏热，年温差大，降水稀少且集中在夏季，我国西北内陆地区远离海洋，地势平坦，结合温带大陆性气候的分布和特征，该区域的气候特征是（ ）",
+      "options": {
+        "A": "全年温和湿润",
+        "B": "冬冷夏热，降水稀少",
+        "C": "夏季高温多雨，冬季寒冷干燥"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地形雨是指湿润气流遇到山脉等地形阻挡，沿山坡上升凝结形成的降水，迎风坡降水多，背风坡降水少，某山地东侧为迎风坡，西侧为背风坡，夏季受东南季风影响，结合地形雨的形成原理，该山地东侧的降水比西侧（ ）",
+      "options": {
+        "A": "更多",
+        "B": "更少",
+        "C": "一样多"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "太阳辐射是地球表面热量的主要来源，太阳辐射的强弱与纬度位置、天气状况、海拔高度等因素有关，纬度越低，太阳辐射越强；晴天越多，太阳辐射越强；海拔越高，太阳辐射越强，下列地区中，太阳辐射最强的是（ ）",
+      "options": {
+        "A": "赤道附近的热带雨林地区",
+        "B": "青藏高原",
+        "C": "两极地区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带沙漠气候主要分布在南北回归线附近的大陆西岸和内陆地区，受副热带高气压带或信风带控制，全年炎热干燥，年降水量不足200毫米，某地区位于北回归线附近的大陆西岸，全年高温少雨，地表以沙漠为主，结合热带沙漠气候的特征，该地区的气候类型是（ ）",
+      "options": {
+        "A": "热带草原气候",
+        "B": "热带沙漠气候",
+        "C": "地中海气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地中海气候主要分布在南北纬30°-40°的大陆西岸，受副热带高气压带和西风带交替控制，夏季炎热干燥，冬季温和多雨，某地区位于35°N大陆西岸，夏季炎热少雨，冬季温和多雨，结合地中海气候的分布和特征，该地区的气候类型是（ ）",
+      "options": {
+        "A": "温带海洋性气候",
+        "B": "地中海气候",
+        "C": "温带季风气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "我国南方地区主要属于亚热带季风气候，夏季高温多雨，冬季温和少雨，年降水量在800毫米以上，植被以亚热带常绿阔叶林为主，结合我国南方地区的气候特征，该区域最适合种植的农作物是（ ）",
+      "options": {
+        "A": "小麦",
+        "B": "水稻",
+        "C": "玉米"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气温的年变化是指一年中气温的最高月均温和最低月均温的差值，热带地区气温年较差小，温带地区气温年较差大，寒带地区气温年较差也较大，某地区最冷月均温为-5℃，最热月均温为25℃，结合气温年变化规律，该地区位于（ ）",
+      "options": {
+        "A": "热带地区",
+        "B": "温带地区",
+        "C": "寒带地区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "海陆位置对降水的影响主要表现为：沿海地区降水多，内陆地区降水少，距离海洋越远，降水越少，我国某地区距离海洋约1000千米，年降水量在400毫米以下，结合海陆位置对降水的影响，该地区最可能位于（ ）",
+      "options": {
+        "A": "东部沿海地区",
+        "B": "中部地区",
+        "C": "西北内陆地区"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "大气环流是影响气候的重要因素，包括气压带、风带和季风环流，不同的气压带和风带控制下，气候特征不同，副热带高气压带控制下，盛行下沉气流，气候炎热干燥，下列气候类型中，主要受副热带高气压带控制形成的是（ ）",
+      "options": {
+        "A": "热带沙漠气候",
+        "B": "热带雨林气候",
+        "C": "温带海洋性气候"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "锋面活动是形成降水的重要原因之一，锋面分为冷锋、暖锋和准静止锋，冷锋过境时，会出现大风、降温、降水等天气，暖锋过境时，会出现连续性降水、气温升高的天气，某地区出现大风、降温、降雨天气，且降雨后气温明显下降，结合锋面活动的特征，该地区过境的锋面是（ ）",
+      "options": {
+        "A": "冷锋",
+        "B": "暖锋",
+        "C": "准静止锋"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "亚热带季风气候和温带季风气候的主要区别在于最冷月均温，亚热带季风气候最冷月均温高于0℃，温带季风气候最冷月均温低于0℃，某地区最冷月均温为5℃，夏季高温多雨，冬季温和少雨，结合两种季风气候的区别，该地区的气候类型是（ ）",
+      "options": {
+        "A": "亚热带季风气候",
+        "B": "温带季风气候",
+        "C": "热带季风气候"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "海拔对气温的影响显著，海拔越高，气温越低，某山地山麓海拔为500米，气温为20℃，山顶海拔为2500米，结合海拔与气温的关系（海拔每升高1000米，气温下降6℃），该山顶的气温约为（ ）",
+      "options": {
+        "A": "8℃",
+        "B": "14℃",
+        "C": "26℃"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖是当前全球面临的主要气候问题之一，主要是由于人类活动排放大量温室气体（如二氧化碳）导致的，全球气候变暖会导致冰川融化、海平面上升、气候异常等现象，结合全球气候变暖的影响，下列现象中，不属于全球气候变暖导致的是（ ）",
+      "options": {
+        "A": "北极冰川面积缩小",
+        "B": "极端暴雨天气增多",
+        "C": "全球降水普遍减少"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气候类型的判断主要依据气温和降水两大要素，即“以温定带，以水定型”，“以温定带”是根据最冷月均温确定气候带，“以水定型”是根据降水的季节分配确定具体气候类型，某地区最冷月均温为15℃，全年降水均匀，年降水量约1000毫米，结合气候类型判断方法，该地区的气候类型是（ ）",
+      "options": {
+        "A": "热带季风气候",
+        "B": "热带雨林气候",
+        "C": "热带草原气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "海陆热力性质差异是季风气候形成的主要原因，夏季陆地升温快，形成低压，海洋升温慢，形成高压，风从海洋吹向陆地；冬季陆地降温快，形成高压，海洋降温慢，形成低压，风从陆地吹向海洋，我国冬季盛行西北风，夏季盛行东南风，结合季风形成原理，我国冬季风的风向是（ ）",
+      "options": {
+        "A": "从海洋吹向陆地",
+        "B": "从陆地吹向海洋",
+        "C": "从高纬度吹向低纬度"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带季风气候和热带草原气候都位于热带地区，全年高温，都分干湿两季，但两者的降水差异明显，热带季风气候年降水量更多，且降水集中程度更高，某地区全年高温，分干湿两季，年降水量约1500毫米，降水集中在夏季，结合两种气候的差异，该地区的气候类型是（ ）",
+      "options": {
+        "A": "热带草原气候",
+        "B": "热带季风气候",
+        "C": "热带沙漠气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带海洋性气候全年温和湿润，气温年较差小，降水均匀，主要分布在中纬度大陆西岸，受西风带影响，西风带带来海洋暖湿气流，使该地区气候湿润，结合温带海洋性气候的成因，下列地区中，最适合温带海洋性气候分布的是（ ）",
+      "options": {
+        "A": "中纬度大陆东岸",
+        "B": "中纬度大陆西岸",
+        "C": "中纬度大陆内部"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "寒带苔原气候主要分布在北极圈附近，全年寒冷，降水稀少，植被以苔原为主，而寒带冰原气候主要分布在南极大陆和格陵兰岛，全年酷寒，降水极少，地表覆盖冰雪，结合两种寒带气候的特征，下列关于苔原气候的描述，正确的是（ ）",
+      "options": {
+        "A": "全年酷寒，无植被生长",
+        "B": "全年寒冷，植被以苔原为主",
+        "C": "夏季炎热，冬季寒冷"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地形对气候的影响不仅体现在海拔，还体现在坡向，阳坡接受的太阳辐射多，气温高；阴坡接受的太阳辐射少，气温低，某山地南坡为阳坡，北坡为阴坡，结合坡向对气候的影响，该山地南坡的气温比北坡（ ）",
+      "options": {
+        "A": "更高",
+        "B": "更低",
+        "C": "一样高"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "降水的季节分配主要有全年多雨、全年少雨、夏季多雨、冬季多雨四种类型，热带雨林气候全年多雨，热带沙漠气候全年少雨，季风气候夏季多雨，地中海气候冬季多雨，某地区夏季降水少，冬季降水多，且全年温和，结合降水季节分配类型，该地区的气候类型是（ ）",
+      "options": {
+        "A": "地中海气候",
+        "B": "温带海洋性气候",
+        "C": "温带季风气候"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "大气环流中的气压带和风带会随季节变化而移动，北半球夏季，气压带和风带向北移动；冬季，气压带和风带向南移动，地中海气候受副热带高气压带和西风带交替控制，夏季受副热带高气压带控制，冬季受西风带控制，结合气压带风带的移动规律，地中海气候夏季的气候特征是（ ）",
+      "options": {
+        "A": "温和多雨",
+        "B": "炎热干燥",
+        "C": "高温多雨"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "我国北方地区主要属于温带季风气候，夏季高温多雨，冬季寒冷干燥，年降水量在400-800毫米之间，植被以温带落叶阔叶林为主，结合我国北方地区的气候特征，该区域的农业生产方式主要是（ ）",
+      "options": {
+        "A": "水田农业",
+        "B": "旱地农业",
+        "C": "畜牧业"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带沙漠气候和温带大陆性气候都具有降水稀少的特征，但两者的气温差异明显，热带沙漠气候全年高温，温带大陆性气候冬冷夏热，某地区全年高温少雨，年降水量不足100毫米，结合两种气候的差异，该地区的气候类型是（ ）",
+      "options": {
+        "A": "热带沙漠气候",
+        "B": "温带大陆性气候",
+        "C": "寒带气候"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "锋面雨的形成与锋面活动密切相关，准静止锋是指移动缓慢或静止的锋面，会形成连续性降水，我国长江中下游地区的“梅雨”天气，就是由准静止锋控制形成的，结合准静止锋的影响，梅雨天气的特点是（ ）",
+      "options": {
+        "A": "大风、降温、降雨",
+        "B": "连续性阴雨天气",
+        "C": "暴雨、雷电天气"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "太阳辐射的分布规律是从低纬度向高纬度递减，因此气温也呈现从低纬度向高纬度递减的规律，某地区位于低纬度地区，全年气温较高，结合太阳辐射的分布规律，该地区的太阳辐射强度比高纬度地区（ ）",
+      "options": {
+        "A": "更强",
+        "B": "更弱",
+        "C": "一样强"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "海陆位置对气候的影响还体现在气温年较差上，沿海地区气温年较差小，内陆地区气温年较差大，因为海洋的比热容比陆地大，升温慢、降温慢，某地区位于沿海地区，结合海陆位置对气温年较差的影响，该地区的气温年较差（ ）",
+      "options": {
+        "A": "较大",
+        "B": "较小",
+        "C": "与内陆地区一样大"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带雨林气候主要分布在赤道附近，受赤道低气压带控制，盛行上升气流，水汽充足，全年高温多雨，结合热带雨林气候的成因，下列地区中，不属于热带雨林气候分布区的是（ ）",
+      "options": {
+        "A": "亚马孙平原",
+        "B": "刚果盆地",
+        "C": "非洲北部"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带大陆性气候的降水稀少，主要是因为远离海洋，受海洋暖湿气流影响小，降水集中在夏季，是因为夏季气温高，蒸发旺盛，形成少量降水，某地区位于中纬度大陆内部，年降水量在200毫米以下，结合温带大陆性气候的特征，该地区的降水特点是（ ）",
+      "options": {
+        "A": "全年降水均匀",
+        "B": "降水集中在夏季",
+        "C": "降水集中在冬季"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气候对植被的影响显著，不同的气候类型对应不同的植被类型，热带雨林气候对应热带雨林，热带草原气候对应热带草原，温带季风气候对应温带落叶阔叶林，某地区的植被以温带落叶阔叶林为主，结合气候与植被的对应关系，该地区的气候类型是（ ）",
+      "options": {
+        "A": "温带季风气候",
+        "B": "亚热带季风气候",
+        "C": "温带海洋性气候"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气压带和风带的分布具有一定的规律性，赤道附近为赤道低气压带，南北纬30°附近为副热带高气压带，南北纬60°附近为副极地低气压带，两极地区为极地高气压带，结合气压带的分布，副热带高气压带位于（ ）",
+      "options": {
+        "A": "赤道附近",
+        "B": "南北纬30°附近",
+        "C": "南北纬60°附近"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "暖锋过境时，暖空气主动向冷空气移动，冷空气被迫后退，暖空气沿冷空气爬升，形成连续性降水，某地区出现连续性降雨天气，且降雨后气温升高，结合暖锋的特征，该地区过境的锋面是（ ）",
+      "options": {
+        "A": "冷锋",
+        "B": "暖锋",
+        "C": "准静止锋"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "我国西北地区主要属于温带大陆性气候，气候干旱，降水稀少，昼夜温差大，这种气候特征对当地农业生产的影响是（ ）",
+      "options": {
+        "A": "适合种植水稻，产量高",
+        "B": "适合种植耐旱作物，且瓜果甜度高",
+        "C": "适合发展畜牧业，不适合种植业"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地中海气候主要分布在南北纬30°-40°的大陆西岸，我国位于亚欧大陆东岸，受海陆热力性质差异影响，主要形成季风气候，结合地中海气候的分布规律，我国是否有地中海气候分布（ ）",
+      "options": {
+        "A": "有，主要分布在东南沿海地区",
+        "B": "没有",
+        "C": "有，主要分布在西北内陆地区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气温的分布不仅受纬度位置影响，还受海陆位置、地形等因素影响，同纬度地区，夏季陆地气温高于海洋气温，冬季海洋气温高于陆地气温，某地区与同纬度海洋相比，夏季气温较高，冬季气温较低，结合同纬度海陆气温差异，该地区位于（ ）",
+      "options": {
+        "A": "陆地",
+        "B": "海洋",
+        "C": "山地"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带季风气候主要分布在亚洲南部和东南部，受季风环流影响，全年高温，分旱雨两季，雨季降水丰富，旱季降水稀少，某地区位于亚洲东南部，全年高温，每年5-10月为雨季，11月至次年4月为旱季，结合热带季风气候的分布和特征，该地区的气候类型是（ ）",
+      "options": {
+        "A": "热带草原气候",
+        "B": "热带季风气候",
+        "C": "热带雨林气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地形雨的降水多少与地形的高度和坡度有关，地形越高、坡度越陡，地形抬升作用越明显，降水越多，某两座山地，A山地海拔2000米，坡度较陡；B山地海拔1000米，坡度较缓，结合地形雨的形成原理，两座山地中，降水更多的是（ ）",
+      "options": {
+        "A": "A山地",
+        "B": "B山地",
+        "C": "一样多"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖会导致海平面上升，这主要是因为冰川融化和海水热膨胀，海平面上升会淹没沿海低地，影响沿海地区的人类生产生活，结合全球气候变暖的影响，下列沿海地区中，最容易被淹没的是（ ）",
+      "options": {
+        "A": "海拔较高的沿海地区",
+        "B": "海拔较低的沿海平原",
+        "C": "沿海山地"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "风化作用是指地表岩石在温度、水、生物等因素的作用下，逐渐破碎、崩解的过程，气候对风化作用的影响显著，高温多雨的地区，风化作用强烈，寒冷干燥的地区，风化作用微弱，下列地区中，风化作用最强烈的是（ ）",
+      "options": {
+        "A": "热带雨林地区",
+        "B": "热带沙漠地区",
+        "C": "寒带地区"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带海洋性气候和亚热带季风气候都具有温和湿润的特征，但两者的气温和降水仍有差异，温带海洋性气候全年温和，气温年较差小，降水均匀；亚热带季风气候夏季高温，冬季温和，降水集中在夏季，某地区全年温和，降水均匀，年降水量约800毫米，结合两种气候的差异，该地区的气候类型是（ ）",
+      "options": {
+        "A": "温带海洋性气候",
+        "B": "亚热带季风气候",
+        "C": "温带季风气候"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "我国南方地区的雨季比北方地区长，主要是因为南方地区受夏季风影响的时间更长，夏季风带来海洋暖湿气流，形成降水，结合我国季风气候的分布，我国南方地区的雨季主要集中在（ ）",
+      "options": {
+        "A": "4-9月",
+        "B": "6-8月",
+        "C": "7-8月"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带沙漠气候的形成主要与副热带高气压带和信风带控制有关，副热带高气压带盛行下沉气流，信风带带来的是干燥气流，两者共同作用，导致该地区全年炎热干燥，下列地区中，主要受副热带高气压带控制形成热带沙漠气候的是（ ）",
+      "options": {
+        "A": "非洲撒哈拉沙漠",
+        "B": "南美洲亚马孙平原",
+        "C": "非洲刚果盆地"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气温的日较差和年较差都与海陆位置有关，沿海地区日较差和年较差都较小，内陆地区日较差和年较差都较大，某地区日较差大，年较差也大，结合海陆位置对气温的影响，该地区位于（ ）",
+      "options": {
+        "A": "沿海地区",
+        "B": "内陆地区",
+        "C": "山地地区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "季风气候的形成与海陆热力性质差异密切相关，我国是世界上季风气候最显著的国家之一，主要原因是我国位于世界上最大的大陆（亚欧大陆）和世界上最大的大洋（太平洋）之间，海陆热力性质差异显著，结合我国季风气候的成因，下列说法正确的是（ ）",
+      "options": {
+        "A": "我国季风气候的形成与气压带风带移动无关",
+        "B": "我国季风气候的形成主要与海陆热力性质差异有关",
+        "C": "我国季风气候主要分布在西北内陆地区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "寒带气候的降水稀少，主要是因为寒带地区气温低，蒸发微弱，空气中的水汽含量少，难以形成降水，某地区位于寒带地区，年降水量不足50毫米，结合寒带气候的降水成因，该地区的降水类型主要是（ ）",
+      "options": {
+        "A": "地形雨",
+        "B": "锋面雨",
+        "C": "降雪"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地中海气候的植被类型为亚热带常绿硬叶林，叶片坚硬，表面有蜡质，这是为了适应地中海气候夏季炎热干燥的气候特征，减少水分蒸发，结合地中海气候的植被特征，下列植被中，属于亚热带常绿硬叶林的是（ ）",
+      "options": {
+        "A": "樟树",
+        "B": "油橄榄",
+        "C": "杨树"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地形对降水的影响还体现在山脉的走向，东西走向的山脉会阻挡南北方向的气流，南北走向的山脉会阻挡东西方向的气流，我国秦岭是东西走向的山脉，阻挡了北方的冷空气和南方的暖湿气流，结合秦岭对气候的影响，秦岭以南的降水比秦岭以北（ ）",
+      "options": {
+        "A": "更多",
+        "B": "更少",
+        "C": "一样多"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 59,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "太阳辐射的强弱还与天气状况有关，晴天时，云量少，太阳辐射能直接到达地面，辐射强度大；阴天时，云量多，太阳辐射被云层反射，辐射强度小，某地区晴天多，云量少，结合天气状况对太阳辐射的影响，该地区的太阳辐射强度（ ）",
+      "options": {
+        "A": "较强",
+        "B": "较弱",
+        "C": "不确定"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带季风气候和温带大陆性气候都分布在温带地区，但两者的降水差异明显，温带季风气候降水较多，集中在夏季；温带大陆性气候降水稀少，集中在夏季，某地区位于温带地区，年降水量约600毫米，降水集中在夏季，结合两种气候的差异，该地区的气候类型是（ ）",
+      "options": {
+        "A": "温带季风气候",
+        "B": "温带大陆性气候",
+        "C": "温带海洋性气候"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带草原气候的干季和湿季交替出现，主要是因为气压带和风带的季节移动，夏季受赤道低气压带控制，形成湿季；冬季受信风带控制，形成干季，某地区位于热带草原气候区，结合气压带风带的移动规律，该地区的湿季主要出现在（ ）",
+      "options": {
+        "A": "冬季",
+        "B": "夏季",
+        "C": "春季"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 62,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "我国北方地区冬季寒冷干燥，主要是因为冬季受蒙古-西伯利亚高压控制，盛行西北风，西北风从内陆带来寒冷干燥的气流，结合我国北方地区冬季气候的成因，下列说法正确的是（ ）",
+      "options": {
+        "A": "我国北方地区冬季寒冷干燥与夏季风有关",
+        "B": "我国北方地区冬季寒冷干燥主要受西北风影响",
+        "C": "我国北方地区冬季降水较多"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "降水的强度分为小雨、中雨、大雨、暴雨等等级，暴雨是指24小时降水量超过50毫米的降水，暴雨容易引发洪涝灾害，某地区24小时降水量为80毫米，结合降水强度等级，该地区的降水类型是（ ）",
+      "options": {
+        "A": "中雨",
+        "B": "大雨",
+        "C": "暴雨"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "高原山地气候的垂直变化明显，从山麓到山顶，气温逐渐降低，降水先增多后减少，植被也随之发生变化，某山地山麓为亚热带季风气候，植被为亚热带常绿阔叶林，随着海拔升高，气温降低，结合高原山地气候的垂直变化，该山地山腰的植被最可能是（ ）",
+      "options": {
+        "A": "热带雨林",
+        "B": "温带落叶阔叶林",
+        "C": "寒带苔原"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖的主要原因是人类活动排放大量温室气体，如二氧化碳、甲烷等，这些温室气体能吸收地面辐射，导致全球气温升高，结合全球气候变暖的成因，下列人类活动中，会加剧全球气候变暖的是（ ）",
+      "options": {
+        "A": "植树造林",
+        "B": "燃烧煤炭、石油等化石燃料",
+        "C": "减少汽车尾气排放"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气候对人类居住的影响显著，温暖湿润的气候适合人类居住，寒冷干燥或炎热干燥的气候不利于人类居住，某地区全年温和湿润，气温年较差小，降水均匀，结合气候对人类居住的影响，该地区的人口密度（ ）",
+      "options": {
+        "A": "较大",
+        "B": "较小",
+        "C": "极低"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "亚热带季风气候的最冷月均温高于0℃，冬季温和少雨，夏季高温多雨，年降水量在800毫米以上，我国长江中下游平原主要属于亚热带季风气候，结合该地区的气候特征，该地区的河流冬季（ ）",
+      "options": {
+        "A": "结冰",
+        "B": "不结冰",
+        "C": "断流"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带海洋性气候主要分布在欧洲西部、北美洲西海岸、南美洲西海岸等地区，这些地区受西风带影响，全年温和湿润，结合温带海洋性气候的分布，下列地区中，属于温带海洋性气候分布区的是（ ）",
+      "options": {
+        "A": "欧洲西部",
+        "B": "亚洲东部",
+        "C": "非洲北部"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带沙漠气候的地表以沙漠为主，植被稀少，这是因为该地区全年炎热干燥，降水稀少，水分不足，无法满足植被生长的需求，结合热带沙漠气候的植被特征，下列植被中，能在热带沙漠地区生长的是（ ）",
+      "options": {
+        "A": "仙人掌",
+        "B": "樟树",
+        "C": "小麦"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 70,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "锋面活动不仅会影响降水，还会影响气温和风向，冷锋过境后，气温下降，气压升高，风向改变；暖锋过境后，气温升高，气压降低，风向改变，某地区过境某锋面后，气温下降，气压升高，结合锋面活动的影响，该地区过境的锋面是（ ）",
+      "options": {
+        "A": "冷锋",
+        "B": "暖锋",
+        "C": "准静止锋"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "海拔对降水的影响主要体现在：在一定海拔范围内，海拔越高，降水越多；超过一定海拔，海拔越高，降水越少，这个临界海拔称为“最大降水高度”，某山地的最大降水高度为2000米，结合海拔对降水的影响，该山地海拔1500米处的降水比海拔2500米处的降水（ ）",
+      "options": {
+        "A": "更多",
+        "B": "更少",
+        "C": "一样多"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 72,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "我国西北地区的气候干旱，主要是因为该地区远离海洋，受夏季风影响小，降水稀少，同时该地区蒸发旺盛，加剧了干旱程度，结合我国西北地区的气候成因，下列说法正确的是（ ）",
+      "options": {
+        "A": "我国西北地区的干旱与地形无关",
+        "B": "我国西北地区的干旱主要是因为受副热带高气压带控制",
+        "C": "我国西北地区的干旱主要是因为远离海洋，降水稀少"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气候类型的分布具有一定的规律性，热带气候分布在南北回归线之间，温带气候分布在南北回归线与南北极圈之间，寒带气候分布在南北极圈以内，结合气候类型的分布规律，下列气候类型中，分布在温带地区的是（ ）",
+      "options": {
+        "A": "热带季风气候",
+        "B": "温带海洋性气候",
+        "C": "寒带冰原气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "太阳辐射的季节变化导致气温的季节变化，北半球夏季，太阳直射北半球，太阳高度角大，获得的太阳辐射多，气温高；北半球冬季，太阳直射南半球，太阳高度角小，获得的太阳辐射少，气温低，结合太阳辐射的季节变化，北半球夏季的气温比冬季（ ）",
+      "options": {
+        "A": "更高",
+        "B": "更低",
+        "C": "一样高"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "海陆热力性质差异导致海陆气候的差异，夏季陆地气温高于海洋，冬季海洋气温高于陆地，某地区夏季气温为28℃，同纬度海洋夏季气温为25℃，结合海陆热力性质差异，该地区位于（ ）",
+      "options": {
+        "A": "陆地",
+        "B": "海洋",
+        "C": "岛屿"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 76,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带雨林气候的年降水量通常在2000毫米以上，全年高温多雨，植被茂密，生物多样性丰富，结合热带雨林气候的特征，下列地区中，生物多样性最丰富的是（ ）",
+      "options": {
+        "A": "亚马孙平原",
+        "B": "撒哈拉沙漠",
+        "C": "南极大陆"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带季风气候的植被类型为温带落叶阔叶林，冬季树叶凋零，夏季树叶茂盛，这是为了适应温带季风气候冬季寒冷干燥的特征，减少水分和养分消耗，结合温带落叶阔叶林的特征，下列季节中，温带落叶阔叶林树叶最茂盛的是（ ）",
+      "options": {
+        "A": "春季",
+        "B": "夏季",
+        "C": "冬季"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地中海气候的夏季炎热干燥，冬季温和多雨，这种气候特征对农业生产的影响是（ ）",
+      "options": {
+        "A": "适合种植水稻，全年可种植",
+        "B": "适合种植耐旱作物，冬季可灌溉种植",
+        "C": "不适合发展农业生产"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "寒带苔原气候的植被以苔原为主，主要包括苔藓、地衣等，这些植被生长缓慢，对环境的适应性强，能在寒冷干燥的环境中生长，结合寒带苔原气候的植被特征，下列地区中，主要分布着苔原植被的是（ ）",
+      "options": {
+        "A": "北极圈附近",
+        "B": "南极大陆",
+        "C": "热带沙漠地区"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 80,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "大气环流中的西风带主要分布在南北纬30°-60°之间，盛行西风，带来海洋暖湿气流，对温带海洋性气候和地中海气候的形成有重要影响，结合西风带的分布，西风带位于（ ）",
+      "options": {
+        "A": "南北纬0°-30°之间",
+        "B": "南北纬30°-60°之间",
+        "C": "南北纬60°-90°之间"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 81,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "我国南方地区的气候湿润，年降水量在800毫米以上，主要是因为南方地区受夏季风影响明显，夏季风带来大量海洋暖湿气流，形成丰富降水，结合我国南方地区的降水成因，下列说法正确的是（ ）",
+      "options": {
+        "A": "我国南方地区的降水主要来自陆地",
+        "B": "我国南方地区的降水主要受夏季风影响",
+        "C": "我国南方地区的降水集中在冬季"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 82,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气温的日较差是指一天中最高气温与最低气温的差值，气温日较差的大小与海陆位置、天气状况、地形等因素有关，内陆地区日较差大，沿海地区日较差小，某地区日较差为15℃，结合气温日较差的分布规律，该地区最可能位于（ ）",
+      "options": {
+        "A": "沿海地区",
+        "B": "内陆地区",
+        "C": "山地地区"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 83,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带草原气候和热带季风气候的主要区别在于降水的集中程度和年降水量，热带季风气候的年降水量更多，降水集中在雨季，雨季更短更集中，某地区年降水量约2000毫米，降水集中在5-9月，结合两种气候的差异，该地区的气候类型是（ ）",
+      "options": {
+        "A": "热带草原气候",
+        "B": "热带季风气候",
+        "C": "热带雨林气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 84,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地形对气候的影响还体现在山脉的阻挡作用，山脉能阻挡冷空气或暖湿气流，改变气候分布，我国秦岭阻挡了北方的冷空气，使秦岭以南的冬季气温高于秦岭以北，结合秦岭的阻挡作用，秦岭以南的气候类型主要是（ ）",
+      "options": {
+        "A": "温带季风气候",
+        "B": "亚热带季风气候",
+        "C": "热带季风气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 85,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖会导致极端天气事件增多，如极端暴雨、极端高温、极端寒潮等，这些极端天气事件会对人类生产生活造成重大损失，结合全球气候变暖的影响，下列现象中，属于极端天气事件的是（ ）",
+      "options": {
+        "A": "某地区夏季正常降雨",
+        "B": "某地区冬季出现极端寒潮，气温骤降",
+        "C": "某地区全年温和湿润"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 86,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带大陆性气候的冬冷夏热，年温差大，主要是因为该地区远离海洋，受海洋调节作用小，陆地的比热容小，升温快、降温快，结合温带大陆性气候的气温特征，下列说法正确的是（ ）",
+      "options": {
+        "A": "温带大陆性气候的气温年较差小",
+        "B": "温带大陆性气候的夏季气温高于温带季风气候",
+        "C": "温带大陆性气候的冬冷夏热，年温差大"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "降水的类型主要有对流雨、地形雨、锋面雨、台风雨四种，对流雨主要发生在热带地区，由空气对流形成，多为雷阵雨；地形雨由地形抬升形成；锋面雨由锋面活动形成；台风雨由台风活动形成，某地区位于热带地区，夏季常出现雷阵雨，结合降水类型，该地区的降水类型主要是（ ）",
+      "options": {
+        "A": "对流雨",
+        "B": "地形雨",
+        "C": "锋面雨"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 88,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "亚热带季风气候和热带季风气候都属于季风气候，全年高温，夏季多雨，但两者的最冷月均温不同，亚热带季风气候最冷月均温高于0℃，热带季风气候最冷月均温高于15℃，某地区最冷月均温为10℃，夏季高温多雨，结合两种季风气候的区别，该地区的气候类型是（ ）",
+      "options": {
+        "A": "热带季风气候",
+        "B": "亚热带季风气候",
+        "C": "温带季风气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带海洋性气候的全年温和湿润，主要是因为受西风带影响，西风带带来海洋暖湿气流，同时受北大西洋暖流（北半球）或西风漂流（南半球）的影响，气温升高，降水增多，结合温带海洋性气候的成因，下列说法正确的是（ ）",
+      "options": {
+        "A": "温带海洋性气候的形成与洋流无关",
+        "B": "温带海洋性气候的形成主要受西风带和洋流影响",
+        "C": "温带海洋性气候主要分布在大陆东岸"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 90,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "我国北方地区的年降水量在400-800毫米之间，降水集中在夏季，主要是因为夏季受夏季风影响，带来海洋暖湿气流，形成降水，冬季受冬季风影响，降水稀少，结合我国北方地区的降水特征，该地区的降水类型主要是（ ）",
+      "options": {
+        "A": "地形雨",
+        "B": "锋面雨",
+        "C": "对流雨"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 91,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热带沙漠气候的全年炎热干燥，年降水量不足200毫米，主要是因为受副热带高气压带和信风带控制，下列地区中，不属于热带沙漠气候分布区的是（ ）",
+      "options": {
+        "A": "阿拉伯半岛",
+        "B": "澳大利亚中部",
+        "C": "南美洲东南部"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "高原山地气候的垂直变化明显，主要是因为海拔的差异导致气温和降水的差异，从山麓到山顶，气温逐渐降低，降水先增多后减少，结合高原山地气候的垂直变化，下列说法正确的是（ ）",
+      "options": {
+        "A": "高原山地气候的垂直变化与海拔无关",
+        "B": "从山麓到山顶，气温逐渐升高",
+        "C": "从山麓到山顶，降水先增多后减少"
+      },
+      "correct_answer": [
+        "C"
+      ]
+    },
+    {
+      "id": 93,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气候对农业生产的影响主要体现在热量、水分、光照等方面，热量充足、水分充沛、光照充足的地区，农业生产条件好，某地区热量充足、水分充沛、光照时间长，且位于我国南方地区，结合气候对农业的影响及我国南方气候特征，该地区最适合种植的经济作物是（ ）",
+      "options": {
+        "A": "甜菜",
+        "B": "甘蔗",
+        "C": "大豆"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 94,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "大气环流中的信风带主要分布在南北纬0°-30°之间，分为东北信风带和东南信风带，信风带的气流多为干燥气流，对热带沙漠气候的形成有重要影响，某地区位于北回归线附近的大陆西岸，受东北信风带控制，结合信风带的影响及热带气候特征，该地区的气候特征是（ ）",
+      "options": {
+        "A": "全年高温多雨",
+        "B": "全年炎热干燥",
+        "C": "夏季高温多雨，冬季温和少雨"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "我国东部地区的降水主要来自夏季风带来的海洋暖湿气流，夏季风的强弱会影响我国东部地区的降水多少，夏季风强盛时，降水偏多，易引发洪涝；夏季风较弱时，降水偏少，易引发干旱，结合夏季风对我国降水的影响，下列年份中，我国东部地区最可能出现洪涝灾害的是（ ）",
+      "options": {
+        "A": "夏季风强盛的年份",
+        "B": "夏季风较弱的年份",
+        "C": "夏季风势力稳定的年份"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 96,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "温带海洋性气候和温带大陆性气候的主要区别在于海陆位置和气候特征，温带海洋性气候位于中纬度大陆西岸，受海洋影响大，全年温和湿润；温带大陆性气候位于中纬度大陆内部，受海洋影响小，冬冷夏热、降水稀少，某地区位于中纬度大陆西岸，全年温和湿润，结合两种气候的差异，该地区的气候类型是（ ）",
+      "options": {
+        "A": "温带大陆性气候",
+        "B": "温带海洋性气候",
+        "C": "地中海气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 97,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地形对气温的影响除了海拔，还与地形类型有关，平原地区地势平坦，气温分布均匀；山地地区地势起伏大，气温垂直变化明显；高原地区海拔高，气温普遍较低，某地区地势平坦，海拔较低，气温年较差小，结合地形对气温的影响，该地区最可能的地形类型是（ ）",
+      "options": {
+        "A": "平原",
+        "B": "山地",
+        "C": "高原"
+      },
+      "correct_answer": [
+        "A"
+      ]
+    },
+    {
+      "id": 98,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖会导致冰川融化，冰川融化会导致淡水资源减少、海平面上升，同时还会影响全球生态平衡，某地区位于极地地区，近年来冰川面积不断缩小，结合全球气候变暖的影响，该地区冰川缩小的主要原因是（ ）",
+      "options": {
+        "A": "降水减少",
+        "B": "气温升高",
+        "C": "植被破坏"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 99,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "地中海气候和亚热带季风气候都分布在南北纬30°-40°之间，但前者位于大陆西岸，后者位于大陆东岸，气候特征差异明显，某地区位于35°S大陆东岸，夏季高温多雨，冬季温和少雨，结合两种气候的分布和特征，该地区的气候类型是（ ）",
+      "options": {
+        "A": "地中海气候",
+        "B": "亚热带季风气候",
+        "C": "温带季风气候"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    },
+    {
+      "id": 100,
+      "type": "single",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "降水的多少不仅受海陆位置、地形、大气环流等因素影响，还受洋流影响，暖流能增温增湿，寒流能降温减湿，某地区位于中纬度大陆东岸，受暖流影响，结合洋流对降水的影响，该地区的降水特点是（ ）",
+      "options": {
+        "A": "降水稀少",
+        "B": "降水丰富",
+        "C": "降水集中在冬季"
+      },
+      "correct_answer": [
+        "B"
+      ]
+    }
+  ]
+}

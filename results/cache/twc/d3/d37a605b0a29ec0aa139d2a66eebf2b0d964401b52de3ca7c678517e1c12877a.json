@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-099",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地中海气候和亚热带季风气候都分布在南北纬30°-40°之间，但前者位于大陆西岸，后者位于大陆东岸，气候特征差异明显，某地区位于35°S大陆东岸，夏季高温多雨，冬季温和少雨，结合两种气候的分布和特征，该地区的气候类型是（ ）\n\n待判断的选项：\nA. 亚热带季风气候\nB. 地中海气候\nC. 温带季风气候\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地中海气候：上位：气候类型；特征：夏季炎热干燥、冬季温和多雨、雨热不同期；成因：海陆热力性质差异；影响：适宜园艺业、植被为常绿硬叶林、河流冬汛；分布：地中海沿岸、美国加利福尼亚、智利中部、南非西南部、澳大利亚西南部\n- 亚热带季风气候：上位：季风气候；特征：夏季高温多雨、冬季温和少雨、雨热同期；成因：海陆热力性质差异、季风环流；影响：适宜水稻种植、洪涝灾害多发；分布：中国秦岭淮河以南、日本南部、朝鲜半岛南部\n- 南北：上位：方向；特征：经线方向、相对方位\n- 大陆西岸：上位：海岸带、自然地理区域；特征：寒流经过、气候干旱、地中海气候典型；成因：寒流降温减湿、副热带高压、西风带；影响：荒漠景观、渔业资源丰富、气候类型多样；分布：欧洲西部、北美西部、南美西部、非洲西部\n- 大陆东岸：上位：海岸带、自然地理区域；特征：季风气候显著、暖流经过、降水丰富；成因：海陆热力差异、季风环流、暖流增湿；影响：农业发达、人口密集、航运便利；分布：东亚、南亚、北美东南部\n- 气候特征：上位：气候状况；特征：多年平均状况、相对稳定性、地域差异性、综合性；成因：纬度位置、海陆位置、大气环流、地形地势、洋流性质；影响：影响农业生产、影响人类活动、影响自然景观；分布：热带雨林气候区、温带季风气候区、地中海气候区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合该地区气候特征的气候类型\n2. 位于南纬35°大陆东岸\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 601,
+  "total_tokens": 628,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 601
+ },
+ "created": 1792768706
+}

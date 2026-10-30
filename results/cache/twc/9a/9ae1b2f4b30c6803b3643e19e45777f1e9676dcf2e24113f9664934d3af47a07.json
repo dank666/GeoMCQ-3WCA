@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-040",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：土壤酸化会抑制根系生长，降低土壤肥力，导致植被生长不良。导致土壤酸化的主要自然环境是（）\n\n待判断的选项：\nA. 寒冷冻土广\nB. 干旱蒸发强\nC. 高温多雨淋溶强\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 酸化：上位：土壤退化、环境问题；特征：pH值下降、盐基离子淋失、活性铝增加；成因：酸沉降、过量施用化肥、酸性母质；影响：土壤肥力下降、作物减产、水体酸化；分布：酸雨区、集约农业区\n- 根系：上位：植物器官、植被组成部分；特征：固定植株、吸收水分养分、分布受土壤影响；成因：植物生长、土壤条件、水分条件；影响：保持水土、改良土壤、影响地表径流；分布：森林、草原、荒漠\n- 土壤肥力：上位：土壤属性；特征：提供养分能力、协调水气热状况、可人工培育；成因：有机质含量、土壤质地、土壤结构、耕作施肥；影响：决定作物产量、影响农业类型、关系粮食安全；分布：东北黑土区、长江中下游平原\n- 植被：上位：自然地理要素、生物圈组成部分；特征：覆盖地表、受气候制约、具有地带性分布；成因：气候条件、土壤条件、地形因素；影响：保持水土、调节气候、为动物提供栖息地；分布：热带雨林带、温带草原带、荒漠带\n- 自然环境：上位：地理环境；特征：由自然要素组成、相互联系相互制约、具有整体性、具有差异性；成因：地球圈层相互作用、太阳辐射影响、海陆位置差异；影响：提供人类生存空间、影响人类活动、形成自然资源；分布：全球、陆地、海洋\n- 冻土：上位：土壤；特征：温度低于0℃、含冰；成因：低温、冻结；影响：影响建筑、影响植被；分布：高纬度、高山高原\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成土壤酸化的主要原因\n2. 属于自然环境因素\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 559,
+  "total_tokens": 586,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 559
+ },
+ "created": 1792769178
+}

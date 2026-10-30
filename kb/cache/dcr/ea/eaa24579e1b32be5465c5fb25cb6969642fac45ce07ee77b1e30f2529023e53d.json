@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:单层||89c77290f4f5",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“单层”编写一个词典条目，供符号推理系统使用。\n\n题干：近年来，浙江省鼓励建设多层厂房代替单层厂房。浙江省鼓励建设多层厂房代替单层厂房的主要理由有()①环保标准提高②土地供应紧张③工业集聚发展④重化工业发展\n选项：\nA. ①②\nB. ①④\nC. ②③\nD. ③④\n\n词典中已有条目的示例：\n{\"term\": \"浙江省\", \"category\": \"PLACE\", \"parent_level\": \"中国省级行政区\", \"child_level\": \"位于东南沿海；经济发达；多山地丘陵\"}\n{\"term\": \"标准\", \"category\": \"OTHER\", \"parent_level\": \"技术规范；衡量尺度；生产协作需要；质量管理要求\", \"child_level\": \"国家标准；行业标准；地方标准；统一性；规范性；可度量性\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"工业建筑形式；土地利用方式；厂房结构类型\", \"child_level\": \"占地面积大；层数少；便于大型设备运输；传统工业布局\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 55,
+  "prompt_tokens": 480,
+  "total_tokens": 535,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 480
+ },
+ "created": 1792770538
+}

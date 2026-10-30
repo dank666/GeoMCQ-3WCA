@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:空调||83dec1a9d632",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“空调”编写一个词典条目，供符号推理系统使用。\n\n题干：浙江S集团是一家研发和生产空调控制元件和零部件的企业，其生产的零部件占全球智能空调配件市场60%以上的份额。至2017年，S集团除国内工厂外，还在美国、墨西哥、波兰等国家建有工厂。其国内工厂生产的产品除供应国内市场外，还满足出口需求。2018年，在国内工厂产能饱和、订单不断增长的情况下，S集团入驻越南某工业园，在买地自建厂房的同时，租用厂房开展生产。与国内建厂相比，S集团选择在越南建厂，可以()\n选项：\nA. 降低生产成本\nB. 增加产品产量\nC. 提高产品质量\nD. 方便原料供应\n\n词典中已有条目的示例：\n{\"term\": \"浙江\", \"category\": \"PLACE\", \"parent_level\": \"中国省级行政区\", \"child_level\": \"位于东南沿海；经济发达；多山地丘陵\"}\n{\"term\": \"集团\", \"category\": \"INDUSTRY\", \"parent_level\": \"企业组织；生产集中；资本集聚\", \"child_level\": \"跨国集团；企业集团；规模化经营；多元化投资；母子公司结构\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"企业组织；生产集中；资本集聚\", \"child_level\": \"空调控制元件；零部件生产；国际市场\", \"confidence\": 1.0}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 45,
+  "prompt_tokens": 574,
+  "total_tokens": 619,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 542
+ },
+ "created": 1792773578
+}

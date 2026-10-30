@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-068",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：水循环的降水环节，主要受水汽含量和上升气流影响，水汽含量充足、有上升气流的地区，降水丰富；水汽含量不足、无上升气流的地区，降水稀少，某地区位于沿海地区，水汽含量充足，且有地形抬升形成上升气流，结合降水形成条件，该地区的降水特点是（ ）\n\n待判断的选项：\nA. 降水季节变化小\nB. 降水丰富\nC. 降水稀少\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 水循环：上位：物质循环；特征：连续运动、全球性、能量交换；成因：太阳辐射、重力作用；影响：维持水量平衡、塑造地表形态、促进物质迁移；分布：全球\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n- 水汽：上位：大气成分；特征：含量少但变化大、集中于对流层下部、气态水；成因：水面蒸发、植物蒸腾、土壤蒸发；影响：成云致雨、影响天气变化、调节气温；分布：海洋上空、湿润地区、对流层下部\n- 上升气流：上位：大气垂直运动、气流；特征：垂直向上、冷却凝结、易成云致雨；成因：受热不均、锋面抬升、地形阻挡；影响：形成降水、形成低压、多阴雨天气；分布：赤道低压带、迎风坡、锋面附近\n- 降水稀少：上位：气候特征、降水状况；特征：年降水量少、气候干旱、蒸发旺盛；成因：深居内陆、副热带高压控制、寒流影响、地形阻挡；影响：水资源短缺、植被稀疏、荒漠广布；分布：撒哈拉沙漠、中亚地区、澳大利亚中西部\n- 区位：上位：地理概念；特征：综合性、动态性、相对性；影响：影响产业布局、影响城市发展\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合该地区降水形成条件的特点\n2. 体现水汽充足且有上升气流的影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 563,
+  "total_tokens": 590,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 563
+ },
+ "created": 1792769072
+}

@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:降雪||58952f00acc2",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“降雪”编写一个词典条目，供符号推理系统使用。\n\n题干：寒带气候的降水稀少，主要是因为寒带地区气温低，蒸发微弱，空气中的水汽含量少，难以形成降水，某地区位于寒带地区，年降水量不足50毫米，结合寒带气候的降水成因，该地区的降水类型主要是()\n选项：\nA. 降雪\nB. 地形雨\nC. 锋面雨\n\n词典中已有条目的示例：\n{\"term\": \"寒带\", \"category\": \"ATMOS\", \"parent_level\": \"气候带；高纬度；太阳辐射少\", \"child_level\": \"苔原气候；冰原气候；终年寒冷；降水稀少；蒸发微弱\"}\n{\"term\": \"降水稀少\", \"category\": \"ATMOS\", \"parent_level\": \"气候特征；降水状况；深居内陆；副热带高压控制\", \"child_level\": \"年降水量少；气候干旱；蒸发旺盛\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"ATMOS\", \"parent_level\": \"降水类型；固态降水\", \"child_level\": \"雪；低温环境；凝结水汽\", \"confidence\": 1.0}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 43,
+  "prompt_tokens": 524,
+  "total_tokens": 567,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 524
+ },
+ "created": 1792771958
+}

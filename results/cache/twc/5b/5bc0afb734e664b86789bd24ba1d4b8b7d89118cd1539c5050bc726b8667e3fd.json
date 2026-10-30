@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-088",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某地为了推动农业科技创新，建立了农业科技园区，引进科研机构和企业，开展新品种培育和新技术示范推广。这种园区的作用是（）\n\n待判断的选项：\nA. 增加农产品产量\nB. 产学研结合\nC. 农业技术扩散\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是农业科技园区的作用\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\"],\n\"B\": [\"是\"],\n\"C\": [\"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 17,
+  "prompt_tokens": 159,
+  "total_tokens": 176,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772561
+}

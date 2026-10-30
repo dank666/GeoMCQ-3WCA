@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-012",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：冰川融水是河流的重要补给水源之一，主要分布在高海拔地区，夏季气温升高，冰川融化量增大，河流流量随之增大；冬季气温降低，冰川停止融化，河流流量减少，某河流位于青藏高原，主要依靠冰川融水补给，结合冰川融水补给的特点，该河流的流量变化是（ ）\n\n待判断的选项：\nA. 全年流量均匀\nB. 夏季流量小、冬季流量大\nC. 夏季流量大、冬季流量小\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是某河流的流量变化\n2. 主要依靠冰川融水补给\n3. 位于青藏高原\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\", \"是\"],\n\"B\": [\"是\", \"是\", \"是\"],\n\"C\": [\"是\", \"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 233,
+  "total_tokens": 268,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772232
+}

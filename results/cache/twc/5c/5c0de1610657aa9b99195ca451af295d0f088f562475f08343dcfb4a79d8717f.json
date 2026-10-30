@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-001",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：土壤是地球表面具有一定肥力、能够生长植物的疏松表层，其形成受成土母质、气候、生物、地形、时间等多种因素影响，下列关于成土母质对土壤影响的说法正确的有（）\n\n待判断的选项：\nA. 成土母质是土壤形成的物质基础，决定土壤的矿物质成分\nB. 成土母质直接决定土壤的肥力高低\nC. 成土母质的颗粒大小影响土壤的质地（砂土、壤土、黏土）\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 全球地表：上位：地球表层；特征：海陆分布、高低起伏、动态变化；成因：内力作用、外力作用；影响：影响自然环境、影响人类活动\n- 肥力：上位：土壤属性；特征：提供养分、保水保肥、动态变化；成因：成土母质、气候、生物、耕作；影响：作物产量、农业可持续\n- 植物：上位：生物；特征：光合作用、适应环境；成因：气候土壤条件；影响：保持水土、调节气候\n- 表层：上位：空间部位、层次；特征：最上部层次、与外界接触、变化活跃\n- 成土母质：上位：土壤形成因素；特征：提供矿物质、影响土壤质地、影响土壤化学性质；成因：岩石风化、外力搬运；影响：决定土壤肥力基础、影响土壤类型\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于成土母质对土壤影响的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 480,
+  "total_tokens": 498,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 480
+ },
+ "created": 1792769927
+}

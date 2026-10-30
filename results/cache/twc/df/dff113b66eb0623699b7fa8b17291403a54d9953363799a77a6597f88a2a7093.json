@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-067",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于植被对气候调节作用的说法，正确的有（）\n\n待判断的选项：\nA. 植被能降低地表温度，减少热岛效应\nB. 植被对气候无调节作用，气候仅由纬度决定\nC. 植被能吸收二氧化碳，释放氧气，缓解温室效应\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 植被：上位：自然地理要素、生物圈组成部分；特征：覆盖地表、受气候制约、具有地带性分布；成因：气候条件、土壤条件、地形因素；影响：保持水土、调节气候、为动物提供栖息地；分布：热带雨林带、温带草原带、荒漠带\n- 气候调节：上位：气候作用；特征：缓和气温变化、增加空气湿度、影响局部气候；成因：水体调节、植被蒸腾、大气环流、地形阻挡；影响：减小温差、增加降水、改善生态环境；分布：湖泊沿岸、森林地区、海洋沿岸\n- 地面：上位：地球表面、下垫面；特征：直接接受太阳辐射、与大气相互作用、人类活动场所；成因：地球圈层相互作用；影响：影响气候、影响水文、提供活动空间；分布：陆地、海洋、地表\n- 温度：上位：气象要素；特征：表示冷热程度、随时间变化、随空间变化；成因：太阳辐射、大气环流、下垫面性质；影响：影响气候、影响植被、影响人类活动\n- 热岛效应：上位：城市气候效应、大气热力现象；特征：城市气温高于郊区、形成热岛环流、强度昼夜差异；成因：城市人为热排放、下垫面性质改变、建筑物密集、绿地减少；影响：加剧城市高温、增加能源消耗、形成城市风、影响居民健康；分布：大城市、城市中心区、工业区\n- 气候：上位：大气现象；特征：长期平均状态、具有稳定性、空间差异性、受多种因素影响；成因：太阳辐射、大气环流、下垫面性质、人类活动；影响：影响农业生产、影响人类活动、塑造自然景观；分布：全球各地\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于植被对气候调节作用的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 564,
+  "total_tokens": 582,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 564
+ },
+ "created": 1792770017
+}

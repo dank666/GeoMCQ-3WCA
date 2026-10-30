@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-038",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：循环经济以减量化、再利用、资源化为原则，在工业生产中表现为：\n\n待判断的选项：\nA. 单纯追求产量\nB. 清洁生产\nC. 大量排放废弃物\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 循环经济：上位：经济发展模式；特征：资源循环利用、减少废弃物排放、低消耗高效益；成因：资源环境压力、可持续发展理念；影响：促进可持续发展、保护生态环境、提高资源利用率；分布：生态工业园区、循环经济示范区\n- 减量化：上位：固体废弃物处理原则、循环经济原则；特征：源头控制、减少废弃物产生、资源节约；成因：资源有限性、环境压力、可持续发展要求；影响：减少污染、节约资源、降低处理成本；分布：工业园区、城市社区、生产企业\n- 资源化：上位：资源利用方式；特征：变废为宝、循环利用、减少污染；成因：资源短缺、环境压力、循环经济理念；影响：提高资源利用率、减轻环境污染、促进可持续发展\n- 原则：上位：基本准则；特征：指导性、规范性；影响：指导实践\n- 工业生产：上位：产业活动；特征：原料加工、产品制造、集中布局、产业链长；成因：市场需求、资源分布、技术条件、政策支持；影响：经济增长、就业增加、环境污染；分布：工业区、城市边缘、资源富集区\n- 产量：上位：经济指标、生产成果；特征：反映生产规模、受自然条件影响、受技术影响、可统计计量；成因：自然条件、技术投入、市场需求、政策支持；影响：衡量生产能力、影响市场供应、反映经济水平\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是循环经济在工业生产中的具体表现\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 457,
+  "total_tokens": 475,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 457
+ },
+ "created": 1792768897
+}

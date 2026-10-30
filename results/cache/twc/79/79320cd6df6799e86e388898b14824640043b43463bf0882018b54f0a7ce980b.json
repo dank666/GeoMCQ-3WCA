@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:agieval-179",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：2017年3月智利比亚里卡火山再次爆发。火山喷出的岩浆物质冷凝形成的岩石是( )\n\n待判断的选项：\nA. 玄武岩\nB. 花岗岩\nC. 石灰岩\nD. 大理岩\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 智利：上位：国家；特征：狭长国土、安第斯山脉；分布：南美洲\n- 火山：上位：地质构造、地貌类型；特征：岩浆喷出、火山锥、火山口；成因：板块运动、岩浆活动；影响：形成火山地貌、火山灾害、火山资源；分布：环太平洋火山带、地中海火山带、东非裂谷带\n- 岩浆：上位：地球内部物质；特征：高温熔融、富含气体、可流动；成因：地温增高、压力降低、构造活动；影响：形成岩浆岩、引发火山活动；分布：软流层、火山口\n- 冷凝：上位：物态变化；特征：气态变液态、释放热量；成因：降温、水汽饱和；影响：形成降水、释放潜热；分布：近地面、云中\n- 岩石：上位：地壳物质；特征：由矿物组成、具有一定结构、参与岩石循环；成因：岩浆冷凝、沉积固结、变质作用；影响：构成岩石圈、提供矿产资源；分布：地壳、岩石圈\n- 玄武岩：上位：岩浆岩、喷出岩；特征：基性岩、隐晶质结构、气孔构造、柱状节理；成因：岩浆喷出冷却凝固；影响：形成火山地貌；分布：冰岛、夏威夷、中国峨眉山\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是2017年3月智利比亚里卡火山喷出岩浆冷凝形成的岩石\n2. 是火山岩\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"], \"D\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 550,
+  "total_tokens": 586,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 550
+ },
+ "created": 1792774257
+}

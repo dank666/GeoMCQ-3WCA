@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-194",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：浙江某山区农民，利用“互联网+农产品”模式，促进农业生产。下列农业区位因素变化最明显的是 ( )\n\n待判断的选项：\nA. 科学技术 市场需求\nB. 市场需求 自然条件\nC. 自然条件 国家政策\nD. 国家政策 科学技术\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 浙江：上位：中国省级行政区；特征：位于东南沿海、经济发达、多山地丘陵；分布：中国东南沿海\n- 山区：上位：陆地地形；特征：海拔较高、坡度陡峭、地形起伏大；成因：地壳运动、流水侵蚀、风化作用；影响：垂直自然带、交通不便、生态脆弱；分布：青藏高原、横断山区、秦岭\n- 农民：上位：乡村人口；特征：从事农业生产、居住乡村、收入较低；成因：农业分工、乡村聚落形成；影响：保障粮食供给、维持乡村社会\n- 互联网：上位：信息技术；特征：全球网络、信息共享、高速传输；成因：计算机技术、通信技术；影响：改变生活、促进经济、全球化；分布：全球\n- 农产品：上位：农业产出；特征：初级产品、地域性强、季节性强、易腐烂；成因：农业生产、自然条件影响；影响：满足生活需求、工业原料、出口创汇\n- 农业生产：上位：经济活动；特征：地域性、季节性、周期性；成因：自然条件、社会经济条件、技术条件；影响：提供农产品、保障粮食安全、促进农村就业；分布：平原地区、河谷地区、绿洲地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成该现象最明显的农业区位因素变化\n2. 针对浙江某山区农民利用互联网促进农业生产的案例\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"], \"D\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 473,
+  "total_tokens": 509,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 473
+ },
+ "created": 1792771086
+}

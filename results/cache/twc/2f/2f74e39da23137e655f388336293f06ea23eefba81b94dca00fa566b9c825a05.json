@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-001",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地理学科中，气候是指一个地区多年的天气平均状况，主要由气温、降水两大要素决定，同时受纬度位置、海陆位置、地形等多种因素影响，结合以上定义和影响因素，下列选项中，既体现气候两大核心要素，又能反映海陆位置对气候影响的是（ ）\n\n待判断的选项：\nA. 温带海洋性气候全年温和湿润\nB. 高原山地气候垂直变化明显\nC. 热带沙漠气候全年炎热干燥\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地理学：上位：学科、科学；特征：综合性、区域性、交叉性；影响：国土规划、环境保护、灾害防治\n- 气候：上位：大气现象；特征：长期平均状态、具有稳定性、空间差异性、受多种因素影响；成因：太阳辐射、大气环流、下垫面性质、人类活动；影响：影响农业生产、影响人类活动、塑造自然景观；分布：全球各地\n- 天气：上位：大气状况；特征：短时间变化、多要素综合、局地差异明显；成因：大气运动、天气系统活动；影响：影响生产生活、影响出行活动\n- 气温：上位：气象要素；特征：随纬度变化、随海拔变化、随时间变化；成因：太阳辐射、下垫面性质、大气环流；影响：影响农业生产、影响人体舒适度、影响自然带分布\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n- 纬度位置：上位：地理位置、空间位置；特征：决定太阳高度、影响昼夜长短、影响热量带；影响：形成气候差异、影响植被分布\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 既体现气候两大核心要素\n2. 能反映海陆位置对气候影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"否\"], \"C\": [\"是\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 510,
+  "total_tokens": 537,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 510
+ },
+ "created": 1792768582
+}

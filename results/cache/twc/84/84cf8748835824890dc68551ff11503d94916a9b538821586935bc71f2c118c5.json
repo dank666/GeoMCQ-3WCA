@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-073",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下表为2019年全国及四大地区人口增长幅度（与2012年相比）、三次产业结构统计表。\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline \\multicolumn{2}{|c|}{ 地区 } & 全国 & 甲 & 乙 & 丙 & 丁 \\\\\n\\hline \\multicolumn{2}{|c|}{ 人口增长率 (\\%) } & 3.4 & -1.7 & 4.5 & 2.6 & 4.2 \\\\\n\\hline \\multirow{3}{*}{\\begin{tabular}{c} \n三次产业结构 \\\\\n\\multirow{3}{*}{$(\\%)$}\n\\end{tabular}} & 第一产业 & 7.2 & 13.2 & 4.6 & 8.2 & 11.0 \\\\\n\\cline { 2 - 7 } & 第二产业 & 39.1 & 34.4 & 38.9 & 41.8 & 37.0 \\\\\n\\cline { 2 - 7 } & 第三产业 & 53.7 & 52.4 & 56.5 & 50.0 & 51.1 \\\\\n\\hline\n\\end{tabular} 甲是（）\n\n待判断的选项：\nA. 东部地区\nB. 中部地区\nC. 西部地区\nD. 东北地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是2019年人口增长幅度与2012年相比的统计\n2. 是2019年三次产业结构的统计\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"是\", \"是\"], \"D\": [\"是\", \"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 433,
+  "total_tokens": 469,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773004
+}

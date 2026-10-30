@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-078",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：水资源的空间分布不均是指不同地区水资源总量差异较大，我国水资源空间分布特点是南多北少、东多西少，结合我国水资源空间分布特点，下列地区中，水资源最丰富的是（ ）\n\n待判断的选项：\nA. 南方地区\nB. 华北地区\nC. 西北地区\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 水资源：上位：自然资源；特征：可再生性、时空分布不均、有限性、多用性；成因：水循环作用、降水补给；影响：支撑生产生活、维持生态平衡；分布：长江流域、黄河流域、华北平原\n- 空间分布不均：上位：空间差异；特征：地域差异明显、集聚与分散并存、动态变化；成因：自然条件差异、经济发展差异、历史基础不同、政策因素影响；影响：区域发展不平衡、人口迁移、资源配置优化\n- 水资源总量：上位：水资源特征；特征：动态性、可再生性、区域差异大；成因：降水补给、冰川融水、地下水补给；影响：决定区域供水能力、影响工农业布局、制约经济发展；分布：中国、巴西、俄罗斯、加拿大\n- 水资源分布：上位：资源分布；特征：南多北少、东多西少、夏秋多冬春少、年际变化大；成因：季风气候影响、降水时空差异、地形地势影响；影响：南水北调必要性、区域用水矛盾；分布：长江流域、华北地区、西北地区\n- 南方地区：上位：中国地理分区；特征：亚热带季风气候、水田农业、河网密布；分布：中国秦岭—淮河以南\n- 华北地区：上位：地理区域、中国分区；特征：温带季风气候、水资源短缺、人口密集；成因：自然地理分异、行政区划；影响：经济发达、生态问题突出；分布：中国北部\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是水资源最丰富的地区\n2. 位于我国境内\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 525,
+  "total_tokens": 552,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 525
+ },
+ "created": 1792769090
+}

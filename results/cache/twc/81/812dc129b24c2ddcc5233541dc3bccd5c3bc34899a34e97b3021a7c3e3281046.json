@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-081",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于风力堆积作用的说法，正确的有（）\n\n待判断的选项：\nA. 风力堆积只形成沙丘\nB. 沙粒大小均匀，分选性好\nC. 风速减缓时，沙粒易堆积\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 风力堆积：上位：风力作用、外力堆积；特征：风力减弱堆积、分选性差、干旱区常见；成因：风速减小、沙尘沉降、障碍物阻挡；影响：形成沙丘、形成黄土高原、掩埋农田；分布：西北沙漠、黄土高原、华北平原\n- 沙丘：上位：风积地貌；特征：迎风坡缓、背风坡陡、移动性；成因：风力搬运沉积、沙源丰富、风向稳定；影响：掩埋农田、形成沙漠景观；分布：沙漠地区、海滨沙丘、干旱区\n- 沙粒：上位：风积地貌、风力搬运沉积、沙源丰富；特征：分选性好、干旱区常见、易堆积\n- 分选性：上位：沉积物特征；特征：颗粒大小均匀程度、反映搬运介质、影响沉积岩性质；成因：搬运距离、搬运介质、沉积环境；影响：指示沉积环境、影响岩石孔隙度\n- 风速：上位：气象要素；特征：水平运动、有大小和方向、随高度变化；成因：气压梯度力、地转偏向力、摩擦力；影响：影响蒸发、风能资源、风沙活动；分布：沿海、高空、开阔地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于风力堆积作用的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 485,
+  "total_tokens": 503,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 485
+ },
+ "created": 1792773537
+}

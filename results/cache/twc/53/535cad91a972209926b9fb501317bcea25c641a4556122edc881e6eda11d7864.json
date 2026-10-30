@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-022",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：商业网点布局遵循市场最优和交通最优原则，市中心商业网点密集主要因为：\n\n待判断的选项：\nA. 环境安静、污染小\nB. 人口多、市场大、交通便利\nC. 地租便宜、成本低\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 商业网点布局：上位：商业布局；特征：接近消费者、交通便利、等级规模匹配；成因：市场因素、交通因素、人口密度；影响：提高商业效益、方便居民生活；分布：城市中心、居民区、交通干线\n- 市场：上位：区位因素；特征：影响产业布局、接近消费地、降低运输成本；成因：人口集聚、经济发展；影响：形成市场指向型工业、促进产业集聚；分布：城市地区、人口密集区\n- 交通：上位：运输方式；特征：实现位移、网络性、区域性；成因：社会经济需求、技术进步；影响：促进经济发展、加强区域联系\n- 原则：上位：基本准则；特征：指导性、规范性；影响：指导实践\n- 城市中心：上位：城市功能区；特征：交通便利、地价高昂、功能密集、人口流动大；成因：历史发展、交通枢纽、经济集聚；影响：辐射带动周边、形成中央商务区、交通拥堵；分布：大城市核心区、传统商业街区、交通枢纽周边\n- 商业网点：上位：商业服务设施；特征：分布广泛、等级差异明显、服务范围有限；成因：人口分布、交通条件、消费需求；影响：方便居民购物、促进商品流通；分布：居民区、城市中心、交通沿线\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是市中心商业网点密集的主要原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 452,
+  "total_tokens": 470,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 452
+ },
+ "created": 1792768877
+}

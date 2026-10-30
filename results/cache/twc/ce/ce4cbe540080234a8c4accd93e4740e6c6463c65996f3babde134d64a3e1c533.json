@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-078",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：山地垂直地域分异的原因是（）\n\n待判断的选项：\nA. 海拔升高热量变化\nB. 海陆位置变化\nC. 海拔升高水分变化\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 山地：上位：陆地地形；特征：海拔较高、坡度陡峭、相对高度大；成因：地壳抬升、褶皱断裂、外力侵蚀；影响：气候垂直分异、河流落差大、交通不便；分布：喜马拉雅山脉、天山山脉、秦岭\n- 分异：上位：自然地理现象；特征：空间差异、规律性、尺度性；成因：热量差异、水分差异、地形起伏；影响：形成自然带、影响农业生产、塑造区域特色\n- 成因：上位：地理要素；特征：解释性、关联性、多样性；影响：用于地理分析、指导问题解决\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n- 热能：上位：能量；特征：可转化、可传递、来源于太阳辐射；成因：太阳辐射、地球内部热；影响：驱动大气运动、维持地表温度、影响地理环境\n- 变迁：上位：地理过程；特征：动态性、长期性、阶段性；成因：自然因素、人为因素；影响：地理格局改变、人地关系调整\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是山地环境导致的生物与自然带随海拔变化的现象\n2. 是由于热量和水分条件随海拔变化引起的\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 476,
+  "total_tokens": 503,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 476
+ },
+ "created": 1792773054
+}

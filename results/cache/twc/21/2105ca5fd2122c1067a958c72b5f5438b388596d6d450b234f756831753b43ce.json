@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-047",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流的流域分界线主要是山脉，山脉的走向决定了流域的范围，东西走向的山脉会成为南北方向河流的流域分界线，南北走向的山脉会成为东西方向河流的流域分界线，某山脉是东西走向，位于我国中部，成为我国南方和北方河流的流域分界线，结合山脉走向和流域分界线的关系，该山脉是（ ）\n\n待判断的选项：\nA. 太行山\nB. 昆仑山\nC. 秦岭\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 流域：上位：自然区域、水文单元；特征：边界明确、整体性强、上中下游关联；成因：地形分水岭、河流水系；影响：水资源管理、生态保护、区域协作；分布：长江流域、黄河流域、珠江流域\n- 分界线：上位：地理界线；特征：明确划分范围、具有法律或自然意义、可能为过渡带；成因：自然地理分异、行政管理需要；影响：界定区域范围、影响区域发展；分布：秦岭—淮河一线、黑河—腾冲线、国界线\n- 山脉：上位：山地；特征：呈条带状、有一定走向、海拔较高；成因：板块运动、地壳运动；影响：影响气候、分隔区域、形成河流分水岭；分布：喜马拉雅山脉、秦岭、天山\n- 走向：上位：地质构造要素、产状要素；特征：岩层层面与水平面交线方向、用方位角表示、与倾向垂直；成因：地壳运动、岩层变形；影响：影响工程建设、指示地质构造\n- 东西：上位：方位；特征：方向性、相对性\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合题干描述的山脉\n2. 位于我国中部\n3. 呈东西走向\n4. 是南北方向河流的流域分界线\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 4 个判断，例如：{\"A\": [\"是\", \"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\", \"否\", \"否\"], \"B\": [\"否\", \"否\", \"是\", \"否\"], \"C\": [\"是\", \"是\", \"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 45,
+  "prompt_tokens": 571,
+  "total_tokens": 616,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 571
+ },
+ "created": 1792769033
+}

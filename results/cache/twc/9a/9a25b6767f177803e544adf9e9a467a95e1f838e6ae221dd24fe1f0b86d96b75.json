@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-063",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：土地沙化过程中，关键外力与人为原因是（）\n\n待判断的选项：\nA. 冰川侵蚀\nB. 风力侵蚀\nC. 植被破坏\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 沙化：上位：土地退化、生态环境问题；特征：地表沙质化、植被退化、生产力下降；成因：过度放牧、过度开垦、水资源利用不当、气候干旱；影响：生物多样性减少、沙尘暴频发、贫困加剧；分布：干旱半干旱区、农牧交错带、西北地区\n- 进程：上位：发展变化；特征：动态变化、阶段性、不可逆性；成因：社会经济发展、政策推动；影响：导致结构变化、影响空间格局\n- 关键：上位：重要；特征：决定性作用、主要矛盾\n- 外力：上位：地质作用、地貌成因；特征：来自地球外部、以太阳能为动力、使地表趋于平缓；成因：太阳辐射能、重力作用、流水风力冰川；影响：塑造地表形态、削高填低、形成沉积地貌\n- 人为原因：上位：影响因素、原因；特征：人类活动引起、可调控、有时负面；影响：导致环境变化、影响地理过程\n- 冰川侵蚀：上位：外力作用；特征：破坏地表、形成侵蚀地貌、多发生在冰川运动区；成因：冰川运动、冰川重量；影响：形成冰斗、形成角峰、形成U形谷；分布：高山地区、高纬度地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是土地沙化过程中的关键外力\n2. 是土地沙化过程中的人为原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"否\"], \"C\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 450,
+  "total_tokens": 477,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 450
+ },
+ "created": 1792769613
+}

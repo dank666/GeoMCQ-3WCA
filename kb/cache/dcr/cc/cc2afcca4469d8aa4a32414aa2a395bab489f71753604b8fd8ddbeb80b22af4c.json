@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:长征||dd1f3cde18c8",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“长征”编写一个词典条目，供符号推理系统使用。\n\n题干：据报道，北京时间2021年4月29日，包括我国搭载空间站天和核心舱的长征5号B等三枚运载火箭先后发射升空。三个发射场均位于海岸线附近。下表为三枚运载火箭发射的相关信息。\\begin{tabular}{|c|c|c|}\\hline运载火箭名称&发射场&发射时间\\\\\\hline$\\begin{array}{l}\\text{中国长征}5\\text{号}\\\\\\text{B}\\end{array}$&海南文昌航天发射场&北京时间4月29日11时23分\\\\\\hline欧洲织女星&库鲁$\\left(5^{\\circ}14^{\\prime}\\mathrm{N},52^{\\circ}47^{\\prime}\\mathrm{W}\\right)$&$\\begin{array}{l}\\text{西三区区时}4\\text{月}28\\text{日}22\\text{时}50\\\\\\text{分}\\end{array}$\\\\\\hline美国猎鹰9号&$\\begin{array}{l}\\text{卡纳维拉尔角}\\left(28^{\\circ}29^{\\prime}\\mathrm{N},\\right.\\\\\\left.80^{\\circ}35^{\\prime}\\mathrm{W}\\right)\\end{array}$&$\\begin{array}{l}\\text{西五区区时}4\\text{月}28\\text{日}22\\text{时}44\\\\\\text{分}\\end{array}$\\\\\\hline\\end{tabular}从纬度地带性角度考虑，三个发射场所在地自然带为亚热带常绿阔叶林带的个数为()\n选项：\nA. 0个\nB. 1个\nC. 2个\nD. 3个\n\n词典中已有条目的示例：\n{\"term\": \"北京\", \"category\": \"PLACE\", \"parent_level\": \"中国首都；直辖市；历史古都；国家政策\", \"child_level\": \"中心城区；城市副中心；政治文化中心；国际交往中心；科技创新中心\"}\n{\"term\": \"时间\", \"category\": \"OTHER\", \"parent_level\": \"地理要素\", \"child_level\": \"一维性；不可逆性；连续性\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"PLACE\", \"parent_level\": \"中国航天；运载火箭；发射场；航天工程\", \"child_level\": \"长征系列火箭；中国航天事业；海南文昌航天发射场；空间站发射\", \"confidence\": 0.0}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 54,
+  "prompt_tokens": 756,
+  "total_tokens": 810,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792770680
+}

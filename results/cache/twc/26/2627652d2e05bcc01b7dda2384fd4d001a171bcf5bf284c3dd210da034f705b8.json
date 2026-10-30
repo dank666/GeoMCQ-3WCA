@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-015",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：太阳辐射是地球表面热量的主要来源，太阳辐射的强弱与纬度位置、天气状况、海拔高度等因素有关，纬度越低，太阳辐射越强；晴天越多，太阳辐射越强；海拔越高，太阳辐射越强，下列地区中，太阳辐射最强的是（ ）\n\n待判断的选项：\nA. 两极地区\nB. 青藏高原\nC. 赤道附近的热带雨林地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是太阳辐射最强的地区\n2. 纬度低\n3. 晴天多\n4. 海拔高\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 4 个判断，例如：{\"A\": [\"是\", \"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"否\", \"否\", \"否\", \"否\"],\n\"B\": [\"否\", \"否\", \"是\", \"是\"],\n\"C\": [\"是\", \"是\", \"是\", \"不确定\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 44,
+  "prompt_tokens": 236,
+  "total_tokens": 280,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772059
+}

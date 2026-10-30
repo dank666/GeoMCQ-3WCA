@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:agieval-140",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国的“妈祖信仰”已成为世界非物质文化遗产，妈祖文化盛行于（　　）\n\n待判断的选项：\nA. 江南水乡\nB. 四川盆地\nC. 华南沿海\nD. 云贵高原\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 妈祖：上位：文化传承、宗教信仰；特征：沿海地区、海神崇拜、渔民信仰、民间信仰、非物质文化遗产\n- 世界：上位：地理区域；特征：全球范围、自然与人文综合体\n- 非物质文化遗产：上位：文化遗产；特征：活态传承、以人为载体、地域特色鲜明；成因：历史积淀、族群传承；影响：文化多样性、促进旅游发展；分布：中国、日本、韩国\n- 文化：上位：人类活动产物、社会现象；特征：地域性、时代性、传承性、多样性；成因：自然环境差异、历史发展过程、人类活动创造；影响：影响人类行为、塑造区域特色、促进社会发展\n- 盛行于：上位：文化现象、地域分布；特征：宗教信仰、民俗活动、广泛传播\n- 江南水乡：上位：文化区、地理区域；特征：河网密布、湖泊众多、水乡文化、稻作农业；成因：平原低洼、降水丰富、河湖众多、人类活动；影响：发展水运、形成水乡聚落、旅游开发、洪涝风险；分布：长江三角洲、太湖流域、杭嘉湖平原、苏南地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是妈祖文化的分布范围\n2. 是妈祖文化盛行地区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"不确定\"],\n\"B\": [\"否\", \"否\"],\n\"C\": [\"是\", \"是\"],\n\"D\": [\"否\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 440,
+  "total_tokens": 474,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 440
+ },
+ "created": 1792771385
+}

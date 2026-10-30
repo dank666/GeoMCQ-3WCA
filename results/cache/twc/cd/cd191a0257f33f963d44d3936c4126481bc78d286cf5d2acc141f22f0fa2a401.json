@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:gaokao-10-2",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "材料：在全球气候变暖的背景下，我国东北长白山高山苔原带矮小灌木的冻害反而加剧，调查发现，长白山雪期缩短；冻害与坡度密切相关，而与海拔基本无关；西北坡为冻害高发区．据此完成 6～8 题．\n题干：长白山西北坡比其他坡向冻害高发，是因为该坡（）\n\n待判断的选项：\nA. 年降水最少\nB. 冬季气温最低\nC. 年日照最少\nD. 冬季风力最大\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成该现象的主要原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"不确定\"], \"B\": [\"不确定\"], \"C\": [\"不确定\"], \"D\": [\"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 217,
+  "total_tokens": 241,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773122
+}

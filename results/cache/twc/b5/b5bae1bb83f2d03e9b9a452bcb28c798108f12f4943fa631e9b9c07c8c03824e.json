@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-045",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某港口城市为了提升航运服务能力，建设了国际航运服务中心，提供金融、保险、法律、信息等一站式服务，并吸引了航运物流企业入驻。这种发展模式体现了（）\n\n待判断的选项：\nA. 现代服务业集聚\nB. 工业主导\nC. 港产城融合发展\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 港口城市：上位：城市、交通枢纽城市；特征：依托港口发展、对外联系密切、经济外向度高；成因：港口区位优势、国际贸易发展、腹地经济支撑；影响：形成临港工业区、人口集聚、促进区域发展；分布：上海、鹿特丹、新加坡\n- 船舶服务：上位：交通运输服务、服务业；特征：依托港口、专业化强、服务船舶全周期；成因：航运需求、港口发展、产业链延伸；影响：保障航运运行、促进港口经济、增加就业；分布：上海港、新加坡港、鹿特丹港\n- 国际航运：上位：交通运输方式；特征：运量大、成本低、速度慢；成因：国际贸易需求、海洋运输优势；影响：促进全球贸易、带动港口发展；分布：马六甲海峡、苏伊士运河、巴拿马运河\n- 金融：上位：服务业、第三产业；特征：资金融通、高附加值、知识密集；成因：经济发展、市场需求、政策支持；影响：促进经济增长、优化资源配置、增加就业；分布：金融中心、城市中心\n- 保险：上位：服务业、金融业；特征：分散风险、经济补偿、契约性服务；成因：风险防范需求、经济发展、社会保障需要；影响：保障生产生活、稳定社会经济、减少灾害损失；分布：城市金融中心、保险营业网点\n- 法律：上位：社会规范；特征：国家强制力、普遍适用、权利义务规定；成因：国家立法、社会需求；影响：规范行为、维护秩序、保障公平\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是这种发展模式体现的地理特征\n2. 符合港口城市提升航运服务能力的逻辑\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 530,
+  "total_tokens": 557,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 530
+ },
+ "created": 1792769715
+}

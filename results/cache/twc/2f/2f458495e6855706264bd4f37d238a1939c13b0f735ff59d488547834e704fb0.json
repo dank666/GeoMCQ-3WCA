@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-018",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地带性土壤是指在地带性因素（气候、生物）影响下形成的土壤，具有明显的地域分布规律，下列关于地带性土壤的说法正确的有（）\n\n待判断的选项：\nA. 地带性土壤的分布与地形无关\nB. 热带雨林气候区对应砖红壤，热带草原气候区对应红壤\nC. 温带季风气候区对应棕壤、褐土，温带大陆性气候区对应黑钙土、栗钙土\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地带性土壤：上位：土壤类型、自然土壤；特征：与气候带对应、成带状分布、发育成熟；成因：气候分异、生物作用、地形影响；影响：反映自然带、影响农业生产；分布：热带雨林、温带草原、荒漠区\n- 地带性：上位：地理环境分异规律；特征：沿一定方向更替、呈带状分布、具有规律性；成因：太阳辐射差异、海陆位置差异、海拔高度变化；影响：形成自然带、影响农业生产布局；分布：全球陆地、中纬度地区\n- 气候：上位：大气现象；特征：长期平均状态、具有稳定性、空间差异性、受多种因素影响；成因：太阳辐射、大气环流、下垫面性质、人类活动；影响：影响农业生产、影响人类活动、塑造自然景观；分布：全球各地\n- 生物：上位：自然地理要素；特征：有生命、新陈代谢、繁殖、适应环境；影响：影响土壤形成、影响大气成分、影响水循环；分布：生物圈\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 地域：上位：空间范围；特征：空间范围、区域特征、内部联系；成因：自然条件、人文因素、历史发展；影响：区域差异、地域分工、文化景观；分布：东部沿海、西部内陆、城市群\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于地带性土壤的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 558,
+  "total_tokens": 576,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 558
+ },
+ "created": 1792769954
+}

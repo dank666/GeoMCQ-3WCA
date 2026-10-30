@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-053",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于土壤保水性的说法，正确的有（）\n\n待判断的选项：\nA. 黏土的保水性优于砂土，能长期为植物提供水分\nB. 土壤保水性过强，会导致土壤积水，影响植物根系呼吸\nC. 土壤保水性是指土壤保持水分的能力，与土壤质地密切相关\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 保水：上位：土壤功能；特征：保持水分、减少径流、改善土壤结构；成因：植被覆盖、土壤孔隙、有机质含量；影响：涵养水源、防止水土流失、抗旱保墒；分布：森林、草地、农田\n- 黏土：上位：沉积物、土壤质地类型；特征：颗粒细小、可塑性强、保水保肥；成因：岩石风化、流水沉积；影响：影响土壤通气性、适宜制陶；分布：河湖沉积区、冲积平原\n- 砂土：上位：土壤质地类型、土壤；特征：颗粒粗、孔隙大、透水性强、保水性差；成因：砂粒含量高、风化沉积；影响：易旱、易风蚀；分布：沙漠地区、河流沿岸\n- 植物：上位：生物；特征：光合作用、适应环境；成因：气候土壤条件；影响：保持水土、调节气候\n- 供水：上位：水资源利用；特征：保障生产生活、依赖水源工程、受水质水量制约\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于土壤保水性的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 517,
+  "total_tokens": 535,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 517
+ },
+ "created": 1792773395
+}

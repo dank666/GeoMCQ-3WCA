@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-070",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：乡村聚落规模小、分布分散，主要受影响的因素是：\n\n待判断的选项：\nA. 科技、政策、文化\nB. 工业、商业、交通\nC. 地形、耕地、水源\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 乡村聚落：上位：聚落、居民点；特征：规模较小、密度较低、以农业为主、与自然环境密切；成因：农业生产活动、自然环境条件、历史文化因素；影响：提供居住场所、传承乡土文化、维持乡村社会；分布：平原地区、山区、沿海地区\n- 规模小：上位：规模特征；特征：数量少、范围有限、影响较小\n- 科学技术：上位：生产力；特征：第一生产力、创新性、渗透性、综合性；成因：社会需求、科学探索、经济发展；影响：推动经济发展、改变生活方式、促进社会进步；分布：科技园区、研究机构、高等院校\n- 政策：上位：管理措施、宏观调控手段；特征：导向性、规范性、时效性；成因：解决发展问题、实现发展目标；影响：引导资源配置、促进区域发展；分布：国家层面、地方层面\n- 文化：上位：人类活动产物、社会现象；特征：地域性、时代性、传承性、多样性；成因：自然环境差异、历史发展过程、人类活动创造；影响：影响人类行为、塑造区域特色、促进社会发展\n- 工业：上位：产业；特征：原料加工、机械化生产、产品输出；成因：资源分布、市场需求、技术发展；影响：经济增长、就业增加、环境污染；分布：工业区、城市边缘\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成乡村聚落规模小、分布分散的主要原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 460,
+  "total_tokens": 478,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 460
+ },
+ "created": 1792768935
+}

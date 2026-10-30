@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-090",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：近年来，河北、河南、山东、甘肃等北方省份生产的蔬莱大量销往江苏、浙江和上海等南方沿海省市，形成了“北莱南运”格局。“北菜南运”的主要原因是\n\n待判断的选项：\nA. 南方市场需求大\nB. 北方耕地面积增大\nC. 北方蔬菜品种多\nD. 南方蔬菜种植减少\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成该现象的主要原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"不确定\"], \"C\": [\"不确定\"], \"D\": [\"不确定\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 181,
+  "total_tokens": 205,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773018
+}

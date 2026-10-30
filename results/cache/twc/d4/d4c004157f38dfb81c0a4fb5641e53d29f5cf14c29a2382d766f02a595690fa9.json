@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-102",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：20世纪80年代开始，长江三角洲地区某县村办企业涌现，形成“村村冒烟”现象。2016年该县开始实施村集体经济“抱团飞地”发展模式：由县、镇统筹，整合腾退的村办企业建设用地指标和补贴资金，各村以股份合作形式（抱团）在发展条件优越的城镇（飞地）联合建设创新创业中心，并建立保证各村收益的机制。“村村冒烟”主要指的是当时该县村办企业 ( )\n\n待判断的选项：\nA. 燃料来源分散\nB. 空间布局分散\nC. 原料来源分散\nD. 产品市场分散\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是当时该县村办企业涌现的现象\n2. 发生在20世纪80年代开始\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"否\", \"否\"],\n\"D\": [\"否\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 269,
+  "total_tokens": 303,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773026
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:agieval-092",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n近年来，长江三角洲地区吸引了很多lC设计与制造、通信设备制造以及物联网、大数据、云计算、互联网金融等信息产业的集聚，形成了以知识和技术为基础的新兴产业集群。信息产业在长江三角洲地区集聚的主要有利条件有\r\n①水源条件优越  ②产业基础较好\r\n③科技条件良好  ④地价相对较高\n\nOptions:\nA. ①②\nB. ②③\nC. ③④\nD. ①④\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nB",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 151,
+  "total_tokens": 153,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771769
+}

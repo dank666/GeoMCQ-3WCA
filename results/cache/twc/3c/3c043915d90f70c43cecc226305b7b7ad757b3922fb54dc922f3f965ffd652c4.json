@@ -1,0 +1,34 @@
+{
+ "tag": "DEFER:geomcq-single-CL-079",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n寒带苔原气候的植被以苔原为主，主要包括苔藓、地衣等，这些植被生长缓慢，对环境的适应性强，能在寒冷干燥的环境中生长，结合寒带苔原气候的植被特征，下列地区中，主要分布着苔原植被的是（ ）\n\nOptions:\nB. 南极大陆\nC. 北极圈附近\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 128,
+  "total_tokens": 130,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792768373
+}

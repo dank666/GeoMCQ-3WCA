@@ -1,0 +1,480 @@
+{"uid": "geomcq-multiple-CL-001", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 149, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-002", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-004", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["B", "C"], "correct": false, "raw": "\nBC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-005", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-006", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-008", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-010", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-011", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-012", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-013", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-014", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["A", "B", "C"], "correct": false, "raw": "\nABC", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-015", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-016", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 110, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-017", "qtype": "multiple", "domain": "CL", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 116, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-019", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 109, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-020", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 100, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-024", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 140, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-025", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["A", "B", "C"], "correct": false, "raw": "\nABC", "prompt_tokens": 141, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-026", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-027", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["B", "C"], "correct": false, "raw": "\nBC", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-028", "qtype": "multiple", "domain": "CL", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-029", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-030", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 93, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-031", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-032", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 111, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-033", "qtype": "multiple", "domain": "CL", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 113, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-034", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 112, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-035", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-036", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-037", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 114, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-038", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-040", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-041", "qtype": "multiple", "domain": "CL", "gold": ["B"], "pred": ["B", "C"], "correct": false, "raw": "\nBC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-042", "qtype": "multiple", "domain": "CL", "gold": ["A", "C"], "pred": ["A", "B", "C"], "correct": false, "raw": "\nABC", "prompt_tokens": 92, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-044", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-045", "qtype": "multiple", "domain": "CL", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 103, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-046", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-047", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 111, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-049", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-050", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-051", "qtype": "multiple", "domain": "CL", "gold": ["B"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-053", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-054", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-055", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-056", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-057", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-058", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-059", "qtype": "multiple", "domain": "CL", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 104, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-060", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 109, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-061", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-062", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-063", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 119, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-065", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 103, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-066", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 128, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-067", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-068", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-069", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 139, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-071", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-072", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-073", "qtype": "multiple", "domain": "CL", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 116, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-074", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 133, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-075", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-076", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-077", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 103, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-079", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 137, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-080", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-082", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 109, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-083", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 104, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-084", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 113, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-085", "qtype": "multiple", "domain": "CL", "gold": ["A", "B"], "pred": ["A", "B", "C"], "correct": false, "raw": "\nABC", "prompt_tokens": 119, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-086", "qtype": "multiple", "domain": "CL", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-087", "qtype": "multiple", "domain": "CL", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 104, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-088", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 116, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-089", "qtype": "multiple", "domain": "CL", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-090", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 128, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-091", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 112, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-096", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 148, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-097", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 147, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-098", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 115, "completion_tokens": 2}
+{"uid": "geomcq-multiple-CL-099", "qtype": "multiple", "domain": "CL", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 138, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-001", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-003", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["C"], "correct": false, "raw": "\nC", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-004", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-005", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-006", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 103, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-007", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-008", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-009", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-011", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-012", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 97, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-014", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 98, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-016", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-017", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-018", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-019", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 103, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-020", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 95, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-021", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-022", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 93, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-023", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 95, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-025", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-026", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-027", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 95, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-028", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 98, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-029", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 98, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-030", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 97, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-031", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 96, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-032", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-033", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 96, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-034", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 95, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-035", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-037", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 98, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-039", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-040", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 93, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-041", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 112, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-042", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 104, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-043", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-044", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 94, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-045", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-049", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 96, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-051", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-052", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 94, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-053", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-054", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 95, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-055", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B"], "correct": false, "raw": "\nB", "prompt_tokens": 92, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-056", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 95, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-057", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-058", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 96, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-059", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 100, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-060", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-061", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-062", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-063", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-064", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-065", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-066", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-067", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 97, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-068", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 98, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-069", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 103, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-070", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 111, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-071", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 115, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-072", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 100, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-073", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-074", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-076", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["B"], "correct": false, "raw": "\nB", "prompt_tokens": 113, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-077", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-078", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-079", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 119, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-080", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 103, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-082", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 97, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-084", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-085", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-086", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-087", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-088", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 97, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-089", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 103, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-092", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 95, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-094", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 94, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-095", "qtype": "multiple", "domain": "GPP", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 94, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-098", "qtype": "multiple", "domain": "GPP", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-GPP-100", "qtype": "multiple", "domain": "GPP", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 98, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-001", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 126, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-002", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-003", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 143, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-004", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B", "C"], "correct": false, "raw": "\nABC", "prompt_tokens": 139, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-005", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 128, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-010", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-011", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-012", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-013", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-014", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-015", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-016", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B"], "correct": false, "raw": "\nB", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-017", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-018", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-019", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 138, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-020", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 136, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-021", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 116, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-022", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-023", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-024", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 128, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-026", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 128, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-029", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-030", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-031", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 118, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-033", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-034", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-035", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-036", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-037", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-038", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 118, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-040", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-041", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 133, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-043", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-044", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 126, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-045", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-046", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-048", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-049", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-050", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 119, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-051", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-052", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-053", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-054", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 114, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-055", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-057", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-058", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-059", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 128, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-062", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-063", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-064", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 128, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-065", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-066", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-067", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-068", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-069", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 128, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-070", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-071", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-072", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-073", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B", "C"], "pred": ["B", "C"], "correct": false, "raw": "\nBC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-075", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-076", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-078", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-079", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-081", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 119, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-083", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-084", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-085", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-086", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B", "C"], "pred": ["B", "C"], "correct": false, "raw": "\nBC", "prompt_tokens": 126, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-087", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 116, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-088", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-090", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 118, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-091", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 126, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-092", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-093", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-094", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-095", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-097", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 115, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-098", "qtype": "multiple", "domain": "HEG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-099", "qtype": "multiple", "domain": "HEG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HEG-100", "qtype": "multiple", "domain": "HEG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-001", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 149, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-002", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 150, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-003", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-004", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 144, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-007", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-008", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 134, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-009", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-011", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "B", "C"], "correct": false, "raw": "\nABC", "prompt_tokens": 135, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-012", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-014", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 138, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-015", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 142, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-016", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 175, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-017", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 139, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-018", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 136, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-019", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["B", "C"], "correct": false, "raw": "\nBC", "prompt_tokens": 148, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-020", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 147, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-021", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 140, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-022", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-023", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-025", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 134, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-026", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 161, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-027", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-028", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 138, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-030", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-031", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 156, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-032", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 148, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-033", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 134, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-034", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 137, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-035", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-036", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 134, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-037", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 135, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-038", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 145, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-041", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 133, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-042", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 136, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-043", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 142, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-044", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-045", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-046", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 143, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-047", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 133, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-049", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-050", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 134, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-052", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-053", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-054", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 126, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-055", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 116, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-056", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-057", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-059", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-061", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 133, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-062", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-063", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-065", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-067", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 115, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-068", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["B", "C"], "correct": false, "raw": "\nBC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-069", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-070", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-071", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-072", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-073", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-075", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 138, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-076", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 118, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-077", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 140, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-078", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 133, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-079", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 141, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-080", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-082", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-083", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 118, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-084", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-085", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-086", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-088", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-089", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 119, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-091", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-093", "qtype": "multiple", "domain": "HY", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 114, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-094", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-096", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-097", "qtype": "multiple", "domain": "HY", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-098", "qtype": "multiple", "domain": "HY", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 116, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-099", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 128, "completion_tokens": 2}
+{"uid": "geomcq-multiple-HY-100", "qtype": "multiple", "domain": "HY", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 118, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-001", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 168, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-002", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 151, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-003", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 150, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-004", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 154, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-005", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 148, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-006", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 137, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-007", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 136, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-008", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 142, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-010", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 151, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-011", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 148, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-012", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 138, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-013", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 140, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-014", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 146, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-015", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 153, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-016", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 136, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-017", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 139, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-018", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 166, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-019", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 151, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-020", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 138, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-021", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 142, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-022", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 142, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-023", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 140, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-024", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 175, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-025", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 148, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-027", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 155, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-028", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 151, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-029", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 146, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-030", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 135, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-031", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-033", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 141, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-035", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 135, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-036", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 127, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-037", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 143, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-038", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-039", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 142, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-041", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 138, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-044", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-045", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 135, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-046", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-047", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 141, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-048", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 140, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-050", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 141, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-051", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 152, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-053", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 133, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-054", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 140, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-056", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 126, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-057", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 140, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-059", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-060", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 134, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-061", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 125, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-063", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 137, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-065", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-066", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-067", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 132, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-069", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 149, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-070", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 134, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-071", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 141, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-072", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-073", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-074", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 133, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-075", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 147, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-076", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 140, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-077", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 142, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-078", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["A", "B", "C"], "correct": false, "raw": "\nABC", "prompt_tokens": 137, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-079", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 139, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-080", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 139, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-081", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-082", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-084", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 137, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-085", "qtype": "multiple", "domain": "SV", "gold": ["A", "B", "C"], "pred": ["A", "B", "C"], "correct": true, "raw": "\nABC", "prompt_tokens": 130, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-086", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-087", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-089", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 122, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-090", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 126, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-091", "qtype": "multiple", "domain": "SV", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 129, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-092", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-093", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 119, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-094", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-096", "qtype": "multiple", "domain": "SV", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 134, "completion_tokens": 2}
+{"uid": "geomcq-multiple-SV-099", "qtype": "multiple", "domain": "SV", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-001", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 110, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-002", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 113, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-003", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 118, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-004", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-005", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 113, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-006", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B"], "correct": false, "raw": "\nB", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-007", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-008", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-009", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-010", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B"], "correct": false, "raw": "\nB", "prompt_tokens": 104, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-011", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 109, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-013", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 131, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-014", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["A", "B"], "correct": false, "raw": "\nAB", "prompt_tokens": 112, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-015", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 110, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-016", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 110, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-017", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-018", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 114, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-019", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-020", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-021", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 110, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-022", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-023", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-024", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-028", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-029", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-030", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-031", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 104, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-033", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-034", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["B"], "correct": false, "raw": "\nB", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-035", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-036", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["C"], "correct": false, "raw": "\nC", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-038", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 124, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-040", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 112, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-041", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 111, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-042", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["C"], "correct": false, "raw": "\nC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-044", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 105, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-045", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 111, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-046", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 100, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-048", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-049", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 100, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-050", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 115, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-051", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 120, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-052", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 112, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-054", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 112, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-055", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 107, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-056", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 100, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-058", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 102, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-059", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-060", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 98, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-062", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 121, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-063", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 126, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-064", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 116, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-065", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-066", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 100, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-067", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 99, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-068", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 97, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-069", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 109, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-071", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 93, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-072", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["A", "C"], "correct": false, "raw": "\nAC", "prompt_tokens": 100, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-073", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 96, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-074", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-075", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-076", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["A", "B", "C"], "correct": false, "raw": "\nABC", "prompt_tokens": 109, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-077", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-078", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 103, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-080", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 115, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-081", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 117, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-082", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 116, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-086", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 110, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-087", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-088", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-090", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 113, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-091", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 126, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-092", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 119, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-094", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 101, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-096", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 104, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-097", "qtype": "multiple", "domain": "TG", "gold": ["B", "C"], "pred": ["B", "C"], "correct": true, "raw": "\nBC", "prompt_tokens": 123, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-098", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 106, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-099", "qtype": "multiple", "domain": "TG", "gold": ["A", "C"], "pred": ["A", "C"], "correct": true, "raw": "\nAC", "prompt_tokens": 108, "completion_tokens": 2}
+{"uid": "geomcq-multiple-TG-100", "qtype": "multiple", "domain": "TG", "gold": ["A", "B"], "pred": ["A", "B"], "correct": true, "raw": "\nAB", "prompt_tokens": 112, "completion_tokens": 2}

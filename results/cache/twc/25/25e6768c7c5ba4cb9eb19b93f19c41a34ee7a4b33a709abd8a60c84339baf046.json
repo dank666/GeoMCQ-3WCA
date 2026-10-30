@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-166",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：小明在非洲热带草原乘坐热气球时，看到草原一片枯黄，斑马、长颈鹿纷纷向远方迁徙。 他向同伴解释，这是因为（　　）\n\n待判断的选项：\nA. 受赤道低气压控制，湿季到来\nB. 受信风影响，干季到来\nC. 受副热带高压控制，干季到来\nD. 受西风影响，湿季到来\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 非洲：上位：大洲；特征：热带大陆、高原大陆、富饶大陆、经济发展水平低；分布：东半球、赤道穿过中部\n- 热带草原：上位：草原、自然带；特征：高草为主、散生乔木、干湿季分明；成因：热带草原气候；影响：适宜发展畜牧业；分布：非洲东部、南美洲巴西高原、澳大利亚北部\n- 热气球：上位：航空器、大气探测、旅游交通；特征：热空气升力、无动力飞行、低空观测\n- 草原：上位：自然带、植被类型；特征：草本植物为主、乔木稀少、季相变化明显；成因：降水较少、半湿润半干旱气候；影响：适宜畜牧业、土壤有机质较高；分布：亚欧大陆内部、北美中部、非洲热带草原\n- 赤道：上位：纬线；特征：最长纬线、划分南北半球、全年昼夜平分；影响：形成热带气候、影响大气环流；分布：非洲中部、南美洲北部、东南亚\n- 低压：上位：气压系统；特征：中心气压低、气流辐合上升、多阴雨天气；成因：热力作用、动力作用；影响：形成阴雨天气、引发大风；分布：副极地低压带、赤道低压带\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成该现象的主要原因\n2. 符合非洲热带草原的地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"], \"D\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 508,
+  "total_tokens": 544,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 508
+ },
+ "created": 1792771030
+}

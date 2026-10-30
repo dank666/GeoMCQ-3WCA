@@ -1,0 +1,42 @@
+{
+ "tag": "DIRECT:geomcq-multiple-SV-018",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n地带性土壤是指在地带性因素（气候、生物）影响下形成的土壤，具有明显的地域分布规律，下列关于地带性土壤的说法正确的有（）\n\nOptions:\nA. 地带性土壤的分布与地形无关\nB. 热带雨林气候区对应砖红壤，热带草原气候区对应红壤\nC. 温带季风气候区对应棕壤、褐土，温带大陆性气候区对应黑钙土、栗钙土\n\nInstructions:\n1. At least two options are correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "C",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 174,
+  "total_tokens": 175,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 174
+ },
+ "created": 1792774793
+}

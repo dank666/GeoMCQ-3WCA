@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-097",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：工业集聚可能带来的问题是：\n\n待判断的选项：\nA. 用地紧张、污染集中\nB. 成本大幅上升、无利润\nC. 信息交流严重受阻\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 工业集聚：上位：产业集聚；特征：空间集中、共享基础设施、降低生产成本、加强企业联系；成因：规模效益、协作需求、政策引导、交通便利；影响：提高经济效益、促进创新、形成工业地域；分布：工业园区、工业区、城市群\n- 用地：上位：土地资源利用、人类活动空间；特征：空间属性、功能分区、可变性；成因：自然条件、经济需求、规划政策；影响：土地覆盖变化、区域发展、环境影响\n- 污染：上位：环境问题；特征：有害物质进入环境、危害人体健康、破坏生态平衡；成因：人类活动排放污染物、工业过度排放；影响：环境质量下降、生态系统破坏\n- 成本：上位：经济要素；特征：影响产业区位选择、可量化比较、因地域而异；成因：资源禀赋差异、技术水平差异、政策环境差异；影响：决定产业布局、影响经济效益、影响产品竞争力\n- 利润：上位：经济收益、企业目标；特征：收入减成本、企业动力、可计量性；成因：销售收入、成本控制、市场竞争；影响：扩大再生产、吸引投资、促进创新\n- 交流：上位：地理联系；特征：双向互动、促进发展、依赖交通通信；成因：区域差异、需求互补；影响：促进区域发展、加强联系；分布：沿海地区、边境口岸\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是工业集聚可能带来的问题\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 479,
+  "total_tokens": 497,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 479
+ },
+ "created": 1792772630
+}

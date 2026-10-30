@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:长条状||f90a99f584d4",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“长条状”编写一个词典条目，供符号推理系统使用。\n\n题干：黄土梁是黄土塬被流水侵蚀切割形成的长条状高地，其特征包括()\n选项：\nA. 顶部平坦广阔\nB. 呈长条状延伸\nC. 地势起伏较大\n\n词典中已有条目的示例：\n{\"term\": \"黄土\", \"category\": \"SOILVEG\", \"parent_level\": \"土壤；沉积物；风力沉积\", \"child_level\": \"黄土塬；黄土梁；黄土峁；质地疏松；孔隙大；垂直节理\"}\n{\"term\": \"流水侵蚀\", \"category\": \"GEOMORPH\", \"parent_level\": \"外力作用；流水动能；地形坡度\", \"child_level\": \"溯源侵蚀；下蚀；侧蚀；流水破坏地表；搬运物质；塑造地貌\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"GEOMORPH\", \"parent_level\": \"地貌形态；流水侵蚀\", \"child_level\": \"狭长地形；延伸特征\", \"confidence\": 0.9}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 40,
+  "prompt_tokens": 445,
+  "total_tokens": 485,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792768242
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-027",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：高原与平原的主要区别在于海拔高低，其中高原海拔高于500米，平原海拔低于200米，某平原经测量海拔为120米，地表平坦开阔，某高原海拔为600米，地表坦荡无明显起伏，结合两者的特征，下列选项中属于两者共同特征的是（ ）\n\n待判断的选项：\nA. 地表坦荡\nB. 边缘陡峭\nC. 海拔较高\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 高原：上位：地貌类型；特征：海拔高、地面起伏小、边缘陡峻；成因：地壳抬升、长期侵蚀；影响：气候寒冷、空气稀薄；分布：青藏高原、云贵高原\n- 平原：上位：陆地地形；特征：海拔较低、地面平坦、起伏较小、面积广阔；成因：地壳沉降、河流沉积、海浪沉积、冰川沉积；影响：利于农耕、交通便利、人口密集、城镇集中；分布：东北平原、华北平原、长江中下游平原\n- 海拔高：上位：地形特征、海拔属性；特征：海拔大、地势高峻、起伏较大；成因：地壳抬升、板块碰撞；影响：气候寒冷、空气稀薄、生态脆弱；分布：青藏高原、安第斯山脉、喜马拉雅山脉\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n- 测量：上位：地理技术；特征：获取空间数据、精度要求高；影响：为地理研究提供数据、支持工程建设\n- 地面：上位：地球表面、下垫面；特征：直接接受太阳辐射、与大气相互作用、人类活动场所；成因：地球圈层相互作用；影响：影响气候、影响水文、提供活动空间；分布：陆地、海洋、地表\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是高原与平原的共同特征\n2. 符合两者地表坦荡的特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 535,
+  "total_tokens": 562,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 535
+ },
+ "created": 1792769292
+}

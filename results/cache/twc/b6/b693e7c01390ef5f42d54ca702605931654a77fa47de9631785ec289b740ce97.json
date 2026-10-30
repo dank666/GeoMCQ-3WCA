@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-018",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：交通运输方式中，运量大、运费低、适合长途大宗货物运输的是：\n\n待判断的选项：\nA. 公路\nB. 航空\nC. 铁路或水运\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 交通运输方式：上位：运输方式、交通方式；特征：运量差异、速度差异、成本差异、灵活性差异；成因：技术条件、自然条件、运输需求；影响：影响产业布局、决定物流成本、改变时空距离；分布：铁路干线、高速公路网、沿海航线、航空枢纽\n- 运量大：上位：运输特点；特征：单次运载量大、适合大宗货物、成本较低；成因：运输工具载重能力、线路通过能力；影响：降低运输成本、促进大宗物资流通\n- 运费：上位：运输成本、经济费用；特征：随距离增加、受运输方式影响；成因：运输距离、运输方式、货物重量；影响：影响产业区位、影响商品价格；分布：交通运输线、港口\n- 货运：上位：交通运输；特征：批量大、成本低、速度较慢；成因：生产分工、贸易需求；影响：促进区域联系、降低生产成本\n- 公路：上位：交通运输方式、基础设施；特征：机动灵活、门到门运输、适应性强、建设周期短；成因：经济发展需求、地形条件影响、技术进步；影响：促进区域联系、带动沿线经济、方便居民出行；分布：全国路网、山区公路、城市道路\n- 航空：上位：交通运输方式；特征：速度快、运量小、运费高、受天气影响大；成因：长距离快速运输需求、经济发展水平提高；影响：缩短时空距离、促进国际交往；分布：国际航空枢纽、大型机场\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是适合长途大宗货物运输的交通运输方式\n2. 具备运量大的特点\n3. 具备运费低的特点\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\", \"否\"], \"B\": [\"否\", \"否\", \"否\"], \"C\": [\"是\", \"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 516,
+  "total_tokens": 552,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 516
+ },
+ "created": 1792768873
+}

@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-096",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：农产品保鲜冷藏技术的发展，使农业生产与市场的地域联系：\n\n待判断的选项：\nA. 更加松散\nB. 不受影响\nC. 更加紧密\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 农产品：上位：农业产出；特征：初级产品、地域性强、季节性强、易腐烂；成因：农业生产、自然条件影响；影响：满足生活需求、工业原料、出口创汇\n- 保鲜：上位：资源、环境与可持续发展；特征：保鲜技术、冷藏技术、食品保存\n- 冷藏：上位：资源与环境；特征：保鲜技术、冷链物流、食品保存\n- 技术：上位：生产力要素；特征：可创新性、可传播性、阶段性；成因：科学进步、社会需求、经济发展；影响：提高生产效率、改变生产方式、促进产业升级\n- 农业生产：上位：经济活动；特征：地域性、季节性、周期性；成因：自然条件、社会经济条件、技术条件；影响：提供农产品、保障粮食安全、促进农村就业；分布：平原地区、河谷地区、绿洲地区\n- 市场：上位：区位因素；特征：影响产业布局、接近消费地、降低运输成本；成因：人口集聚、经济发展；影响：形成市场指向型工业、促进产业集聚；分布：城市地区、人口密集区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 加强了农业生产与市场的地域联系\n2. 通过保鲜冷藏技术实现\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 438,
+  "total_tokens": 465,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 438
+ },
+ "created": 1792772631
+}

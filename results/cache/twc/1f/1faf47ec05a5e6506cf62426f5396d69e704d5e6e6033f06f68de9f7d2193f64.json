@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-091",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：近年来，河北、河南、山东、甘肃等北方省份生产的蔬莱大量销往江苏、浙江和上海等南方沿海省市，形成了“北莱南运”格局。“北菜南运”有利于北方地区农业\r\n\n\n待判断的说法：\n①. 粗放经营\n②. 规模化经营\n③. 集约化生产\n④. “小而全”生产\n\n请对每个说法逐条判断它是否满足下列条件：\n1. 是北方省份生产的蔬菜\n2. 销往南方沿海省市\n3. 有利于北方地区农业\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为说法编号，值为与条件顺序一致的 3 个判断，例如：{\"①\": [\"是\", \"是\", \"是\"], \"②\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"①\": [\"是\", \"是\", \"不确定\"],\n\"②\": [\"是\", \"是\", \"是\"],\n\"③\": [\"是\", \"是\", \"是\"],\n\"④\": [\"是\", \"是\", \"不确定\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 50,
+  "prompt_tokens": 214,
+  "total_tokens": 264,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773018
+}

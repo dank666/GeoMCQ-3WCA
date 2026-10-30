@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-019",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某河流上游地区因生态保护需要，关停了污染企业，实施退耕还林，并发展生态农业和休闲旅游。下游城市因此受益，水质改善，供水安全得到保障。这体现了（）\n\n待判断的选项：\nA. 流域综合治理的成效\nB. 产业转移对下游的影响\nC. 区域生态环境的关联性\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流上游：上位：河段；特征：落差大、水流急、侵蚀作用强、多峡谷；成因：地势高差大、河流下切侵蚀；影响：水能资源丰富、形成峡谷地貌；分布：长江上游、黄河上游\n- 生态保护：上位：环境保护；特征：维护生态平衡、保护自然资源、促进可持续发展；成因：生态系统退化、生物多样性减少、环境政策推动；影响：改善生态环境、保障生态安全、提高环境质量；分布：自然保护区、生态脆弱区、重要生态功能区\n- 污染：上位：环境问题；特征：有害物质进入环境、危害人体健康、破坏生态平衡；成因：人类活动排放污染物、工业过度排放；影响：环境质量下降、生态系统破坏\n- 企业：上位：经济组织、市场主体；特征：营利性、独立性、组织性；成因：市场需求、利润驱动、分工协作；影响：提供产品服务、创造就业、推动创新；分布：产业园区、城市、工业区\n- 退耕还林：上位：生态工程；特征：恢复森林植被、改善生态环境；成因：水土流失、土地退化；影响：减少水土流失、增加生物多样性；分布：黄土高原、长江上游\n- 生态农业：上位：农业类型；特征：生态友好、资源循环利用、减少污染；成因：农业可持续发展需求、环境保护意识、政策支持；影响：保护农业生态环境、提高农产品品质、增加农民收入；分布：生态示范区、有机农业基地、农村地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是题干所述现象所体现的地理原理\n2. 符合流域上下游生态补偿机制的逻辑\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 524,
+  "total_tokens": 551,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 524
+ },
+ "created": 1792769681
+}

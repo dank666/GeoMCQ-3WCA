@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:降低生产||a8a75ab9a165",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“降低生产”编写一个词典条目，供符号推理系统使用。\n\n题干：工业集聚可以共用基础设施、加强信息交流、降低运费，从而：\n选项：\nA. 导致资源迅速枯竭\nB. 降低生产成本、提高利润\nC. 加剧恶性竞争、提高成本\n\n词典中已有条目的示例：\n{\"term\": \"工业集聚\", \"category\": \"INDUSTRY\", \"parent_level\": \"产业集聚；规模效益；协作需求\", \"child_level\": \"专业化集聚；多样化集聚；空间集中；共享基础设施；降低生产成本\"}\n{\"term\": \"基础设施\", \"category\": \"INDUSTRY\", \"parent_level\": \"公共设施；社会经济发展需求\", \"child_level\": \"交通设施；通信设施；能源设施；公共性；基础性；先行性\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"降低生产成本；空间集中；共享基础设施\", \"child_level\": \"减少生产开支；提高经济效益；优化资源配置\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 481,
+  "total_tokens": 529,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 449
+ },
+ "created": 1792771984
+}

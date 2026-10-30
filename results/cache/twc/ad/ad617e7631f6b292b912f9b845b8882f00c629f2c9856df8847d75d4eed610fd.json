@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-089",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于土壤保护的重要性，说法正确的有（）\n\n待判断的选项：\nA. 土壤能调节生态环境，保护土壤能维护生态平衡\nB. 土壤是农业生产的基础，保护土壤能保障粮食安全\nC. 土壤资源丰富，无需保护，可随意利用\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 生态环境：上位：环境；特征：综合性、脆弱性、区域性；成因：自然因素、人为因素；影响：影响人类生存、制约经济发展；分布：全球、区域\n- 维护生态平衡：上位：生态保护、可持续发展；特征：生态系统结构稳定、物质循环平衡、能量流动平衡；成因：保护生态系统、合理利用资源；影响：生态良性循环、环境质量改善\n- 农业生产：上位：经济活动；特征：地域性、季节性、周期性；成因：自然条件、社会经济条件、技术条件；影响：提供农产品、保障粮食安全、促进农村就业；分布：平原地区、河谷地区、绿洲地区\n- 保障粮食安全：上位：粮食安全、国家安全；特征：确保粮食供应、稳定粮食价格、保障粮食质量；成因：人口增长、耕地减少、粮食需求增加；影响：维护国家稳定、促进农业发展、保障人民生活；分布：粮食主产区、商品粮基地\n- 资源丰富：上位：资源特征；特征：总量大、种类多、人均占有量高；成因：自然条件优越、地质构造复杂；影响：经济发展基础好、资源出口潜力大；分布：中国、俄罗斯、加拿大、澳大利亚\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于土壤保护重要性的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 492,
+  "total_tokens": 510,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 492
+ },
+ "created": 1792770047
+}

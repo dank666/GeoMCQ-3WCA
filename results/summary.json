@@ -1,0 +1,813 @@
+{
+ "test": {
+  "Qwen2.5-7B": {
+   "all": {
+    "n": 960,
+    "ours": 84.79166666666667,
+    "direct": 84.375,
+    "mcnemar_vs_direct": [
+     67,
+     63,
+     0.7925825227940952
+    ],
+    "deferred": 15.833333333333334,
+    "acc_context": 86.38613861386139,
+    "acc_deferred": 76.3157894736842,
+    "direct_on_context": 87.87128712871286,
+    "direct_on_deferred": 65.78947368421052
+   },
+   "single": {
+    "n": 480,
+    "ours": 88.95833333333333,
+    "direct": 97.70833333333333,
+    "mcnemar_vs_direct": [
+     1,
+     43,
+     5.115907697472721e-12
+    ],
+    "deferred": 7.916666666666667,
+    "acc_context": 90.04524886877829,
+    "acc_deferred": 76.3157894736842,
+    "direct_on_context": 97.73755656108597,
+    "direct_on_deferred": 97.36842105263158
+   },
+   "multiple": {
+    "n": 480,
+    "ours": 80.625,
+    "direct": 71.04166666666667,
+    "mcnemar_vs_direct": [
+     66,
+     20,
+     6.669778822829638e-07
+    ],
+    "ours_jaccard": 91.66666666666667,
+    "direct_jaccard": 86.875,
+    "direct_k2": 73.95833333333333,
+    "direct_k2_jaccard": 89.375,
+    "mcnemar_vs_k2": [
+     53,
+     21,
+     0.0002564885942369217
+    ],
+    "deferred": 23.75,
+    "acc_context": 81.9672131147541,
+    "acc_deferred": 76.3157894736842,
+    "direct_on_context": 75.95628415300547,
+    "direct_on_deferred": 55.26315789473684
+   },
+   "domain:CL": {
+    "n": 160,
+    "ours": 66.25,
+    "direct": 68.75,
+    "mcnemar_vs_direct": [
+     11,
+     15,
+     0.557197093963623
+    ],
+    "deferred": 13.75,
+    "acc_context": 71.73913043478261,
+    "acc_deferred": 31.818181818181817,
+    "direct_on_context": 71.73913043478261,
+    "direct_on_deferred": 50.0
+   },
+   "domain:HY": {
+    "n": 160,
+    "ours": 83.125,
+    "direct": 87.5,
+    "mcnemar_vs_direct": [
+     4,
+     11,
+     0.11846923828125
+    ],
+    "deferred": 17.5,
+    "acc_context": 84.0909090909091,
+    "acc_deferred": 78.57142857142857,
+    "direct_on_context": 90.15151515151516,
+    "direct_on_deferred": 75.0
+   },
+   "domain:TG": {
+    "n": 160,
+    "ours": 86.875,
+    "direct": 83.125,
+    "mcnemar_vs_direct": [
+     16,
+     10,
+     0.32693958282470703
+    ],
+    "deferred": 15.625,
+    "acc_context": 86.66666666666667,
+    "acc_deferred": 88.0,
+    "direct_on_context": 90.37037037037037,
+    "direct_on_deferred": 44.0
+   },
+   "domain:SV": {
+    "n": 160,
+    "ours": 93.125,
+    "direct": 94.375,
+    "mcnemar_vs_direct": [
+     5,
+     7,
+     0.7744140625
+    ],
+    "deferred": 7.5,
+    "acc_context": 95.27027027027027,
+    "acc_deferred": 66.66666666666667,
+    "direct_on_context": 95.27027027027027,
+    "direct_on_deferred": 83.33333333333333
+   },
+   "domain:HEG": {
+    "n": 160,
+    "ours": 85.625,
+    "direct": 85.0,
+    "mcnemar_vs_direct": [
+     16,
+     15,
+     1.0
+    ],
+    "deferred": 21.875,
+    "acc_context": 86.4,
+    "acc_deferred": 82.85714285714286,
+    "direct_on_context": 87.2,
+    "direct_on_deferred": 77.14285714285714
+   },
+   "domain:GPP": {
+    "n": 160,
+    "ours": 93.75,
+    "direct": 87.5,
+    "mcnemar_vs_direct": [
+     15,
+     5,
+     0.04138946533203125
+    ],
+    "deferred": 18.75,
+    "acc_context": 93.84615384615384,
+    "acc_deferred": 93.33333333333333,
+    "direct_on_context": 92.3076923076923,
+    "direct_on_deferred": 66.66666666666667
+   },
+   "cost": {
+    "calls": 2.158333333333333,
+    "prompt_tokens": 900.3875,
+    "completion_tokens": 60.61145833333333,
+    "dcr_terms": 0.43333333333333335,
+    "direct_prompt_tokens": 129.75416666666666
+   }
+  },
+  "GLM-4-9B": {
+   "all": {
+    "n": 960,
+    "ours": 91.875,
+    "direct": 91.14583333333333,
+    "mcnemar_vs_direct": [
+     44,
+     37,
+     0.5052364407669359
+    ],
+    "deferred": 13.020833333333334,
+    "acc_context": 93.41317365269461,
+    "acc_deferred": 81.6,
+    "direct_on_context": 92.93413173652695,
+    "direct_on_deferred": 79.2
+   },
+   "single": {
+    "n": 480,
+    "ours": 95.83333333333333,
+    "direct": 97.70833333333333,
+    "mcnemar_vs_direct": [
+     2,
+     11,
+     0.0224609375
+    ],
+    "deferred": 17.083333333333332,
+    "acc_context": 97.23618090452261,
+    "acc_deferred": 89.02439024390245,
+    "direct_on_context": 98.24120603015075,
+    "direct_on_deferred": 95.1219512195122
+   },
+   "multiple": {
+    "n": 480,
+    "ours": 87.91666666666667,
+    "direct": 84.58333333333333,
+    "mcnemar_vs_direct": [
+     42,
+     26,
+     0.06811867428409976
+    ],
+    "ours_jaccard": 95.0,
+    "direct_jaccard": 92.9513888888889,
+    "direct_k2": 87.29166666666667,
+    "direct_k2_jaccard": 94.89583333333333,
+    "mcnemar_vs_k2": [
+     26,
+     23,
+     0.7754496546815659
+    ],
+    "deferred": 8.958333333333334,
+    "acc_context": 89.93135011441647,
+    "acc_deferred": 67.44186046511628,
+    "direct_on_context": 88.10068649885584,
+    "direct_on_deferred": 48.83720930232558
+   },
+   "domain:CL": {
+    "n": 160,
+    "ours": 80.625,
+    "direct": 85.0,
+    "mcnemar_vs_direct": [
+     5,
+     12,
+     0.143463134765625
+    ],
+    "deferred": 16.875,
+    "acc_context": 82.70676691729324,
+    "acc_deferred": 70.37037037037037,
+    "direct_on_context": 86.46616541353383,
+    "direct_on_deferred": 77.77777777777777
+   },
+   "domain:HY": {
+    "n": 160,
+    "ours": 93.125,
+    "direct": 93.125,
+    "mcnemar_vs_direct": [
+     5,
+     5,
+     1.0
+    ],
+    "deferred": 15.0,
+    "acc_context": 92.6470588235294,
+    "acc_deferred": 95.83333333333333,
+    "direct_on_context": 93.38235294117646,
+    "direct_on_deferred": 91.66666666666667
+   },
+   "domain:TG": {
+    "n": 160,
+    "ours": 92.5,
+    "direct": 89.375,
+    "mcnemar_vs_direct": [
+     9,
+     4,
+     0.266845703125
+    ],
+    "deferred": 16.875,
+    "acc_context": 95.48872180451127,
+    "acc_deferred": 77.77777777777777,
+    "direct_on_context": 93.23308270676692,
+    "direct_on_deferred": 70.37037037037037
+   },
+   "domain:SV": {
+    "n": 160,
+    "ours": 93.125,
+    "direct": 95.625,
+    "mcnemar_vs_direct": [
+     3,
+     7,
+     0.34375
+    ],
+    "deferred": 5.625,
+    "acc_context": 94.03973509933775,
+    "acc_deferred": 77.77777777777777,
+    "direct_on_context": 96.6887417218543,
+    "direct_on_deferred": 77.77777777777777
+   },
+   "domain:HEG": {
+    "n": 160,
+    "ours": 95.625,
+    "direct": 93.125,
+    "mcnemar_vs_direct": [
+     10,
+     6,
+     0.454498291015625
+    ],
+    "deferred": 7.5,
+    "acc_context": 96.62162162162163,
+    "acc_deferred": 83.33333333333333,
+    "direct_on_context": 93.91891891891892,
+    "direct_on_deferred": 83.33333333333333
+   },
+   "domain:GPP": {
+    "n": 160,
+    "ours": 96.25,
+    "direct": 90.625,
+    "mcnemar_vs_direct": [
+     12,
+     3,
+     0.03515625
+    ],
+    "deferred": 16.25,
+    "acc_context": 98.50746268656717,
+    "acc_deferred": 84.61538461538461,
+    "direct_on_context": 93.28358208955224,
+    "direct_on_deferred": 76.92307692307692
+   },
+   "cost": {
+    "calls": 2.1302083333333335,
+    "prompt_tokens": 811.9427083333334,
+    "completion_tokens": 46.552083333333336,
+    "dcr_terms": 0.390625,
+    "direct_prompt_tokens": 120.084375
+   }
+  },
+  "Qwen3.5-122B": {
+   "all": {
+    "n": 960,
+    "ours": 96.35416666666667,
+    "direct": 92.08333333333333,
+    "mcnemar_vs_direct": [
+     53,
+     12,
+     2.786234342464335e-07
+    ],
+    "deferred": 7.916666666666667,
+    "acc_context": 97.39819004524887,
+    "acc_deferred": 84.21052631578948,
+    "direct_on_context": 94.90950226244344,
+    "direct_on_deferred": 59.21052631578947
+   },
+   "single": {
+    "n": 480,
+    "ours": 98.75,
+    "direct": 99.16666666666667,
+    "mcnemar_vs_direct": [
+     0,
+     2,
+     0.5
+    ],
+    "deferred": 3.75,
+    "acc_context": 99.35064935064935,
+    "acc_deferred": 83.33333333333333,
+    "direct_on_context": 99.35064935064935,
+    "direct_on_deferred": 94.44444444444444
+   },
+   "multiple": {
+    "n": 480,
+    "ours": 93.95833333333333,
+    "direct": 85.0,
+    "mcnemar_vs_direct": [
+     53,
+     10,
+     3.382168502403561e-08
+    ],
+    "ours_jaccard": 97.5,
+    "direct_jaccard": 93.05555555555557,
+    "direct_k2": 94.79166666666667,
+    "direct_k2_jaccard": 98.02083333333333,
+    "mcnemar_vs_k2": [
+     12,
+     16,
+     0.5715881884098053
+    ],
+    "deferred": 12.083333333333334,
+    "acc_context": 95.260663507109,
+    "acc_deferred": 84.48275862068965,
+    "direct_on_context": 90.04739336492891,
+    "direct_on_deferred": 48.275862068965516
+   },
+   "domain:CL": {
+    "n": 160,
+    "ours": 93.125,
+    "direct": 94.375,
+    "mcnemar_vs_direct": [
+     4,
+     6,
+     0.75390625
+    ],
+    "deferred": 4.375,
+    "acc_context": 94.11764705882354,
+    "acc_deferred": 71.42857142857143,
+    "direct_on_context": 94.11764705882354,
+    "direct_on_deferred": 100.0
+   },
+   "domain:HY": {
+    "n": 160,
+    "ours": 97.5,
+    "direct": 96.875,
+    "mcnemar_vs_direct": [
+     4,
+     3,
+     1.0
+    ],
+    "deferred": 5.0,
+    "acc_context": 98.02631578947368,
+    "acc_deferred": 87.5,
+    "direct_on_context": 98.02631578947368,
+    "direct_on_deferred": 75.0
+   },
+   "domain:TG": {
+    "n": 160,
+    "ours": 95.625,
+    "direct": 90.625,
+    "mcnemar_vs_direct": [
+     8,
+     0,
+     0.0078125
+    ],
+    "deferred": 13.125,
+    "acc_context": 96.40287769784173,
+    "acc_deferred": 90.47619047619048,
+    "direct_on_context": 94.96402877697842,
+    "direct_on_deferred": 61.904761904761905
+   },
+   "domain:SV": {
+    "n": 160,
+    "ours": 97.5,
+    "direct": 96.25,
+    "mcnemar_vs_direct": [
+     3,
+     1,
+     0.625
+    ],
+    "deferred": 6.875,
+    "acc_context": 98.65771812080537,
+    "acc_deferred": 81.81818181818181,
+    "direct_on_context": 97.31543624161074,
+    "direct_on_deferred": 81.81818181818181
+   },
+   "domain:HEG": {
+    "n": 160,
+    "ours": 95.625,
+    "direct": 80.625,
+    "mcnemar_vs_direct": [
+     26,
+     2,
+     3.032386302947998e-06
+    ],
+    "deferred": 11.875,
+    "acc_context": 97.16312056737588,
+    "acc_deferred": 84.21052631578948,
+    "direct_on_context": 87.94326241134752,
+    "direct_on_deferred": 26.31578947368421
+   },
+   "domain:GPP": {
+    "n": 160,
+    "ours": 98.75,
+    "direct": 93.75,
+    "mcnemar_vs_direct": [
+     8,
+     0,
+     0.0078125
+    ],
+    "deferred": 6.25,
+    "acc_context": 100.0,
+    "acc_deferred": 80.0,
+    "direct_on_context": 96.66666666666667,
+    "direct_on_deferred": 50.0
+   },
+   "cost": {
+    "calls": 2.0791666666666666,
+    "prompt_tokens": 818.7291666666666,
+    "completion_tokens": 48.5125,
+    "dcr_terms": 0.43333333333333335,
+    "direct_prompt_tokens": 134.7125
+   }
+  }
+ },
+ "gaokao": {
+  "Qwen2.5-7B": {
+   "all": {
+    "n": 245,
+    "ours": 80.40816326530613,
+    "direct": 82.44897959183673,
+    "mcnemar_vs_direct": [
+     8,
+     13,
+     0.38331031799316406
+    ],
+    "deferred": 42.44897959183673,
+    "acc_context": 89.36170212765957,
+    "acc_deferred": 68.26923076923077,
+    "direct_on_context": 90.78014184397163,
+    "direct_on_deferred": 71.15384615384616
+   },
+   "single": {
+    "n": 245,
+    "ours": 80.40816326530613,
+    "direct": 82.44897959183673,
+    "mcnemar_vs_direct": [
+     8,
+     13,
+     0.38331031799316406
+    ],
+    "deferred": 42.44897959183673,
+    "acc_context": 89.36170212765957,
+    "acc_deferred": 68.26923076923077,
+    "direct_on_context": 90.78014184397163,
+    "direct_on_deferred": 71.15384615384616
+   },
+   "multiple": {
+    "n": 0,
+    "ours": NaN,
+    "direct": NaN,
+    "mcnemar_vs_direct": [
+     0,
+     0,
+     1.0
+    ],
+    "ours_jaccard": NaN,
+    "direct_jaccard": NaN,
+    "deferred": 0.0,
+    "acc_context": NaN,
+    "acc_deferred": NaN,
+    "direct_on_context": NaN,
+    "direct_on_deferred": NaN
+   },
+   "statement_combo": {
+    "n": 36,
+    "ours": 94.44444444444444,
+    "direct": 94.44444444444444,
+    "mcnemar_vs_direct": [
+     0,
+     0,
+     1.0
+    ],
+    "deferred": 55.55555555555556,
+    "acc_context": 100.0,
+    "acc_deferred": 90.0,
+    "direct_on_context": 100.0,
+    "direct_on_deferred": 90.0
+   },
+   "passage": {
+    "n": 46,
+    "ours": 84.78260869565217,
+    "direct": 84.78260869565217,
+    "mcnemar_vs_direct": [
+     3,
+     3,
+     1.0
+    ],
+    "deferred": 47.82608695652174,
+    "acc_context": 91.66666666666667,
+    "acc_deferred": 77.27272727272727,
+    "direct_on_context": 87.5,
+    "direct_on_deferred": 81.81818181818181
+   },
+   "figure": {
+    "n": 25,
+    "ours": 68.0,
+    "direct": 56.0,
+    "mcnemar_vs_direct": [
+     3,
+     0,
+     0.25
+    ],
+    "deferred": 72.0,
+    "acc_context": 85.71428571428571,
+    "acc_deferred": 61.111111111111114,
+    "direct_on_context": 57.142857142857146,
+    "direct_on_deferred": 55.55555555555556
+   },
+   "text_only": {
+    "n": 220,
+    "ours": 81.81818181818181,
+    "direct": 85.45454545454545,
+    "mcnemar_vs_direct": [
+     5,
+     13,
+     0.09625244140625
+    ],
+    "deferred": 39.09090909090909,
+    "acc_context": 89.55223880597015,
+    "acc_deferred": 69.76744186046511,
+    "direct_on_context": 92.53731343283582,
+    "direct_on_deferred": 74.4186046511628
+   },
+   "cost": {
+    "calls": 2.4244897959183676,
+    "prompt_tokens": 1064.9714285714285,
+    "completion_tokens": 84.98367346938775,
+    "dcr_terms": 1.9142857142857144,
+    "direct_prompt_tokens": 195.9591836734694
+   }
+  },
+  "GLM-4-9B": {
+   "all": {
+    "n": 245,
+    "ours": 82.04081632653062,
+    "direct": 80.81632653061224,
+    "mcnemar_vs_direct": [
+     12,
+     9,
+     0.6636238098144531
+    ],
+    "deferred": 30.612244897959183,
+    "acc_context": 87.05882352941177,
+    "acc_deferred": 70.66666666666667,
+    "direct_on_context": 88.23529411764706,
+    "direct_on_deferred": 64.0
+   },
+   "single": {
+    "n": 245,
+    "ours": 82.04081632653062,
+    "direct": 80.81632653061224,
+    "mcnemar_vs_direct": [
+     12,
+     9,
+     0.6636238098144531
+    ],
+    "deferred": 30.612244897959183,
+    "acc_context": 87.05882352941177,
+    "acc_deferred": 70.66666666666667,
+    "direct_on_context": 88.23529411764706,
+    "direct_on_deferred": 64.0
+   },
+   "multiple": {
+    "n": 0,
+    "ours": NaN,
+    "direct": NaN,
+    "mcnemar_vs_direct": [
+     0,
+     0,
+     1.0
+    ],
+    "ours_jaccard": NaN,
+    "direct_jaccard": NaN,
+    "deferred": 0.0,
+    "acc_context": NaN,
+    "acc_deferred": NaN,
+    "direct_on_context": NaN,
+    "direct_on_deferred": NaN
+   },
+   "statement_combo": {
+    "n": 36,
+    "ours": 94.44444444444444,
+    "direct": 88.88888888888889,
+    "mcnemar_vs_direct": [
+     2,
+     0,
+     0.5
+    ],
+    "deferred": 19.444444444444443,
+    "acc_context": 96.55172413793103,
+    "acc_deferred": 85.71428571428571,
+    "direct_on_context": 89.65517241379311,
+    "direct_on_deferred": 85.71428571428571
+   },
+   "passage": {
+    "n": 46,
+    "ours": 80.43478260869566,
+    "direct": 80.43478260869566,
+    "mcnemar_vs_direct": [
+     3,
+     3,
+     1.0
+    ],
+    "deferred": 28.26086956521739,
+    "acc_context": 87.87878787878788,
+    "acc_deferred": 61.53846153846154,
+    "direct_on_context": 96.96969696969697,
+    "direct_on_deferred": 38.46153846153846
+   },
+   "figure": {
+    "n": 25,
+    "ours": 56.0,
+    "direct": 68.0,
+    "mcnemar_vs_direct": [
+     0,
+     3,
+     0.25
+    ],
+    "deferred": 40.0,
+    "acc_context": 66.66666666666667,
+    "acc_deferred": 40.0,
+    "direct_on_context": 80.0,
+    "direct_on_deferred": 50.0
+   },
+   "text_only": {
+    "n": 220,
+    "ours": 85.0,
+    "direct": 82.27272727272727,
+    "mcnemar_vs_direct": [
+     12,
+     6,
+     0.237884521484375
+    ],
+    "deferred": 29.545454545454547,
+    "acc_context": 89.03225806451613,
+    "acc_deferred": 75.38461538461539,
+    "direct_on_context": 89.03225806451613,
+    "direct_on_deferred": 66.15384615384616
+   },
+   "cost": {
+    "calls": 2.306122448979592,
+    "prompt_tokens": 943.6448979591837,
+    "completion_tokens": 58.23265306122449,
+    "dcr_terms": 1.1142857142857143,
+    "direct_prompt_tokens": 177.33061224489796
+   }
+  },
+  "Qwen3.5-122B": {
+   "all": {
+    "n": 245,
+    "ours": 91.42857142857143,
+    "direct": 92.65306122448979,
+    "mcnemar_vs_direct": [
+     2,
+     5,
+     0.453125
+    ],
+    "deferred": 10.612244897959183,
+    "acc_context": 92.69406392694064,
+    "acc_deferred": 80.76923076923077,
+    "direct_on_context": 94.06392694063926,
+    "direct_on_deferred": 80.76923076923077
+   },
+   "single": {
+    "n": 245,
+    "ours": 91.42857142857143,
+    "direct": 92.65306122448979,
+    "mcnemar_vs_direct": [
+     2,
+     5,
+     0.453125
+    ],
+    "deferred": 10.612244897959183,
+    "acc_context": 92.69406392694064,
+    "acc_deferred": 80.76923076923077,
+    "direct_on_context": 94.06392694063926,
+    "direct_on_deferred": 80.76923076923077
+   },
+   "multiple": {
+    "n": 0,
+    "ours": NaN,
+    "direct": NaN,
+    "mcnemar_vs_direct": [
+     0,
+     0,
+     1.0
+    ],
+    "ours_jaccard": NaN,
+    "direct_jaccard": NaN,
+    "deferred": 0.0,
+    "acc_context": NaN,
+    "acc_deferred": NaN,
+    "direct_on_context": NaN,
+    "direct_on_deferred": NaN
+   },
+   "statement_combo": {
+    "n": 36,
+    "ours": 100.0,
+    "direct": 100.0,
+    "mcnemar_vs_direct": [
+     0,
+     0,
+     1.0
+    ],
+    "deferred": 22.22222222222222,
+    "acc_context": 100.0,
+    "acc_deferred": 100.0,
+    "direct_on_context": 100.0,
+    "direct_on_deferred": 100.0
+   },
+   "passage": {
+    "n": 46,
+    "ours": 95.65217391304348,
+    "direct": 93.47826086956522,
+    "mcnemar_vs_direct": [
+     1,
+     0,
+     1.0
+    ],
+    "deferred": 4.3478260869565215,
+    "acc_context": 97.72727272727273,
+    "acc_deferred": 50.0,
+    "direct_on_context": 95.45454545454545,
+    "direct_on_deferred": 50.0
+   },
+   "figure": {
+    "n": 25,
+    "ours": 84.0,
+    "direct": 88.0,
+    "mcnemar_vs_direct": [
+     0,
+     1,
+     1.0
+    ],
+    "deferred": 12.0,
+    "acc_context": 81.81818181818181,
+    "acc_deferred": 100.0,
+    "direct_on_context": 86.36363636363636,
+    "direct_on_deferred": 100.0
+   },
+   "text_only": {
+    "n": 220,
+    "ours": 92.27272727272727,
+    "direct": 93.18181818181819,
+    "mcnemar_vs_direct": [
+     2,
+     4,
+     0.6875
+    ],
+    "deferred": 10.454545454545455,
+    "acc_context": 93.90862944162437,
+    "acc_deferred": 78.26086956521739,
+    "direct_on_context": 94.9238578680203,
+    "direct_on_deferred": 78.26086956521739
+   },
+   "cost": {
+    "calls": 2.1061224489795918,
+    "prompt_tokens": 933.8122448979592,
+    "completion_tokens": 67.47755102040816,
+    "dcr_terms": 1.9142857142857144,
+    "direct_prompt_tokens": 198.1469387755102
+   }
+  }
+ }
+}

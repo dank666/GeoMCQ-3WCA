@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-094",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于不同土壤类型的分布，说法正确的有（）\n\n待判断的选项：\nA. 黑土主要分布在寒带地区\nB. 砖红壤主要分布在热带地区，红壤主要分布在亚热带地区\nC. 棕壤、褐土主要分布在温带地区\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 土壤类型：上位：土壤；特征：具有特定剖面构型、理化性质差异明显、呈带状分布；成因：气候条件、生物作用、成土母质、地形影响、人类活动；影响：影响农业生产布局、决定植被类型、反映自然环境特征；分布：东北平原、江南丘陵、黄土高原、西北内陆\n- 黑土：上位：土壤类型；特征：有机质含量高、颜色暗黑、团粒结构良好、肥力高；成因：草原植被腐殖质积累、寒冷气候；影响：适宜农耕、作物高产；分布：东北平原、乌克兰平原、密西西比平原\n- 寒带：上位：气候带；特征：终年寒冷、降水稀少、蒸发微弱；成因：高纬度、太阳辐射少；影响：冻土广布、植被稀疏；分布：北冰洋沿岸、南极大陆、格陵兰岛\n- 砖红壤：上位：土壤、红壤；特征：颜色砖红、酸性强、有机质少、质地黏重；成因：热带雨林气候、脱硅富铝化；影响：肥力低、需改良；分布：海南岛、雷州半岛、西双版纳\n- 热带地区：上位：五带；特征：终年高温、有直射阳光、昼夜长短变化小；成因：太阳辐射强、纬度低；影响：热量充足、降水差异大；分布：赤道两侧、南北回归线之间\n- 红壤：上位：土壤、地带性土壤；特征：酸性、黏重、铁铝氧化物富集、有机质少；成因：亚热带季风气候、脱硅富铝化过程、高温多雨；影响：肥力较低、需改良、适宜茶树、柑橘；分布：江南丘陵、华南地区、台湾\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于不同土壤类型分布的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 565,
+  "total_tokens": 583,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 565
+ },
+ "created": 1792770051
+}

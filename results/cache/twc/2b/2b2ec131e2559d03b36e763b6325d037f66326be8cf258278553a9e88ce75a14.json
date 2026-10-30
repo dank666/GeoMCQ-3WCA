@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:gaokao-11-2",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "材料：我国是世界闻名的陶瓷古国，明清时期，“瓷都”景德镇是全国的瓷业中心，产品远销海内外，20 世纪 80 年代初，广东省佛山市率先引进国外现代化陶瓷生产线，逐步发展成为全国乃至世界最大的陶瓷生产基地．2003 年，佛山陶瓷主产区被划入中心城区范围，陶瓷产业向景德镇等陶瓷产地转移．据此完成 1﹣3 题．\n题干：促使佛山陶瓷产业向外转移的主要原因是佛山（）\n\n待判断的选项：\nA. 产业结构调整\nB. 原材料枯竭\nC. 市场需求减小\nD. 企业竞争加剧\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 世界：上位：地理区域；特征：全球范围、自然与人文综合体\n- 陶瓷：上位：工业部门、制造业、传统手工业；特征：陶瓷生产、瓷器制造、建材工业、工艺美术\n- 景德镇：上位：地名、区域、城市、陶瓷产地；特征：景德镇、瓷都、明清瓷业中心、产业承接地\n- 全国：上位：空间尺度；特征：国家领土范围、宏观空间尺度；影响：政策全国实施、资源全国调配\n- 产物：上位：生产成果；特征：人类劳动成果、满足需求、可交换；成因：生产过程、资源投入；影响：满足消费、促进流通\n- 广东省：上位：省级行政区；特征：南岭以南、海岸线长、经济总量大；成因：改革开放、区位优势；影响：区域发展差异、产业转移；分布：中国南部、南海之滨\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是促使佛山陶瓷产业向外转移的主要原因\n2. 针对佛山地区的情况\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"否\", \"是\"], \"D\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 466,
+  "total_tokens": 502,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 466
+ },
+ "created": 1792771150
+}

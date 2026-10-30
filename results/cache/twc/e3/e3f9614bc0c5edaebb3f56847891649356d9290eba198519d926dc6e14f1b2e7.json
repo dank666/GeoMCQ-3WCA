@@ -1,0 +1,50 @@
+{
+ "tag": "COND:gaokao-05-1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理教师，擅长分析选择题的题意。"
+   },
+   {
+    "role": "user",
+    "content": "下面是一道地理选择题的题干（不含选项）。请找出题干对“正确答案”提出的判断条件。\n\n要求：\n1. 条件是每一个正确选项都必须满足的要求，不是某个正确选项的具体内容；用一个条件判断所有选项；\n2. 第一个条件复述题目的问法，例如：\n   - “下列关于X的说法正确的有”→“关于X的说法符合地理事实”\n   - “X和Y的共同特征有”→“是X和Y的共同特征”\n   - “X与Y的差异主要体现在”→“是X与Y之间确实存在的差异”\n   - “造成该现象的主要原因是”→“是造成该现象的主要原因”\n3. 其余条件是题干中对答案的额外限定（如时间、地点、数量、程度），每个 4~20 个字；没有就不写；共 1~4 个；\n4. 条件一律用肯定形式表述；若题目问的是“不正确/不属于/不是/错误”的选项，把 polarity 设为 \"negative\"，否则为 \"positive\"。\n\n只输出 JSON：{\"conditions\": [\"...\", \"...\"], \"polarity\": \"positive\"}\n\n材料：人类活动导致大气中含氮化合物浓度增加，产生沉降，是新出现的令人担忧的全球变化问题．一科研小组选择受人类干扰较小的某地，实验模拟大气氮沉降初期对植被的影响．实验地植被以灌木植物为主，伴生多年生草本植物．如表数据为实验地以 2009 年为基数，2010﹣2013 年实验中植被的变化值（测量时间为每年 9 月 30 日）．据此完成 7﹣9 题． 年份 2009 2010 2011 2012 2013 灌木植物 1 1.00 1.00 1.00 1.00 植株数量草本植物 1 1.18 1.20 1.21 1.23 灌木植物 1 1.09 1.10 1.12 1.11 地上生物量草本植物 1 1.47 1.55 1.52 1.53 灌木植物 1 1.01 0.99 0.98 0.97 地下生物量草本植物 1 1.21 1.29 1.42 1.58\n题干：实验期间植被变化表现为（） "
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"conditions\": [\"是实验期间植被变化的真实表现\", \"基于 2009 至 2013 年的数据变化\"], \"polarity\": \"positive\"}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 586,
+  "total_tokens": 624,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 586
+ },
+ "created": 1792771111
+}

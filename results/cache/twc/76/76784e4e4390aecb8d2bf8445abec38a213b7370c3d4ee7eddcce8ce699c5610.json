@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-047",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：山地的海拔通常在500米以上，根据海拔高度可分为低山、中山、高山和极高山，其中海拔超过3500米的为高山，下列山脉中，属于高山的是（ ）\n\n待判断的选项：\nA. 泰山\nB. 喜马拉雅山脉\nC. 黄山\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 山地：上位：陆地地形；特征：海拔较高、坡度陡峭、相对高度大；成因：地壳抬升、褶皱断裂、外力侵蚀；影响：气候垂直分异、河流落差大、交通不便；分布：喜马拉雅山脉、天山山脉、秦岭\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n- 海拔高度：上位：高度、高程；特征：以海平面为基准、垂直距离、单位米；影响：影响气候、影响植被、影响人类活动；分布：陆地表面、山地高原\n- 低山：上位：山地；特征：海拔较低、相对高度较小、坡度较陡；成因：地壳抬升、外力侵蚀；影响：发展林业、旅游开发；分布：江南丘陵、辽东半岛\n- 中山：上位：山地；特征：海拔1000-3500米、山坡陡峭、山顶浑圆；成因：地壳抬升、流水侵蚀；影响：垂直自然带明显、水土流失敏感；分布：中国南方山地、黄土高原\n- 高山：上位：山地、地貌类型；特征：海拔高、坡度陡、垂直分异；成因：板块碰撞、地壳抬升、火山活动；影响：垂直自然带、气候屏障、河流发源地；分布：喜马拉雅山、天山、阿尔卑斯山\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是题干中定义的高山\n2. 海拔超过3500米\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 522,
+  "total_tokens": 549,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 522
+ },
+ "created": 1792769321
+}

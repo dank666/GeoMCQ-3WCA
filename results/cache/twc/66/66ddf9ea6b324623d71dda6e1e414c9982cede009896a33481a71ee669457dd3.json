@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-003",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：平原的核心特征是海拔通常低于200米、地表平坦开阔，我国某平原经勘测海拔在150米左右，区域内河网密布、水源充足，且土壤肥沃、适合农作物生长，结合我国主要平原的分布特点和核心特征，该平原最可能是（ ）\n\n待判断的选项：\nA. 东北平原\nB. 华北平原\nC. 长江中下游平原\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 平原：上位：陆地地形；特征：海拔较低、地面平坦、起伏较小、面积广阔；成因：地壳沉降、河流沉积、海浪沉积、冰川沉积；影响：利于农耕、交通便利、人口密集、城镇集中；分布：东北平原、华北平原、长江中下游平原\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n- 地面：上位：地球表面、下垫面；特征：直接接受太阳辐射、与大气相互作用、人类活动场所；成因：地球圈层相互作用；影响：影响气候、影响水文、提供活动空间；分布：陆地、海洋、地表\n- 米左右：上位：数值描述、地理测量、近似表达；特征：表示约数、非精确值、范围估算\n- 区域：上位：地理空间单元；特征：一定范围、内部相对一致、边界模糊、层次性；成因：地球表面差异、人类活动划分；影响：便于空间分析、区域发展基础\n- 内河：上位：河流、水路运输线；特征：位于大陆内部、可通航、受季节影响；成因：地形平坦、水量丰富；影响：提供水运、促进区域联系；分布：长江流域、珠江流域、京杭运河\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合该平原核心特征与分布特点的最可能选项\n2. 海拔在150米左右\n3. 河网密布且水源充足\n4. 土壤肥沃适合农作物生长\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 4 个判断，例如：{\"A\": [\"是\", \"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\", \"否\", \"是\"], \"B\": [\"否\", \"否\", \"否\", \"是\"], \"C\": [\"是\", \"是\", \"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 45,
+  "prompt_tokens": 554,
+  "total_tokens": 599,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 554
+ },
+ "created": 1792769263
+}

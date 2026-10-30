@@ -1,0 +1,34 @@
+{
+ "tag": "DEFER:geomcq-single-GPP-035",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n岩浆岩、沉积岩、变质岩在一定条件下可以相互转化，从岩浆到形成各种岩石，再到重新形成岩浆的过程，称为（）\n\nOptions:\nA. 水循环\nC. 岩石圈物质循环\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 104,
+  "total_tokens": 106,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792768451
+}

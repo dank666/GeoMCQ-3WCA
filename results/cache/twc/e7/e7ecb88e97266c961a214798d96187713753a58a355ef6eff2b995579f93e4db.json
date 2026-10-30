@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-027",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：海水的温度分布具有明显的时空差异，下列关于海水温度的说法正确的有（）\n\n待判断的选项：\nA. 表层海水温度由赤道向两极逐渐降低\nB. 同一海区，夏季海水温度高于冬季\nC. 海水温度随深度增加而升高\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 海水：上位：水体；特征：含有溶解盐类、具有密度和温度、不断运动；成因：降水与蒸发、径流注入、海底火山活动；影响：调节全球气候、提供海洋资源、影响海岸地貌；分布：全球海洋、近海区域、大洋中心\n- 温度：上位：气象要素；特征：表示冷热程度、随时间变化、随空间变化；成因：太阳辐射、大气环流、下垫面性质；影响：影响气候、影响植被、影响人类活动\n- 时空：上位：地理视角、分布特征；特征：时间与空间结合、体现动态格局、具有地域差异；影响：支撑地理分析、揭示分布规律\n- 海水温度：上位：海水物理性质、海洋水文要素；特征：随深度增加而降低、表层受太阳辐射影响、季节变化明显、水平分布不均；成因：太阳辐射、洋流性质、海陆分布、季节变化；影响：影响海洋生物分布、影响气候、影响海水密度；分布：低纬海区、中纬海区、高纬海区\n- 表层水温：上位：海水温度、海洋水文要素；特征：随纬度变化、日变化小、受洋流影响；成因：太阳辐射、洋流性质、季节变化；影响：影响海洋生物、调节气候；分布：全球海洋表层\n- 赤道：上位：纬线；特征：最长纬线、划分南北半球、全年昼夜平分；影响：形成热带气候、影响大气环流；分布：非洲中部、南美洲北部、东南亚\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于海水温度的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 517,
+  "total_tokens": 535,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 517
+ },
+ "created": 1792769827
+}

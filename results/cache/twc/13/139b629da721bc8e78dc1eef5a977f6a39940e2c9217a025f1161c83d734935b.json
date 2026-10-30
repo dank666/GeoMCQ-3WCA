@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-059",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：森林被称为“地球之肺”，因为森林可以（）\n\n待判断的选项：\nA. 释放氧气\nB. 加剧温室效应\nC. 吸收CO₂\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是森林的功能\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 19,
+  "prompt_tokens": 136,
+  "total_tokens": 155,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772479
+}

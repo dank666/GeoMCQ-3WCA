@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-125",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：霍林河发源于大兴安岭，为山前半干旱区及部分半湿润区的平原带来了流水及泥沙。受上游修建水库和灌溉的影响，山前平原河段多年断流。断流期间，山前平原上的洼地增多增大。伴随着洼地增多增大，周边地区可能出现(　　)\n\n待判断的选项：\nA. 水土流失\nB. 沼泽化\nC. 土地沙化\nD. 盐碱化\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是受上游修建水库和灌溉影响\n2. 是山前平原河段多年断流\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"是\", \"是\"],\n\"D\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 225,
+  "total_tokens": 259,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773039
+}

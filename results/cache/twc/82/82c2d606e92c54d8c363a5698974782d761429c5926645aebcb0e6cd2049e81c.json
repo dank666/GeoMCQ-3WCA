@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-015",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：内蒙古高原位于我国北部，是我国第二大高原，其地表特征为坦荡开阔、一望无际，区域内主要分布着草原和荒漠景观，结合该区域的气候条件和外力作用特点，其地表形态的形成主要与（ ）有关\n\n待判断的选项：\nA. 风力侵蚀与堆积\nB. 板块挤压\nC. 流水冲积\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 内蒙古高原：上位：高原；特征：地势平坦开阔、草原广布、温带大陆性气候、风力作用显著；成因：地壳抬升、风力侵蚀堆积；影响：畜牧业发达、风能资源丰富；分布：中国北部、内蒙古自治区\n- 高原：上位：地貌类型；特征：海拔高、地面起伏小、边缘陡峻；成因：地壳抬升、长期侵蚀；影响：气候寒冷、空气稀薄；分布：青藏高原、云贵高原\n- 地表特征：上位：自然地理要素；特征：地表形态特征、地表物质组成、空间差异性；成因：内力作用、外力作用；影响：影响自然环境、影响人类活动\n- 区域：上位：地理空间单元；特征：一定范围、内部相对一致、边界模糊、层次性；成因：地球表面差异、人类活动划分；影响：便于空间分析、区域发展基础\n- 草原：上位：自然带、植被类型；特征：草本植物为主、乔木稀少、季相变化明显；成因：降水较少、半湿润半干旱气候；影响：适宜畜牧业、土壤有机质较高；分布：亚欧大陆内部、北美中部、非洲热带草原\n- 荒漠景观：上位：自然景观、干旱区景观；特征：地表裸露、植被稀少、风力地貌广布、色彩单调；成因：长期干旱、风力侵蚀堆积、植被难以生长；影响：生态脆弱、生物多样性低、限制人类活动；分布：撒哈拉沙漠、塔克拉玛干沙漠、澳大利亚沙漠\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成内蒙古高原地表形态形成的主要原因\n2. 符合该区域气候条件与外力作用特点\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 541,
+  "total_tokens": 568,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 541
+ },
+ "created": 1792769271
+}

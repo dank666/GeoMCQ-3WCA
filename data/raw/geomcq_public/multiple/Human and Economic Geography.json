@@ -1,0 +1,1614 @@
+{
+  "geography_questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地区近年来大力发展新能源汽车产业，吸引了大量上下游企业入驻，形成了完整的产业链。当地政府还配套建设了充电桩网络和研发中心。这种产业发展模式体现了（）",
+      "options": {
+        "A": "工业集聚效应",
+        "B": "工业分散趋势",
+        "C": "产城融合发展"
+      },
+      "correct_answer": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某沿海城市在规划港口经济区时，综合考虑了深水航道条件、临近工业基地、铁路公路枢纽以及自贸区政策优势。该港口经济区的区位优势包括（）",
+      "options": {
+        "A": "自然条件优越",
+        "B": "经济腹地广阔",
+        "C": "政策支持"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在旧城改造中，保留了具有历史风貌的街区，将其改造为文化创意产业园，吸引了设计、艺术、餐饮等业态入驻，同时完善了周边的公共交通和绿地系统。这种做法体现了（）",
+      "options": {
+        "A": "城市更新与历史文化保护相结合",
+        "B": "城市功能分区更加明确",
+        "C": "宜居城市建设理念"
+      },
+      "correct_answer": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某跨国公司在全球设立了多个研发中心，其中在硅谷布局是为了跟踪前沿技术，在印度班加罗尔布局是为了利用当地软件人才，在中国上海布局是为了贴近市场。该公司的研发中心布局考虑的因素有（）",
+      "options": {
+        "A": "技术与人才",
+        "B": "市场潜力",
+        "C": "劳动力成本"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地区原本以煤炭开采为主导产业，随着资源枯竭和环境压力增大，当地政府引导发展煤化工、矿山旅游和新能源装备制造。这种转型发展模式体现了（）",
+      "options": {
+        "A": "产业结构多元化",
+        "B": "产业升级",
+        "C": "资源依赖型经济转型"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市中心区写字楼空置率上升，而近郊的科技园区和商务区吸引了大批企业入驻，形成了新的就业中心，导致职住分离现象有所缓解。这种现象反映了（）",
+      "options": {
+        "A": "城市多中心化发展趋势",
+        "B": "郊区城市化",
+        "C": "逆城市化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "我国某粮食主产区近年来推广“企业+合作社+农户”模式，企业提供技术和销售渠道，合作社组织生产，农户负责种植，并建立了可追溯的农产品质量体系。这种农业经营模式的优势在于（）",
+      "options": {
+        "A": "提高农业产业化水平",
+        "B": "保障农产品质量安全",
+        "C": "增加耕地面积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某高铁新城在规划时，围绕高铁站布局了商业综合体、总部经济和高端居住区，并通过快速路与老城区连接。该新城的规划理念体现了（）",
+      "options": {
+        "A": "TOD（公共交通导向）开发模式",
+        "B": "城市功能疏解",
+        "C": "产城分离"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某沿海地区利用风能资源丰富的优势，大力发展海上风电项目，同时配套建设储能设备和智能电网，并将风电用于邻近的海水淡化和制氢产业。这种发展模式体现了（）",
+      "options": {
+        "A": "清洁能源开发利用",
+        "B": "资源综合利用",
+        "C": "高耗能产业转移"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某历史文化名城为了保护古城风貌，规定核心保护区内禁止新建高层建筑，鼓励发展文化创意和旅游服务，同时在新区建设现代化城区承接人口和产业转移。这种保护与发展的策略体现了（）",
+      "options": {
+        "A": "新旧分制",
+        "B": "功能分区",
+        "C": "城市蔓延"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某山区县为了脱贫，利用当地独特的自然景观和少数民族文化，发展生态旅游和民宿经济，同时通过电商平台销售特色农产品。该县的脱贫路径包括（）",
+      "options": {
+        "A": "发展特色产业",
+        "B": "依靠资源优势",
+        "C": "承接产业转移"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市在解决“大城市病”过程中，通过疏解非首都功能，将部分批发市场、制造业企业迁往周边中小城市，并加强了城际轨道交通建设。这种举措有利于（）",
+      "options": {
+        "A": "优化区域产业布局",
+        "B": "缓解核心城市压力",
+        "C": "促进逆城市化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某市在编制国土空间规划时，划定了生态保护红线、永久基本农田保护红线和城镇开发边界。这三条红线的作用包括（）",
+      "options": {
+        "A": "保障粮食安全",
+        "B": "保护生态环境",
+        "C": "控制城市无序扩张"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地依托大型深水良港，建设了大型炼化一体化和新材料产业基地，并通过管道连接临港工业区与内陆腹地。该地工业发展的主要优势区位因素有（）",
+      "options": {
+        "A": "交通便利",
+        "B": "市场广阔",
+        "C": "资源丰富"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某传统农业区引入现代农业技术，推广智能温室、无土栽培和电商直销，农产品直接供应一线城市高端市场。这种农业转型体现了（）",
+      "options": {
+        "A": "农业现代化",
+        "B": "农业商品化",
+        "C": "农业生态化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某边境城市利用独特的区位优势，发展边境贸易，建设了跨境经济合作区和物流园区，吸引了两国企业入驻。该城市发展的主要优势是（）",
+      "options": {
+        "A": "地理位置特殊",
+        "B": "政策支持",
+        "C": "资源丰富"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市在老旧小区改造中，增加了电梯、养老驿站、托幼设施和社区商业，并引入了智慧物业管理系统。这种改造模式体现了（）",
+      "options": {
+        "A": "城市更新关注民生需求",
+        "B": "社区服务功能完善",
+        "C": "城市中心空心化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地依托国家级高新技术产业开发区，吸引了一批人工智能、生物医药企业落户，并建立了大学科技园和孵化器。该地的发展模式体现了（）",
+      "options": {
+        "A": "产学研结合",
+        "B": "创新驱动发展",
+        "C": "劳动密集型产业集聚"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某河流上游地区因生态保护需要，关停了污染企业，实施退耕还林，并发展生态农业和休闲旅游。下游城市因此受益，水质改善，供水安全得到保障。这体现了（）",
+      "options": {
+        "A": "区域生态环境的关联性",
+        "B": "产业转移对下游的影响",
+        "C": "流域综合治理的成效"
+      },
+      "correct_answer": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在交通规划中，构建了“地铁+公交+慢行”的绿色出行体系，设置了公交专用道和共享单车停放点，并推行高峰期限行政策。这些措施的目的是（）",
+      "options": {
+        "A": "缓解交通拥堵",
+        "B": "改善空气质量",
+        "C": "提高私家车使用率"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某茶叶产区通过地理标志认证，统一品牌、统一标准、统一包装，并举办茶文化节拓展市场。这种产业发展策略有利于（）",
+      "options": {
+        "A": "提升品牌价值",
+        "B": "保证产品质量",
+        "C": "降低生产成本"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某资源型城市在矿产资源枯竭后，利用废弃矿坑建设矿山公园，发展工业遗产旅游，同时引进新材料和新能源产业。该城市的转型路径包括（）",
+      "options": {
+        "A": "发展替代产业",
+        "B": "利用工业遗产",
+        "C": "扩大资源开采"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在新区建设中，推行“海绵城市”理念，建设透水路面、下沉式绿地和雨水花园，并加强对城市河道的生态修复。此举的主要目的是（）",
+      "options": {
+        "A": "缓解城市内涝",
+        "B": "节约水资源",
+        "C": "增加建设用地"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某沿海县利用滩涂资源发展“渔光互补”项目，上层光伏发电，下层水产养殖，并配套建设储能和并网设施。这种模式的优势在于（）",
+      "options": {
+        "A": "提高土地利用率",
+        "B": "清洁能源开发",
+        "C": "破坏生态环境"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市周边的一些村庄，利用靠近城市的区位优势，发展休闲农业、民宿和康养产业，吸引了城市居民周末休闲度假。这些村庄的发展属于（）",
+      "options": {
+        "A": "都市农业",
+        "B": "乡村旅游",
+        "C": "逆城市化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了推动乡村振兴，实施了“三乡工程”：市民下乡、能人回乡、企业兴乡，吸引人才、资本和技术进入农村。这种举措有利于（）",
+      "options": {
+        "A": "促进城乡要素流动",
+        "B": "带动农村产业升级",
+        "C": "加快城镇化进程"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某纺织企业为了应对劳动力成本上升，引进了自动化生产线和智能管理系统，并将部分产能转移到劳动力更廉价的地区。该企业的应对策略包括（）",
+      "options": {
+        "A": "技术升级",
+        "B": "产业转移",
+        "C": "扩大规模"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市在规划时，将商业中心、交通枢纽和公共服务中心集中布局，形成若干个功能复合的城市副中心。这种布局模式有利于（）",
+      "options": {
+        "A": "减少居民出行距离",
+        "B": "缓解交通压力",
+        "C": "增加城市通勤成本"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市对历史街区进行微改造，不搞大拆大建，而是修缮老建筑、改善基础设施、引入符合街区氛围的业态。这种更新方式体现了（）",
+      "options": {
+        "A": "有机更新理念",
+        "B": "文化传承",
+        "C": "土地集约利用"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某县在推进农业现代化过程中，鼓励土地流转，发展家庭农场和农民专业合作社，并引入农业保险和订单农业。这些措施有助于（）",
+      "options": {
+        "A": "实现规模化经营",
+        "B": "降低农业生产风险",
+        "C": "增加农产品种类"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市为了提升国际竞争力，重点发展金融服务、信息技术、文化创意等现代服务业，并举办国际性会议和展览。该城市的发展定位可能是（）",
+      "options": {
+        "A": "区域中心城市",
+        "B": "创新型城市",
+        "C": "重工业基地"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某山区为了改善交通条件，修建了穿山隧道和高速公路，缩短了与周边城市的时空距离，促进了农产品外销和旅游业发展。交通条件的改善带来了（）",
+      "options": {
+        "A": "区域可达性提高",
+        "B": "经济联系增强",
+        "C": "生态环境改善"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在应对人口老龄化问题时，规划建设了社区养老服务中心、医养结合机构和适老化公共设施。这些措施属于（）",
+      "options": {
+        "A": "完善社会保障体系",
+        "B": "建设老年友好型城市",
+        "C": "延迟退休政策"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某电商企业在全国主要城市建立智能化仓储中心，利用大数据预测需求，提前将商品调拨到离消费者最近的仓库。这种物流模式的优势在于（）",
+      "options": {
+        "A": "缩短配送时间",
+        "B": "降低仓储成本",
+        "C": "提高库存周转率"
+      },
+      "correct_answer": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地利用丰富的风能和太阳能资源，建设大型清洁能源基地，并通过特高压输电线路将电力输送到东部负荷中心。这种能源配置方式体现了（）",
+      "options": {
+        "A": "资源跨区域调配",
+        "B": "能源消费结构优化",
+        "C": "就近消纳原则"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在工业区改造中，将污染企业关停，引入研发设计、文化创意等产业，并保留部分工业厂房改造成博物馆和艺术中心。这种改造模式属于（）",
+      "options": {
+        "A": "产业结构优化",
+        "B": "工业遗产保护",
+        "C": "再工业化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某特大城市为了缓解中心城区压力，规划建设了多个新城，每个新城都配套了完善的公共服务设施和产业园区，并开通了快速轨道交通。这些新城的定位是（）",
+      "options": {
+        "A": "卫星城",
+        "B": "睡城",
+        "C": "产城融合新区"
+      },
+      "correct_answer": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某农产品加工企业为了保障原料质量和供应稳定，在主要产区建立了自己的种植基地，并与农户签订长期收购合同。这种做法有利于（）",
+      "options": {
+        "A": "产业链向上游延伸",
+        "B": "降低原料成本",
+        "C": "保证原料品质"
+      },
+      "correct_answer": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某沿海城市在海岸带开发中，划定了禁止开发的生态保护区，限制工业项目布局，重点发展旅游、科研和生态养殖。这种开发原则体现了（）",
+      "options": {
+        "A": "生态优先",
+        "B": "功能分区",
+        "C": "围海造陆"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了发展乡村旅游，对传统村落进行整体保护，修缮古建筑，改善基础设施，并鼓励村民经营民宿和农家乐。这种发展模式注重（）",
+      "options": {
+        "A": "传统文化保护",
+        "B": "社区参与",
+        "C": "大拆大建"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在垃圾处理中，推行垃圾分类，建设垃圾焚烧发电厂和厨余垃圾资源化利用厂，并建立了完善的收运体系。这种垃圾处理模式符合（）",
+      "options": {
+        "A": "循环经济理念",
+        "B": "减量化、资源化、无害化",
+        "C": "填埋为主"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大型制造企业为了响应“一带一路”倡议，在海外投资建厂，利用当地资源和劳动力，产品销往周边国家市场。该企业的海外投资主要考虑的因素有（）",
+      "options": {
+        "A": "开拓国际市场",
+        "B": "利用当地资源",
+        "C": "规避国内竞争"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在新区开发中，要求新建建筑必须达到绿色建筑标准，采用节能材料和可再生能源，并建设集中供暖供冷系统。这些措施旨在（）",
+      "options": {
+        "A": "降低建筑能耗",
+        "B": "减少碳排放",
+        "C": "增加建筑密度"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了促进农业与旅游融合，将稻田种植与景观设计结合，打造稻田画、观光栈道和农事体验活动，吸引了大量游客。这种融合模式属于（）",
+      "options": {
+        "A": "休闲农业",
+        "B": "创意农业",
+        "C": "订单农业"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某港口城市为了提升航运服务能力，建设了国际航运服务中心，提供金融、保险、法律、信息等一站式服务，并吸引了航运物流企业入驻。这种发展模式体现了（）",
+      "options": {
+        "A": "港产城融合发展",
+        "B": "现代服务业集聚",
+        "C": "工业主导"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地依托当地优质温泉资源，开发了温泉度假村、康养中心和房地产项目，并配套建设了医院和学校。这种开发模式属于（）",
+      "options": {
+        "A": "资源依赖型开发",
+        "B": "综合性旅游地产",
+        "C": "低密度开发"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市为了保障蔬菜供应，在周边县市建立了蔬菜生产基地，并开通了“绿色通道”，确保蔬菜快速进入市区。这种布局体现了（）",
+      "options": {
+        "A": "农业区位选择靠近市场",
+        "B": "交通条件对农业的影响",
+        "C": "农业专业化生产"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某电子商务企业通过大数据分析，发现农村市场潜力巨大，于是在乡镇设立服务点和物流中转站，并培训当地人员。该企业的策略是（）",
+      "options": {
+        "A": "市场下沉",
+        "B": "渠道创新",
+        "C": "规模扩张"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了提升旅游吸引力，将分散的景点整合为精品线路，开发智慧导览系统，并统一进行品牌推广和市场营销。这种做法体现了（）",
+      "options": {
+        "A": "旅游资源整合",
+        "B": "旅游信息化",
+        "C": "全域旅游理念"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某传统制造业城市面对产能过剩，引导企业开展跨国并购，获取国外品牌和技术，并在海外建立生产基地。该城市的产业转型路径包括（）",
+      "options": {
+        "A": "国际化经营",
+        "B": "技术升级",
+        "C": "去产能"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在规划中，特别强调保留城市通风廊道，限制高层建筑密集布局，以利于污染物扩散。这种规划理念主要考虑了（）",
+      "options": {
+        "A": "城市气候调节",
+        "B": "大气环境保护",
+        "C": "土地集约利用"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地利用山区气候垂直差异，在不同海拔种植不同的经济作物，如低山种柑橘、中山种茶叶、高山种中药材。这种农业布局体现了（）",
+      "options": {
+        "A": "立体农业",
+        "B": "因地制宜",
+        "C": "规模化经营"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市为了减少对化石能源的依赖，大力发展光伏发电、风力发电和抽水蓄能电站，并鼓励居民安装屋顶光伏。这些措施属于（）",
+      "options": {
+        "A": "能源结构转型",
+        "B": "分布式能源发展",
+        "C": "高耗能产业引入"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某企业在工业园区内建设了共享厂房、共享实验室和员工宿舍，吸引了多家中小企业入驻。这种模式有利于（）",
+      "options": {
+        "A": "降低中小企业创业成本",
+        "B": "促进企业间合作",
+        "C": "形成完整产业链"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了应对水资源短缺，推广节水灌溉技术，调整种植结构，减少高耗水作物，并建设再生水利用系统。这些措施体现了（）",
+      "options": {
+        "A": "农业节水",
+        "B": "水资源优化配置",
+        "C": "扩大灌溉面积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市周边的特色小镇，依托大城市的科技和人才资源，发展智能制造、生物医药等高端产业，并配套建设人才公寓和创客空间。这些特色小镇的功能是（）",
+      "options": {
+        "A": "承接中心城市产业外溢",
+        "B": "促进产城融合",
+        "C": "发展传统手工业"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了提升农产品的附加值，引进深加工企业，将水果加工成果汁、果干、果酒，并利用电商平台销售。这种做法体现了（）",
+      "options": {
+        "A": "延长农业产业链",
+        "B": "提高农产品附加值",
+        "C": "减少农产品种类"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在新区建设中，规划了“15分钟生活圈”，要求居民步行15分钟内可达学校、医院、超市、公园等公共服务设施。这种规划理念有利于（）",
+      "options": {
+        "A": "提高居民生活便利度",
+        "B": "减少居民出行需求",
+        "C": "促进职住分离"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 59,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了发展乡村旅游，将闲置的农房改造成特色民宿，并组织村民成立旅游合作社，统一管理、统一分配客源。这种模式有利于（）",
+      "options": {
+        "A": "盘活农村闲置资源",
+        "B": "增加农民收入",
+        "C": "实现规模化经营"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某钢铁企业为了降低成本，将生产基地从内陆搬迁到沿海港口，利用进口铁矿石，并配套建设了大型码头和电厂。该企业布局调整考虑的主要因素是（）",
+      "options": {
+        "A": "接近原料地",
+        "B": "利用廉价海运",
+        "C": "接近消费市场"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在推行垃圾分类过程中，设置了智能回收箱、积分兑换点，并引入专业回收公司进行分类运输和处理。这种模式体现了（）",
+      "options": {
+        "A": "市场化运作",
+        "B": "智能化管理",
+        "C": "居民参与"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 62,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了推动农业品牌化，申请了地理标志产品认证，统一产品包装，并在大城市开设品牌专卖店。这些做法有利于（）",
+      "options": {
+        "A": "提升产品知名度",
+        "B": "拓展销售渠道",
+        "C": "降低生产成本"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市在规划中，将工业用地、商业用地和居住用地混合布局，并鼓励发展社区商业和便民服务。这种布局模式的优势在于（）",
+      "options": {
+        "A": "减少通勤距离",
+        "B": "提高土地利用效率",
+        "C": "避免环境污染"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了发展海洋经济，建设了海洋牧场，开展人工鱼礁投放和贝类底播，并发展休闲海钓和海上观光。这种模式属于（）",
+      "options": {
+        "A": "现代海洋渔业",
+        "B": "海洋生态修复",
+        "C": "海洋资源枯竭"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市为了缓解停车难问题，建设了立体停车场、地下停车场，并推广共享停车位和智慧停车系统。这些措施体现了（）",
+      "options": {
+        "A": "集约利用土地",
+        "B": "智慧城市应用",
+        "C": "增加私家车数量"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地依托当地丰富的竹资源，发展竹材加工、竹工艺品制作和竹林生态旅游，形成了“以竹代塑”的产业链。这种发展模式体现了（）",
+      "options": {
+        "A": "资源综合利用",
+        "B": "绿色产业发展",
+        "C": "高污染产业转移"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市在更新过程中，将废弃的铁路线改造为城市绿道和慢行系统，串联起公园、社区和文化设施。这种做法的主要效益有（）",
+      "options": {
+        "A": "提升城市生态功能",
+        "B": "提供休闲空间",
+        "C": "增加交通拥堵"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了促进农民增收，鼓励发展庭院经济，利用房前屋后空地种植果树、蔬菜，养殖家禽，并通过电商销售。这种模式有利于（）",
+      "options": {
+        "A": "充分利用闲散土地",
+        "B": "增加农民收入来源",
+        "C": "实现规模化生产"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在公共交通建设中，推行“公交优先”策略，设置公交专用道、优化公交线路，并建设BRT快速公交系统。这些措施的目的是（）",
+      "options": {
+        "A": "提升公共交通吸引力",
+        "B": "缓解城市交通拥堵",
+        "C": "鼓励私家车出行"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 70,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了推动制造业升级，鼓励企业开展智能化改造，建设智能工厂和数字化车间，并搭建工业互联网平台。这种转型方向是（）",
+      "options": {
+        "A": "工业4.0",
+        "B": "智能制造",
+        "C": "劳动密集型"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市周边的县市，利用区位优势，发展物流仓储、商贸市场和配套加工产业，承接中心城市的溢出功能。这些县市的功能定位是（）",
+      "options": {
+        "A": "卫星城",
+        "B": "产业承接区",
+        "C": "生态保护区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 72,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了发展乡村旅游，将古村落整体保护，修缮古建筑，恢复传统手工艺，并开发民俗体验活动。这种开发方式注重（）",
+      "options": {
+        "A": "文化遗产保护",
+        "B": "活态传承",
+        "C": "商业化过度"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 73,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市为了应对气候变化，在城市规划中增加绿地和水域面积，建设屋顶花园和垂直绿化，并推广透水铺装。这些措施属于（）",
+      "options": {
+        "A": "生态城市建设",
+        "B": "低碳城市试点",
+        "C": "城市热岛效应缓解"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了促进农业与旅游融合，将油菜花田与观景台、风车等结合，打造“网红打卡地”，并举办油菜花节。这种模式属于（）",
+      "options": {
+        "A": "农业观光旅游",
+        "B": "节庆经济",
+        "C": "订单农业"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某企业为了提高供应链效率，采用准时制生产模式，要求零部件供应商在周边设厂，并通过信息化系统实时对接生产计划。这种布局有利于（）",
+      "options": {
+        "A": "降低库存成本",
+        "B": "减少运输时间",
+        "C": "增加供应链风险"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 76,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在历史文化街区保护中，不仅修缮建筑，还鼓励原住民留住，延续传统生活方式，并引入文化创意产业。这种保护理念是（）",
+      "options": {
+        "A": "整体性保护",
+        "B": "活态保护",
+        "C": "博物馆式保护"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了发展光伏产业，在戈壁荒漠建设大型光伏电站，同时种植耐旱植物，形成“光伏+生态治理”模式。这种模式的优势有（）",
+      "options": {
+        "A": "利用荒地资源",
+        "B": "改善生态环境",
+        "C": "增加耕地面积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市在医疗资源配置中，引导优质医疗资源向新城和郊区布局，建设分院和医联体，并发展互联网医院。这种做法有利于（）",
+      "options": {
+        "A": "促进医疗资源均衡分布",
+        "B": "方便居民就近就医",
+        "C": "增加中心城区医院压力"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了推动农村电商发展，建设了电商服务中心、物流配送站和农产品检测中心，并培训农民成为电商达人。这种模式有利于（）",
+      "options": {
+        "A": "完善农村流通体系",
+        "B": "提高农产品标准化水平",
+        "C": "减少农产品销售渠道"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 80,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在工业区改造中，将旧厂房改造为创意产业园，吸引设计、影视、广告等企业入驻，并配套餐饮和休闲设施。这种改造模式属于（）",
+      "options": {
+        "A": "城市更新",
+        "B": "产业升级",
+        "C": "工业外迁"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 81,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了发展特色农业，引进优良品种，推广标准化种植，并建立农产品质量追溯体系。这些措施的目的是（）",
+      "options": {
+        "A": "提升农产品品质",
+        "B": "增强市场竞争力",
+        "C": "扩大种植规模"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 82,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市在规划中，将城市边缘的生态隔离带、森林公园和农田保留，形成城市与自然的缓冲带。这种规划理念体现了（）",
+      "options": {
+        "A": "生态城市理念",
+        "B": "控制城市蔓延",
+        "C": "高密度开发"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 83,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了促进乡村旅游，将分散的农户组织起来，成立旅游合作社，统一标准、统一营销、统一分配客源。这种组织模式的优势在于（）",
+      "options": {
+        "A": "实现规模经营",
+        "B": "避免恶性竞争",
+        "C": "降低服务质量"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 84,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某企业在海外投资建设工业园区，吸引国内上下游企业入驻，形成产业集群，并配套建设生活服务设施。这种模式被称为（）",
+      "options": {
+        "A": "境外经贸合作区",
+        "B": "产业集群式走出去",
+        "C": "单打独斗式出海"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 85,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市为了提升防洪排涝能力，建设了雨水花园、下沉式绿地、透水路面等设施，并加强了河道的生态护岸。这些措施属于（）",
+      "options": {
+        "A": "海绵城市建设",
+        "B": "韧性城市建设",
+        "C": "城市美化运动"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 86,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了发展农村养老产业，利用闲置的校舍、厂房改造为养老机构，并吸引城市老年人前来旅居养老。这种模式有利于（）",
+      "options": {
+        "A": "盘活农村闲置资产",
+        "B": "满足城市养老需求",
+        "C": "促进城乡融合"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在交通规划中，建设了自行车专用道和步行系统，并与公共交通站点无缝衔接。这种交通模式被称为（）",
+      "options": {
+        "A": "慢行交通",
+        "B": "绿色出行",
+        "C": "快速路网"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 88,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了推动农业科技创新，建立了农业科技园区，引进科研机构和企业，开展新品种培育和新技术示范推广。这种园区的作用是（）",
+      "options": {
+        "A": "农业技术扩散",
+        "B": "产学研结合",
+        "C": "增加农产品产量"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在老旧小区改造中，增加了停车位、电梯、养老驿站和托幼设施，并引入物业管理。这些改造内容主要涉及（）",
+      "options": {
+        "A": "基础设施完善",
+        "B": "公共服务提升",
+        "C": "城市人口疏解"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 90,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了发展林下经济，在林间种植药材、养殖家禽，并开发森林康养项目。这种模式体现了（）",
+      "options": {
+        "A": "立体复合经营",
+        "B": "生态经济",
+        "C": "单一林业"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 91,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市为了推广新能源汽车，建设了充电桩网络，对购买新能源汽车给予补贴，并在部分区域划定新能源车专用停车位。这些措施的目的是（）",
+      "options": {
+        "A": "优化能源消费结构",
+        "B": "减少尾气排放",
+        "C": "鼓励购买燃油车"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了提升旅游接待能力，建设了游客集散中心、智慧旅游平台和多语种导览系统，并培训了一批专业导游。这些做法属于（）",
+      "options": {
+        "A": "旅游基础设施完善",
+        "B": "旅游服务智能化",
+        "C": "旅游资源开发"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 93,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某大城市在规划中，将商业、办公、居住、娱乐等功能集中在一个区域内，形成“城市综合体”，并强调建筑之间的连通性。这种规划模式的优势在于（）",
+      "options": {
+        "A": "提高土地利用效率",
+        "B": "减少居民出行距离",
+        "C": "增加交通流量"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 94,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了促进农村金融发展，设立了村级金融服务站，提供小额贷款、农业保险和支付结算服务。这种金融服务模式有利于（）",
+      "options": {
+        "A": "满足农民融资需求",
+        "B": "降低农业经营风险",
+        "C": "增加农民储蓄"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某企业在全球布局研发中心，在硅谷设立前沿技术研究机构，在中国设立应用开发中心，在印度设立软件支持中心。这种布局模式考虑了（）",
+      "options": {
+        "A": "不同地区的技术优势",
+        "B": "接近消费市场",
+        "C": "降低人力成本"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 96,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市为了应对人口老龄化，在社区建设中增加适老化设施，如无障碍通道、扶手、紧急呼叫系统，并发展社区养老服务。这些措施体现了（）",
+      "options": {
+        "A": "老年友好型社区",
+        "B": "原居安老理念",
+        "C": "机构养老为主"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 97,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了发展生态农业，推广有机种植，减少化肥农药使用，并建立生态农场认证制度。这种农业发展模式符合（）",
+      "options": {
+        "A": "绿色农业",
+        "B": "可持续发展",
+        "C": "石油农业"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 98,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在新区开发中，要求新建住宅必须配建一定比例的保障性住房，实现不同收入群体的混合居住。这种规划理念有利于（）",
+      "options": {
+        "A": "促进社会融合",
+        "B": "避免贫民窟化",
+        "C": "加剧社会分层"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 99,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某地为了推动文化产业，将废旧工业厂房改造为艺术区，吸引艺术家工作室、画廊和文创商店入驻，并定期举办艺术节。这种发展模式体现了（）",
+      "options": {
+        "A": "工业遗产活化利用",
+        "B": "文化创意产业集聚",
+        "C": "商业房地产开发"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 100,
+      "type": "multiple",
+      "geography_category": "Human and Economic Geography",
+      "difficulty": "medium",
+      "question": "某城市在交通管理中，推广共享单车、共享汽车，并建设智能调度平台，提高车辆使用效率。这种模式属于（）",
+      "options": {
+        "A": "共享经济",
+        "B": "绿色交通",
+        "C": "私家车普及"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

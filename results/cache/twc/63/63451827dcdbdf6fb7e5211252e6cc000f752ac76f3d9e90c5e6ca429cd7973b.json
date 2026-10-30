@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-035",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：地下径流是指地下水在地下岩石空隙中流动形成的水流，下列关于地下径流的说法正确的有（）\n\n待判断的选项：\nA. 流动速度较慢，补给速度也较慢\nB. 能补给河流、湖泊，维持其水量稳定\nC. 地下径流不受人类活动影响\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地下径流：上位：径流、水循环环节；特征：流速慢、水量稳定、水质较好；成因：降水下渗、地下水流动、地形坡度；影响：补给河流、维持生态用水、参与水循环；分布：喀斯特地区、冲积平原、山区\n- 地下水：上位：陆地水体、水资源；特征：埋藏地下、水量稳定、水质较好、更新缓慢；成因：降水下渗、地表水补给、岩层储水；影响：提供饮用水、农业灌溉、维持生态、引发地面沉降；分布：华北平原、河西走廊、喀斯特地区\n- 岩石：上位：地壳物质；特征：由矿物组成、具有一定结构、参与岩石循环；成因：岩浆冷凝、沉积固结、变质作用；影响：构成岩石圈、提供矿产资源；分布：地壳、岩石圈\n- 空隙：上位：岩石结构、地下水赋存、地质构造；特征：孔隙水、裂隙水、溶隙水、储水空间、透水层\n- 水流：上位：水体运动；特征：具有流向、具有流速、搬运泥沙；成因：重力作用、水位差、风力驱动；影响：塑造地表形态、输送物质能量、影响航运；分布：河流、海洋、水库\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于地下径流的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 524,
+  "total_tokens": 542,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 524
+ },
+ "created": 1792769836
+}

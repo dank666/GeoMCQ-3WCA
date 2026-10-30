@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-052",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：湖泊的面积变化主要受降水、蒸发、人类活动等因素影响，降水增多、蒸发减少，湖泊面积增大；降水减少、蒸发增多、围湖造田，湖泊面积减小，某地区近年来降水增多，且没有围湖造田活动，结合湖泊面积变化的影响因素，该地区的湖泊面积变化是（ ）\n\n待判断的选项：\nA. 面积减小\nB. 面积增大\nC. 面积不变\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 湖泊：上位：水体、地表水；特征：封闭性、流动性差、生态功能；成因：地壳运动、冰川作用、火山活动；影响：调节径流、维持生物多样性、提供水资源；分布：长江中下游、青藏高原、五大湖\n- 变迁：上位：地理过程；特征：动态性、长期性、阶段性；成因：自然因素、人为因素；影响：地理格局改变、人地关系调整\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n- 蒸发：上位：水循环环节、水体运动；特征：液态变气态、吸收热量、受气温影响；成因：太阳辐射、气温升高、风力作用；影响：水汽输送来源、调节地表温度；分布：海洋表面、陆地水体、土壤表层\n- 人类活动：上位：人地关系；特征：有目的性、受自然条件影响、改造自然环境、具有地域性；成因：人类需求、社会发展；影响：改变自然环境、形成人文景观、产生环境问题\n- 围湖造田：上位：人类活动、土地利用方式；特征：侵占水域、改变湿地用途、增加耕地；成因：人多地少、粮食需求、政策鼓励；影响：湖泊面积缩小、调蓄洪水能力下降、生物多样性减少；分布：洞庭湖平原、鄱阳湖平原、江汉平原\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是符合该地区湖泊面积变化逻辑的结论\n2. 基于降水增多且无围湖造田的前提\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 563,
+  "total_tokens": 590,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 563
+ },
+ "created": 1792769039
+}

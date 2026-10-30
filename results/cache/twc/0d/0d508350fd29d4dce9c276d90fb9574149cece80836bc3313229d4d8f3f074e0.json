@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-072",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河口三角洲增长快的条件是（）\n\n待判断的选项：\nA. 河流输沙量大\nB. 入海口流速快\nC. 海浪侵蚀弱\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 三角洲：上位：流水堆积地貌、河口地貌；特征：地势低平、河网密布、泥沙堆积；成因：河流泥沙沉积、河口流速减慢、海水顶托；影响：形成肥沃平原、利于农业发展、易发生洪涝；分布：长江三角洲、黄河三角洲、尼罗河三角洲\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 河口：上位：河流地貌、地貌部位；特征：河流与海洋交汇、水动力复杂、泥沙沉积显著；成因：河流与海洋相互作用、潮流与径流共同作用；影响：形成河口地貌、塑造三角洲、影响港口建设；分布：长江口、黄河口、珠江口\n- 流速：上位：水文要素；特征：单位时间流距、影响侵蚀搬运；成因：坡度、流量；影响：侵蚀强度、沉积作用；分布：河流、洋流\n- 海浪侵蚀：上位：海岸侵蚀、外力作用；特征：塑造海岸地貌、动力作用强、多发生在基岩海岸；成因：波浪冲击、潮汐作用、海水溶蚀；影响：海岸后退、形成海蚀地貌、破坏海岸工程；分布：基岩海岸、山东半岛海岸、福建海岸\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是河口三角洲增长快的条件\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 464,
+  "total_tokens": 482,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 464
+ },
+ "created": 1792769625
+}

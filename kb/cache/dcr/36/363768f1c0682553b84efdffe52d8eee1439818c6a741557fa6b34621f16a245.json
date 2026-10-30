@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:多汁||2e919ebf91a1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“多汁”编写一个词典条目，供符号推理系统使用。\n\n题干：下列关于温带海洋性气候的说法，正确的有()\n选项：\nA. 降水季节分配均匀，无明显干湿季\nB. 全年温和湿润，适合多汁牧草生长\nC. 气温年较差小，冬季温和，夏季凉爽\n\n词典中已有条目的示例：\n{\"term\": \"温带海洋性气候\", \"category\": \"ATMOS\", \"parent_level\": \"海洋性气候；西风带；暖流\", \"child_level\": \"冬暖夏凉；气温年较差小；全年降水均匀\"}\n{\"term\": \"降水\", \"category\": \"ATMOS\", \"parent_level\": \"天气现象；水循环环节；水汽充足；空气上升冷却\", \"child_level\": \"对流雨；地形雨；锋面雨；水汽凝结降落；时空分布不均；形式多样\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"SOILVEG\", \"parent_level\": \"植物生长；水分含量高；适生环境\", \"child_level\": \"含水量大；口感好；营养价值高；农业利用；园艺应用\", \"confidence\": 0.9}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 54,
+  "prompt_tokens": 460,
+  "total_tokens": 514,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792767808
+}

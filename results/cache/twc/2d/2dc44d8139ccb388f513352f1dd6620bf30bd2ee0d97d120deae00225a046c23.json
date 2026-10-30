@@ -1,0 +1,42 @@
+{
+ "tag": "DEFER:gaokao-25-3",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n堪察加火山群位于环太平洋火山带的北端，气候冷湿，火山锥各坡的降水差异小。近几十年来受全球气候变化的影响，火山锥的林线（森林分布上限）升高、雪线（终年积雪下限）有所降低。此外，其他干扰也影响林线和雪线高度。例如，火山喷发彻底破坏原有景观，若干年内该火山锥的林线与雪线高度往往发生显著变化。据此完成 9～11 题。\n\nQuestion:\n火山喷发后若干年内，该火山锥（）\n\nOptions:\nA. 林线升高，雪线升高\nB. 林线升高，雪线降低\nC. 林线降低，雪线升高\nD. 林线降低，雪线降低\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "D",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 229,
+  "total_tokens": 230,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 128,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 128,
+  "prompt_cache_miss_tokens": 101
+ },
+ "created": 1792774320
+}

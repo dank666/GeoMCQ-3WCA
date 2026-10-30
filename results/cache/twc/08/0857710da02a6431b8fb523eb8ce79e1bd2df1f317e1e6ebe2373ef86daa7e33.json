@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-031",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：近年来，吉林、河南两省相继提出实施“秸秆变肉”工程和“秸秆变肉换奶”计划。一是重点推进秸秆饲料化进程（2021年吉林、河南秸秆产量分别为4000万吨和6550万吨）；二是稳妥推进具有良好经济与生态意义的“粮改饲”工作，即在玉米产区规模化种植青贮玉米、甜高梁、苜蓿等饲料作物，以满足肉牛等发展需求。导致吉林、河南两省年秸秆产量差异的主要因素是（）\n\n待判断的选项：\nA. 年降水量\nB. 作物结构\nC. 耕地质量\nD. 作物熟制\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 吉林：上位：省级行政区、东北平原、商品粮基地；特征：黑土分布、玉米主产区、一年一熟、秸秆产量大\n- 河南：上位：省级行政区；特征：地处中原、人口大省、农业大省；分布：黄河中下游、华北平原\n- 秸秆：上位：农业废弃物、生物质资源；特征：有机质含量高、可资源化利用、季节性强；成因：农作物收获；影响：还田培肥、饲料化利用、焚烧污染；分布：粮食主产区\n- 变肉：上位：农业循环经济、秸秆综合利用、农牧结合；特征：秸秆饲料化、肉牛养殖、粮改饲、资源转化\n- 计划：上位：管理手段；特征：前瞻性、目标性、可调整性；影响：指导行动、优化资源配置\n- 重点：上位：发展策略、规划概念；特征：优先发展、主要方向、关键环节\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成吉林、河南两省年秸秆产量差异的主要原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"], \"D\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 476,
+  "total_tokens": 500,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 476
+ },
+ "created": 1792770766
+}

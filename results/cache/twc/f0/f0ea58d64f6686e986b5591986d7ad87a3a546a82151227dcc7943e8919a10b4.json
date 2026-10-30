@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-072",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：干旱区土壤蒸发大于降水，盐分易在表层积累，土壤多呈（）\n\n待判断的选项：\nA. 酸性\nB. 碱性\nC. 强酸性\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 干旱区：上位：气候区、自然地理区；特征：降水稀少、蒸发旺盛、水资源短缺、植被稀疏；成因：深居内陆、副高控制、地形阻挡水汽；影响：荒漠广布、绿洲农业、生态脆弱；分布：西北内陆、撒哈拉沙漠、中亚地区\n- 土壤蒸发：上位：蒸发过程；特征：水分汽化、受气象影响、与土壤质地有关；成因：太阳辐射、温度升高、土壤含水量高、风力作用；影响：土壤失水、盐分表聚、土壤干旱；分布：干旱区、半干旱区、灌溉农田\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n- 盐分：上位：土壤成分；特征：影响土壤性质、可导致盐碱化、来源于岩石风化；成因：岩石风化、海水入侵、不合理灌溉；影响：土壤盐碱化、作物减产；分布：干旱区、滨海地区\n- 表层：上位：空间部位、层次；特征：最上部层次、与外界接触、变化活跃\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是干旱区土壤表层盐分积累后的典型特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 489,
+  "total_tokens": 507,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 489
+ },
+ "created": 1792769221
+}

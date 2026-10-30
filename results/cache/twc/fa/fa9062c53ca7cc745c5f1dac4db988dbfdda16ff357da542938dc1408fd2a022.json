@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-008",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：商品谷物农业以生产小麦、玉米为主，地广人稀、机械化水平高，最典型分布区是：\n\n待判断的选项：\nA. 东南亚热带雨林区\nB. 美国中央大平原\nC. 欧洲西部乳畜区\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 商品谷物农业：上位：农业地域类型；特征：生产规模大、机械化程度高、商品率高、家庭农场经营；成因：地广人稀、自然条件优越、交通便利、市场广阔；影响：提供大量商品粮、促进农业现代化、形成农业专业化地带；分布：美国中部平原、加拿大中部平原、阿根廷潘帕斯草原、中国东北平原\n- 小麦：上位：粮食作物、农作物；特征：喜温凉、耐旱、适应性强；成因：温带气候、土壤条件；影响：粮食安全、食品加工；分布：华北平原、东北平原、长江中下游平原\n- 玉米：上位：粮食作物、农作物；特征：喜温喜光、需水量较大、适应性强、产量高；成因：热量充足、土壤肥沃、灌溉便利；影响：提供粮食、饲料原料、工业原料；分布：东北平原、华北平原、美国玉米带\n- 地广人稀：上位：人口分布特征；特征：土地面积广大、人口数量少、人口密度低；成因：自然条件恶劣、开发历史短、经济欠发达；影响：劳动力不足、资源开发程度低；分布：俄罗斯西伯利亚、加拿大北部、澳大利亚中西部、青藏高原\n- 机械化：上位：生产过程、技术应用；特征：使用机械替代人力、提高生产效率、需要资金和技术；成因：劳动力短缺、技术进步、政策支持；影响：提高产量、解放劳动力、促进规模化经营；分布：发达国家、中国东北平原、美国中部平原\n- 典型：上位：代表性；特征：突出特征、代表性事物\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是商品谷物农业最典型的分布区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 521,
+  "total_tokens": 539,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 521
+ },
+ "created": 1792768854
+}

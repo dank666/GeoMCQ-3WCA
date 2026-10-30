@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-038",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流的流速不仅影响水能资源，还影响泥沙淤积，流速快的河流，泥沙不易淤积，河床较深；流速慢的河流，泥沙易淤积，河床较浅，某河流流经平原地区，流速缓慢，结合流速对泥沙的影响，该河流的河床特点是（ ）\n\n待判断的选项：\nA. 河床较深、泥沙淤积少\nB. 河床平坦、无泥沙淤积\nC. 河床较浅、泥沙淤积多\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 流速：上位：水文要素；特征：单位时间流距、影响侵蚀搬运；成因：坡度、流量；影响：侵蚀强度、沉积作用；分布：河流、洋流\n- 水能资源：上位：可再生资源、能源资源；特征：清洁可再生、蕴藏量丰富、分布不均、可开发为水电；成因：河流落差大、径流量丰富；影响：提供清洁能源、减少碳排放、促进区域发展；分布：长江上游、黄河上游、雅鲁藏布江、西南地区\n- 泥沙：上位：固体物质；特征：颗粒细小、随水流搬运、易沉积；成因：流水侵蚀、风化作用；影响：形成冲积平原、淤积河道、影响水质；分布：黄河、长江中下游、河口三角洲\n- 淤积：上位：外力作用；特征：泥沙堆积、地势抬高、河床变浅；成因：流速减慢、泥沙来源丰富、人类活动；影响：河床抬高、洪涝加剧、航道受阻；分布：黄河下游、长江中游、水库库尾\n- 河床：上位：河流地貌；特征：谷底低洼部分、常有水流、沉积物堆积、随流量变化；成因：流水侵蚀、泥沙沉积、河道摆动；影响：影响河道稳定、影响航运、洪水调蓄；分布：长江中下游、黄河下游、山区河谷\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是流速缓慢的平原河流的河床特点\n2. 符合流速慢导致泥沙易淤积的地理规律\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 613,
+  "total_tokens": 640,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 613
+ },
+ "created": 1792769020
+}

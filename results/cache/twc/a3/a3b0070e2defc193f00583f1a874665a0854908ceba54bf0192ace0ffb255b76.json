@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-CL-006",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：温带季风气候分布在北纬35°-55°的大陆东岸，海陆热力性质差异显著，下列属于其气候特征的有（）\n\n待判断的选项：\nA. 降水集中在夏季\nB. 气温年较差大\nC. 夏季高温多雨，冬季寒冷干燥\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 温带季风气候：上位：季风气候；特征：夏季高温多雨、冬季寒冷干燥、雨热同期；成因：海陆热力性质差异、季风环流；影响：温带落叶阔叶林、旱涝灾害；分布：中国北方、朝鲜半岛、日本北部\n- 大陆东岸：上位：海岸带、自然地理区域；特征：季风气候显著、暖流经过、降水丰富；成因：海陆热力差异、季风环流、暖流增湿；影响：农业发达、人口密集、航运便利；分布：东亚、南亚、北美东南部\n- 海陆热力性质差异：上位：热力差异；特征：海洋热容量大、陆地热容量小、温度变化差异；成因：比热容差异、太阳辐射；影响：形成季风、形成海陆风、影响气候；分布：全球\n- 气候特征：上位：气候状况；特征：多年平均状况、相对稳定性、地域差异性、综合性；成因：纬度位置、海陆位置、大气环流、地形地势、洋流性质；影响：影响农业生产、影响人类活动、影响自然景观；分布：热带雨林气候区、温带季风气候区、地中海气候区\n- 降水集中：上位：降水特征；特征：季节分配不均、易引发旱涝、与季风相关；成因：季风气候、锋面活动、台风影响；影响：洪涝灾害、水资源季节变化、农业不稳定；分布：东亚季风区、南亚季风区\n- 气温年较差：上位：气温变化；特征：最热月与最冷月之差、随纬度增大、随海洋性减弱而增大；成因：太阳辐射年变化、海陆热力性质差异、纬度位置；影响：影响农业类型、反映气候大陆性；分布：温带大陆内部、沿海地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 属于温带季风气候的气候特征\n2. 符合北纬35°-55°大陆东岸分布事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 597,
+  "total_tokens": 624,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 597
+ },
+ "created": 1792769409
+}

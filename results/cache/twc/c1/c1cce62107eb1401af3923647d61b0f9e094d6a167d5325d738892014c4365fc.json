@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-010",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某历史文化名城为了保护古城风貌，规定核心保护区内禁止新建高层建筑，鼓励发展文化创意和旅游服务，同时在新区建设现代化城区承接人口和产业转移。这种保护与发展的策略体现了（）\n\n待判断的选项：\nA. 城市蔓延\nB. 新旧分制\nC. 功能分区\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 历史文化名城：上位：历史文化保护区；特征：文物古迹丰富、历史建筑集中、传统格局完整、历史文化价值高；成因：历史政治中心、古代经济文化繁荣、保存状况较好；影响：保护城市文脉、发展文化旅游、提升城市形象；分布：北京、南京、杭州、洛阳、开封\n- 古城：上位：城市；特征：历史悠久、文化遗存丰富、传统格局；成因：历史发展、政治中心；影响：旅游发展、文化传承；分布：西安、洛阳、南京、北京\n- 风貌：上位：地域特征、景观特征；特征：整体性特征、地域文化体现、历史延续性；成因：自然环境基础、历史文化积淀、人类活动塑造；影响：塑造地方形象、发展文化旅游、保护传统格局；分布：历史街区、传统村落、风景名胜区\n- 规定：上位：行为准则；特征：强制性、明确性、时效性；影响：规范行为、保障实施\n- 保护区：上位：自然保护地体系；特征：划定特定区域、保护自然生态、限制开发活动、依法管理；成因：保护生物多样性、维护生态安全；影响：保护生态系统、提供科研教育基地、促进可持续发展；分布：三江源、卧龙、神农架、长白山\n- 建筑：上位：文化景观；特征：地域性、功能性、时代性；成因：自然环境、历史文化、经济技术；影响：反映地域文化、塑造城乡景观\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是这种保护与发展策略所体现的内容\n2. 符合历史文化名城保护与发展的地理原理\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 513,
+  "total_tokens": 540,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 513
+ },
+ "created": 1792769661
+}

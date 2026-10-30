@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-088",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：植被保持水土的关键作用是（）\n\n待判断的选项：\nA. 增加蒸发、减少降水\nB. 减缓径流、增加下渗\nC. 加快径流、减少下渗\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 植被：上位：自然地理要素、生物圈组成部分；特征：覆盖地表、受气候制约、具有地带性分布；成因：气候条件、土壤条件、地形因素；影响：保持水土、调节气候、为动物提供栖息地；分布：热带雨林带、温带草原带、荒漠带\n- 保持水土：上位：生态保护、国土整治；特征：减少水土流失、保护土壤肥力、涵养水源；成因：水土流失严重、植被破坏、陡坡开垦；影响：减少泥沙淤积、改善生态环境、保障农业生产；分布：黄土高原、南方红壤丘陵、北方土石山区\n- 关键：上位：重要；特征：决定性作用、主要矛盾\n- 蒸发：上位：水循环环节、水体运动；特征：液态变气态、吸收热量、受气温影响；成因：太阳辐射、气温升高、风力作用；影响：水汽输送来源、调节地表温度；分布：海洋表面、陆地水体、土壤表层\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n- 径流：上位：水循环环节；特征：沿地表或地下流动、受气候地形影响、具有季节性变化；成因：降水、冰雪融水、地形坡度；影响：塑造地表形态、提供水资源、引发洪涝灾害；分布：河流流域、山区、湿润地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是植被保持水土的关键作用\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 493,
+  "total_tokens": 511,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 493
+ },
+ "created": 1792769244
+}

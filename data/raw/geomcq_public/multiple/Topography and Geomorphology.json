@@ -1,0 +1,1604 @@
+{
+  "geography_questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "流水侵蚀作用是塑造地表形态的重要外力，下列地貌中，由流水侵蚀作用形成的有（）",
+      "options": {
+        "A": "峡谷",
+        "B": "瀑布",
+        "C": "三角洲"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "河流下游地区地势平坦、流速减缓，流水堆积作用显著，下列属于流水堆积地貌的是（）",
+      "options": {
+        "A": "河漫滩平原",
+        "B": "冲积扇",
+        "C": "风蚀蘑菇"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "喀斯特地貌（岩溶地貌）的形成需要特定的地质和气候条件，其发育的基本条件包括（）",
+      "options": {
+        "A": "石灰岩广布",
+        "B": "气候湿润、降水丰富",
+        "C": "风力作用强烈"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，属于喀斯特地貌的有（）",
+      "options": {
+        "A": "峰林",
+        "B": "溶洞",
+        "C": "沙丘"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "风力作用在干旱、半干旱地区表现最为显著，下列地貌中由风力侵蚀形成的是（）",
+      "options": {
+        "A": "风蚀洼地",
+        "B": "风蚀柱",
+        "C": "冲积平原"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "风力堆积作用会形成具有明显形态特征的地貌，下列属于风力堆积地貌的是（）",
+      "options": {
+        "A": "沙丘",
+        "B": "戈壁",
+        "C": "峡谷"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冰川作用主要分布在高纬度或高海拔地区，冰川侵蚀作用可形成的地貌有（）",
+      "options": {
+        "A": "U型谷",
+        "B": "冰斗",
+        "C": "三角洲"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冰川堆积作用的产物具有分选性差的特点，下列属于冰川堆积地貌的是（）",
+      "options": {
+        "A": "冰碛丘陵",
+        "B": "冰碛平原",
+        "C": "风蚀蘑菇"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "板块构造运动是内力作用的主要表现形式，板块碰撞挤压边界易形成的地貌有（）",
+      "options": {
+        "A": "高大山脉",
+        "B": "岛弧",
+        "C": "裂谷"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "板块张裂分离边界，地壳断裂下陷，易形成的地貌有（）",
+      "options": {
+        "A": "裂谷",
+        "B": "海洋",
+        "C": "断块山"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "断层构造是地壳运动产生的重要地质现象，断层相对上升的岩块可形成的地貌有（）",
+      "options": {
+        "A": "断块山",
+        "B": "高地",
+        "C": "谷地"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "断层相对下降的岩块易形成低洼地貌，下列属于断层下陷形成的地貌是（）",
+      "options": {
+        "A": "地堑谷地",
+        "B": "断层湖",
+        "C": "背斜山"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "褶皱构造是岩层受水平挤压形成的弯曲变形，下列关于褶皱地貌的说法正确的有（）",
+      "options": {
+        "A": "背斜岩层向上拱起，常形成山岭",
+        "B": "向斜岩层向下弯曲，常形成谷地",
+        "C": "褶皱不会形成山地"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "向斜有时会形成山岭，其主要原因是（）",
+      "options": {
+        "A": "向斜槽部受挤压，岩石坚硬",
+        "B": "不易被外力侵蚀",
+        "C": "向斜顶部受张力，易被侵蚀"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "丹霞地貌是由红色砂岩经外力作用形成的独特地貌，其形成的主要外力作用有（）",
+      "options": {
+        "A": "流水侵蚀",
+        "B": "风化作用",
+        "C": "冰川侵蚀"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "雅丹地貌是干旱地区的一种特殊地貌，其形成的主要条件有（）",
+      "options": {
+        "A": "风力侵蚀强烈",
+        "B": "岩层疏松易风化",
+        "C": "降水丰富"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "河口三角洲是河流入海口处形成的堆积地貌，其形成的必要条件有（）",
+      "options": {
+        "A": "河流携带大量泥沙",
+        "B": "入海口地势平坦、流速缓慢",
+        "C": "风力搬运作用强"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冲积扇是河流流出山口形成的扇形堆积地貌，其特征包括（）",
+      "options": {
+        "A": "扇顶物质颗粒较粗",
+        "B": "扇缘物质颗粒较细",
+        "C": "扇缘地势较高"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "峡谷是河流侵蚀形成的狭长谷地，其形成的主要影响因素有（）",
+      "options": {
+        "A": "河流流速快、侵蚀力强",
+        "B": "岩层坚硬且垂直节理发育",
+        "C": "风力堆积作用显著"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "瀑布的形成与地形和岩石性质密切相关，下列关于瀑布形成条件的说法正确的有（）",
+      "options": {
+        "A": "河流流经陡崖处",
+        "B": "上下岩层硬度差异大（上部坚硬、下部松软）",
+        "C": "风力侵蚀强烈"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "黄土高原的黄土地貌是风力堆积和流水侵蚀共同作用的结果，下列属于黄土地貌的有（）",
+      "options": {
+        "A": "黄土塬",
+        "B": "黄土梁",
+        "C": "沙丘"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "黄土高原千沟万壑的地表形态，主要是由下列哪些作用形成的（）",
+      "options": {
+        "A": "流水侵蚀",
+        "B": "风力侵蚀",
+        "C": "冰川堆积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "海岸地貌分为海蚀地貌和海积地貌，下列属于海蚀地貌的有（）",
+      "options": {
+        "A": "海蚀崖",
+        "B": "海蚀柱",
+        "C": "沙滩"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "海积地貌是海浪堆积作用形成的，下列属于海积地貌的有（）",
+      "options": {
+        "A": "沙滩",
+        "B": "沙坝",
+        "C": "海蚀洞"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "山地地貌的形成多与内力作用相关，下列关于山地地貌的说法正确的有（）",
+      "options": {
+        "A": "山地海拔较高，地势起伏大",
+        "B": "山地多由地壳隆起形成",
+        "C": "山地均由火山喷发形成"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "平原地貌地势平坦、土层深厚，其形成的主要外力作用有（）",
+      "options": {
+        "A": "流水堆积",
+        "B": "风力堆积",
+        "C": "冰川侵蚀"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "高原地貌海拔较高、地势起伏较小，其形成的主要内力作用有（）",
+      "options": {
+        "A": "地壳抬升",
+        "B": "板块碰撞挤压",
+        "C": "流水侵蚀"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "盆地地貌中间低、四周高，其形成的主要原因有（）",
+      "options": {
+        "A": "地壳下陷",
+        "B": "周围山地隆起",
+        "C": "风力堆积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "丘陵地貌海拔较低、地势起伏和缓，其形成的主要外力作用有（）",
+      "options": {
+        "A": "流水侵蚀",
+        "B": "风力侵蚀",
+        "C": "冰川堆积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，属于内力作用形成的有（）",
+      "options": {
+        "A": "火山锥",
+        "B": "断块山",
+        "C": "冲积扇"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，属于外力作用形成的有（）",
+      "options": {
+        "A": "风蚀蘑菇",
+        "B": "河漫滩平原",
+        "C": "褶皱山"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "岩石性质对地貌形成影响显著，坚硬的岩石（如花岗岩）易形成的地貌有（）",
+      "options": {
+        "A": "山岭",
+        "B": "陡崖",
+        "C": "谷地"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "松软的岩石（如页岩、砂岩）易被外力侵蚀，易形成的地貌有（）",
+      "options": {
+        "A": "谷地",
+        "B": "洼地",
+        "C": "高山"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "坡度对地貌演化影响较大，陡坡地区易发生的外力作用有（）",
+      "options": {
+        "A": "流水侵蚀",
+        "B": "重力崩塌",
+        "C": "流水堆积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "缓坡地区外力作用以堆积为主，易形成的地貌有（）",
+      "options": {
+        "A": "坡积扇",
+        "B": "河漫滩",
+        "C": "峡谷"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地下喀斯特地貌主要由地下水溶蚀作用形成，下列属于地下喀斯特地貌的有（）",
+      "options": {
+        "A": "溶洞",
+        "B": "石钟乳",
+        "C": "峰林"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地表喀斯特地貌由地表水溶蚀和侵蚀形成，下列属于地表喀斯特地貌的有（）",
+      "options": {
+        "A": "峰丛",
+        "B": "溶蚀洼地",
+        "C": "溶洞"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "沙丘是风力堆积形成的地貌，其形态受风向影响，下列关于沙丘的说法正确的有（）",
+      "options": {
+        "A": "迎风坡坡度较缓",
+        "B": "背风坡坡度较陡",
+        "C": "沙丘形态与风向无关"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "风蚀地貌的形成需要干燥多风的环境，下列地区中，风蚀地貌发育显著的有（）",
+      "options": {
+        "A": "西北干旱地区",
+        "B": "青藏高原干旱区",
+        "C": "东南沿海湿润地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冰川地貌主要分布在高纬度和高海拔地区，下列地区中，冰川地貌发育的有（）",
+      "options": {
+        "A": "南极地区",
+        "B": "青藏高原",
+        "C": "长江中下游平原"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于河流地貌的说法，正确的有（）",
+      "options": {
+        "A": "上游以侵蚀作用为主，多峡谷",
+        "B": "下游以堆积作用为主，多平原",
+        "C": "中游侵蚀和堆积作用均衡"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冲积平原是河流堆积形成的广阔平原，其主要类型有（）",
+      "options": {
+        "A": "洪积平原",
+        "B": "河漫滩平原",
+        "C": "冰碛平原"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "断层构造对地貌的影响显著，下列关于断层的说法正确的有（）",
+      "options": {
+        "A": "断层是岩层断裂并发生位移形成的",
+        "B": "断层两侧岩层相对位置发生改变",
+        "C": "断层不会影响地表形态"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "火山地貌是岩浆活动形成的，下列属于火山地貌的有（）",
+      "options": {
+        "A": "火山口",
+        "B": "火山锥",
+        "C": "溶洞"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "火山喷发后，岩浆冷却凝固可形成的岩石及地貌有（）",
+      "options": {
+        "A": "玄武岩台地",
+        "B": "火山岩山地",
+        "C": "石灰岩峰林"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，与流水作用密切相关的有（）",
+      "options": {
+        "A": "峡谷",
+        "B": "三角洲",
+        "C": "风蚀柱"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，与风力作用密切相关的有（）",
+      "options": {
+        "A": "戈壁",
+        "B": "沙丘",
+        "C": "瀑布"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，与冰川作用密切相关的有（）",
+      "options": {
+        "A": "角峰",
+        "B": "冰碛丘",
+        "C": "冲积扇"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，与喀斯特作用密切相关的有（）",
+      "options": {
+        "A": "石笋",
+        "B": "溶蚀谷",
+        "C": "沙丘"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "地形地貌的形成是内力和外力共同作用的结果，下列说法正确的有（）",
+      "options": {
+        "A": "内力作用使地表高低起伏",
+        "B": "外力作用使地表趋于平坦",
+        "C": "内力作用主导地表形态的形成"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "黄土塬是黄土高原上面积广阔、地势平坦的台地，其形成的主要条件有（）",
+      "options": {
+        "A": "风力堆积形成深厚黄土层",
+        "B": "地壳相对稳定，侵蚀作用较弱",
+        "C": "流水侵蚀强烈"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "黄土梁是黄土塬被流水侵蚀切割形成的长条状高地，其特征包括（）",
+      "options": {
+        "A": "地势起伏较大",
+        "B": "呈长条状延伸",
+        "C": "顶部平坦广阔"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "海蚀崖是海浪侵蚀海岸形成的陡峭岩壁，其形成的主要因素有（）",
+      "options": {
+        "A": "海浪冲击力强",
+        "B": "海岸岩石坚硬",
+        "C": "流水堆积作用"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "沙坝是海浪堆积形成的长条形沙体，其形成的主要条件有（）",
+      "options": {
+        "A": "海浪搬运大量泥沙",
+        "B": "海浪速度减缓",
+        "C": "风力侵蚀强烈"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "雅丹地貌的主要特征有（）",
+      "options": {
+        "A": "形态奇特，多呈垄脊状",
+        "B": "岩石疏松，易被侵蚀",
+        "C": "多分布在湿润地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "丹霞地貌的主要特征有（）",
+      "options": {
+        "A": "岩层呈红色",
+        "B": "多陡崖、峰林",
+        "C": "多分布在干旱地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于地形地貌与人类活动的关系，说法正确的有（）",
+      "options": {
+        "A": "平原地区适合发展种植业",
+        "B": "山地地区适合发展林业",
+        "C": "高原地区均不适合人类居住"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地区中，以流水堆积地貌为主的有（）",
+      "options": {
+        "A": "长江中下游平原",
+        "B": "黄河三角洲",
+        "C": "黄土高原"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 59,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地区中，以风力侵蚀地貌为主的有（）",
+      "options": {
+        "A": "塔里木盆地",
+        "B": "准噶尔盆地",
+        "C": "四川盆地"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地区中，以喀斯特地貌为主的有（）",
+      "options": {
+        "A": "云贵高原",
+        "B": "广西桂林",
+        "C": "青藏高原"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "河流凹岸和凸岸的地貌差异明显，下列说法正确的有（）",
+      "options": {
+        "A": "凹岸流速快，以侵蚀为主",
+        "B": "凸岸流速慢，以堆积为主",
+        "C": "凹岸易形成河漫滩"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 62,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于冲积扇和三角洲的说法，正确的有（）",
+      "options": {
+        "A": "均为流水堆积地貌",
+        "B": "冲积扇形成于河流山口，三角洲形成于河流入海口",
+        "C": "均由风力堆积形成"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "冰川侵蚀作用形成的 U 型谷与流水侵蚀形成的 V 型谷，差异明显，下列说法正确的有（）",
+      "options": {
+        "A": "U型谷谷底宽阔、两侧陡峭",
+        "B": "V型谷谷底狭窄、深度大",
+        "C": "U型谷由流水侵蚀形成"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于岩石圈物质循环与地貌形成的关系，说法正确的有（）",
+      "options": {
+        "A": "岩浆活动形成火山地貌",
+        "B": "沉积作用形成堆积地貌",
+        "C": "变质作用直接形成地表地貌"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "断层湖是断层下陷后积水形成的湖泊，下列属于断层湖的有（）",
+      "options": {
+        "A": "青海湖",
+        "B": "贝加尔湖",
+        "C": "鄱阳湖"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，属于堆积地貌的有（）",
+      "options": {
+        "A": "沙丘",
+        "B": "冲积扇",
+        "C": "风蚀洼地"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，属于侵蚀地貌的有（）",
+      "options": {
+        "A": "峡谷",
+        "B": "风蚀柱",
+        "C": "冰碛平原"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "影响地貌形成的自然因素有（）",
+      "options": {
+        "A": "岩石性质",
+        "B": "气候条件",
+        "C": "人类活动"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "人类活动对地形地貌的影响主要表现在（）",
+      "options": {
+        "A": "修建梯田，改变地表坡度",
+        "B": "围湖造田，改变地貌形态",
+        "C": "不会影响地貌演化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 70,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于山地垂直地貌的说法，正确的有（）",
+      "options": {
+        "A": "随海拔升高，地貌类型可能发生变化",
+        "B": "海拔越高，侵蚀作用越强",
+        "C": "山地垂直地貌受水热条件影响显著"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "平原地貌的主要特征有（）",
+      "options": {
+        "A": "地势平坦",
+        "B": "土层深厚",
+        "C": "地势起伏大"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 72,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "高原地貌的主要特征有（）",
+      "options": {
+        "A": "海拔较高（一般在500米以上）",
+        "B": "地势起伏较小",
+        "C": "多峡谷、峰林"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 73,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "盆地地貌的主要特征有（）",
+      "options": {
+        "A": "中间低、四周高",
+        "B": "地势平坦",
+        "C": "多为堆积平原"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "丘陵地貌的主要特征有（）",
+      "options": {
+        "A": "海拔较低（一般在500米以下）",
+        "B": "地势起伏和缓",
+        "C": "多陡崖、峡谷"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于风蚀蘑菇的说法，正确的有（）",
+      "options": {
+        "A": "由风力侵蚀形成",
+        "B": "上部岩石较坚硬，下部岩石较松软",
+        "C": "多分布在湿润地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 76,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于溶洞的说法，正确的有（）",
+      "options": {
+        "A": "由地下水溶蚀石灰岩形成",
+        "B": "洞内常形成石钟乳、石笋",
+        "C": "多分布在干旱地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于火山锥的说法，正确的有（）",
+      "options": {
+        "A": "由火山喷发的岩浆、火山灰堆积形成",
+        "B": "呈圆锥形",
+        "C": "均为活火山"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于断块山的说法，正确的有（）",
+      "options": {
+        "A": "由断层相对上升的岩块形成",
+        "B": "地势陡峭",
+        "C": "由褶皱形成"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，与板块运动相关的有（）",
+      "options": {
+        "A": "喜马拉雅山脉",
+        "B": "东非大裂谷",
+        "C": "长江三峡"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 80,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于流水侵蚀作用的说法，正确的有（）",
+      "options": {
+        "A": "流速越快，侵蚀力越强",
+        "B": "岩石越松软，越易被侵蚀",
+        "C": "流水侵蚀只发生在河流上游"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 81,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于风力堆积作用的说法，正确的有（）",
+      "options": {
+        "A": "风速减缓时，沙粒易堆积",
+        "B": "沙粒大小均匀，分选性好",
+        "C": "风力堆积只形成沙丘"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 82,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于冰川堆积作用的说法，正确的有（）",
+      "options": {
+        "A": "冰川融化时，携带的物质堆积",
+        "B": "堆积物分选性差，大小混杂",
+        "C": "冰川堆积只形成冰碛丘"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 83,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于喀斯特作用的说法，正确的有（）",
+      "options": {
+        "A": "需要石灰岩和充足的水分",
+        "B": "包括溶蚀和堆积两个过程",
+        "C": "只发生在地表"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 84,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，属于地表水作用形成的有（）",
+      "options": {
+        "A": "峡谷",
+        "B": "峰林",
+        "C": "溶洞"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 85,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，属于地下水作用形成的有（）",
+      "options": {
+        "A": "溶洞",
+        "B": "石笋",
+        "C": "冲积扇"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 86,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于地形地貌分布规律的说法，正确的有（）",
+      "options": {
+        "A": "干旱地区多风力地貌",
+        "B": "湿润地区多流水地貌",
+        "C": "高纬度地区多喀斯特地貌"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于黄土地貌的说法，正确的有（）",
+      "options": {
+        "A": "主要分布在黄土高原",
+        "B": "由风力堆积和流水侵蚀共同形成",
+        "C": "土层薄，肥力低"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 88,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于海岸地貌的说法，正确的有（）",
+      "options": {
+        "A": "分为海蚀地貌和海积地貌",
+        "B": "受海浪、潮汐等作用形成",
+        "C": "只分布在沿海地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于雅丹地貌与丹霞地貌的区别，说法正确的有（）",
+      "options": {
+        "A": "雅丹地貌由风力作用形成，丹霞地貌由流水作用形成",
+        "B": "雅丹地貌多分布在干旱地区，丹霞地貌多分布在湿润地区",
+        "C": "两者均由堆积作用形成"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 90,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于内力作用与外力作用的关系，说法正确的有（）",
+      "options": {
+        "A": "内力作用塑造地表基本形态",
+        "B": "外力作用修饰地表形态",
+        "C": "内力作用和外力作用相互独立"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 91,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，能体现地理环境整体性的有（）",
+      "options": {
+        "A": "黄土高原千沟万壑的地表与植被破坏、流水侵蚀相关",
+        "B": "喀斯特地貌与石灰岩、湿润气候相关",
+        "C": "沙丘与风力作用无关"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于地形地貌对气候的影响，说法正确的有（）",
+      "options": {
+        "A": "山地迎风坡降水多，背风坡降水少",
+        "B": "平原地区气候更温和，温差小",
+        "C": "高原地区气温高，降水多"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 93,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于地形地貌对河流的影响，说法正确的有（）",
+      "options": {
+        "A": "山地地区河流流速快，侵蚀强",
+        "B": "平原地区河流流速慢，堆积强",
+        "C": "盆地地区河流多为内流河"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 94,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列地貌中，适合发展旅游业的有（）",
+      "options": {
+        "A": "喀斯特峰林",
+        "B": "丹霞地貌",
+        "C": "风蚀洼地"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于地形地貌与交通建设的关系，说法正确的有（）",
+      "options": {
+        "A": "平原地区交通线路密集，多呈网状",
+        "B": "山地地区交通线路多沿河谷、等高线布局",
+        "C": "高原地区交通建设难度小"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 96,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于冰斗的说法，正确的有（）",
+      "options": {
+        "A": "由冰川侵蚀形成",
+        "B": "呈半圆形洼地，底部平坦",
+        "C": "多分布在河流下游"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 97,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于石钟乳和石笋的说法，正确的有（）",
+      "options": {
+        "A": "均由地下水中的碳酸钙沉积形成",
+        "B": "石钟乳从洞顶向下生长，石笋从洞底向上生长",
+        "C": "均由风力堆积形成"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 98,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于冲积平原的说法，正确的有（）",
+      "options": {
+        "A": "土层深厚，土壤肥沃",
+        "B": "地势平坦，便于耕作",
+        "C": "多由风力堆积形成"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 99,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于断层的说法，正确的有（）",
+      "options": {
+        "A": "断层是地壳运动的产物",
+        "B": "断层两侧岩层有明显位移",
+        "C": "断层不会引发地震"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 100,
+      "type": "multiple",
+      "geography_category": "Topography and Geomorphology",
+      "difficulty": "medium",
+      "question": "下列关于地形地貌演化的说法，正确的有（）",
+      "options": {
+        "A": "地表形态始终处于不断变化中",
+        "B": "内力作用和外力作用共同推动地貌演化",
+        "C": "地貌演化速度均很快"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

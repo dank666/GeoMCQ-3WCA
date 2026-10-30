@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-054",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流的含沙量对河流生态和人类活动有重要影响，含沙量过大，会导致河道淤积、水质变差，影响航运和灌溉；含沙量过小，不利于土壤肥沃，某河流含沙量过大，结合含沙量的影响，该河流最可能出现的问题是（ ）\n\n待判断的选项：\nA. 土壤贫瘠、农业减产\nB. 水质变好、适合饮用\nC. 河道淤积、航运受阻\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是含沙量过大的影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"不确定\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 209,
+  "total_tokens": 227,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772258
+}

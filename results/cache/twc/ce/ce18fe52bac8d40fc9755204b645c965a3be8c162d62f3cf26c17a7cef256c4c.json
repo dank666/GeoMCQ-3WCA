@@ -1,0 +1,50 @@
+{
+ "tag": "COND:geomcq-multiple-CL-068",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理教师，擅长分析选择题的题意。"
+   },
+   {
+    "role": "user",
+    "content": "下面是一道地理选择题的题干（不含选项）。请找出题干对“正确答案”提出的判断条件。\n\n要求：\n1. 条件是每一个正确选项都必须满足的要求，不是某个正确选项的具体内容；用一个条件判断所有选项；\n2. 第一个条件复述题目的问法，例如：\n   - “下列关于X的说法正确的有”→“关于X的说法符合地理事实”\n   - “X和Y的共同特征有”→“是X和Y的共同特征”\n   - “X与Y的差异主要体现在”→“是X与Y之间确实存在的差异”\n   - “造成该现象的主要原因是”→“是造成该现象的主要原因”\n3. 其余条件是题干中对答案的额外限定（如时间、地点、数量、程度），每个 4~20 个字；没有就不写；共 1~4 个；\n4. 条件一律用肯定形式表述；若题目问的是“不正确/不属于/不是/错误”的选项，把 polarity 设为 \"negative\"，否则为 \"positive\"。\n\n只输出 JSON：{\"conditions\": [\"...\", \"...\"], \"polarity\": \"positive\"}\n\n题干：下列关于锋面与气候的关系，说法正确的有（）"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"conditions\": [\"关于锋面与气候关系的说法符合地理事实\"], \"polarity\": \"positive\"}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 22,
+  "prompt_tokens": 287,
+  "total_tokens": 309,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 287
+ },
+ "created": 1792769489
+}

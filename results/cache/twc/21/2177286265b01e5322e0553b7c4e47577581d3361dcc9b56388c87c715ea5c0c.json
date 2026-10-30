@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-092",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：高原山地气候的垂直变化明显，主要是因为海拔的差异导致气温和降水的差异，从山麓到山顶，气温逐渐降低，降水先增多后减少，结合高原山地气候的垂直变化，下列说法正确的是（ ）\n\n待判断的选项：\nA. 从山麓到山顶，气温逐渐升高\nB. 高原山地气候的垂直变化与海拔无关\nC. 从山麓到山顶，降水先增多后减少\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 高原：上位：地貌类型；特征：海拔高、地面起伏小、边缘陡峻；成因：地壳抬升、长期侵蚀；影响：气候寒冷、空气稀薄；分布：青藏高原、云贵高原\n- 山地气候：上位：气候类型、垂直地带性、海拔影响；特征：气温垂直递减、降水先增后减、山麓到山顶变化\n- 变迁：上位：地理过程；特征：动态性、长期性、阶段性；成因：自然因素、人为因素；影响：地理格局改变、人地关系调整\n- 海拔：上位：地面高度；特征：以海平面为基准、表示垂直高度、单位米；影响：影响气候、影响植被分布、影响人类活动；分布：全球陆地\n- 气温：上位：气象要素；特征：随纬度变化、随海拔变化、随时间变化；成因：太阳辐射、下垫面性质、大气环流；影响：影响农业生产、影响人体舒适度、影响自然带分布\n- 降水：上位：天气现象、水循环环节；特征：水汽凝结降落、时空分布不均、形式多样；成因：水汽充足、空气上升冷却、凝结核；影响：补给地表水、影响农业生产；分布：全球大气\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于高原山地气候垂直变化的说法符合地理事实\n2. 体现海拔差异导致气温和降水变化的规律\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"否\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 509,
+  "total_tokens": 536,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 509
+ },
+ "created": 1792768691
+}

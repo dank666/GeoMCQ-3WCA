@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-034",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：工业分散多出现于高技术产品或复杂产品生产，目的是：\n\n待判断的选项：\nA. 扩大地方就业\nB. 寻找最优区位、降低成本\nC. 集中治理污染\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 工业：上位：产业；特征：原料加工、机械化生产、产品输出；成因：资源分布、市场需求、技术发展；影响：经济增长、就业增加、环境污染；分布：工业区、城市边缘\n- 高新技术：上位：技术类型；特征：技术密集、研发投入高、产品附加值高；成因：科技创新、政策支持；影响：产业升级、区域发展；分布：科技园区、高校周边\n- 产物：上位：生产成果；特征：人类劳动成果、满足需求、可交换；成因：生产过程、资源投入；影响：满足消费、促进流通\n- 区位：上位：地理概念；特征：综合性、动态性、相对性；影响：影响产业布局、影响城市发展\n- 降低成本：上位：成本控制；特征：提高经济效益、增强竞争力、优化资源配置；成因：技术进步、规模经济、管理优化、区位选择；影响：增加利润、扩大市场、促进产业发展；分布：工业区、产业集聚区\n- 污染：上位：环境问题；特征：有害物质进入环境、危害人体健康、破坏生态平衡；成因：人类活动排放污染物、工业过度排放；影响：环境质量下降、生态系统破坏\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是为了减少生产成本或接近消费市场\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 12,
+  "prompt_tokens": 445,
+  "total_tokens": 457,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 445
+ },
+ "created": 1792772593
+}

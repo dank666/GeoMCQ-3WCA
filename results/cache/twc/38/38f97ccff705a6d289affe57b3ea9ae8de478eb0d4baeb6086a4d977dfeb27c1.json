@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-HEG-086",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：港口经济腹地广阔、货源充足，其发展速度通常：\n\n待判断的选项：\nA. 更慢\nB. 不受影响\nC. 更快\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 港口经济：上位：区域经济、临港产业；特征：依托港口区位、产业集聚明显、外向型程度高；成因：港口运输枢纽地位、对外开放政策、腹地经济支撑；影响：促进区域经济增长、增加就业机会、推动产业升级；分布：长三角地区、珠三角地区、环渤海地区\n- 市场腹地：上位：城市影响范围；特征：城市服务范围、与经济联系密切、范围大小不一；成因：城市等级差异、交通条件；影响：影响城市规模、促进区域联系；分布：中心城市周边、港口内陆地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是港口经济腹地广阔、货源充足时的发展速度特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 285,
+  "total_tokens": 303,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 285
+ },
+ "created": 1792768958
+}

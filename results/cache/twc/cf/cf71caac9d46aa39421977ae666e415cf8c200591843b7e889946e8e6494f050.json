@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:agieval-028",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：浙江S集团是一家研发和生产空调控制元件和零部件的企业，其生产的零部件占全球智能空调配件市场60%以上的份额。至2017年，S集团除国内工厂外，还在美国、墨西哥、波兰等国家建有工厂。其国内工厂生产的产品除供应国内市场外，还满足出口需求。2018年，在国内工厂产能饱和、订单不断增长的情况下，S集团入驻越南某工业园，在买地自建厂房的同时，租用厂房开展生产。影响S集团在美国、墨西哥、波兰等国家建厂的主要区位因素是（）\n\n待判断的选项：\nA. 技术\nB. 市场\nC. 原材料\nD. 劳动力\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 浙江：上位：中国省级行政区；特征：位于东南沿海、经济发达、多山地丘陵；分布：中国东南沿海\n- 集团：上位：企业组织；特征：规模化经营、多元化投资、母子公司结构；成因：生产集中、资本集聚、市场竞争；影响：提高竞争力、促进产业集聚、扩大市场份额；分布：发达国家、大城市、经济特区\n- 空调：上位：工业产品、家用电器、温控设备；特征：智能空调、制冷设备、零部件生产、全球市场\n- 企业：上位：经济组织、市场主体；特征：营利性、独立性、组织性；成因：市场需求、利润驱动、分工协作；影响：提供产品服务、创造就业、推动创新；分布：产业园区、城市、工业区\n- 全球：上位：空间范围；特征：整体性、相互联系\n- 智能：上位：技术特征；特征：自动化、自学习、自适应；影响：提高效率、改变生产方式\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成S集团在美国、墨西哥、波兰建厂的主要原因\n2. 针对的是美国、墨西哥、波兰等国家的建厂行为\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"是\"], \"D\": [\"否\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 499,
+  "total_tokens": 535,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 499
+ },
+ "created": 1792770765
+}

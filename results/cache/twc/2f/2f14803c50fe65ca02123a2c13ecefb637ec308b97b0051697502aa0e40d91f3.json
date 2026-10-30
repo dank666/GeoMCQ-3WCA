@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-050",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：水循环中的地表径流环节，会将陆地上的泥沙、营养物质等带入海洋，促进海洋生态系统的发展，同时也会塑造地表形态，如冲积平原、三角洲等，某河流流经平原地区，流速缓慢，泥沙大量淤积，结合地表径流的作用，该河流入海口最可能形成的地表形态是（ ）\n\n待判断的选项：\nA. 三角洲\nB. 沙丘\nC. 峡谷\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是水循环中的地表径流环节\n2. 是某河流流经平原地区流速缓慢时形成的\n3. 是泥沙大量淤积时形成的\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\", \"是\"],\n\"B\": [\"是\", \"是\", \"不确定\"],\n\"C\": [\"否\", \"否\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 239,
+  "total_tokens": 274,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772255
+}

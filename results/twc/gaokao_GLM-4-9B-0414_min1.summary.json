@@ -1,0 +1,57 @@
+{
+ "split": "gaokao",
+ "model": "THUDM/GLM-4-9B-0414",
+ "params": {
+  "knowledge": true,
+  "max_knowledge": 6,
+  "min_multi": 1,
+  "defer": true,
+  "three_valued": true,
+  "max_conditions": 6
+ },
+ "dcr": {
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null,
+  "tau": 0.5,
+  "max_terms": 8,
+  "usage": {
+   "calls": 938,
+   "cached": 938,
+   "prompt_tokens": 492358,
+   "completion_tokens": 45666
+  }
+ },
+ "results": {
+  "all": {
+   "acc": 82.04,
+   "jaccard": 82.04,
+   "n": 245
+  },
+  "format:statement_combo": {
+   "acc": 94.44,
+   "jaccard": 94.44,
+   "n": 36
+  },
+  "type:single": {
+   "acc": 82.04,
+   "jaccard": 82.04,
+   "n": 245
+  },
+  "_diagnostics": {
+   "deferred_rate": 0.3061,
+   "acc_context": 87.06,
+   "mean_calls": 2.306,
+   "mean_prompt_tokens": 943.6,
+   "mean_completion_tokens": 58.2,
+   "mean_conditions": 1.61,
+   "undetermined_rate": 0.2601,
+   "mean_dcr_terms": 1.114
+  }
+ }
+}

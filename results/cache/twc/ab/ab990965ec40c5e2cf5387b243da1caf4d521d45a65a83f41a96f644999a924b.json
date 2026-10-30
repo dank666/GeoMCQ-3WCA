@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:gaokao-06-1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nMaterial:\n桑基、蔗基、果基鱼塘是珠江三角洲地区传统的农业景观和被联合国推介的典型生态循环农业模式．改革开放以来，随着工业化和城镇化的快速发展，传统的基塘农业用地大部分变为建设用地，保留下来的基塘也变为以花基、菜基为主．据此完成 1～3 题．\n\nQuestion:\n该地基塘转变为建设用地对局地气候的影响是（）\n\nOptions:\nA. 大气湿度增高\nB. 大气降水增多\nC. 近地面风速增大\nD. 气温变率增大\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nD",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 172,
+  "total_tokens": 174,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771785
+}

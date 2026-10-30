@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-053",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某城市为了减少对化石能源的依赖，大力发展光伏发电、风力发电和抽水蓄能电站，并鼓励居民安装屋顶光伏。这些措施属于（）\n\n待判断的选项：\nA. 分布式能源发展\nB. 能源结构转型\nC. 高耗能产业引入\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 城市：上位：聚落；特征：人口密集、非农业产业集聚、建筑密集、交通网络发达；成因：生产力发展、社会分工深化、工商业集聚；影响：区域经济中心、文化教育中心、交通枢纽；分布：沿海地区、平原地区、交通枢纽\n- 化石燃料：上位：能源资源、矿产资源；特征：不可再生、含碳物质、燃烧释放能量、形成周期长；成因：古生物遗体埋藏、地质作用、高温高压；影响：提供能源、排放二氧化碳、环境污染、温室效应；分布：沉积盆地、中东地区、中国北方\n- 发电：上位：能源工业、电力生产；特征：能源转换、资金技术密集、受资源分布影响；成因：电力需求增长、能源资源分布不均；影响：提供电力保障、影响环境质量、促进经济发展；分布：煤炭基地、河流峡谷、沿海地区、风能丰富区\n- 风力：上位：大气运动、自然能源；特征：水平气压梯度力驱动、具有方向性、能量可再生；成因：气压差异、地球自转、地表受热不均；影响：塑造风成地貌、风力发电、传播种子；分布：沿海地区、内蒙古高原、西北内陆\n- 电站：上位：能源设施、工业设施；特征：生产电能、需区位选择、资金技术密集；成因：电力需求增长、能源资源分布；影响：供应电力、影响区域发展；分布：河流峡谷、煤炭产区、沿海地区\n- 居民：上位：人口；特征：定居一地、从事生产生活、构成聚落主体；影响：形成聚落、影响区域发展\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是题干所述能源措施所属的类别\n2. 针对减少化石能源依赖的目标\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"], \"C\": [\"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 544,
+  "total_tokens": 571,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 544
+ },
+ "created": 1792769722
+}

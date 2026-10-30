@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-090",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国北方地区的年降水量在400-800毫米之间，降水集中在夏季，主要是因为夏季受夏季风影响，带来海洋暖湿气流，形成降水，冬季受冬季风影响，降水稀少，结合我国北方地区的降水特征，该地区的降水类型主要是（ ）\n\n待判断的选项：\nA. 地形雨\nB. 锋面雨\nC. 对流雨\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是北方地区降水类型\n2. 受夏季风影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 194,
+  "total_tokens": 220,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772110
+}

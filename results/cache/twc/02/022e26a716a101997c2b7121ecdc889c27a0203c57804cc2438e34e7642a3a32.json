@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-083",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国东南丘陵分布在我国东南部地区，包括江南丘陵、浙闽丘陵、两广丘陵等，该区域的主要地形特征是（ ）\n\n待判断的选项：\nA. 海拔低于200米，地表平坦\nB. 海拔高于500米，地表陡峭\nC. 海拔多在200-500米之间，地表起伏和缓\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是主要地形特征\n2. 是我国东南部地区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"否\", \"否\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 189,
+  "total_tokens": 215,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 189
+ },
+ "created": 1792772397
+}

@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-045",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：晴朗天空呈蓝色、晨昏蒙影，原理是大气的（）\n\n待判断的选项：\nA. 散射作用\nB. 吸收红外线\nC. 对短波辐射散射强\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 天空：上位：大气层；特征：蓝色外观、云彩变化、天气现象发生；成因：大气散射、太阳辐射；影响：影响光照、视觉背景\n- 蓝色：上位：颜色；特征：可见光波长较短、海水呈蓝色；成因：海水对蓝光散射较强、天空反射；影响：影响水体外观、影响太阳辐射吸收；分布：海洋、湖泊、天空\n- 蒙影：上位：大气散射、太阳辐射；特征：日出日落时天空现象、大气对光散射程度变化\n- 大气：上位：地球圈层；特征：由气体组成、垂直分层、密度随高度递减、不断运动；成因：地球引力、太阳辐射、地球自转；影响：保护地球生命、调节地表温度、产生天气现象；分布：地球外围、对流层、平流层\n- 散射作用：上位：大气对太阳辐射的削弱作用；特征：改变太阳辐射方向、波长选择性；成因：大气分子、气溶胶颗粒；影响：天空呈蓝色、日出日落呈红色\n- 吸收：上位：物理过程；特征：物质或能量转移、选择性、可逆性；成因：浓度差、能量差、生物作用；影响：净化环境、物质循环、能量流动\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是晴朗天空呈蓝色的原理\n2. 是晨昏蒙影的原理\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"否\", \"否\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 452,
+  "total_tokens": 478,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 452
+ },
+ "created": 1792769694
+}

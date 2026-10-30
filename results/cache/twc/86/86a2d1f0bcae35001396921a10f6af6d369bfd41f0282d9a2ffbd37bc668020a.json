@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-GPP-032",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：搬运过程中，外力减弱或遇到障碍物，被搬运物质逐渐沉积下来，称为（）\n\n待判断的选项：\nA. 侵蚀作用\nB. 变质作用\nC. 堆积作用\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 进程：上位：发展变化；特征：动态变化、阶段性、不可逆性；成因：社会经济发展、政策推动；影响：导致结构变化、影响空间格局\n- 外力：上位：地质作用、地貌成因；特征：来自地球外部、以太阳能为动力、使地表趋于平缓；成因：太阳辐射能、重力作用、流水风力冰川；影响：塑造地表形态、削高填低、形成沉积地貌\n- 障碍物：上位：地质作用、地貌成因；特征：阻碍物质移动、地形特征\n- 沉积作用：上位：外力作用；特征：物质堆积、分选性、层理构造；成因：搬运能力下降、流速降低、风力减弱；影响：形成沉积岩、形成堆积地貌；分布：河流中下游、海滨、沙漠边缘\n- 侵蚀作用：上位：外力作用；特征：破坏地表、搬运物质、塑造地貌；成因：流水、风力、冰川、海浪；影响：形成侵蚀地貌、导致水土流失、改变地表形态；分布：河流上游、干旱地区、高山地区、海岸带\n- 变质作用：上位：内力作用；特征：高温高压、矿物重结晶、岩石结构改变；成因：地壳运动、岩浆活动、构造应力；影响：形成变质岩、改变岩石性质；分布：造山带、岩浆侵入接触带、断裂带\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是外力减弱或遇到障碍物导致的沉积过程\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 510,
+  "total_tokens": 528,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 510
+ },
+ "created": 1792772616
+}

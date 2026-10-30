@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:agieval-088",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n手机点餐类APP为用户选择餐馆、点餐提供了便利。通过APP查询送餐员即时位置的技术是\n\nOptions:\nA. 数字地球和遥感\nB. 数字地球和虚拟现实\nC. 遥感和地理信息系统\nD. 地理信息系统和卫星定位系统\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nD",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 114,
+  "total_tokens": 116,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771769
+}

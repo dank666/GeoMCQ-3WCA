@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-014",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：径流量的季节变化是河流水文特征的重要表现，下列关于径流量季节变化的说法正确的有（）\n\n待判断的选项：\nA. 冰川融水补给的河流，径流量冬季最大\nB. 全年降水均匀的气候区，径流量季节变化小\nC. 夏雨型气候区，河流径流量夏季大、冬季小\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流水量：上位：水文特征；特征：季节变化、年际变化；成因：降水补给、冰雪融水补给、流域面积；影响：影响航运灌溉、影响水能\n- 季节变化：上位：地球运动效应；特征：正午太阳高度变化、昼夜长短变化、气温降水变化；成因：黄赤交角、地球公转；影响：影响农业生产、形成自然带；分布：中纬度地区\n- 河流水：上位：地表水、陆地水体；特征：流动性强、更新快、季节变化大；成因：降水补给、冰雪融水补给、地下水补给；影响：提供水源、塑造地貌、参与水循环；分布：河流\n- 冰川水：上位：陆地水体；特征：固态水、淡水主体、更新慢；成因：降水积累、低温环境；影响：重要淡水资源、影响河流补给；分布：南极、格陵兰、青藏高原\n- 融水：上位：陆地水体、水资源；特征：水温低、季节性变化大、水质较好；成因：气温升高、冰雪融化；影响：补给河流、提供灌溉水源、参与水循环；分布：高山地区、冰川区、西北内陆河\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于径流量季节变化的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 520,
+  "total_tokens": 538,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 520
+ },
+ "created": 1792769805
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-091",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：热带沙漠气候的全年炎热干燥，年降水量不足200毫米，主要是因为受副热带高气压带和信风带控制，下列地区中，不属于热带沙漠气候分布区的是（ ）\n\n待判断的选项：\nA. 澳大利亚中部\nB. 南美洲东南部\nC. 阿拉伯半岛\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是热带沙漠气候分布区\n2. 年降水量不足200毫米\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"否\", \"否\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 186,
+  "total_tokens": 212,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772110
+}

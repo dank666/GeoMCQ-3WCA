@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-086",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：垂直地带性中，基带植被与山体所在地区的植被（）\n\n待判断的选项：\nA. 完全不同\nB. 相反\nC. 一致\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 垂直地带性：上位：自然地理环境地域分异规律；特征：随海拔变化、水热条件差异、自然带垂直更替；成因：海拔高度变化、热量和水分条件变化；影响：形成垂直自然带谱、影响农业立体布局；分布：高山地区、高原山地\n- 基带：上位：自然带；特征：与当地水平自然带一致、垂直带谱的起点；成因：纬度位置、海陆位置；影响：决定垂直带谱性质；分布：山地山麓\n- 植被：上位：自然地理要素、生物圈组成部分；特征：覆盖地表、受气候制约、具有地带性分布；成因：气候条件、土壤条件、地形因素；影响：保持水土、调节气候、为动物提供栖息地；分布：热带雨林带、温带草原带、荒漠带\n- 山体：上位：地貌；特征：隆起地形、坡度较陡、海拔较高；成因：地壳运动、岩浆活动、外力侵蚀；影响：影响气候、影响交通、形成垂直带\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是同一地区的植被类型\n2. 属于垂直地带性\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"是\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 430,
+  "total_tokens": 457,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 430
+ },
+ "created": 1792772864
+}

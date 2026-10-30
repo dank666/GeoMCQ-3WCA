@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-072",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国柴达木盆地位于青藏高原东北部，海拔较高，是我国海拔最高的盆地，其被称为“聚宝盆”的主要原因是（ ）\n\n待判断的选项：\nA. 地形平坦，适合农业生产\nB. 矿产资源丰富，种类繁多\nC. 气候湿润，物产丰富\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是柴达木盆地被称为'聚宝盆'的主要原因\n2. 是地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"否\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"否\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 188,
+  "total_tokens": 214,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772392
+}

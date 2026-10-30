@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-CL-019",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：全球气候变暖是当前重要的气候问题，其主要原因有（）\n\n待判断的选项：\nA. 太阳辐射增强\nB. 温室气体（如二氧化碳）大量排放\nC. 人类活动破坏植被\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 全球气候变暖：上位：全球气候变化、气候变暖；特征：全球平均气温上升、人为因素主导、长期趋势；成因：温室气体排放、化石燃料燃烧、森林破坏、土地利用变化；影响：冰川融化、海平面上升、极端天气增加、生态系统退化\n- 气候：上位：大气现象；特征：长期平均状态、具有稳定性、空间差异性、受多种因素影响；成因：太阳辐射、大气环流、下垫面性质、人类活动；影响：影响农业生产、影响人类活动、塑造自然景观；分布：全球各地\n- 成因：上位：地理要素；特征：解释性、关联性、多样性；影响：用于地理分析、指导问题解决\n- 太阳辐射：上位：电磁辐射；特征：短波辐射、能量集中、纬度差异；成因：太阳核聚变；影响：地球能量来源、大气运动、水循环\n- 温室气体：上位：大气成分；特征：吸收地面长波辐射、增强大气逆辐射；成因：化石燃料燃烧、农业活动、工业排放；影响：全球变暖、气候变化；分布：全球大气\n- 二氧化碳：上位：温室气体；特征：无色无味、温室效应、参与光合作用；成因：化石燃料燃烧、生物呼吸、火山活动；影响：全球变暖、光合作用原料；分布：大气圈\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是造成全球气候变暖的主要原因\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 449,
+  "total_tokens": 467,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 449
+ },
+ "created": 1792769423
+}

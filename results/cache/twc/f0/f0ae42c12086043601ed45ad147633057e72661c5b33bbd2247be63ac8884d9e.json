@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-SV-011",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：植被是覆盖在地球表面的植物群落的总称，按生长环境可分为陆生植被和水生植被，下列关于陆生植被的说法正确的有（）\n\n待判断的选项：\nA. 陆生植被对环境无影响，仅作为景观存在\nB. 森林、草原、荒漠都属于陆生植被\nC. 陆生植被的分布主要受气候、土壤、地形等因素影响\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 植被：上位：自然地理要素、生物圈组成部分；特征：覆盖地表、受气候制约、具有地带性分布；成因：气候条件、土壤条件、地形因素；影响：保持水土、调节气候、为动物提供栖息地；分布：热带雨林带、温带草原带、荒漠带\n- 全球地表：上位：地球表层；特征：海陆分布、高低起伏、动态变化；成因：内力作用、外力作用；影响：影响自然环境、影响人类活动\n- 植物群落：上位：生物群落、植被类型；特征：物种组成、空间结构、动态变化、相互依存；成因：气候条件、土壤条件、地形因素、生物相互作用；影响：影响生态系统功能、提供栖息地、调节气候；分布：热带雨林、温带草原、荒漠、湿地\n- 环境：上位：自然地理环境、人文地理环境；特征：整体性、差异性、动态性；影响：影响人类活动\n- 陆生：上位：植被分类、生长环境、生物群落；特征：森林、草原、荒漠、受气候制约、受土壤影响\n- 水生：上位：生物类型；特征：适应水域、依赖水体、形态特化；成因：水域环境、水分充足；影响：水体净化、湿地生态；分布：湖泊、河流、湿地\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于陆生植被的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 491,
+  "total_tokens": 509,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 491
+ },
+ "created": 1792769943
+}

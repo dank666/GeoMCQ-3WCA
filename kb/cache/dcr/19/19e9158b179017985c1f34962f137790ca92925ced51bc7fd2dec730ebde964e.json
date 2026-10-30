@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:丽水||53e5eba2514c",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“丽水”编写一个词典条目，供符号推理系统使用。\n\n题干：医用注射剂瓶和用于加工它的玻璃管的生产过程对水、空气等环境条件要求严苛。世界最大的高端玻璃管生产企业德国某公司,通过对浙江丽水、四川成都、江苏无锡等地比较,最终选定在具有相关产业和生态环境优良的丽水某山间小镇建生产厂;2017年,从德国进口高端玻璃管制成医用注射剂瓶的生产厂投产;2020年,高端玻璃管生产厂投产。该公司选择在中国建生产厂,主要是因为中国()\n选项：\nA. 原材料充足\nB. 市场广阔\nC. 技术先进\nD. 劳动力价格低\n\n词典中已有条目的示例：\n{\"term\": \"加工\", \"category\": \"INDUSTRY\", \"parent_level\": \"工业生产；原料供应；市场需求\", \"child_level\": \"农产品加工；矿产加工；来料加工；改变原材料形态；增加附加值\"}\n{\"term\": \"进程\", \"category\": \"OTHER\", \"parent_level\": \"发展变化；社会经济发展；政策推动\", \"child_level\": \"城市化进程；工业化进程；动态变化；阶段性；不可逆性\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"PLACE\", \"parent_level\": \"行政区划；区域位置；地理空间\", \"child_level\": \"浙江省地级市；山间小镇；长三角地区；生态优良区\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 543,
+  "total_tokens": 591,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 543
+ },
+ "created": 1792770362
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:gaokao-25-3",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "材料：堪察加火山群位于环太平洋火山带的北端，气候冷湿，火山锥各坡的降水差异小。近几十年来受全球气候变化的影响，火山锥的林线（森林分布上限）升高、雪线（终年积雪下限）有所降低。此外，其他干扰也影响林线和雪线高度。例如，火山喷发彻底破坏原有景观，若干年内该火山锥的林线与雪线高度往往发生显著变化。据此完成 9～11 题。\n题干：火山喷发后若干年内，该火山锥（）\n\n待判断的选项：\nA. 林线升高，雪线升高\nB. 林线升高，雪线降低\nC. 林线降低，雪线升高\nD. 林线降低，雪线降低\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是火山喷发后若干年内火山锥林线与雪线高度发生显著变化的现象\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"题干\": \"火山喷发后若干年内，该火山锥（）\",\n\"选项\": {\n    \"A\": [\"是\"],\n    \"B\": [\"是\"],\n    \"C\": [\"否\"],\n    \"D\": [\"否\"]\n}\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 53,
+  "prompt_tokens": 278,
+  "total_tokens": 331,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773131
+}

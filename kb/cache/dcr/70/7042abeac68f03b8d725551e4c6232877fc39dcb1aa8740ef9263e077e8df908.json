@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:土质||8edcee32264b",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“土质”编写一个词典条目，供符号推理系统使用。\n\n题干：水循环的地下径流环节，是地下水的主要运动形式，地下径流的速度主要受土质和地形影响，土质疏松、地势落差大的地区，地下径流速度快；土质坚硬、地势平坦的地区，地下径流速度慢，某地区土质疏松，地势有一定落差，结合地下径流的影响因素，该地区的地下径流速度是()\n选项：\nA. 速度慢\nB. 速度不变\nC. 速度快\n\n词典中已有条目的示例：\n{\"term\": \"水循环\", \"category\": \"WATER\", \"parent_level\": \"物质循环；太阳辐射；重力作用\", \"child_level\": \"海陆间循环；陆地内循环；海上内循环；连续运动；全球性；能量交换\"}\n{\"term\": \"地下径流\", \"category\": \"WATER\", \"parent_level\": \"径流；水循环环节；降水下渗；地下水流动\", \"child_level\": \"浅层地下径流；深层地下径流；流速慢；水量稳定；水质较好\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"SOILVEG\", \"parent_level\": \"土壤性质；下渗条件；地质结构\", \"child_level\": \"土质疏松；土质坚硬；孔隙大小；透水性\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 52,
+  "prompt_tokens": 526,
+  "total_tokens": 578,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 526
+ },
+ "created": 1792768423
+}

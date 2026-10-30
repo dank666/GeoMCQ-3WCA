@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:agieval-176",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：我国北斗卫星导航系统将于2018年底为“一带一路”沿线国家服务，下列应用功能中直接利用卫星导航功能的是（　　）\n\n待判断的选项：\nA. 根据航空像片识别地物\nB. 查看卫星云图判断天气\nC. 使用电子地图查询路线\nD. 行驶中的无人驾驶汽车\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是直接利用卫星导航功能的应用功能\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"否\"], \"D\": [\"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 179,
+  "total_tokens": 203,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 179
+ },
+ "created": 1792773078
+}

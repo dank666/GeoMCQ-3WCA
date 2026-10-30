@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-GPP-001",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：近地面大气主要、直接的热源是地面，与此相关的地理过程有（）\n\n待判断的选项：\nA. 地面辐射\nB. 大气逆辐射\nC. 太阳紫外线直接加热大气\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地面：上位：地球表面、下垫面；特征：直接接受太阳辐射、与大气相互作用、人类活动场所；成因：地球圈层相互作用；影响：影响气候、影响水文、提供活动空间；分布：陆地、海洋、地表\n- 大气：上位：地球圈层；特征：由气体组成、垂直分层、密度随高度递减、不断运动；成因：地球引力、太阳辐射、地球自转；影响：保护地球生命、调节地表温度、产生天气现象；分布：地球外围、对流层、平流层\n- 地理过程：上位：地理事象；特征：动态性、阶段性、时空性；影响：形成地理格局、影响地理环境\n- 地面辐射：上位：长波辐射、热辐射；特征：波长较长、方向向上、受地面温度影响；成因：地面吸收太阳辐射增温、地面热量释放；影响：大气增温、保温作用、大气逆辐射\n- 大气逆辐射：上位：大气辐射；特征：方向指向地面、长波辐射、保温作用；成因：大气吸收地面辐射、大气逆温；影响：地面保温、减小昼夜温差\n- 太阳：上位：恒星、天体；特征：巨大炽热气体球、主要成分氢和氦、自身发光、太阳辐射；成因：核聚变反应；影响：维持地表温度、驱动大气运动、驱动水循环、提供能源；分布：太阳系中心\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是近地面大气主要、直接热源（地面）相关的地理过程\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 489,
+  "total_tokens": 507,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 489
+ },
+ "created": 1792769531
+}

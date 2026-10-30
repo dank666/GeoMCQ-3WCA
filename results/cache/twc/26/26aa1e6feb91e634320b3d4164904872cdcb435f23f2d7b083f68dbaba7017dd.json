@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-091",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列地貌中，能体现地理环境整体性的有（）\n\n待判断的选项：\nA. 沙丘与风力作用无关\nB. 喀斯特地貌与石灰岩、湿润气候相关\nC. 黄土高原千沟万壑的地表与植被破坏、流水侵蚀相关\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地貌：上位：地表形态、自然地理要素；特征：起伏形态、空间分异、成因多样；成因：内力作用、外力作用；影响：影响气候、影响水文、影响人类活动；分布：陆地表面、海底地形\n- 地理环境整体性：上位：地理环境特征；特征：各要素相互联系、相互制约、牵一发而动全身；成因：物质循环、能量交换；影响：影响资源开发、影响生态保护；分布：全球、区域\n- 沙丘：上位：风积地貌；特征：迎风坡缓、背风坡陡、移动性；成因：风力搬运沉积、沙源丰富、风向稳定；影响：掩埋农田、形成沙漠景观；分布：沙漠地区、海滨沙丘、干旱区\n- 风力作用：上位：外力作用；特征：干旱区为主、塑造风成地貌、动力来自风；成因：风力、地表松散物质、干旱气候；影响：形成风蚀地貌、形成风积地貌、土地沙化；分布：西北干旱区、沙漠地区、黄土高原\n- 喀斯特地貌：上位：流水地貌、外力地貌；特征：可溶性岩石、流水溶蚀作用、地表崎岖、地下多溶洞；成因：石灰岩广布、流水溶蚀、气候湿热、地下水活动；影响：地表崎岖、土层薄、易石漠化、旅游资源丰富；分布：云贵高原、广西、贵州、桂林\n- 石灰岩：上位：沉积岩；特征：主要成分碳酸钙、易溶蚀、层理构造；成因：浅海沉积、化学沉淀、生物堆积；影响：形成喀斯特地貌、用作建筑材料；分布：广西、贵州、云南\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 能体现地理环境整体性\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 549,
+  "total_tokens": 567,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 549
+ },
+ "created": 1792770179
+}

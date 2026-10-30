@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:生产国||8e213c2733ce",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“生产国”编写一个词典条目，供符号推理系统使用。\n\n题干：第二次世界大战后，美国通过大量技术投入和大规模专业化生产，成为世界最大的大豆生产国和出口国．巴西自20世纪70年代开始种植大豆，在积极培育优良品种的同时，鼓励农民组建农场联合体，实现了大豆的规模化生产与经营．目前，巴西的大豆产量、出口量仅次于美国．中国曾是世界最大的大豆生产国和出口国，近些年大豆的质量下降(品种退化，出油率低)，生产成本较高，成为世界最大的大豆进口国．据此完成3～5题．在国际市场上，巴西大豆价格低于美国的主要原因是巴西()\n选项：\nA. 专业化水平较高\nB. 科技投入较大\nC. 劳动生产率较高\nD. 劳动力价格较低\n\n词典中已有条目的示例：\n{\"term\": \"市场\", \"category\": \"INDUSTRY\", \"parent_level\": \"区位因素；人口集聚；经济发展\", \"child_level\": \"消费市场；国际市场；国内市场；影响产业布局；接近消费地；降低运输成本\"}\n{\"term\": \"巴西\", \"category\": \"PLACE\", \"parent_level\": \"国家；殖民历史；自然条件\", \"child_level\": \"亚马孙平原；巴西高原；亚马孙河；拉丁美洲最大国家；热带雨林广布；人口分布不均\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"INDUSTRY\", \"parent_level\": \"产业区位；农业生产；国际分工\", \"child_level\": \"大豆生产国；美国；巴西；中国；规模化经营；出口导向\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 52,
+  "prompt_tokens": 573,
+  "total_tokens": 625,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 573
+ },
+ "created": 1792770600
+}

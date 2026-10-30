@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-090",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：温带针叶林气候寒冷，土壤灰化作用明显，土壤呈（）\n\n待判断的选项：\nA. 碱性\nB. 酸性\nC. 中性\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 温带：上位：温度带；特征：四季分明、冬冷夏热、气温年较差大；成因：太阳辐射季节变化、中纬度位置；影响：温带气候、温带植被；分布：中纬度地区、北半球大陆\n- 针叶林：上位：森林植被、植被类型；特征：叶片针状、冬季不落叶、树种单一、垂直结构简单；成因：气候寒冷、土壤贫瘠、适应低温；影响：提供木材资源、维持生态平衡、影响土壤发育；分布：亚寒带、北半球高纬度、山地垂直带\n- 气候：上位：大气现象；特征：长期平均状态、具有稳定性、空间差异性、受多种因素影响；成因：太阳辐射、大气环流、下垫面性质、人类活动；影响：影响农业生产、影响人类活动、塑造自然景观；分布：全球各地\n- 土壤：上位：自然地理要素；特征：肥力、疏松表层、物质组成复杂；成因：成土母质、气候、生物、地形、时间；影响：植物生长基础、蓄水保水、物质循环；分布：陆地表面\n- 碱性：上位：土壤酸碱度、灰化作用、淋溶作用；特征：pH值小于7、铁铝氧化物富集、盐基离子流失\n- 酸性：上位：土壤性质、化学性质；特征：pH值小于7、盐基饱和度低、铁铝氧化物富集；成因：降水淋溶、酸性母岩、酸沉降；影响：影响养分有效性、限制作物生长；分布：南方红壤区、酸雨区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是温带针叶林气候下的土壤颜色特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 511,
+  "total_tokens": 529,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 511
+ },
+ "created": 1792769244
+}

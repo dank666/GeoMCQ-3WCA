@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-045",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某港口城市为了提升航运服务能力，建设了国际航运服务中心，提供金融、保险、法律、信息等一站式服务，并吸引了航运物流企业入驻。这种发展模式体现了（）\n\n待判断的选项：\nA. 现代服务业集聚\nB. 工业主导\nC. 港产城融合发展\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是某港口城市发展国际航运服务中心的模式\n2. 能提升航运服务能力\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"否\", \"否\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 186,
+  "total_tokens": 212,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772535
+}

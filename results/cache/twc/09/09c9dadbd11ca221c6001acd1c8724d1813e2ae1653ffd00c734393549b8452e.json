@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:agieval-086",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：在工业领域，产业链是工业部门之间具有投入－产出联系形成的生产链。以往，我国部分工业园区在招商时对投资企业不加选择。近年来，一些工业园区采用产业链招商模式，其基本做法是选择主导产业，围绕主导产业设计产业链，依据产业链选择投资企业。采用产业链招商时，首要关注引进企业的(　　)\n\n待判断的选项：\nA. 产品种类\nB. 生产技术\nC. 经营规模\nD. 品牌效益\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是围绕主导产业设计产业链\n2. 是依据产业链选择投资企业\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"是\", \"否\"],\n\"D\": [\"是\", \"否\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 218,
+  "total_tokens": 252,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773017
+}

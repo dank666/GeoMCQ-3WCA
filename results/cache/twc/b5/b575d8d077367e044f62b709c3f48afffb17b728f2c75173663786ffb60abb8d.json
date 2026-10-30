@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-068",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：影响地貌形成的自然因素有（）\n\n待判断的选项：\nA. 人类活动\nB. 岩石性质\nC. 气候条件\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 地貌发育：上位：地质作用过程、地表形态演变；特征：长期性、阶段性、内外力共同作用；成因：地壳运动、流水侵蚀、风化作用；影响：形成地貌类型、改变地表形态、影响自然环境；分布：河流流域、喀斯特地区、干旱区\n- 自然因素：上位：影响因素；特征：自然属性、基础性作用；影响：影响产业区位、影响人口分布\n- 人类活动：上位：人地关系；特征：有目的性、受自然条件影响、改造自然环境、具有地域性；成因：人类需求、社会发展；影响：改变自然环境、形成人文景观、产生环境问题\n- 岩石性质：上位：岩石特征；特征：决定岩石用途、影响风化速度、与成因相关；成因：矿物成分、结构构造、形成环境；影响：影响地貌发育、影响工程建设、影响土壤形成\n- 气候条件：上位：自然条件；特征：影响农业生产、具有地域差异、可变性；影响：决定作物种类、影响耕作制度、影响产量品质；分布：农业区、牧区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是影响地貌形成的自然因素\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 389,
+  "total_tokens": 407,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 389
+ },
+ "created": 1792770157
+}

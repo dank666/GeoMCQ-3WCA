@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-058",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列地区中，以流水堆积地貌为主的有（）\n\n待判断的选项：\nA. 长江中下游平原\nB. 黄土高原\nC. 黄河三角洲\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 流水堆积地貌：上位：堆积地貌；特征：沉积层理、颗粒分选、地形平坦；成因：流水堆积、流速降低、泥沙来源丰富；影响：农业用地、聚落分布、地貌演化；分布：河流出山口、河流中下游、河口地区\n- 长江中下游平原：上位：冲积平原；特征：地势低平、河网稠密、湖泊众多、土壤肥沃；成因：河流冲积、湖积作用；影响：商品粮基地、城市密集；分布：湖北省、湖南省、江西省、安徽省、江苏省\n- 黄土高原：上位：高原、地貌区；特征：黄土覆盖深厚、水土流失严重、千沟万壑；成因：风力沉积、流水侵蚀、人类活动；影响：黄河泥沙来源、生态脆弱、治理措施；分布：中国中部偏北、黄河中游\n- 黄河三角洲：上位：三角洲、河口地貌；特征：面积广大、不断淤积、生态脆弱；成因：泥沙沉积、河口地势平缓；影响：土地资源、湿地生态；分布：山东省东营市\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是流水堆积地貌分布的地区\n2. 是地势相对平坦的地区\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 445,
+  "total_tokens": 472,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 445
+ },
+ "created": 1792773527
+}

@@ -1,0 +1,1619 @@
+{
+  "geography_questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤是地球表面具有一定肥力、能够生长植物的疏松表层，其形成受成土母质、气候、生物、地形、时间等多种因素影响，下列关于成土母质对土壤影响的说法正确的有（）",
+      "options": {
+        "A": "成土母质是土壤形成的物质基础，决定土壤的矿物质成分",
+        "B": "成土母质的颗粒大小影响土壤的质地（砂土、壤土、黏土）",
+        "C": "成土母质直接决定土壤的肥力高低"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "气候是影响土壤形成的重要因素，不同气候条件下土壤的特性差异显著，下列关于气候对土壤影响的说法正确的有（）",
+      "options": {
+        "A": "降水越多，土壤的淋溶作用越强，养分流失越明显",
+        "B": "气温越高，土壤有机质分解速度越快，有机质含量越低",
+        "C": "热带雨林气候区的土壤一定是肥沃的黑土"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "生物是土壤形成过程中最活跃的因素，包括植物、动物和微生物，下列关于生物对土壤影响的说法正确的有（）",
+      "options": {
+        "A": "植物的根系能疏松土壤，增加土壤透气性和透水性",
+        "B": "植物残体分解后能增加土壤有机质，提高土壤肥力",
+        "C": "微生物对土壤形成无影响，仅参与土壤污染的分解"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "地形通过影响水热分布和物质迁移，间接影响土壤的形成和发育，下列关于地形对土壤影响的说法正确的有（）",
+      "options": {
+        "A": "坡度越大，土壤侵蚀作用越强，土层越薄",
+        "B": "阳坡接受太阳辐射多，气温高，土壤发育速度快于阴坡",
+        "C": "平原地区土壤颗粒均匀，土层深厚，肥力一定高于山区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤质地是指土壤中不同大小颗粒的组合比例，主要分为砂土、壤土和黏土三类，下列关于砂土特性的说法正确的有（）",
+      "options": {
+        "A": "颗粒大，孔隙度大，透气性和透水性强",
+        "B": "保水保肥能力弱，易干旱、养分易流失",
+        "C": "适合种植需水量大、喜肥的作物"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "壤土是农业生产中最理想的土壤质地，结合砂土和黏土的优势，下列关于壤土特性的说法正确的有（）",
+      "options": {
+        "A": "颗粒大小适中，透气性和透水性良好",
+        "B": "保水保肥能力较强，能为作物持续提供养分",
+        "C": "土壤黏性过大，耕作难度大"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "黏土质地黏重，颗粒细小，其特性对农业生产有明显影响，下列关于黏土特性的说法正确的有（）",
+      "options": {
+        "A": "孔隙度小，透气性和透水性差，易积水",
+        "B": "保水保肥能力强，养分不易流失",
+        "C": "耕作方便，适合各种作物生长"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤肥力是指土壤能为植物生长提供所需养分、水分、空气和热量的能力，下列关于土壤肥力的说法正确的有（）",
+      "options": {
+        "A": "土壤有机质含量越高，土壤肥力通常越高",
+        "B": "土壤透气性和透水性良好，能提高土壤肥力",
+        "C": "土壤肥力高低仅取决于土壤中的养分含量"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤有机质是土壤中各种有机物质的总称，主要来源于植物残体、动物排泄物等，下列关于土壤有机质的说法正确的有（）",
+      "options": {
+        "A": "能改善土壤结构，增加土壤透气性和保水性",
+        "B": "分解后能释放氮、磷、钾等养分，供植物吸收",
+        "C": "土壤有机质含量越高，土壤黏性越强"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤酸碱度（pH值）是土壤的重要化学特性，影响植物生长和养分吸收，下列关于土壤酸碱度的说法正确的有（）",
+      "options": {
+        "A": "pH值小于7为酸性土壤，大于7为碱性土壤，等于7为中性土壤",
+        "B": "大多数农作物适合在中性或微酸性土壤中生长",
+        "C": "土壤酸碱度不会影响土壤中养分的有效性"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被是覆盖在地球表面的植物群落的总称，按生长环境可分为陆生植被和水生植被，下列关于陆生植被的说法正确的有（）",
+      "options": {
+        "A": "陆生植被的分布主要受气候、土壤、地形等因素影响",
+        "B": "森林、草原、荒漠都属于陆生植被",
+        "C": "陆生植被对环境无影响，仅作为景观存在"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "森林植被是陆生植被中分布最广泛、结构最复杂的类型，下列关于森林植被的说法正确的有（）",
+      "options": {
+        "A": "能涵养水源、保持水土，减少土壤侵蚀",
+        "B": "能调节气候，增加空气湿度，净化空气",
+        "C": "森林植被的根系不发达，对土壤结构无改善作用"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "草原植被主要分布在半干旱、半湿润地区，适应降水较少的环境，下列关于草原植被的说法正确的有（）",
+      "options": {
+        "A": "植被以草本植物为主，无高大乔木",
+        "B": "根系发达，能固定土壤，减少风沙侵蚀",
+        "C": "草原植被的覆盖率越高，土壤肥力越低"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "荒漠植被主要分布在干旱地区，适应降水稀少、蒸发旺盛的环境，下列关于荒漠植被的说法正确的有（）",
+      "options": {
+        "A": "植被稀疏，多为耐旱植物，叶片细小或退化为刺",
+        "B": "根系发达，能深入地下吸收水分",
+        "C": "荒漠植被能大量涵养水源，改善区域气候"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被的垂直分层是指植被在垂直方向上的分布差异，主要受光照、热量、水分等因素影响，下列关于植被垂直分层的说法正确的有（）",
+      "options": {
+        "A": "森林植被的垂直分层最明显，可分为乔木层、灌木层、草本层",
+        "B": "垂直分层能提高植被对光照、水分等资源的利用效率",
+        "C": "所有植被都有明显的垂直分层现象"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤与植被存在相互依存、相互影响的关系，下列关于土壤对植被影响的说法正确的有（）",
+      "options": {
+        "A": "土壤肥力越高，植被生长越旺盛，覆盖率越高",
+        "B": "土壤质地影响植被类型，砂土适合耐旱植物生长",
+        "C": "土壤酸碱度不会影响植被的分布"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被对土壤的形成和发育有重要促进作用，下列关于植被对土壤影响的说法正确的有（）",
+      "options": {
+        "A": "植被残体分解后增加土壤有机质，提高土壤肥力",
+        "B": "植被根系能疏松土壤，改善土壤结构",
+        "C": "植被覆盖度越高，土壤侵蚀作用越强"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "地带性土壤是指在地带性因素（气候、生物）影响下形成的土壤，具有明显的地域分布规律，下列关于地带性土壤的说法正确的有（）",
+      "options": {
+        "A": "热带雨林气候区对应砖红壤，热带草原气候区对应红壤",
+        "B": "温带季风气候区对应棕壤、褐土，温带大陆性气候区对应黑钙土、栗钙土",
+        "C": "地带性土壤的分布与地形无关"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "非地带性土壤是指受非地带性因素（地形、母质、人类活动等）影响形成的土壤，下列关于非地带性土壤的说法正确的有（）",
+      "options": {
+        "A": "水稻土是人类长期种植水稻形成的非地带性土壤",
+        "B": "盐碱土多分布在干旱、半干旱地区，受地形和地下水影响",
+        "C": "非地带性土壤的分布没有任何规律"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "水稻土是我国南方地区重要的耕作土壤，由人类长期耕作改造形成，下列关于水稻土的说法正确的有（）",
+      "options": {
+        "A": "透气性和透水性适中，适合水稻生长",
+        "B": "土壤有机质含量较高，肥力较强",
+        "C": "水稻土的形成与气候无关，仅由人类活动决定"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "盐碱土是指土壤中盐分含量过高，影响植物生长的土壤，下列关于盐碱土形成的说法正确的有（）",
+      "options": {
+        "A": "干旱、半干旱地区，蒸发旺盛，地下水盐分易上升到地表积累",
+        "B": "地势低洼，排水不畅，盐分易聚集",
+        "C": "盐碱土的形成与植被覆盖度无关"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤侵蚀是指土壤在水力、风力、重力等外力作用下，被破坏、搬运和堆积的过程，下列能导致土壤侵蚀加剧的因素有（）",
+      "options": {
+        "A": "植被覆盖度低，地表缺乏保护",
+        "B": "降水强度大且集中，水力侵蚀明显",
+        "C": "地形坡度平缓，风力侵蚀微弱"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤保护是保障农业可持续发展和生态环境稳定的重要措施，下列关于土壤保护的说法正确的有（）",
+      "options": {
+        "A": "植树造林，提高植被覆盖度，能减少土壤侵蚀",
+        "B": "合理耕作，避免过度开垦，能保护土壤结构",
+        "C": "大量使用化肥，能提高土壤肥力，无需保护土壤"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被的分布具有明显的纬度地带性规律，从赤道向两极，植被类型逐渐变化，下列关于植被纬度地带性分布的说法正确的有（）",
+      "options": {
+        "A": "赤道附近为热带雨林，向两极依次过渡为热带草原、热带荒漠、温带草原等",
+        "B": "纬度越高，气温越低，植被类型从常绿植被过渡为落叶植被、针叶植被",
+        "C": "植被纬度地带性分布与降水无关"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被的经度地带性规律主要受降水影响，从沿海向内陆，植被类型逐渐变化，下列关于植被经度地带性分布的说法正确的有（）",
+      "options": {
+        "A": "沿海地区降水丰富，多为森林植被",
+        "B": "向内陆降水逐渐减少，依次过渡为草原、荒漠植被",
+        "C": "植被经度地带性分布与气温无关"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被的垂直地带性规律主要受海拔影响，海拔越高，气温越低，植被类型发生变化，下列关于植被垂直地带性分布的说法正确的有（）",
+      "options": {
+        "A": "低海拔地区多为常绿阔叶林，高海拔地区多为针叶林、高山草甸",
+        "B": "海拔每升高1000米，气温约下降6℃，植被类型随之变化",
+        "C": "所有山地的植被垂直地带性分布都完全相同"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "针叶林植被主要分布在高纬度和高海拔地区，适应寒冷、干燥的环境，下列关于针叶林植被的说法正确的有（）",
+      "options": {
+        "A": "植被以针叶树为主，叶片细小，表面有蜡质，减少水分蒸发",
+        "B": "根系发达，能适应贫瘠的土壤",
+        "C": "针叶林植被的落叶量大，土壤有机质含量极高"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "阔叶林植被主要分布在温暖、湿润的地区，分为常绿阔叶林和落叶阔叶林，下列关于常绿阔叶林的说法正确的有（）",
+      "options": {
+        "A": "叶片常绿，全年有叶，适应亚热带温暖湿润气候",
+        "B": "植被层次丰富，生物多样性高",
+        "C": "常绿阔叶林的落叶期集中在冬季，叶片全部脱落"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "落叶阔叶林植被主要分布在温带地区，适应四季分明的气候，下列关于落叶阔叶林的说法正确的有（）",
+      "options": {
+        "A": "冬季落叶，减少水分和热量消耗，适应寒冷冬季",
+        "B": "夏季枝叶繁茂，能充分利用光照进行光合作用",
+        "C": "落叶阔叶林的土壤肥力一定低于针叶林"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "草本植物是植被中最基础的类型，分布广泛，下列关于草本植物的说法正确的有（）",
+      "options": {
+        "A": "植株矮小，无木质茎，生长周期较短",
+        "B": "根系多为须根，能快速吸收水分和养分",
+        "C": "草本植物仅分布在草原和荒漠地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "灌木植物介于乔木和草本之间，具有木质茎但无明显主干，下列关于灌木植物的说法正确的有（）",
+      "options": {
+        "A": "适应能力强，能在贫瘠、干旱的环境中生长",
+        "B": "能固定土壤，减少水土流失，改善生态环境",
+        "C": "灌木植物的生长不需要光照和水分"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "乔木植物是具有明显主干、高大挺拔的木本植物，下列关于乔木植物的说法正确的有（）",
+      "options": {
+        "A": "根系发达，能深入地下吸收水分和养分，固定土壤能力强",
+        "B": "是森林植被的主要组成部分，能调节气候、涵养水源",
+        "C": "乔木植物仅分布在热带和温带地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤中的水分是植物生长必需的条件之一，影响土壤水分含量的因素有很多，下列说法正确的有（）",
+      "options": {
+        "A": "降水越多，土壤水分含量通常越高",
+        "B": "土壤质地越黏重，保水能力越强，水分含量越高",
+        "C": "气温越高，土壤水分蒸发越快，水分含量一定越低"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤中的空气是植物根系呼吸必需的条件，影响土壤空气含量的因素有（）",
+      "options": {
+        "A": "土壤质地越疏松（如砂土），空气含量越高",
+        "B": "土壤含水量越高，空气含量越低",
+        "C": "植被覆盖度越高，土壤空气含量越低"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "人类活动对土壤和植被的影响越来越大，下列人类活动能改善土壤和植被状况的有（）",
+      "options": {
+        "A": "退耕还林、还草，提高植被覆盖度",
+        "B": "增施有机肥，提高土壤有机质含量，改善土壤结构",
+        "C": "过度砍伐森林，扩大耕地面积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于我国土壤分布的说法，正确的有（）",
+      "options": {
+        "A": "南方地区多酸性土壤，如红壤、砖红壤",
+        "B": "北方地区多中性、碱性土壤，如黑土、棕壤",
+        "C": "我国西北内陆地区土壤肥力普遍高于南方地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于我国植被分布的说法，正确的有（）",
+      "options": {
+        "A": "东部地区以森林植被为主，从南到北依次为热带雨林、常绿阔叶林、落叶阔叶林、针叶林",
+        "B": "中部地区以草原植被为主，西部内陆地区以荒漠植被为主",
+        "C": "我国植被分布均匀，无明显地域差异"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤有机质的分解速度受多种因素影响，下列能加快土壤有机质分解速度的因素有（）",
+      "options": {
+        "A": "气温高，微生物活动旺盛",
+        "B": "土壤透气性好，氧气充足",
+        "C": "土壤含水量过高，微生物活动受抑制"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤养分主要包括氮、磷、钾等大量元素和铁、锰等微量元素，下列关于土壤养分的说法正确的有（）",
+      "options": {
+        "A": "土壤养分主要来源于土壤有机质分解和矿物质风化",
+        "B": "合理施肥能补充土壤养分，提高土壤肥力",
+        "C": "土壤养分越多，植物生长越旺盛，无需控制用量"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被的生长需要适宜的光照、热量、水分和土壤条件，下列关于植被生长与环境关系的说法正确的有（）",
+      "options": {
+        "A": "光照充足，植被光合作用强，生长旺盛",
+        "B": "热量充足，植被生长速度快，生长期长",
+        "C": "水分越多，植被生长越好，无需考虑排水"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤质地与农业生产关系的说法，正确的有（）",
+      "options": {
+        "A": "砂土适合种植耐旱、耐贫瘠的作物，如花生、红薯",
+        "B": "壤土适合种植多种农作物，是农业生产的理想土壤",
+        "C": "黏土适合种植需水量大的作物，如水稻，无需改良"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤改良是指通过人为措施改善土壤的理化性质，提高土壤肥力，下列关于土壤改良的说法正确的有（）",
+      "options": {
+        "A": "砂土中添加黏土和有机肥，能改善保水保肥能力",
+        "B": "黏土中添加砂土和腐熟秸秆，能改善透气性和透水性",
+        "C": "土壤改良无需考虑当地的气候和地形条件"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被破坏会对生态环境和土壤造成严重影响，下列关于植被破坏危害的说法正确的有（）",
+      "options": {
+        "A": "植被破坏会加剧土壤侵蚀，导致土层变薄、土壤肥力下降",
+        "B": "植被破坏会减少涵养水源能力，引发洪涝、干旱等灾害",
+        "C": "植被破坏对气候无影响，仅影响土壤"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于森林植被生态功能的说法，正确的有（）",
+      "options": {
+        "A": "涵养水源，保持水土，减少水土流失",
+        "B": "调节气候，降低气温日较差和年较差，增加降水",
+        "C": "森林植被会吸收氧气，释放二氧化碳，加剧温室效应"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于草原植被生态功能的说法，正确的有（）",
+      "options": {
+        "A": "固定土壤，减少风沙侵蚀，防治土地荒漠化",
+        "B": "涵养水源，调节地表径流，减少洪涝灾害",
+        "C": "草原植被的生态功能远不如森林植被，可随意开垦"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于荒漠植被生态功能的说法，正确的有（）",
+      "options": {
+        "A": "虽然植被稀疏，但能固定沙丘，减少沙漠扩张",
+        "B": "能吸收少量水分，减缓土壤蒸发，改善局部微环境",
+        "C": "荒漠植被无任何生态价值，可全部清除"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "土壤的颜色是土壤的重要物理特性，与土壤中的矿物质、有机质含量等有关，下列关于土壤颜色的说法正确的有（）",
+      "options": {
+        "A": "土壤有机质含量越高，颜色越深（如黑土）",
+        "B": "氧化铁含量越高，土壤颜色越红（如红壤）",
+        "C": "土壤颜色与土壤肥力无关"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "黑土是我国东北地区的重要土壤，肥力极高，下列关于黑土的说法正确的有（）",
+      "options": {
+        "A": "土壤有机质含量高，颜色呈黑色，质地疏松",
+        "B": "主要分布在温带季风气候区，夏季高温多雨，冬季寒冷干燥",
+        "C": "黑土肥力稳定，可长期过度开垦，无需保护"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "红壤是我国南方地区的主要土壤，下列关于红壤的说法正确的有（）",
+      "options": {
+        "A": "土壤呈酸性，有机质含量较低，肥力中等",
+        "B": "质地黏重，透气性和透水性较差，需改良后才能更好种植",
+        "C": "红壤仅分布在我国南方地区，其他国家无分布"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤与植被相互关系的说法，正确的有（）",
+      "options": {
+        "A": "肥沃的土壤能促进植被生长，植被生长又能进一步改善土壤肥力",
+        "B": "贫瘠的土壤只能生长耐旱、耐贫瘠的植被，植被也能逐渐改良土壤",
+        "C": "土壤与植被相互独立，互不影响"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "植被的生长期是指植被从萌发到枯萎的时间，受气候因素影响显著，下列关于植被生长期的说法正确的有（）",
+      "options": {
+        "A": "热带地区气温高、降水足，植被生长期长，全年常绿",
+        "B": "温带地区四季分明，植被生长期主要集中在夏季",
+        "C": "寒带地区气温低，植被生长期短，甚至无植被生长"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤通气性的说法，正确的有（）",
+      "options": {
+        "A": "土壤通气性越好，越有利于植物根系呼吸和微生物活动",
+        "B": "砂土的通气性优于黏土，壤土的通气性介于两者之间",
+        "C": "土壤通气性过强，会导致土壤水分快速蒸发，不利于植物生长"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤保水性的说法，正确的有（）",
+      "options": {
+        "A": "土壤保水性是指土壤保持水分的能力，与土壤质地密切相关",
+        "B": "黏土的保水性优于砂土，能长期为植物提供水分",
+        "C": "土壤保水性过强，会导致土壤积水，影响植物根系呼吸"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "人类活动对土壤的负面影响主要有过度开垦、过度放牧、化肥滥用等，下列说法正确的有（）",
+      "options": {
+        "A": "过度开垦会破坏土壤结构，加剧土壤侵蚀",
+        "B": "过度放牧会导致植被破坏，土壤肥力下降",
+        "C": "滥用化肥会导致土壤板结，土壤酸碱度失衡"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被恢复的说法，正确的有（）",
+      "options": {
+        "A": "植被恢复能增加植被覆盖度，减少土壤侵蚀，改善生态环境",
+        "B": "植被恢复应选择适合当地气候和土壤条件的植物品种",
+        "C": "植被恢复无需考虑成本，只要大量种植植物即可"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤肥力评价指标的说法，正确的有（）",
+      "options": {
+        "A": "土壤有机质含量、土壤养分含量是重要的评价指标",
+        "B": "土壤透气性、透水性、保水性也是评价土壤肥力的指标",
+        "C": "土壤肥力仅通过土壤颜色就能判断"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于不同植被类型对土壤要求的说法，正确的有（）",
+      "options": {
+        "A": "森林植被要求土壤肥沃、透气性好、水分充足",
+        "B": "草原植被要求土壤疏松、保水性适中，能适应半干旱环境",
+        "C": "荒漠植被对土壤要求极高，需肥沃、湿润的土壤"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤形成过程的说法，正确的有（）",
+      "options": {
+        "A": "土壤形成是一个漫长的过程，需要数百年甚至上千年",
+        "B": "土壤形成的顺序是：成土母质→原始土壤→成熟土壤",
+        "C": "土壤形成仅受自然因素影响，与人类活动无关"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 59,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被群落的说法，正确的有（）",
+      "options": {
+        "A": "植被群落是一定区域内多种植物相互作用、相互依存形成的集合体",
+        "B": "不同的植被群落适应不同的环境条件，具有明显的地域差异",
+        "C": "植被群落中的植物种类越多，生态系统越不稳定"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤pH值对植物生长影响的说法，正确的有（）",
+      "options": {
+        "A": "酸性土壤适合种植茶树、柑橘等喜酸作物",
+        "B": "碱性土壤适合种植棉花、甜菜等喜碱作物",
+        "C": "中性土壤适合种植大多数农作物，无需调节pH值"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤中微生物的说法，正确的有（）",
+      "options": {
+        "A": "土壤微生物能分解土壤有机质，释放养分，供植物吸收",
+        "B": "土壤微生物能改善土壤结构，增加土壤透气性",
+        "C": "土壤微生物对植物生长有害，会导致植物病害"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 62,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被蒸腾作用的说法，正确的有（）",
+      "options": {
+        "A": "植被蒸腾作用能增加空气湿度，调节局部气候",
+        "B": "植被蒸腾作用能促进土壤水分蒸发，减少土壤含水量",
+        "C": "植被蒸腾作用能促进植物吸收水分和养分，促进生长"
+      },
+      "correct_answer": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤侵蚀类型的说法，正确的有（）",
+      "options": {
+        "A": "水力侵蚀是最常见的土壤侵蚀类型，主要由降水和地表径流引起",
+        "B": "风力侵蚀主要发生在干旱、半干旱地区，多形成沙丘、戈壁",
+        "C": "土壤侵蚀仅发生在山区，平原地区无土壤侵蚀"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤保护措施的说法，正确的有（）",
+      "options": {
+        "A": "轮作休耕能让土壤得到休息，恢复土壤肥力",
+        "B": "秸秆还田能增加土壤有机质，改善土壤结构",
+        "C": "大量使用农药，能减少土壤病虫害，保护土壤"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于我国主要植被类型的说法，正确的有（）",
+      "options": {
+        "A": "热带雨林主要分布在我国云南、海南等热带地区",
+        "B": "温带草原主要分布在我国内蒙古、宁夏等地区",
+        "C": "荒漠植被主要分布在我国西北内陆地区，如新疆、甘肃"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤质地分类的说法，正确的有（）",
+      "options": {
+        "A": "砂土颗粒直径大于2毫米，质地疏松",
+        "B": "壤土颗粒直径介于砂土和黏土之间，质地适中",
+        "C": "黏土颗粒直径小于0.002毫米，质地黏重"
+      },
+      "correct_answer": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被对气候调节作用的说法，正确的有（）",
+      "options": {
+        "A": "植被能吸收二氧化碳，释放氧气，缓解温室效应",
+        "B": "植被能降低地表温度，减少热岛效应",
+        "C": "植被对气候无调节作用，气候仅由纬度决定"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤有机质的来源，说法正确的有（）",
+      "options": {
+        "A": "主要来源于植物的枯枝落叶、根系和动物的排泄物、尸体",
+        "B": "人类施加的有机肥（如羊粪、秸秆）也是土壤有机质的重要来源",
+        "C": "土壤有机质仅来源于自然形成，与人类活动无关"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于不同气候区土壤特性的说法，正确的有（）",
+      "options": {
+        "A": "热带季风气候区，降水丰富，土壤淋溶作用强，多酸性土壤",
+        "B": "温带大陆性气候区，降水少，蒸发旺盛，土壤多碱性，有机质含量较高",
+        "C": "寒带气候区，气温低，土壤有机质分解慢，土层薄"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 70,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被分布与地形关系的说法，正确的有（）",
+      "options": {
+        "A": "山地的阳坡植被生长比阴坡好，因为光照充足",
+        "B": "山地的迎风坡植被生长比背风坡好，因为降水丰富",
+        "C": "地形坡度越大，植被覆盖度越高，土壤侵蚀越弱"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤水分与植物生长关系的说法，正确的有（）",
+      "options": {
+        "A": "植物生长需要适宜的土壤水分，过多或过少都会影响生长",
+        "B": "土壤水分不足，植物会缺水枯萎；水分过多，会导致根系缺氧腐烂",
+        "C": "不同植物对土壤水分的需求相同，无需根据植物类型调整水分"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 72,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤空气与植物生长关系的说法，正确的有（）",
+      "options": {
+        "A": "土壤空气充足，植物根系呼吸旺盛，生长健壮",
+        "B": "土壤空气不足，会导致植物根系缺氧，生长缓慢甚至死亡",
+        "C": "土壤空气含量与植物生长无关，仅影响微生物活动"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 73,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被破坏对土壤侵蚀影响的说法，正确的有（）",
+      "options": {
+        "A": "植被覆盖度越低，土壤侵蚀越严重",
+        "B": "植被根系能固定土壤，减少水力和风力侵蚀",
+        "C": "植被破坏后，土壤侵蚀速度会减慢"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤改良方法的说法，正确的有（）",
+      "options": {
+        "A": "酸性土壤可施加石灰，调节pH值，改善土壤性状",
+        "B": "碱性土壤可施加石膏、有机肥，降低土壤碱性",
+        "C": "土壤改良无需结合当地土壤和气候条件，统一采用一种方法"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于森林植被与土壤肥力关系的说法，正确的有（）",
+      "options": {
+        "A": "森林植被的枯枝落叶分解后，能增加土壤有机质，提高土壤肥力",
+        "B": "森林植被的根系能疏松土壤，改善土壤透气性和透水性",
+        "C": "森林植被会吸收土壤中的全部养分，导致土壤肥力下降"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 76,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于草原植被与土壤肥力关系的说法，正确的有（）",
+      "options": {
+        "A": "草原植被的草本植物根系发达，能增加土壤有机质，提高土壤肥力",
+        "B": "合理放牧能促进草原植被更新，维持土壤肥力",
+        "C": "过度放牧会破坏草原植被，导致土壤肥力下降"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于荒漠植被与土壤关系的说法，正确的有（）",
+      "options": {
+        "A": "荒漠植被能固定土壤，减少风沙侵蚀，延缓土壤退化",
+        "B": "荒漠土壤贫瘠、干旱，仅能生长耐旱的荒漠植被",
+        "C": "荒漠植被的生长会进一步消耗土壤水分，加剧土壤干旱"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤颜色与土壤特性的关系，说法正确的有（）",
+      "options": {
+        "A": "黑土颜色深，有机质含量高，肥力强",
+        "B": "红土颜色红，氧化铁含量高，呈酸性",
+        "C": "黄土颜色黄，有机质含量低，肥力弱，仅能种植耐旱作物"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于我国黑土保护的说法，正确的有（）",
+      "options": {
+        "A": "黑土肥力高，但长期开垦会导致肥力下降，需加强保护",
+        "B": "采取轮作休耕、秸秆还田等措施，能恢复黑土肥力",
+        "C": "黑土资源丰富，可随意开垦，无需担心肥力下降"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 80,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于我国红壤改良的说法，正确的有（）",
+      "options": {
+        "A": "红壤酸性强、质地黏重，可施加石灰中和酸性，添加砂土改善透气性",
+        "B": "增施有机肥，能增加土壤有机质，提高红壤肥力",
+        "C": "红壤无需改良，可直接种植农作物"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 81,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被的生态价值，说法正确的有（）",
+      "options": {
+        "A": "净化空气，吸收有害气体，释放氧气",
+        "B": "保持水土，减少土壤侵蚀，防治土地荒漠化",
+        "C": "为动物提供栖息地，维护生物多样性"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 82,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤的生态功能，说法正确的有（）",
+      "options": {
+        "A": "为植物生长提供生长介质和养分，是植物的“摇篮”",
+        "B": "能储存水分和养分，调节地表径流",
+        "C": "能分解污染物，净化环境"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 83,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于人类活动对植被影响的说法，正确的有（）",
+      "options": {
+        "A": "合理的人类活动（如植树造林）能增加植被覆盖度，改善生态环境",
+        "B": "不合理的人类活动（如滥砍滥伐）会破坏植被，导致生态恶化",
+        "C": "人类活动对植被无影响，植被分布仅由自然因素决定"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 84,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被垂直地带性的说法，正确的有（）",
+      "options": {
+        "A": "同一座山地，海拔越高，植被类型越简单，从森林过渡为草甸、荒漠",
+        "B": "植被垂直地带性的变化规律与纬度地带性的变化规律相似",
+        "C": "山地的海拔越高，植被垂直地带性越明显"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 85,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤质地与土壤通气性、保水性关系的说法，正确的有（）",
+      "options": {
+        "A": "砂土：通气性好，保水性差",
+        "B": "黏土：通气性差，保水性好",
+        "C": "壤土：通气性和保水性都适中，最适合农业生产"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 86,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤有机质的作用，说法正确的有（）",
+      "options": {
+        "A": "改善土壤结构，增加土壤透气性和保水性",
+        "B": "提供植物生长所需的养分，提高土壤肥力",
+        "C": "抑制土壤微生物活动，减少养分消耗"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被类型与气候关系的说法，正确的有（）",
+      "options": {
+        "A": "热带雨林气候→热带雨林植被",
+        "B": "温带海洋性气候→落叶阔叶林植被",
+        "C": "热带沙漠气候→草原植被"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 88,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤侵蚀的危害，说法正确的有（）",
+      "options": {
+        "A": "破坏土壤结构，降低土壤肥力，影响农业生产",
+        "B": "加剧水土流失，引发洪涝、泥石流等灾害",
+        "C": "土壤侵蚀仅影响当地，对周边地区无影响"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤保护的重要性，说法正确的有（）",
+      "options": {
+        "A": "土壤是农业生产的基础，保护土壤能保障粮食安全",
+        "B": "土壤能调节生态环境，保护土壤能维护生态平衡",
+        "C": "土壤资源丰富，无需保护，可随意利用"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 90,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被恢复的原则，说法正确的有（）",
+      "options": {
+        "A": "因地制宜，选择适合当地气候和土壤条件的植物品种",
+        "B": "优先选择 native 植物，提高植被成活率和稳定性",
+        "C": "植被恢复速度越快越好，无需考虑生态平衡"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 91,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤pH值调节的说法，正确的有（）",
+      "options": {
+        "A": "酸性土壤可施加石灰、草木灰等，提高pH值",
+        "B": "碱性土壤可施加石膏、硫磺等，降低pH值",
+        "C": "土壤pH值一旦确定，无法调节"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤微生物的作用，说法正确的有（）",
+      "options": {
+        "A": "分解土壤有机质，释放氮、磷、钾等养分",
+        "B": "改善土壤结构，促进土壤团粒结构形成",
+        "C": "传播植物病害，对植物生长有害无利"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 93,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被蒸腾作用的生态意义，说法正确的有（）",
+      "options": {
+        "A": "增加空气湿度，促进降水，调节区域气候",
+        "B": "降低植物体温，避免高温伤害",
+        "C": "减少土壤水分，加剧土壤干旱"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 94,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于不同土壤类型的分布，说法正确的有（）",
+      "options": {
+        "A": "砖红壤主要分布在热带地区，红壤主要分布在亚热带地区",
+        "B": "棕壤、褐土主要分布在温带地区",
+        "C": "黑土主要分布在寒带地区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被与土壤相互作用的说法，正确的有（）",
+      "options": {
+        "A": "植被改变土壤的理化性质，土壤影响植被的生长和分布",
+        "B": "植被越茂盛，土壤肥力越高；土壤越肥沃，植被生长越旺盛",
+        "C": "植被与土壤相互制约，一方破坏会导致另一方退化"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 96,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于人类活动对土壤肥力影响的说法，正确的有（）",
+      "options": {
+        "A": "合理施肥、秸秆还田能提高土壤肥力",
+        "B": "过度开垦、过度放牧会降低土壤肥力",
+        "C": "人类活动对土壤肥力无影响，土壤肥力仅由自然因素决定"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 97,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被的经济价值，说法正确的有（）",
+      "options": {
+        "A": "提供木材、药材、饲料等产品，保障人类生产生活需求",
+        "B": "作为观赏植物，美化环境，带动旅游业发展",
+        "C": "植被的经济价值远高于生态价值，可优先开发利用"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 98,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤资源的特点，说法正确的有（）",
+      "options": {
+        "A": "土壤资源是可再生资源，但再生速度缓慢",
+        "B": "土壤资源分布不均，受气候、地形等因素影响",
+        "C": "土壤资源数量有限，需合理保护和利用"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 99,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于植被保护的措施，说法正确的有（）",
+      "options": {
+        "A": "建立自然保护区，保护原生植被",
+        "B": "禁止滥砍滥伐、过度放牧，规范人类活动",
+        "C": "大量种植外来物种，丰富植被类型"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 100,
+      "type": "multiple",
+      "geography_category": "Soil and Vegetation",
+      "difficulty": "medium",
+      "question": "下列关于土壤与植被研究的意义，说法正确的有（）",
+      "options": {
+        "A": "指导农业生产，合理利用土壤和植被资源，提高农作物产量",
+        "B": "保护生态环境，防治土壤侵蚀和土地荒漠化，维护生态平衡",
+        "C": "为生态环境保护、土地利用规划提供科学依据"
+      },
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-041",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某城市在垃圾处理中，推行垃圾分类，建设垃圾焚烧发电厂和厨余垃圾资源化利用厂，并建立了完善的收运体系。这种垃圾处理模式符合（）\n\n待判断的选项：\nA. 循环经济理念\nB. 填埋为主\nC. 减量化、资源化、无害化\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 城市：上位：聚落；特征：人口密集、非农业产业集聚、建筑密集、交通网络发达；成因：生产力发展、社会分工深化、工商业集聚；影响：区域经济中心、文化教育中心、交通枢纽；分布：沿海地区、平原地区、交通枢纽\n- 垃圾处理：上位：废弃物管理、可持续发展、环境保护；特征：垃圾分类、焚烧发电、资源化利用、减量化、无害化\n- 垃圾分类：上位：环境保护措施、固体废弃物处理；特征：源头分类、资源化利用、减量化处理；成因：垃圾产量大、资源浪费、环境污染；影响：减少污染、节约资源、提高处理效率；分布：城市、社区、乡村\n- 焚烧发电厂：上位：发电厂、环保设施；特征：减量化处理、资源化利用、无害化处理、选址要求严格；成因：垃圾围城问题、能源需求增长、环保政策推动；影响：减少垃圾填埋量、提供电力资源、降低环境污染、产生飞灰需处理；分布：城市郊区、沿海发达地区\n- 厨余垃圾：上位：生活垃圾；特征：易腐烂、含水率高、有机质丰富；成因：居民日常饮食消费；影响：可资源化利用、易污染环境\n- 资源化利用：上位：资源利用方式；特征：变废为宝、减少污染、循环利用；成因：资源短缺、环境压力；影响：节约资源、保护环境；分布：城市、农村\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 符合该城市推行的垃圾处理模式\n2. 体现垃圾减量化、资源化、无害化原则\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 507,
+  "total_tokens": 534,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 507
+ },
+ "created": 1792769710
+}

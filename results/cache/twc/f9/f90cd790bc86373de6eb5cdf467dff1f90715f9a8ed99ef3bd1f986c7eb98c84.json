@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-multiple-HY-021",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n水资源是指可被人类利用的淡水资源，主要包括河流水、淡水湖泊水、地下水等，下列关于水资源的说法正确的有（）\n\nOptions:\nA. 水资源具有可再生性，但再生速度有限\nB. 全球水资源总量丰富，但淡水资源占比低\nC. 我国水资源分布东多西少、南多北少\n\nInstructions:\n1. One or more options may be correct.\n2. Return only the corresponding option letters in alphabetical order.\n3. Do not provide explanations or additional text.\n\nExamples:\nA\nAC\nABC\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nABC",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 141,
+  "total_tokens": 143,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771730
+}

@@ -1,0 +1,1604 @@
+{
+  "geography_questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "geography_category": "Geographical Processes and Principles",
+      "difficulty": "medium",
+      "question": "近地面大气主要、直接的热源是地面，与此相关的地理过程有（）",
+      "options": {
+        "A": "地面辐射",
+        "B": "大气逆辐射",
+        "C": "太阳紫外线直接加热大气"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multiple",
+      "geography_category": "Geographical Processes and Principles",
+      "difficulty": "medium",
+      "question": "白天多云气温偏低，夜晚多云气温偏高，其原理是云层（）",
+      "options": {
+        "A": "增强对太阳辐射的反射",
+        "B": "增强大气逆辐射",
+        "C": "增强地面辐射"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "multiple",
+      "geography_category": "Geographical Processes and Principles",
+      "difficulty": "medium",
+      "question": "热力环流形成的根本原因包括（）",
+      "options": {
+        "A": "地面冷热不均",
+        "B": "水平气压差",
+        "C": "地转偏向力"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multiple",
+      "geography_category": "Geographical Processes and Principles",
+      "difficulty": "medium",
+      "question": "下列属于热力环流典型实例的是（）",
+      "options": {
+        "A": "城市热岛环流",
+        "B": "海陆风",
+        "C": "低纬环流"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "multiple",
+      "geography_category": "Geographical Processes and Principles",
+      "difficulty": "medium",
+      "question": "关于空气升降运动与天气，正确的是（）",
+      "options": {
+        "A": "上升气流易成云致雨",
+        "B": "下沉气流多晴朗",
+        "C": "下沉气流易形成降水"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "赤道低气压带控制下的区域特征有（）",
+      "options": {
+        "A": "盛行上升气流",
+        "B": "全年高温多雨",
+        "C": "全年干旱少雨"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "副热带高气压带控制下的区域特征有（）",
+      "options": {
+        "A": "盛行下沉气流",
+        "B": "多晴朗干燥天气",
+        "C": "多锋面雨"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "气压带风带的移动会带来影响，正确的有（）",
+      "options": {
+        "A": "北半球夏季北移冬季南移",
+        "B": "影响季风气候形成",
+        "C": "导致全球气温一致"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "东亚季风形成与特征，正确的是（）",
+      "options": {
+        "A": "海陆热力性质差异为主因",
+        "B": "夏季风温暖湿润",
+        "C": "夏季风寒冷干燥"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "冷锋过境时和过境后，合理的是（）",
+      "options": {
+        "A": "过境时多阴雨大风",
+        "B": "过境后气温下降气压上升",
+        "C": "过境后持续升温"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "暖锋过境时与过境后，合理的是（）",
+      "options": {
+        "A": "多连续性降水",
+        "B": "过境后气温上升气压下降",
+        "C": "过境后剧烈降温"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "气旋（低压）系统的特点是（）",
+      "options": {
+        "A": "中心气流上升",
+        "B": "多阴雨天气",
+        "C": "中心气流下沉"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "反气旋（高压）系统的特点是（）",
+      "options": {
+        "A": "中心气流下沉",
+        "B": "多晴朗天气",
+        "C": "易形成强降水"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "multiple",
+      "geography_category": "Hydrology",
+      "difficulty": "medium",
+      "question": "水循环中，植被破坏可能导致（）",
+      "options": {
+        "A": "地表径流增大",
+        "B": "下渗减少",
+        "C": "地下径流增加"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "multiple",
+      "geography_category": "Hydrology",
+      "difficulty": "medium",
+      "question": "属于海陆间水循环主要环节的是（）",
+      "options": {
+        "A": "水汽输送",
+        "B": "地表径流",
+        "C": "冰川内部融化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "河流从上游到下游，外力作用变化正确的是（）",
+      "options": {
+        "A": "上游以侵蚀搬运为主",
+        "B": "下游以堆积为主",
+        "C": "全程侵蚀强度一致"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "河流流出山口易形成冲积扇，原因是（）",
+      "options": {
+        "A": "地势变缓流速减慢",
+        "B": "泥沙大量堆积",
+        "C": "海水顶托作用强"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "河口三角洲形成的条件有（）",
+      "options": {
+        "A": "河流泥沙丰富",
+        "B": "入海口地势平缓",
+        "C": "流速快侵蚀强"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "喀斯特地貌发育的基本条件是（）",
+      "options": {
+        "A": "石灰岩广布",
+        "B": "气候湿润降水多",
+        "C": "气候寒冷干燥"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "干旱地区风力作用形成的地貌有（）",
+      "options": {
+        "A": "戈壁",
+        "B": "沙丘",
+        "C": "角峰"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "关于沙丘与风向，正确的是（）",
+      "options": {
+        "A": "缓坡为迎风坡",
+        "B": "陡坡为背风坡",
+        "C": "陡坡为迎风坡"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "冰川作用可形成的地貌有（）",
+      "options": {
+        "A": "U型谷",
+        "B": "冰斗",
+        "C": "峰林"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "内力作用的主要表现有（）",
+      "options": {
+        "A": "地壳运动",
+        "B": "岩浆活动",
+        "C": "流水堆积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "外力作用对地表的影响有（）",
+      "options": {
+        "A": "削高填低",
+        "B": "使地表趋于平坦",
+        "C": "形成高大山脉"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "褶皱构造中，叙述正确的是（）",
+      "options": {
+        "A": "背斜岩层向上拱",
+        "B": "向斜岩层向下弯",
+        "C": "断层属于褶皱"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "向斜成山的原因是（）",
+      "options": {
+        "A": "槽部受挤压岩石坚实",
+        "B": "不易被侵蚀",
+        "C": "顶部易被侵蚀"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "断层构造可能形成的地貌有（）",
+      "options": {
+        "A": "断块山",
+        "B": "谷地",
+        "C": "三角洲"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "属于岩浆活动形成的岩石是（）",
+      "options": {
+        "A": "玄武岩",
+        "B": "花岗岩",
+        "C": "石灰岩"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "风化作用的结果是（）",
+      "options": {
+        "A": "岩石破碎疏松",
+        "B": "为侵蚀创造条件",
+        "C": "直接形成土壤肥力"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "外力作用中，搬运作用的动力可以是（）",
+      "options": {
+        "A": "流水",
+        "B": "风力",
+        "C": "岩浆"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "沉积岩的典型特征包括（）",
+      "options": {
+        "A": "层理构造",
+        "B": "常含有化石",
+        "C": "多气孔"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "岩石圈物质循环中，可形成沉积岩的过程是（）",
+      "options": {
+        "A": "风化侵蚀搬运堆积",
+        "B": "固结成岩",
+        "C": "重熔再生"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "multiple",
+      "geography_category": "Oceanography",
+      "difficulty": "medium",
+      "question": "暖流对沿岸地理环境的影响有（）",
+      "options": {
+        "A": "增温",
+        "B": "增湿",
+        "C": "降温"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "multiple",
+      "geography_category": "Oceanography",
+      "difficulty": "medium",
+      "question": "寒流对沿岸地理环境的影响有（）",
+      "options": {
+        "A": "降温",
+        "B": "减湿",
+        "C": "增温"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "multiple",
+      "geography_category": "Oceanography",
+      "difficulty": "medium",
+      "question": "利于渔场形成的洋流条件是（）",
+      "options": {
+        "A": "寒暖流交汇",
+        "B": "上升补偿流",
+        "C": "单一暖流流经"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "multiple",
+      "geography_category": "Geography",
+      "difficulty": "medium",
+      "question": "体现地理环境整体性的有（）",
+      "options": {
+        "A": "一要素变化牵动整体",
+        "B": "各要素相互联系",
+        "C": "各要素独立变化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "全球气候变暖可能带来的影响有（）",
+      "options": {
+        "A": "海平面上升",
+        "B": "极端天气增多",
+        "C": "冰川面积扩大"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "水土流失加剧的主要原因有（）",
+      "options": {
+        "A": "坡度大",
+        "B": "降水集中多暴雨",
+        "C": "植被覆盖率高"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "河流凹岸与凸岸的外力作用正确的是（）",
+      "options": {
+        "A": "凹岸侵蚀",
+        "B": "凸岸堆积",
+        "C": "凹岸堆积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "multiple",
+      "geography_category": "Hydrology",
+      "difficulty": "medium",
+      "question": "过度开采地下水可能引发（）",
+      "options": {
+        "A": "地面沉降",
+        "B": "海水入侵",
+        "C": "地下水位上升"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "我国东部季风区夏季降水多属于锋面雨，其形成条件是（）",
+      "options": {
+        "A": "冷暖空气相遇",
+        "B": "暖气团抬升冷却",
+        "C": "单一气团控制"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "地形雨形成的条件包括（）",
+      "options": {
+        "A": "湿润气流遇山地阻挡",
+        "B": "气流沿坡爬升冷却",
+        "C": "地势平坦开阔"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "影响风大小与方向的力有（）",
+      "options": {
+        "A": "水平气压梯度力",
+        "B": "地转偏向力",
+        "C": "太阳引力"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "大气对太阳辐射的削弱作用包括（）",
+      "options": {
+        "A": "吸收",
+        "B": "反射",
+        "C": "地面辐射"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "晴朗天空呈蓝色、晨昏蒙影，原理是大气的（）",
+      "options": {
+        "A": "散射作用",
+        "B": "对短波辐射散射强",
+        "C": "吸收红外线"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "对流层的主要特征有（）",
+      "options": {
+        "A": "气温随高度升高而降低",
+        "B": "对流运动显著",
+        "C": "气流水平平稳"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "平流层适合飞机飞行的原因是（）",
+      "options": {
+        "A": "气流水平为主",
+        "B": "臭氧吸收紫外线增温",
+        "C": "天气复杂多变"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "multiple",
+      "geography_category": "Pedology",
+      "difficulty": "medium",
+      "question": "影响土壤形成的关键自然要素有（）",
+      "options": {
+        "A": "成土母质",
+        "B": "生物",
+        "C": "人类耕作"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "multiple",
+      "geography_category": "Pedology",
+      "difficulty": "medium",
+      "question": "生物在土壤形成中的作用有（）",
+      "options": {
+        "A": "提供有机质",
+        "B": "促进养分循环",
+        "C": "提供矿物质"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "multiple",
+      "geography_category": "Pedology",
+      "difficulty": "medium",
+      "question": "高温多雨环境下土壤特征有（）",
+      "options": {
+        "A": "淋溶作用强",
+        "B": "多呈酸性",
+        "C": "有机质积累多"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "multiple",
+      "geography_category": "Pedology",
+      "difficulty": "medium",
+      "question": "干旱地区土壤盐碱化的成因有（）",
+      "options": {
+        "A": "蒸发旺盛",
+        "B": "地下水位较高",
+        "C": "降水丰富淋溶强"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "multiple",
+      "geography_category": "Pedology",
+      "difficulty": "medium",
+      "question": "土壤通气性好有利于（）",
+      "options": {
+        "A": "根系呼吸",
+        "B": "微生物活动",
+        "C": "积水烂根"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "板块构造学说观点正确的有（）",
+      "options": {
+        "A": "板块内部较稳定",
+        "B": "边界地壳活跃",
+        "C": "全球只有一块板块"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "板块碰撞挤压边界易形成（）",
+      "options": {
+        "A": "高大山脉",
+        "B": "岛弧",
+        "C": "裂谷"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "板块张裂边界易形成（）",
+      "options": {
+        "A": "裂谷",
+        "B": "海洋",
+        "C": "海沟"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "火山地震多分布在（）",
+      "options": {
+        "A": "板块交界处",
+        "B": "地壳活跃带",
+        "C": "板块内部稳定区"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "山谷风形成的原因与特征有（）",
+      "options": {
+        "A": "山坡与山谷热力差异",
+        "B": "白天吹谷风",
+        "C": "夜晚吹谷风"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "湿地的生态功能包括（）",
+      "options": {
+        "A": "涵养水源",
+        "B": "净化水质",
+        "C": "提供矿产"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 59,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "森林被称为“地球之肺”，因为森林可以（）",
+      "options": {
+        "A": "吸收CO₂",
+        "B": "释放氧气",
+        "C": "加剧温室效应"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "植被保持水土的原理是（）",
+      "options": {
+        "A": "减缓地表径流",
+        "B": "增加下渗",
+        "C": "增强冲刷"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "黄土高原水土流失严重的原因有（）",
+      "options": {
+        "A": "土质疏松",
+        "B": "降水集中多暴雨",
+        "C": "植被覆盖率高"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 62,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "喀斯特山区石漠化形成条件有（）",
+      "options": {
+        "A": "土层薄",
+        "B": "植被破坏后易裸岩",
+        "C": "气候干旱风沙大"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "土地沙化过程中，关键外力与人为原因是（）",
+      "options": {
+        "A": "风力侵蚀",
+        "B": "植被破坏",
+        "C": "冰川侵蚀"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "热岛效应使城区比郊区（）",
+      "options": {
+        "A": "气温高",
+        "B": "上升气流更强",
+        "C": "风速更大"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "与硬化路面相比，绿地和水面可以（）",
+      "options": {
+        "A": "减缓升温",
+        "B": "增加下渗",
+        "C": "加剧内涝"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "multiple",
+      "geography_category": "Hydrology",
+      "difficulty": "medium",
+      "question": "河流稳定、流量季节变化小的补给方式可能是（）",
+      "options": {
+        "A": "地下水补给",
+        "B": "湖泊调节",
+        "C": "雨水补给为主"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "multiple",
+      "geography_category": "Hydrology",
+      "difficulty": "medium",
+      "question": "季节性积雪融水补给的特点是（）",
+      "options": {
+        "A": "主要在春季",
+        "B": "形成春汛",
+        "C": "主要在夏季"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multiple",
+      "geography_category": "Hydrology",
+      "difficulty": "medium",
+      "question": "高山冰雪融水补给的特点是（）",
+      "options": {
+        "A": "受气温影响大",
+        "B": "夏季流量大",
+        "C": "冬季流量大"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "multiple",
+      "geography_category": "Oceanography",
+      "difficulty": "medium",
+      "question": "洋流对航海的影响有（）",
+      "options": {
+        "A": "顺流增速省油",
+        "B": "寒暖流交汇处多雾",
+        "C": "逆流不影响速度"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 70,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "山地迎风坡与背风坡差异正确的是（）",
+      "options": {
+        "A": "迎风坡降水多",
+        "B": "背风坡形成雨影区",
+        "C": "背风坡降水更多"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "等高线疏密与外力作用关系正确的是（）",
+      "options": {
+        "A": "密集坡度陡，侵蚀强",
+        "B": "稀疏坡度缓，堆积为主",
+        "C": "密集以堆积为主"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 72,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "河口三角洲增长快的条件是（）",
+      "options": {
+        "A": "河流输沙量大",
+        "B": "海浪侵蚀弱",
+        "C": "入海口流速快"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 73,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "流水沉积具有分选性，表现为（）",
+      "options": {
+        "A": "颗粒大先沉积",
+        "B": "颗粒小后沉积",
+        "C": "大小均匀同时沉积"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "multiple",
+      "geography_category": "Climatology",
+      "difficulty": "medium",
+      "question": "大气环流的地理意义有（）",
+      "options": {
+        "A": "调节全球热量分布",
+        "B": "调节全球水汽分布",
+        "C": "直接形成矿产"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "multiple",
+      "geography_category": "Geography",
+      "difficulty": "medium",
+      "question": "影响自然带分布的主导因素是（）",
+      "options": {
+        "A": "热量",
+        "B": "水分",
+        "C": "土壤矿物质"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 76,
+      "type": "multiple",
+      "geography_category": "Geography",
+      "difficulty": "medium",
+      "question": "纬度地带分异规律的基础是（）",
+      "options": {
+        "A": "热量从赤道向两极递减",
+        "B": "植被呈纬度更替",
+        "C": "水分差异为主"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "multiple",
+      "geography_category": "Geography",
+      "difficulty": "medium",
+      "question": "从沿海到内陆的地域分异（）",
+      "options": {
+        "A": "以水分差异为基础",
+        "B": "植被呈森林—草原—荒漠",
+        "C": "以热量差异为基础"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "multiple",
+      "geography_category": "Geography",
+      "difficulty": "medium",
+      "question": "山地垂直地域分异的原因是（）",
+      "options": {
+        "A": "海拔升高热量变化",
+        "B": "海拔升高水分变化",
+        "C": "海陆位置变化"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "下列属于地理过程“恶性循环”的是（）",
+      "options": {
+        "A": "植被破坏→水土流失→土层变薄",
+        "B": "过度放牧→草场退化→沙化",
+        "C": "退耕还林→土壤改良"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 80,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "利于坡面水土保持的措施原理是（）",
+      "options": {
+        "A": "减缓坡度",
+        "B": "提高植被覆盖",
+        "C": "增加径流速度"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 81,
+      "type": "multiple",
+      "geography_category": "Environmental Science",
+      "difficulty": "medium",
+      "question": "城市内涝多发的原因有（）",
+      "options": {
+        "A": "硬化路面下渗少",
+        "B": "短历时强降水",
+        "C": "绿地水面过多"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 82,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "有利于雾形成的条件是（）",
+      "options": {
+        "A": "近地面空气冷却",
+        "B": "水汽充足",
+        "C": "风力强劲"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 83,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "霜冻多出现在晴朗夜晚，原因是（）",
+      "options": {
+        "A": "大气逆辐射弱",
+        "B": "地面散热快",
+        "C": "云层保温强"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 84,
+      "type": "multiple",
+      "geography_category": "Oceanography",
+      "difficulty": "medium",
+      "question": "海水温度随深度变化正确的是（）",
+      "options": {
+        "A": "表层水温受太阳辐射影响大",
+        "B": "深层水温变化小",
+        "C": "深层水温高于表层"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 85,
+      "type": "multiple",
+      "geography_category": "Oceanography",
+      "difficulty": "medium",
+      "question": "海水盐度高低主要取决于（）",
+      "options": {
+        "A": "蒸发与降水对比",
+        "B": "河流淡水汇入",
+        "C": "海底地形"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 86,
+      "type": "multiple",
+      "geography_category": "Oceanography",
+      "difficulty": "medium",
+      "question": "河口地区咸潮（海水倒灌）易出现的情况是（）",
+      "options": {
+        "A": "河流枯水期",
+        "B": "天文大潮",
+        "C": "河流洪水期"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "multiple",
+      "geography_category": "Hydrology",
+      "difficulty": "medium",
+      "question": "有利于地下水补给的条件是（）",
+      "options": {
+        "A": "降水强度小历时久",
+        "B": "地表坡度缓植被好",
+        "C": "地表陡峭裸露"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 88,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "地质时期与现代，地貌形成共同作用是（）",
+      "options": {
+        "A": "内力作用",
+        "B": "外力作用",
+        "C": "人类活动主导"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "背斜构造在工程中的应用合理的是（）",
+      "options": {
+        "A": "适合储油储气",
+        "B": "岩层向上拱稳定",
+        "C": "适合储水"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 90,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "向斜构造在工程中的应用合理的是（）",
+      "options": {
+        "A": "槽部坚实适合建坝",
+        "B": "利于储水",
+        "C": "易塌陷"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 91,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "下列属于大气保温作用环节的是（）",
+      "options": {
+        "A": "地面辐射",
+        "B": "大气吸收长波辐射",
+        "C": "太阳直接加热大气"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "影响气温日较差的因素有（）",
+      "options": {
+        "A": "天气阴晴",
+        "B": "下垫面性质",
+        "C": "星座位置"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 93,
+      "type": "multiple",
+      "geography_category": "Meteorology",
+      "difficulty": "medium",
+      "question": "影响降水多少的环流条件有（）",
+      "options": {
+        "A": "上升气流控制",
+        "B": "海洋水汽输送充足",
+        "C": "单一冷气团控制"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 94,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "河流侵蚀作用可使河流（）",
+      "options": {
+        "A": "加深河谷",
+        "B": "拓宽河谷",
+        "C": "直接形成湖泊"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "multiple",
+      "geography_category": "Geomorphology",
+      "difficulty": "medium",
+      "question": "搬运作用减弱会导致（）",
+      "options": {
+        "A": "泥沙沉积",
+        "B": "形成堆积地貌",
+        "C": "侵蚀加剧"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 96,
+      "type": "multiple",
+      "geography_category": "Geography",
+      "difficulty": "medium",
+      "question": "地理环境整体性表现在（）",
+      "options": {
+        "A": "各要素相互渗透",
+        "B": "物质能量不断交换",
+        "C": "各要素互不干扰"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 97,
+      "type": "multiple",
+      "geography_category": "Geography",
+      "difficulty": "medium",
+      "question": "人类活动遵循地理原理才能（）",
+      "options": {
+        "A": "减轻灾害",
+        "B": "实现可持续发展",
+        "C": "无节制开发资源"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 98,
+      "type": "multiple",
+      "geography_category": "Hydrology",
+      "difficulty": "medium",
+      "question": "属于水循环意义的是（）",
+      "options": {
+        "A": "更新陆地淡水资源",
+        "B": "塑造地表形态",
+        "C": "提供化石能源"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 99,
+      "type": "multiple",
+      "geography_category": "Geology",
+      "difficulty": "medium",
+      "question": "岩石圈物质循环的意义有（）",
+      "options": {
+        "A": "形成矿产资源",
+        "B": "塑造地表形态",
+        "C": "直接产生大气"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 100,
+      "type": "multiple",
+      "geography_category": "Geography",
+      "difficulty": "medium",
+      "question": "地理过程研究的核心思路是（）",
+      "options": {
+        "A": "分析成因机制",
+        "B": "推导演变结果",
+        "C": "只看现象不究原理"
+      },
+      "correct_answer": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

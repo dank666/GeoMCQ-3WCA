@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:gaokao-14-1",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "材料：热带沙漠中的尼罗河泛滥区孕育了古埃及农耕文明．尼罗河在每年 6～10 月泛滥，从上游带来的类似肥沃土壤的沉积物，与上游来水和周边区域的植物资源，都对农耕文明的形成意义重大．据此完成 6～8 题．\n题干：热带地区原始的耕种方式多为刀耕火种。古埃及人在刀耕火种方式出现之前，能够在沉积物上直接耕种，是因为尼罗河泛滥区（）\n\n待判断的选项：\nA. 用水便利\nB. 土壤肥沃\nC. 地势平坦\nD. 植被缺失\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是古埃及人在刀耕火种方式出现之前耕种的方式\n2. 是利用尼罗河泛滥区沉积物耕种的方式\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"是\"],\n\"C\": [\"是\", \"是\"],\n\"D\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 266,
+  "total_tokens": 300,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773128
+}

@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-multiple-TG-078",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于断块山的说法，正确的有（）\n\n待判断的选项：\nA. 由断层相对上升的岩块形成\nB. 由褶皱形成\nC. 地势陡峭\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 断块山：上位：构造山、山地地貌；特征：山体陡峭、断层崖发育、呈块状隆起、与地堑相间分布；成因：断层活动、岩层断裂抬升；影响：形成陡崖、影响交通线路布局、诱发地震滑坡；分布：华山、庐山、泰山、天山\n- 断层：上位：地质构造；特征：岩层断裂、位移明显、线状分布；成因：地壳运动、应力作用；影响：形成断层谷、形成断块山、诱发地震；分布：东非大裂谷、华山、庐山\n- 岩块：上位：岩石；特征：矿物成分均一、结构完整、力学性质稳定；成因：岩浆冷凝、变质作用；影响：构成岩体骨架、影响岩石强度；分布：岩浆岩分布区、变质岩区\n- 褶皱：上位：地质构造；特征：岩层弯曲变形、岩层连续、常成山脉；成因：地壳水平挤压、岩层受力变形；影响：形成山脉、影响地貌、储存油气；分布：喜马拉雅山、阿尔卑斯山、安第斯山\n- 地势：上位：地形特征；特征：高低起伏、倾斜方向、海拔差异；成因：地壳运动、外力侵蚀、沉积作用；影响：河流流向、气候差异、交通布局；分布：中国地势、青藏高原、长江中下游平原\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于断块山的说法符合地理事实\n2. 是断块山的特征\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"是\", \"是\"], \"B\": [\"否\", \"否\"], \"C\": [\"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 528,
+  "total_tokens": 555,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 528
+ },
+ "created": 1792773541
+}

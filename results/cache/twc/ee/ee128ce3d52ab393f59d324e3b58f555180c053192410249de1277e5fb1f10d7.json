@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-094",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n河流的流速影响泥沙搬运能力，流速越快，泥沙搬运能力越强，能搬运较大颗粒的泥沙；流速越慢，泥沙搬运能力越弱，只能搬运较小颗粒的泥沙，某河流流经山区，流速快，结合流速对泥沙搬运的影响，该河流能搬运的泥沙颗粒特点是（ ）\n\nOptions:\nA. 颗粒较大\nB. 颗粒均匀\nC. 颗粒较小\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nA",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 154,
+  "total_tokens": 156,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771669
+}

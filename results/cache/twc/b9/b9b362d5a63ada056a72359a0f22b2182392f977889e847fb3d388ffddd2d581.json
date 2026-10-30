@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-085",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于河流侵蚀地貌的说法，正确的有（）\n\n待判断的选项：\nA. 下蚀能使河流加深，形成V型谷\nB. 溯源侵蚀能使河流变长，形成峡谷\nC. 侧蚀能使河流加宽，形成冲积平原\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 侵蚀地貌：上位：地貌类型；特征：地表破碎、沟谷发育、岩石裸露；成因：流水侵蚀、风力侵蚀、冰川侵蚀、海浪侵蚀；影响：形成峡谷、形成喀斯特地貌、形成风蚀蘑菇；分布：黄土高原、云贵高原、河流上游\n- 下切侵蚀：上位：流水侵蚀；特征：使河谷加深、形成峡谷、多发生在河流上游；成因：地势落差大、水流速度快；影响：形成V形谷、河流落差减小；分布：河流上游、山区\n- 峡谷：上位：河谷地貌、侵蚀地貌；特征：谷深坡陡、谷底狭窄、横剖面呈V形；成因：流水下切侵蚀、地壳抬升、岩性坚硬；影响：水能资源丰富、交通阻隔、旅游景观；分布：长江三峡、雅鲁藏布大峡谷、科罗拉多大峡谷\n- 冲积平原：上位：平原、流水堆积地貌；特征：地势平坦、土层深厚、土壤肥沃、多分布于河流中下游；成因：河流泥沙沉积、地壳沉降；影响：农业发达、人口密集、城市集中；分布：华北平原、东北平原、长江中下游平原\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于河流侵蚀地貌的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 498,
+  "total_tokens": 516,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 498
+ },
+ "created": 1792769907
+}

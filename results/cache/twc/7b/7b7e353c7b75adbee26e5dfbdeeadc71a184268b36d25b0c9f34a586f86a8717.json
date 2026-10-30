@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-SV-098",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：荒漠植被主要分布在干旱地区，降水稀少，植物种类少，覆盖度低，多为耐旱的灌木和草本植物。荒漠地区的降水特点是：\n\n待判断的选项：\nA. 稀少\nB. 季节性强\nC. 丰富\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 荒漠植被：上位：植被类型、自然植被；特征：耐旱、根系发达、叶片退化、覆盖度低；成因：气候干旱、土壤贫瘠、水分缺乏；影响：防风固沙、维持生态平衡；分布：撒哈拉沙漠、塔克拉玛干沙漠、澳大利亚沙漠\n- 干旱地区：上位：自然地区、气候区；特征：气候干旱、地表水缺乏、风力作用强；成因：深居内陆、水汽难以到达；影响：荒漠景观、绿洲分布、土地退化；分布：塔里木盆地、河西走廊、柴达木盆地\n- 降水稀少：上位：气候特征、降水状况；特征：年降水量少、气候干旱、蒸发旺盛；成因：深居内陆、副热带高压控制、寒流影响、地形阻挡；影响：水资源短缺、植被稀疏、荒漠广布；分布：撒哈拉沙漠、中亚地区、澳大利亚中西部\n- 植物：上位：生物；特征：光合作用、适应环境；成因：气候土壤条件；影响：保持水土、调节气候\n- 种类：上位：生物多样性；特征：生物分类单位、多样性表现\n- 覆盖度：上位：植被特征；特征：反映植被茂密程度、常用百分比表示；成因：气候条件、人类活动；影响：影响水土流失、影响生物多样性；分布：草地、森林\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是荒漠地区降水的特点\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"不确定\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 465,
+  "total_tokens": 483,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 465
+ },
+ "created": 1792769256
+}

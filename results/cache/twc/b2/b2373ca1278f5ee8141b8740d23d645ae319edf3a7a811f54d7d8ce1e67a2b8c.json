@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-091",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：平原的形成多与流水或风力堆积有关，下列平原中，由风力堆积形成的是（ ）\n\n待判断的选项：\nA. 亚马孙平原\nB. 我国河套平原\nC. 东北平原\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 平原：上位：陆地地形；特征：海拔较低、地面平坦、起伏较小、面积广阔；成因：地壳沉降、河流沉积、海浪沉积、冰川沉积；影响：利于农耕、交通便利、人口密集、城镇集中；分布：东北平原、华北平原、长江中下游平原\n- 流水：上位：外力作用；特征：塑造地表形态、动力来自重力；成因：降水、地形坡度；影响：形成河流地貌、水土流失；分布：河流、沟谷\n- 风力堆积：上位：风力作用、外力堆积；特征：风力减弱堆积、分选性差、干旱区常见；成因：风速减小、沙尘沉降、障碍物阻挡；影响：形成沙丘、形成黄土高原、掩埋农田；分布：西北沙漠、黄土高原、华北平原\n- 亚马孙平原：上位：平原；特征：面积广阔、地势低平、热带雨林广布；成因：河流冲积、地壳沉降；影响：生物多样性丰富、调节全球气候；分布：南美洲北部、亚马孙河流域\n- 东北平原：上位：平原；特征：面积广大、地势平坦、黑土肥沃、沼泽湿地多；成因：河流冲积、地壳沉降；影响：商品粮基地、农业机械化、湿地保护；分布：中国东北部\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是由风力堆积作用形成的平原\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 450,
+  "total_tokens": 468,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 450
+ },
+ "created": 1792769385
+}

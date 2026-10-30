@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-096",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n水文灾害中，干旱灾害主要由降水稀少、蒸发旺盛导致，多发生在干旱、半干旱地区，某地区位于我国西北地区，年降水量不足200毫米，夏季气温高、蒸发旺盛，结合干旱灾害的成因，该地区最可能发生的水文灾害是（ ）\n\nOptions:\nA. 洪涝\nB. 干旱\nC. 泥石流\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nB",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 134,
+  "total_tokens": 136,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771669
+}

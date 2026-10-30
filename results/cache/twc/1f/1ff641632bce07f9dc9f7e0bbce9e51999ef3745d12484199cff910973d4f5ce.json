@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HY-043",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：下列关于我国主要河流的水文特征，说法正确的有（）\n\n待判断的选项：\nA. 黄河是我国含沙量最大的河流，有结冰期和凌汛现象\nB. 珠江是我国汛期最长的河流，无结冰期\nC. 长江是我国径流量最大、流域面积最广的河流，无结冰期\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 水文特征：上位：水体特征；特征：反映水体动态变化、受气候地形影响；成因：降水补给、气温变化、地形地势；影响：影响水资源利用、影响航运与防洪\n- 黄河：上位：河流；特征：含沙量大、地上河、凌汛；成因：流经黄土高原、降水集中；影响：水土流失、泥沙淤积；分布：黄土高原、华北平原\n- 含沙量：上位：水文要素；特征：随季节变化、受流域植被影响、影响水质；成因：植被覆盖率、降水强度、土质疏松、地形坡度；影响：影响河道淤积、影响水库寿命、塑造三角洲；分布：黄河中游、长江上游、黄土高原\n- 结冰期：上位：水文特征；特征：河流冬季结冰、持续时间、受气温影响；成因：气温低于0℃、纬度较高、海拔较高；影响：影响航运、影响水能利用；分布：高纬度河流、高山河流\n- 珠江：上位：河流；特征：水量丰富、汛期长、含沙量小、无结冰期；成因：亚热带季风气候、流域降水丰沛；影响：提供水资源、发展航运、塑造三角洲；分布：中国华南地区、广东省、广西壮族自治区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于我国主要河流水文特征的说法符合地理事实\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\"], \"B\": [\"是\"], \"C\": [\"是\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 18,
+  "prompt_tokens": 526,
+  "total_tokens": 544,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 526
+ },
+ "created": 1792769847
+}

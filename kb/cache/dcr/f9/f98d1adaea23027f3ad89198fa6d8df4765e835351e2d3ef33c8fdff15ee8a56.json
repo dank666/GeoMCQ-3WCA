@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:活火山||347d8e6ccad9",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“活火山”编写一个词典条目，供符号推理系统使用。\n\n题干：下列关于火山锥的说法，正确的有()\n选项：\nA. 由火山喷发的岩浆、火山灰堆积形成\nB. 均为活火山\nC. 呈圆锥形\n\n词典中已有条目的示例：\n{\"term\": \"火山锥\", \"category\": \"GEOMORPH\", \"parent_level\": \"火山地貌；堆积地貌；火山喷发；碎屑物堆积\", \"child_level\": \"层状火山锥；盾状火山锥；渣锥；锥形山体；顶部有火山口；由火山碎屑堆积\"}\n{\"term\": \"火山喷发\", \"category\": \"HAZARD\", \"parent_level\": \"地质作用；自然灾害；岩浆压力；板块运动\", \"child_level\": \"裂隙式喷发；中心式喷发；岩浆喷出；火山灰；火山气体\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"HAZARD\", \"parent_level\": \"火山活动；地质构造；板块运动；岩浆活动\", \"child_level\": \"近期喷发；有喷发记录；可能喷发；火山锥；熔岩流\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 478,
+  "total_tokens": 537,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 478
+ },
+ "created": 1792768577
+}

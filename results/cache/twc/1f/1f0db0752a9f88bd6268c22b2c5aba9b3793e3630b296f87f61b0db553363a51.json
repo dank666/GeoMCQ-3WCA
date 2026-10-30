@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:gaokao-03-2",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "材料：地膜覆盖具有保温、保湿、保土等作用，可有效提高农作物产量和农产品质量． 我国目前使用的地膜多是超薄型地膜，易破，难回收，难以自然降解，易造成严重的“白色污染”．据此完成 3～5 题．\n题干：下列地区相比较，地膜覆盖的保温、保湿、保土作用最显著的是（）\n\n待判断的选项：\nA. 东南沿海地区\nB. 西南地区\nC. 东北地区\nD. 西北地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 关于地膜覆盖的保温、保湿、保土作用最显著的比较\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 1 个判断，例如：{\"A\": [\"是\"], \"B\": [\"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\"], \"B\": [\"否\"], \"C\": [\"是\"], \"D\": [\"是\"]}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 24,
+  "prompt_tokens": 221,
+  "total_tokens": 245,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792773107
+}

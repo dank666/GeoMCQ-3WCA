@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:科考||ac9d21908fda",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“科考”编写一个词典条目，供符号推理系统使用。\n\n题干：科考队在北极圈内某地进行科考时，于北京时间6月22日16时测得了当地一天中太阳高度的最小值为10°。该地位于()\n选项：\nA. 欧洲北部\nB. 亚洲西部\nC. 亚洲东部\nD. 北美北部\n\n词典中已有条目的示例：\n{\"term\": \"北极圈\", \"category\": \"EARTH\", \"parent_level\": \"纬线圈；地轴倾斜\", \"child_level\": \"北纬66.5°；极昼极夜现象\"}\n{\"term\": \"北京\", \"category\": \"PLACE\", \"parent_level\": \"中国首都；直辖市；历史古都；国家政策\", \"child_level\": \"中心城区；城市副中心；政治文化中心；国际交往中心；科技创新中心\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"TECH\", \"parent_level\": \"地理研究方法；科学考察活动\", \"child_level\": \"极地科考；环境监测；数据采集；野外作业\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 44,
+  "prompt_tokens": 472,
+  "total_tokens": 516,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 472
+ },
+ "created": 1792770354
+}

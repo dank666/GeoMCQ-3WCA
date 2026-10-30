@@ -1,0 +1,42 @@
+{
+ "tag": "JUDGE:geomcq-single-HY-077",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：河流的结冰期与纬度位置密切相关，纬度越高，气温越低，结冰期越长；纬度越低，气温越高，结冰期越短，某河流位于低纬度地区，最冷月均温为10℃，结合纬度对结冰期的影响，该河流的结冰期特点是（ ）\n\n待判断的选项：\nA. 有结冰期\nB. 结冰期长\nC. 无结冰期\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 河流：上位：地表水体、自然地理要素；特征：经常或间歇流动、有河床和河谷、参与水循环；成因：降水补给、地形引导、地下水补给；影响：塑造地貌、提供水资源、影响聚落分布；分布：陆地表面\n- 结冰期：上位：水文特征；特征：河流冬季结冰、持续时间、受气温影响；成因：气温低于0℃、纬度较高、海拔较高；影响：影响航运、影响水能利用；分布：高纬度河流、高山河流\n- 纬度位置：上位：地理位置、空间位置；特征：决定太阳高度、影响昼夜长短、影响热量带；影响：形成气候差异、影响植被分布\n- 气温：上位：气象要素；特征：随纬度变化、随海拔变化、随时间变化；成因：太阳辐射、下垫面性质、大气环流；影响：影响农业生产、影响人体舒适度、影响自然带分布\n- 低纬度：上位：纬度带；特征：太阳高度大、气温高、昼夜长短变化小；分布：赤道附近、热带地区\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是纬度对河流结冰期的影响\n2. 位于低纬度地区\n3. 最冷月均温为10℃\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"A\": [\"否\", \"是\", \"否\"], \"B\": [\"否\", \"是\", \"否\"], \"C\": [\"是\", \"是\", \"是\"]}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 529,
+  "total_tokens": 565,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 497
+ },
+ "created": 1792772672
+}

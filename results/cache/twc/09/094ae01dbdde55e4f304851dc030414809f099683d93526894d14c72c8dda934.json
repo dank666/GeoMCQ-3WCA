@@ -1,0 +1,50 @@
+{
+ "tag": "DIRECT:geomcq-single-CL-027",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n海陆热力性质差异是季风气候形成的主要原因，夏季陆地升温快，形成低压，海洋升温慢，形成高压，风从海洋吹向陆地；冬季陆地降温快，形成高压，海洋降温慢，形成低压，风从陆地吹向海洋，我国冬季盛行西北风，夏季盛行东南风，结合季风形成原理，我国冬季风的风向是（ ）\n\nOptions:\nA. 从海洋吹向陆地\nB. 从陆地吹向海洋\nC. 从高纬度吹向低纬度\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "B",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 179,
+  "total_tokens": 180,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 179
+ },
+ "created": 1792771194
+}

@@ -1,0 +1,7 @@
+openai
+httpx[socks]
+python-dotenv
+jieba
+matplotlib
+pypdf
+pytest

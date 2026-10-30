@@ -1,0 +1,50 @@
+{
+ "tag": "DCR:住户||bf6aa7eaa62d",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“住户”编写一个词典条目，供符号推理系统使用。\n\n题干：在某城市中心，一种创新型绿色建筑一垂直森林高层住宅落成面世。它是在建筑的垂直方向上，覆盖满本地乔木、灌木和草本等植物，为每层住户营造“空中花园”，形成具有森林效应的生态居住群落。相较于一般城市绿地，“垂直森林”()\n选项：\nA. 抗风能力更强\nB. 生态系统更加稳定\nC. 维护成本更低\nD. 土地利用效率更高\n\n词典中已有条目的示例：\n{\"term\": \"城市中心\", \"category\": \"POPCITY\", \"parent_level\": \"城市功能区；历史发展；交通枢纽\", \"child_level\": \"商业中心；行政中心；文化中心；交通便利；地价高昂；功能密集\"}\n{\"term\": \"绿色\", \"category\": \"RESENV\", \"parent_level\": \"发展理念；环境目标；环境保护意识；可持续发展战略\", \"child_level\": \"绿色经济；绿色生活；绿色交通；环保低碳；可持续；生态友好\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"category\": \"POPCITY\", \"parent_level\": \"人口分布；居住空间；城乡结构；社会单元\", \"child_level\": \"家庭居住；社区成员；人口密度；居住单元\", \"confidence\": 0.95}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 51,
+  "prompt_tokens": 508,
+  "total_tokens": 559,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 508
+ },
+ "created": 1792770203
+}

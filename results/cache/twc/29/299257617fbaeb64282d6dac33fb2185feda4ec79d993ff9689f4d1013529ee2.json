@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-HY-017",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n内流河的主要补给水源是高山冰雪融水和山地降水，夏季气温高，冰雪融水多，河流进入汛期；冬季气温低，冰雪融水少，河流可能断流，某河流位于我国西北内陆地区，远离海洋，降水稀少，结合内流河的特征，该河流的汛期主要出现在（ ）\n\nOptions:\nA. 夏季\nB. 春季\nC. 冬季\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nA",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 143,
+  "total_tokens": 145,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771661
+}

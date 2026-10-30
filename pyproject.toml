@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+pythonpath = ["src", "experiments"]
+testpaths = ["tests"]
+filterwarnings = ["ignore::SyntaxWarning", "ignore::DeprecationWarning"]

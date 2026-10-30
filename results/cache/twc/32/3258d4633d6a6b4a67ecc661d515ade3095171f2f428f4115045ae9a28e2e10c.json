@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-single-TG-016",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：云贵高原位于我国西南部，其地表特征为崎岖不平、多喀斯特地貌，其中喀斯特地貌的形成核心是石灰岩被流水长期溶蚀，结合喀斯特地貌的形成原理和景观特点，下列景观中，属于喀斯特地貌的是（ ）\n\n待判断的选项：\nA. 溶洞\nB. 黄土梁\nC. 沙丘\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 云贵高原：上位：高原、中国地形区；特征：地势崎岖、喀斯特广布、多坝子；成因：地壳抬升、流水溶蚀；影响：交通不便、旅游资源丰富；分布：中国西南\n- 西南：上位：中国地理分区；特征：地形崎岖、气候湿润、喀斯特地貌广布；成因：板块碰撞、季风影响；影响：水能丰富、生物多样性高；分布：中国西南部\n- 地表特征：上位：自然地理要素；特征：地表形态特征、地表物质组成、空间差异性；成因：内力作用、外力作用；影响：影响自然环境、影响人类活动\n- 喀斯特地貌：上位：流水地貌、外力地貌；特征：可溶性岩石、流水溶蚀作用、地表崎岖、地下多溶洞；成因：石灰岩广布、流水溶蚀、气候湿热、地下水活动；影响：地表崎岖、土层薄、易石漠化、旅游资源丰富；分布：云贵高原、广西、贵州、桂林\n- 石灰岩：上位：沉积岩；特征：主要成分碳酸钙、易溶蚀、层理构造；成因：浅海沉积、化学沉淀、生物堆积；影响：形成喀斯特地貌、用作建筑材料；分布：广西、贵州、云南\n- 流水：上位：外力作用；特征：塑造地表形态、动力来自重力；成因：降水、地形坡度；影响：形成河流地貌、水土流失；分布：河流、沟谷\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 属于喀斯特地貌\n2. 符合喀斯特地貌形成原理\n3. 体现喀斯特地貌景观特点\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 3 个判断，例如：{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\", \"是\"], \"B\": [\"否\", \"否\", \"否\"], \"C\": [\"否\", \"否\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 547,
+  "total_tokens": 583,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 547
+ },
+ "created": 1792769276
+}

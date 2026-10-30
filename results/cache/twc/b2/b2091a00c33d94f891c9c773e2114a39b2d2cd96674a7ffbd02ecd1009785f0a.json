@@ -1,0 +1,34 @@
+{
+ "tag": "JUDGE:geomcq-single-CL-100",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：降水的多少不仅受海陆位置、地形、大气环流等因素影响，还受洋流影响，暖流能增温增湿，寒流能降温减湿，某地区位于中纬度大陆东岸，受暖流影响，结合洋流对降水的影响，该地区的降水特点是（ ）\n\n待判断的选项：\nA. 降水稀少\nB. 降水集中在冬季\nC. 降水丰富\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是中纬度大陆东岸地区的降水特点\n2. 受暖流影响\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 2 个判断，例如：{\"A\": [\"是\", \"是\"], \"B\": [\"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n\"A\": [\"是\", \"是\"],\n\"B\": [\"是\", \"不确定\"],\n\"C\": [\"是\", \"是\"]\n}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 26,
+  "prompt_tokens": 209,
+  "total_tokens": 235,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792772115
+}

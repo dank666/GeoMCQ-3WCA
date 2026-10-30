@@ -1,0 +1,34 @@
+{
+ "tag": "DCR:区别||fa2672ed33a0",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“区别”编写一个词典条目，供符号推理系统使用。\n\n题干：地理学科中明确界定，地球表面各种形态的总称是地形，而地貌则侧重描述地表形态的成因与演化过程，结合两者的定义与区别，下列选项中，既属于地形基本范畴，又能直接体现地貌成因特征的是()\n选项：\nA. 地势\nB. 喀斯特丘陵\nC. 地质\n\n词典中已有条目的示例：\n{\"term\": \"地理学\", \"category\": \"OTHER\", \"parent_level\": \"学科；科学\", \"child_level\": \"自然地理学；人文地理学；地理信息技术；综合性；区域性；交叉性\"}\n{\"term\": \"界定\", \"category\": \"OTHER\", \"parent_level\": \"地理方法；区域划分需要；研究需要\", \"child_level\": \"区域界定；边界界定；明确范围；确定标准\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\"category\": \"OTHER\", \"parent_level\": \"地理概念；学科术语\", \"child_level\": \"定义差异；概念区分；术语解释；学科区分\", \"confidence\": 0.0}",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 42,
+  "prompt_tokens": 448,
+  "total_tokens": 490,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792767709
+}

@@ -1,0 +1,42 @@
+{
+ "tag": "DCR:夏汛||65f50555218e",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是高中地理知识工程专家，负责为地理术语编写结构化词典条目。"
+   },
+   {
+    "role": "user",
+    "content": "请为下面这道地理选择题中出现的术语“夏汛”编写一个词典条目，供符号推理系统使用。\n\n题干：河流的汛期类型主要有春汛、夏汛、秋汛等，春汛由季节性积雪融水形成，夏汛由夏季降水或冰川融水形成，秋汛由秋季降水形成，某地区位于我国华北地区，冬季降雪较少，夏季降水丰富，结合汛期类型，该地区河流的汛期主要是()\n选项：\nA. 夏汛\nB. 春汛\nC. 秋汛\n\n词典中已有条目的示例：\n{\"term\": \"河流\", \"category\": \"WATER\", \"parent_level\": \"地表水体；自然地理要素；降水补给；地形引导\", \"child_level\": \"外流河；内流河；常年河；经常或间歇流动；有河床和河谷；参与水循环\"}\n{\"term\": \"季节性\", \"category\": \"ATMOS\", \"parent_level\": \"时间变化特征；地球公转；太阳直射点移动\", \"child_level\": \"气温季节性；降水季节性；随季节规律变化；周期性明显\"}\n\n字段要求：\n- category：从以下类别中选择一个代号：EARTH（宇宙与地球运动）；GEOMORPH（地质与地貌）；ATMOS（大气与气候）；WATER（水体与海洋）；SOILVEG（土壤与植被）；ENVSYS（自然环境的整体性与差异性）；HAZARD（自然灾害）；POPCITY（人口与城乡）；INDUSTRY（产业区位与交通）；REGION（区域发展）；RESENV（资源、环境与可持续发展）；PLACE（地名与区域）；TECH（地理信息技术与方法）；OTHER（其他）\n- parent_level：该术语的上位概念、形成机制、影响因素或所属主题，2~10 字的短语，用分号分隔\n- child_level：该术语的具体表现、典型实例、产生的结果或相关概念，2~10 字的短语，用分号分隔\n- confidence：你对这个条目准确性的把握，0 到 1 之间的数\n\n只输出 JSON：{\"category\": \"...\", \"parent_level\": \"...\", \"child_level\": \"...\", \"confidence\": 0.0}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "{\n  \"category\": \"WATER\",\n  \"parent_level\": \"水文现象；季节性变化\",\n  \"child_level\": \"汛期类型；夏季降水补给\",\n  \"confidence\": 1.0\n}",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 551,
+  "total_tokens": 599,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 32,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 32,
+  "prompt_cache_miss_tokens": 519
+ },
+ "created": 1792772025
+}

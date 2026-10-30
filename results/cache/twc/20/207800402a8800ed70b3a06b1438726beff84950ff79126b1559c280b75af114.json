@@ -1,0 +1,50 @@
+{
+ "tag": "JUDGE:geomcq-multiple-HEG-086",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "你是严谨的高中地理教师，只依据地理知识逐条作出判断。"
+   },
+   {
+    "role": "user",
+    "content": "题干：某地为了发展农村养老产业，利用闲置的校舍、厂房改造为养老机构，并吸引城市老年人前来旅居养老。这种模式有利于（）\n\n待判断的选项：\nA. 促进城乡融合\nB. 满足城市养老需求\nC. 盘活农村闲置资产\n\n参考知识（来自高中地理课程词典，仅供参考）：\n- 乡村：上位：聚落；特征：人口密度低、农业生产为主、景观自然化、社会关系密切；成因：地形条件、水源条件、农业生产；影响：粮食生产、文化传承、生态屏障；分布：平原地区、山区、沿河地区\n- 养老：上位：人口老龄化、城乡人口流动、社会服务；特征：城市老人旅居、农村闲置利用、异地养老、银发经济\n- 产业：上位：经济活动；特征：生产物质产品、提供劳务服务、具有地域分布；成因：社会分工、生产力发展；影响：促进经济发展、提供就业机会\n- 闲置：上位：资源利用状态、土地利用问题；特征：未充分利用、低效配置、浪费资源；成因：产业转移、规划不当、需求不足；影响：资源浪费、土地低效利用\n- 机构：上位：社会组织、管理实体；特征：具有组织性、承担特定职能、有明确目标；成因：社会分工、管理需求；影响：提供公共服务、促进经济发展\n- 城市：上位：聚落；特征：人口密集、非农业产业集聚、建筑密集、交通网络发达；成因：生产力发展、社会分工深化、工商业集聚；影响：区域经济中心、文化教育中心、交通枢纽；分布：沿海地区、平原地区、交通枢纽\n\n请对每个选项逐条判断它是否满足下列条件：\n1. 是这种模式带来的有利影响\n2. 针对农村养老产业发展\n3. 涉及闲置校舍厂房改造\n4. 关联城市老年人旅居养老\n\n每项判断只能是“是”（满足）、“否”（不满足）或“不确定”。\n只输出 JSON，键为选项编号，值为与条件顺序一致的 4 个判断，例如：{\"A\": [\"是\", \"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"是\", \"是\"]}"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "seed": null,
+  "extra_body": {
+   "enable_thinking": false
+  }
+ },
+ "content": "{\"A\": [\"是\", \"是\", \"是\", \"是\"], \"B\": [\"是\", \"是\", \"否\", \"是\"], \"C\": [\"是\", \"是\", \"是\", \"否\"]}",
+ "model": "Qwen/Qwen3.5-122B-A10B",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 45,
+  "prompt_tokens": 505,
+  "total_tokens": 550,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 505
+ },
+ "created": 1792769768
+}

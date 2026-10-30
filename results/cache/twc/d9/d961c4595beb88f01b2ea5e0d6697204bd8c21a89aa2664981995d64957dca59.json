@@ -1,0 +1,34 @@
+{
+ "tag": "DIRECT:geomcq-single-TG-048",
+ "request": {
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a geography expert."
+   },
+   {
+    "role": "user",
+    "content": "Please answer the following geography question.\n\nQuestion:\n丘陵的地表起伏和缓，坡度较缓，通常分布在山地与平原之间，作为两者的过渡地形，下列地区中，主要分布着丘陵地形的是（ ）\n\nOptions:\nA. 我国东部沿海地区\nB. 青藏高原\nC. 我国西北内陆地区\n\nInstructions:\n1. Select the single best answer.\n2. Return only one option letter.\n3. Do not provide explanations or additional text.\n\nAnswer:"
+   }
+  ],
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-4-9B-0414",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 16,
+  "json_mode": false,
+  "seed": null,
+  "extra_body": null
+ },
+ "content": "\nA",
+ "model": "THUDM/GLM-4-9B-0414",
+ "fingerprint": "",
+ "usage": {
+  "completion_tokens": 2,
+  "prompt_tokens": 113,
+  "total_tokens": 115,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": null
+ },
+ "created": 1792771686
+}
